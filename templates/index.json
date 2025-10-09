@@ -83,6 +83,96 @@
         "controls_color": "#ffffff"
       }
     },
+    "ss_media_grid_MxVE9H": {
+      "type": "ss-media-grid",
+      "blocks": {
+        "image_r6jwNB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/P9201652.jpg",
+            "image_overlay": 0,
+            "image_radius": 12,
+            "heading": "NECKLACES",
+            "heading_custom": true,
+            "heading_font": "nothing_you_could_do_n4",
+            "heading_size": 32,
+            "heading_height": 100,
+            "link": "",
+            "link_url": "",
+            "link_custom": false,
+            "link_font": "assistant_n4",
+            "link_size": 22,
+            "link_height": 100,
+            "link_mt": 16,
+            "column_width": 2,
+            "row_width": 2,
+            "content_align": "bottom-center",
+            "content_align_mobile": "bottom-center",
+            "content_padding_horizontal": 0,
+            "content_padding_vertical": 8,
+            "bg_color": "#000000",
+            "heading_color": "#000000",
+            "link_color": "#FFFFFF",
+            "link_hover_color": "#FFFFFF",
+            "overlay_color": "#000000"
+          }
+        },
+        "image_eJnbCT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Handmade-Bohemian-Style-Small-Fish-Shape-Artificial-Crystal-Bracelet-New-Women-s-Fashion-Jewelry-Personalized-Animal-Design-0.webp",
+            "image_overlay": 20,
+            "image_radius": 12,
+            "heading": "CRYSTALS",
+            "heading_custom": true,
+            "heading_font": "nothing_you_could_do_n4",
+            "heading_size": 32,
+            "heading_height": 100,
+            "link": "",
+            "link_url": "",
+            "link_custom": false,
+            "link_font": "assistant_n4",
+            "link_size": 22,
+            "link_height": 100,
+            "link_mt": 16,
+            "column_width": 2,
+            "row_width": 2,
+            "content_align": "bottom-center",
+            "content_align_mobile": "bottom-center",
+            "content_padding_horizontal": 0,
+            "content_padding_vertical": 8,
+            "bg_color": "#000000",
+            "heading_color": "#000000",
+            "link_color": "#FFFFFF",
+            "link_hover_color": "#FFFFFF",
+            "overlay_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "image_r6jwNB",
+        "image_eJnbCT"
+      ],
+      "name": "SS - Media Grid",
+      "settings": {
+        "items_gap": 12,
+        "items_gap_mobile": 20,
+        "row_height": 300,
+        "row_height_mobile": 200,
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 0,
+        "padding_horizontal": 1,
+        "padding_horizontal_mobile": 0.5,
+        "full_width": false,
+        "content_width": 200,
+        "border_thickness": 0
+      }
+    },
     "ss_circle_menu_pro_FAe9xP": {
       "type": "ss-circle-menu-pro",
       "blocks": {
@@ -174,15 +264,15 @@
         "border_size": 0,
         "text_color": "#121212",
         "arrow_color": "#696660",
-        "arrow_hover_color": "#FFFFFF",
-        "arrow_bg_color": "#FFFFFF",
+        "arrow_hover_color": "#ffffff",
+        "arrow_bg_color": "#ffffff",
         "arrow_bg_hover_color": "#696660",
         "arrow_border_color": "#696660",
         "arrow_border_hover_color": "#696660",
-        "scrollbar_bg": "#EFEFEF",
-        "scrollbar_drag_bg": "#D7D7D7",
+        "scrollbar_bg": "#efefef",
+        "scrollbar_drag_bg": "#d7d7d7",
         "heading_section_color": "#121212",
-        "background-color": "#ffffff",
+        "background-color": "#f1fcfd",
         "ring_color": "#121212",
         "background_gradient": "",
         "border_color": "#000000",
@@ -197,10 +287,183 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "ss_image_with_text_12_6CDqxU": {
+      "type": "ss-image-with-text-12",
+      "blocks": {
+        "slide_fdmKrd": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p><strong>Heading</strong></p>",
+            "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "button": "SHOP NOW",
+            "button_url": ""
+          }
+        },
+        "slide_pGH4BP": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p><strong>Heading</strong></p>",
+            "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "button": "SHOP NOW",
+            "button_url": ""
+          }
+        },
+        "slide_xbV6QG": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p><strong>Heading</strong></p>",
+            "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "button": "SHOP NOW",
+            "button_url": ""
+          }
+        },
+        "slide_iMt93J": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p><strong>Heading</strong></p>",
+            "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "button": "SHOP NOW",
+            "button_url": ""
+          }
+        },
+        "slide_itCRtT": {
+          "type": "slide",
+          "settings": {
+            "heading": "<p><strong>Heading</strong></p>",
+            "text": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>",
+            "button": "SHOP NOW",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_fdmKrd",
+        "slide_pGH4BP",
+        "slide_xbV6QG",
+        "slide_iMt93J",
+        "slide_itCRtT"
+      ],
+      "disabled": true,
+      "name": "SS - Image With Text #12",
+      "settings": {
+        "slide_gap": 70,
+        "slide_gap_mobile": 24,
+        "content_horizontal_align": "start",
+        "content_horizontal_align_mobile": "center",
+        "content_mt": 0,
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 44,
+        "heading_size_mobile": 32,
+        "heading_height": 110,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 170,
+        "text_mt": 32,
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 16,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_mt": 32,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 16,
+        "button_padding_vertical_mobile": 16,
+        "button_padding_horizontal": 38,
+        "button_padding_horizontal_mobile": 38,
+        "button_radius": 100,
+        "button_border_thickness": 0,
+        "button_style": "non_outline",
+        "images_position": "right",
+        "images_position_mobile": "top",
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "image_shape": "1",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "number_custom": false,
+        "number_font": "josefin_sans_n4",
+        "number_size": 13,
+        "number_size_mobile": 13,
+        "pagination_text": "SUBHEADING",
+        "pagination_text_custom": false,
+        "pagination_text_font": "josefin_sans_n4",
+        "pagination_text_size": 16,
+        "pagination_text_size_mobile": 16,
+        "pagination_text_height": 130,
+        "heading_color": "#1B1B1B",
+        "text_color": "#1B1B1B",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#B59DE3",
+        "button_bg_hover_color": "#B198DE",
+        "button_border_color": "#000000",
+        "button_border_hover_color": "#000000",
+        "image_border_color": "#000000",
+        "dots_bg_color": "",
+        "dots_bg_hover_color": "#000000",
+        "dots_border_color": "#000000",
+        "dots_border_hover_color": "#000000",
+        "number_color": "#000000",
+        "number_hover_color": "#FFFFFF",
+        "pagination_text_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 3,
+        "margin_horizontal_mobile": 1.5,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
+    },
+    "featured_collections_KQYdR7": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_MNDHxd": {
+          "type": "collection",
+          "settings": {
+            "collection": "necklaces",
+            "products_count": 25,
+            "title": "COLLECTION",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_MNDHxd"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.2,
+        "vertical_spacing_factor": 0.6,
+        "subheading": "<strong>TRENDING</strong>"
+      }
     }
   },
   "order": [
     "slideshow",
-    "ss_circle_menu_pro_FAe9xP"
+    "ss_media_grid_MxVE9H",
+    "ss_circle_menu_pro_FAe9xP",
+    "ss_image_with_text_12_6CDqxU",
+    "featured_collections_KQYdR7"
   ]
 }
