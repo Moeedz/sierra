@@ -288,6 +288,43 @@
         "lazy": true
       }
     },
+    "rich_text_xjiKCd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7yKXdh": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>꩜ A deeper dive into how this works</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_Ytkxi7": {
+          "type": "subheading",
+          "settings": {
+            "text": "<strong>Energy is the building block of all life...</strong>"
+          }
+        },
+        "richtext_kpXBiX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The frequencies you carry not only shape who you are but also reflect back into the world, forming the realities you experience.</p><p>When you learn to attune to the feedback of your subtle energies ( your chakras, aura, and higher senses ) you can consciously bring yourself back into alignment with your Highest Self.</p><p>Your body radiates health, your creative life force expands, and you feel safe, supported, and capable of creating material abundance while remaining open to higher guidance. From this space, you fulfill your soul’s purpose and experience the peak of true creation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7yKXdh",
+        "subheading_Ytkxi7",
+        "richtext_kpXBiX"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
     "ss_featured_collection_17_9DMREk": {
       "type": "ss-featured-collection-17",
       "name": "SS - Featured collection #17",
@@ -447,41 +484,97 @@
         "lazy": true
       }
     },
-    "rich_text_xjiKCd": {
-      "type": "rich-text",
+    "ss_product_tabs_5_qmKn9z": {
+      "type": "ss-product-tabs-5",
       "blocks": {
-        "heading_7yKXdh": {
-          "type": "heading",
+        "tab_yVfkWz": {
+          "type": "tab",
           "settings": {
-            "text": "<strong>꩜ A deeper dive into how this works</strong>",
-            "heading_tag": "h1"
+            "title": "Title",
+            "icon": "atc",
+            "text": "<p>Text</p>",
+            "use_description": true
           }
         },
-        "subheading_Ytkxi7": {
-          "type": "subheading",
+        "tab_XfYqyT": {
+          "type": "tab",
           "settings": {
-            "text": "<strong>Energy is the building block of all life...</strong>"
+            "title": "Title",
+            "icon": "atc",
+            "text": "<p>Text</p>",
+            "use_description": false
           }
         },
-        "richtext_kpXBiX": {
-          "type": "richtext",
+        "tab_hcmLFc": {
+          "type": "tab",
           "settings": {
-            "content": "<p>The frequencies you carry not only shape who you are but also reflect back into the world, forming the realities you experience.</p><p>When you learn to attune to the feedback of your subtle energies ( your chakras, aura, and higher senses ) you can consciously bring yourself back into alignment with your Highest Self.</p><p>Your body radiates health, your creative life force expands, and you feel safe, supported, and capable of creating material abundance while remaining open to higher guidance. From this space, you fulfill your soul’s purpose and experience the peak of true creation.</p>"
+            "title": "Title",
+            "icon": "atc",
+            "text": "<p>Text</p>",
+            "use_description": false
+          }
+        },
+        "tab_ygdKhQ": {
+          "type": "tab",
+          "settings": {
+            "title": "Title",
+            "icon": "atc",
+            "text": "<p>Text</p>",
+            "use_description": false
           }
         }
       },
       "block_order": [
-        "heading_7yKXdh",
-        "subheading_Ytkxi7",
-        "richtext_kpXBiX"
+        "tab_yVfkWz",
+        "tab_XfYqyT",
+        "tab_hcmLFc",
+        "tab_ygdKhQ"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
+      "name": "SS - Product tabs #5",
       "settings": {
-        "color_scheme": "scheme-1",
-        "separate_section_with_border": false,
-        "content_width": "lg",
-        "text_position": "center",
-        "remove_vertical_spacing": true
+        "tabs_position": "below_buy",
+        "tab_padding_horizontal": 18,
+        "tab_padding_horizontal_mobile": 16,
+        "tab_padding_vertical": 18,
+        "tab_padding_vertical_mobile": 18,
+        "tab_radius": 16,
+        "tab_border_thickness": 1,
+        "tab_mt": 10,
+        "tab_mt_mobile": 10,
+        "title_gap": 12,
+        "title_gap_mobile": 12,
+        "title_icon_size": 22,
+        "title_icon_size_mobile": 20,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 15,
+        "title_size_mobile": 15,
+        "title_height": 130,
+        "arrow_size": 24,
+        "arrow_size_mobile": 20,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 15,
+        "text_size_mobile": 15,
+        "text_height": 150,
+        "text_padding_top": 20,
+        "tab_bg_color": "#FFFFFF",
+        "tab_border_color": "#9e9e9e",
+        "title_icon_color": "#000000",
+        "title_color": "#000000",
+        "arrow_color": "#000000",
+        "text_color": "#000000",
+        "background_color": "",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 12,
+        "padding_bottom": 12,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "border_thickness": 0,
+        "lazy": true
       }
     }
   },
@@ -490,6 +583,7 @@
     "ss_media_grid_MxVE9H",
     "ss_circle_menu_pro_FAe9xP",
     "rich_text_xjiKCd",
-    "ss_featured_collection_17_9DMREk"
+    "ss_featured_collection_17_9DMREk",
+    "ss_product_tabs_5_qmKn9z"
   ]
 }
