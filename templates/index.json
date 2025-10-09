@@ -15,6 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/P6290547-2.jpg",
+            "mobile_image": "shopify://shop_images/P6290547-3.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -569,6 +571,120 @@
         "padding_sides_mobile": 1.5,
         "section-width": 120
       }
+    },
+    "ss_instafeed_4_FLi6NF": {
+      "type": "ss-instafeed-4",
+      "blocks": {
+        "image_6kVqwV": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_aqqzjX": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_pmUimq": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_VmVebi": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        },
+        "image_n9yTet": {
+          "type": "image",
+          "settings": {
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6kVqwV",
+        "image_aqqzjX",
+        "image_pmUimq",
+        "image_VmVebi",
+        "image_n9yTet"
+      ],
+      "name": "SS - Instafeed #4",
+      "settings": {
+        "content_horizontal_align_mobile": "center",
+        "heading": "<p>Follow us on <em><strong>Instagram</strong></em></p>",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 52,
+        "heading_size_mobile": 32,
+        "heading_height": 130,
+        "text": "<p>Get your daily dose of design inspiration. Join our Instagram community today!</p>",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 16,
+        "text_height": 130,
+        "text_mt": 12,
+        "button": "@meymeofficial",
+        "button_url": "https://www.instagram.com/meymeofficial/?hl=es",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 20,
+        "button_size_mobile": 16,
+        "button_height": 100,
+        "button_width": 250,
+        "button_width_mobile": 250,
+        "button_mt_mobile": 32,
+        "button_padding_vertical": 18,
+        "button_padding_vertical_mobile": 18,
+        "button_padding_horizontal": 32,
+        "button_padding_horizontal_mobile": 32,
+        "button_radius": 100,
+        "button_border_thickness": 1,
+        "button_style": "outline",
+        "slider_speed": 32,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 90,
+        "slider_mt_mobile": 32,
+        "slider_direction": "left",
+        "pause_hover": false,
+        "image_width_desktop": 350,
+        "image_width_mobile": 180,
+        "image_radius": 24,
+        "image_border_thickness": 0,
+        "image_ratio": "square",
+        "image_ratio_mobile": "square",
+        "heading_color": "#121212",
+        "text_color": "#121212",
+        "button_color": "#121212",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "",
+        "button_bg_hover_color": "#121212",
+        "button_border_color": "#121212",
+        "button_border_hover_color": "#000000",
+        "image_border_color": "#000000",
+        "background_color": "#FFFFFF",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": false,
+        "content_width": 120,
+        "border_thickness": 0,
+        "section_radius": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
@@ -578,6 +694,7 @@
     "rich_text_xjiKCd",
     "ss_featured_collection_17_9DMREk",
     "rich_text_n9nzep",
-    "ss_featured_collection_tabs_ix4Yn3"
+    "ss_featured_collection_tabs_ix4Yn3",
+    "ss_instafeed_4_FLi6NF"
   ]
 }
