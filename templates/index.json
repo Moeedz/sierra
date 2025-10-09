@@ -15,12 +15,41 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "subheading": "Introducing the latest arrivals",
-            "title": "summer'24",
+            "image": "shopify://shop_images/P9081430.jpg",
+            "mobile_image": "shopify://shop_images/P9081430.jpg",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
             "content_max_width": 780,
-            "button_1_text": "SHOP NOW",
+            "button_1_text": "",
+            "button_1_link": "shopify://collections/new-collection-moda-mujer",
+            "button_1_style": "link",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "rgba(0,0,0,0)",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": ""
+          }
+        },
+        "image_iPEbcW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/P6290109.jpg",
+            "mobile_image": "shopify://shop_images/P6290109.jpg",
+            "subheading": "",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
             "button_1_link": "shopify://collections/new-collection-moda-mujer",
             "button_1_style": "link",
             "button_1_background": "#ffffff",
@@ -39,7 +68,8 @@
         }
       },
       "block_order": [
-        "slide-1"
+        "slide-1",
+        "image_iPEbcW"
       ],
       "settings": {
         "allow_transparent_header": false,
@@ -52,9 +82,125 @@
         "background": "#000000",
         "controls_color": "#ffffff"
       }
+    },
+    "ss_circle_menu_pro_FAe9xP": {
+      "type": "ss-circle-menu-pro",
+      "blocks": {
+        "image_7yiYyR": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/PA073017.jpg",
+            "bubble_text": "Necklaces",
+            "bubble_link": ""
+          }
+        },
+        "image_pKYTMJ": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Finger-Rings-Jewelry-Women-Chain-Sea-Shark-5PCS-Enamel-Turquoise-Alloy-Ring.avif",
+            "bubble_text": "Rings",
+            "bubble_link": ""
+          }
+        },
+        "image_wrHhCf": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Ocean-Green-Silver-Fish-Bracelet-Beach-Art-Glass_2.jpg",
+            "bubble_text": "Bracelets",
+            "bubble_link": ""
+          }
+        },
+        "image_GyCpU3": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/Handmade-Bohemian-Style-Small-Fish-Shape-Artificial-Crystal-Bracelet-New-Women-s-Fashion-Jewelry-Personalized-Animal-Design-0.webp",
+            "bubble_text": "Crystals",
+            "bubble_link": ""
+          }
+        },
+        "image_W6KMC9": {
+          "type": "Image",
+          "settings": {
+            "bubble_img": "shopify://shop_images/61kiBuDQG_L._UF894_1000_QL80.jpg",
+            "bubble_text": "Incense",
+            "bubble_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7yiYyR",
+        "image_pKYTMJ",
+        "image_wrHhCf",
+        "image_GyCpU3",
+        "image_W6KMC9"
+      ],
+      "name": "SS - Circle Menu Pro",
+      "settings": {
+        "hide_mobile": false,
+        "hide_desktop": false,
+        "heading_section": "Popular Categories",
+        "heading_section_custom": true,
+        "heading_section_font": "nothing_you_could_do_n4",
+        "heading_section_size": 40,
+        "heading_section_size_mobile": 26,
+        "heading_section_height": 100,
+        "heading_section_align": "center",
+        "heading_section_align_mobile": "center",
+        "heading_section_weight": "400",
+        "heading_section_inline": false,
+        "heading_section_width": 100,
+        "sliders_mt": 24,
+        "sliders_gap": 60,
+        "sliders_nav_desktop": "none",
+        "sliders_nav": "none",
+        "buttons_position": "bottom",
+        "arrow_size": 48,
+        "arrow_size_mobile": 48,
+        "arrow_icon_size": 8,
+        "arrow_icon_size_mobile": 8,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "scrollbar_mt": 20,
+        "icon_size": 170,
+        "icon_size_mobile": 136,
+        "hover_effect": true,
+        "square_image": false,
+        "text_size": 14,
+        "text_size_mobile": 14,
+        "heading_custom": true,
+        "heading_font": "poppins_n4",
+        "text_mt": 4,
+        "border_size": 0,
+        "text_color": "#121212",
+        "arrow_color": "#696660",
+        "arrow_hover_color": "#FFFFFF",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#696660",
+        "arrow_border_color": "#696660",
+        "arrow_border_hover_color": "#696660",
+        "scrollbar_bg": "#EFEFEF",
+        "scrollbar_drag_bg": "#D7D7D7",
+        "heading_section_color": "#121212",
+        "background-color": "#ffffff",
+        "ring_color": "#121212",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 20,
+        "margin_bottom": 20,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 200,
+        "border_thickness": 0,
+        "lazy": true
+      }
     }
   },
   "order": [
-    "slideshow"
+    "slideshow",
+    "ss_circle_menu_pro_FAe9xP"
   ]
 }
