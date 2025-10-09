@@ -446,12 +446,50 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "rich_text_xjiKCd": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7yKXdh": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>꩜ A deeper dive into how this works</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "subheading_Ytkxi7": {
+          "type": "subheading",
+          "settings": {
+            "text": "<strong>Energy is the building block of all life...</strong>"
+          }
+        },
+        "richtext_kpXBiX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>The frequencies you carry not only shape who you are but also reflect back into the world, forming the realities you experience.</p><p>When you learn to attune to the feedback of your subtle energies ( your chakras, aura, and higher senses ) you can consciously bring yourself back into alignment with your Highest Self.</p><p>Your body radiates health, your creative life force expands, and you feel safe, supported, and capable of creating material abundance while remaining open to higher guidance. From this space, you fulfill your soul’s purpose and experience the peak of true creation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7yKXdh",
+        "subheading_Ytkxi7",
+        "richtext_kpXBiX"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "slideshow",
     "ss_media_grid_MxVE9H",
     "ss_circle_menu_pro_FAe9xP",
+    "rich_text_xjiKCd",
     "ss_featured_collection_17_9DMREk"
   ]
 }
