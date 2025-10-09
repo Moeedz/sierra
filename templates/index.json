@@ -484,6 +484,28 @@
         "lazy": true
       }
     },
+    "rich_text_n9nzep": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_WdreyE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1><strong>FEATURED PRODUCTS</strong></h1>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_WdreyE"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": true
+      }
+    },
     "ss_featured_collection_tabs_ix4Yn3": {
       "type": "ss-featured-collection-tabs",
       "blocks": {
@@ -491,12 +513,12 @@
           "type": "collection",
           "settings": {
             "title": "Best Sellers",
-            "collection": "",
-            "product_limit": 6,
+            "collection": "inner-child-reconnection",
+            "product_limit": 4,
             "product_row_count": 4,
-            "mobile_product_row_count": 1,
+            "mobile_product_row_count": 2,
             "enable_swiper_on_mobile": false,
-            "product_image_orientation": "square",
+            "product_image_orientation": "portrait",
             "button_mt": 48,
             "button_text": "Shop Now",
             "button_link": "shopify://collections/all"
@@ -506,12 +528,12 @@
           "type": "collection",
           "settings": {
             "title": "New Arrivals",
-            "collection": "",
-            "product_limit": 6,
+            "collection": "lemurian-activation",
+            "product_limit": 4,
             "product_row_count": 4,
-            "mobile_product_row_count": 1,
+            "mobile_product_row_count": 2,
             "enable_swiper_on_mobile": false,
-            "product_image_orientation": "square",
+            "product_image_orientation": "portrait",
             "button_mt": 48,
             "button_text": "Shop Now",
             "button_link": "shopify://collections/all"
@@ -520,28 +542,13 @@
         "collection_X68PgA": {
           "type": "collection",
           "settings": {
-            "title": "Analog",
-            "collection": "",
-            "product_limit": 6,
+            "title": "Trending",
+            "collection": "necklaces",
+            "product_limit": 4,
             "product_row_count": 4,
-            "mobile_product_row_count": 1,
+            "mobile_product_row_count": 2,
             "enable_swiper_on_mobile": false,
-            "product_image_orientation": "square",
-            "button_mt": 48,
-            "button_text": "Shop Now",
-            "button_link": "shopify://collections/all"
-          }
-        },
-        "collection_hq7yqB": {
-          "type": "collection",
-          "settings": {
-            "title": "Objects",
-            "collection": "",
-            "product_limit": 6,
-            "product_row_count": 4,
-            "mobile_product_row_count": 1,
-            "enable_swiper_on_mobile": false,
-            "product_image_orientation": "square",
+            "product_image_orientation": "portrait",
             "button_mt": 48,
             "button_text": "Shop Now",
             "button_link": "shopify://collections/all"
@@ -551,8 +558,7 @@
       "block_order": [
         "collection_mXaiEB",
         "collection_PEMVw4",
-        "collection_X68PgA",
-        "collection_hq7yqB"
+        "collection_X68PgA"
       ],
       "name": "SS - Featured Collections (tabs)",
       "settings": {
@@ -589,101 +595,9 @@
         "margin_bottom": 0,
         "padding_top": 56,
         "padding_bottom": 36,
-        "padding_sides": 5,
+        "padding_sides": 1,
         "padding_sides_mobile": 1.5,
         "section-width": 120
-      }
-    },
-    "ss_feature_1_EWqtrN": {
-      "type": "ss-feature-1",
-      "blocks": {
-        "image_itEwCf": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Free Shipping",
-            "feature_text": "<p>Order today, receive tomorrow</p>",
-            "feature_url": "https://section.store/",
-            "hide_image": false
-          }
-        },
-        "image_eUqVgH": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Price-match guarantee",
-            "feature_text": "<p>Safe money when ordering with us</p>",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_jrGpNg": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Hassle-free exchange",
-            "feature_text": "<p>Receive a slip for exchanges</p>",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_Xcmbd6": {
-          "type": "image",
-          "settings": {
-            "feature_title": "5.0 Google Reviews",
-            "feature_text": "<p>Customer satisfaction #1 priority</p>",
-            "feature_url": "",
-            "hide_image": false
-          }
-        }
-      },
-      "block_order": [
-        "image_itEwCf",
-        "image_eUqVgH",
-        "image_jrGpNg",
-        "image_Xcmbd6"
-      ],
-      "name": "SS - Feature #1",
-      "settings": {
-        "feature_row": 4,
-        "feature_row_mobile": 1,
-        "feature_gap": 20,
-        "feature_gap_mobile": 20,
-        "feature_padding_horizontal": 0,
-        "feature_padding_vertical": 0,
-        "feature_radius": 16,
-        "feature_border_thickness": 0,
-        "feature_shadow": false,
-        "feature_heading_custom": false,
-        "feature_heading_font": "josefin_sans_n4",
-        "feature_heading_size": 14,
-        "feature_heading_size_mobile": 12,
-        "feature_heading_height": 130,
-        "feature_heading_mt": 8,
-        "feature_text_custom": false,
-        "feature_text_font": "josefin_sans_n4",
-        "feature_text_size": 12,
-        "feature_text_size_mobile": 12,
-        "feature_text_height": 130,
-        "feature_text_mt": 4,
-        "feature_icon_size": 42,
-        "feature_icon_size_mobile": 42,
-        "feature_bg": "#FFFFFF",
-        "feature_border_color": "#000000",
-        "feature_shadow_color": "#000000",
-        "feature_heading_color": "#000000",
-        "feature_text_color": "#000000",
-        "feature_icon_color": "#000000",
-        "background_color": "#FFFFFF",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 16,
-        "padding_bottom": 16,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
       }
     }
   },
@@ -693,7 +607,7 @@
     "ss_circle_menu_pro_FAe9xP",
     "rich_text_xjiKCd",
     "ss_featured_collection_17_9DMREk",
-    "ss_featured_collection_tabs_ix4Yn3",
-    "ss_feature_1_EWqtrN"
+    "rich_text_n9nzep",
+    "ss_featured_collection_tabs_ix4Yn3"
   ]
 }
