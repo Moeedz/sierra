@@ -73,7 +73,7 @@
         "richtext_ULHwfh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>But sometimes life has a way of dimming that light...</p><p>We all carry childhood wounds, fears of being judged, or the weight of everyday responsibilities.</p><p>Whatever may have caused you to lose sight of your own divine light and power, my creations are here to help you remember.</p><p>Each piece is intentionally created with potent & high frequencies that your Higher Self uses to communicate through to you.</p>"
+            "content": "<p><strong>But sometimes life has a way of dimming that light...</strong></p><p>We all carry childhood wounds, fears of being judged, or the weight of everyday responsibilities.</p><p>Whatever may have caused you to lose sight of your own divine light and power, <strong>my creations are here to help you remember.</strong></p><p>Each piece is intentionally <strong>created with potent & high frequencies that your Higher Self uses to communicate through to you.</strong></p>"
           }
         },
         "button_KmFND9": {
@@ -94,7 +94,8 @@
       ],
       "custom_css": [
         ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}",
-        ".prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {border: 0 !important; color: #575151 !important;}"
+        ".prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {border: 0 !important; color: #575151 !important;}",
+        "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; }}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
