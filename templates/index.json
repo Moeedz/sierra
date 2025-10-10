@@ -454,6 +454,9 @@
         "richtext_E7M8q3",
         "button_ekJ6za"
       ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {strong {font-size: 35px; font-family: 'Taviraj';}}"
+      ],
       "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
       "settings": {
         "color_scheme": "scheme-4",
