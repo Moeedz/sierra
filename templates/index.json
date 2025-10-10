@@ -139,7 +139,7 @@
         "collection_MF7gMq"
       ],
       "custom_css": [
-        "h2.h2 {display: none ;}"
+        "h2.h2 {display: none;}"
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {

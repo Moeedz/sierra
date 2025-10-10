@@ -95,7 +95,7 @@
           "text_color": "rgba(0,0,0,0)",
           "primary_button_background": "#f1fcfd",
           "primary_button_text_color": "#1c1c1c",
-          "circle_button_background": "#1c1c1c",
+          "circle_button_background": "#f1fcfd",
           "circle_button_icon": "#1c1c1c"
         }
       }
