@@ -418,7 +418,8 @@
         "button_t6Q3Tr"
       ],
       "custom_css": [
-        "@media screen and (min-width: 768px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 45px; line-height: normal; padding-right: 5rem; padding-left: 5rem; }}"
+        "@media screen and (min-width: 768px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 45px; line-height: normal; padding-right: 5rem; padding-left: 5rem; }}",
+        "@media screen and (max-width: 767px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 45px; line-height: normal;}}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
