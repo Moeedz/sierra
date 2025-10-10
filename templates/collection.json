@@ -1,1 +1,57 @@
-{"sections":{"collection-banner":{"type":"collection-banner","disabled":true,"settings":{"color_scheme":"scheme-1","image_size":"auto","allow_transparent_header":true,"reveal":true,"enable_parallax":true,"show_image":true,"show_collection_title":true,"show_collection_description":true,"show_breadcrumb":true,"content_width":"xs","overlay_color":"#000000","overlay_opacity":30}},"main":{"type":"main-collection","settings":{"color_scheme":"scheme-2","hide_product_information":false,"products_per_page":50,"products_per_row_mobile":"2","products_size_desktop":"medium","show_grid_mode_selector":true,"horizontal_spacing_factor":0.5,"vertical_spacing_factor":1,"filter_layout":"drawer","quick_links_menu":"","show_sort_by":true,"show_filters":true,"show_results_count":true,"show_filter_group_name":false,"show_filter_values_count":true,"open_filters_by_default":true}}},"order":["collection-banner","main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "color_scheme": "scheme-1",
+        "image": "shopify://shop_images/P9091453_01cfad04-ea97-492d-a624-eaa3241fe2ed.jpg",
+        "mobile_image": "shopify://shop_images/P9091453_1dc625cd-0e88-403e-8137-6ff9fe0596fd.jpg",
+        "image_size": "xs",
+        "allow_transparent_header": true,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_image": true,
+        "show_collection_title": false,
+        "show_collection_description": true,
+        "show_breadcrumb": true,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "color_scheme": "scheme-2",
+        "hide_product_information": false,
+        "products_per_page": 50,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": false,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": true
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "main"
+  ]
+}
