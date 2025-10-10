@@ -38,7 +38,6 @@
   </style>
 
   {{ section.settings.font_family | font_face: font_display: 'swap' }}
-
   <height-observer variable="announcement-bar">
     <div class="announcement-bar color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
       {%- assign carousel_id = 'carousel-' | append: section.id -%}
