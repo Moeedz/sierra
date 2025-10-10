@@ -59,9 +59,51 @@
         "background": "#000000",
         "controls_color": "#ffffff"
       }
+    },
+    "rich_text_kXAMRg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gq7HwT": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>You have a natural radiance that lights up the world around you.</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_ULHwfh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>But sometimes life has a way of dimming that light...</strong></p><p>We all carry childhood wounds, fears of being judged, or the weight of everyday responsibilities.</p><p>Whatever may have caused you to lose sight of your own divine light and power,<strong> my creations are here to help you remember.</strong></p><p>Each piece is intentionally <strong>created with potent & high frequencies that your Higher Self uses to communicate through to you.</strong></p>"
+          }
+        },
+        "button_KmFND9": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "↓ Learn how below",
+            "url": "https://sierraisabelactivations.com/collections/new-arrivals",
+            "background": "#1c1c1c",
+            "text_color": "#d3d3d3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_gq7HwT",
+        "richtext_ULHwfh",
+        "button_KmFND9"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
-    "slideshow_7dgTyP"
+    "slideshow_7dgTyP",
+    "rich_text_kXAMRg"
   ]
 }
