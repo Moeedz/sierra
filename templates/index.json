@@ -154,37 +154,83 @@
         "subheading": ""
       }
     },
-    "image_with_text_cgktbi": {
-      "type": "image-with-text",
+    "ss_image_with_text_9_eqkAfY": {
+      "type": "ss-image-with-text-9",
       "blocks": {
-        "heading_T9zXr4": {
-          "type": "heading",
+        "text_6dYgcj": {
+          "type": "text",
           "settings": {
-            "text": "<strong>When you're drawn to a piece, its not random.</strong>",
-            "heading_tag": "h1"
+            "text": "<p><strong>When you're drawn to a piece, its not random.</strong></p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 24,
+            "text_size_mobile": 26,
+            "text_height": 150,
+            "text_mt": 0,
+            "text_align": "center",
+            "text_align_mobile": "center",
+            "text_color": "#2B1A1A"
           }
         },
-        "richtext_AXe68k": {
-          "type": "richtext",
+        "text_NbkajF": {
+          "type": "text",
           "settings": {
-            "content": "<p>When you feel pulled toward one of my creations, it’s not just because it’s beautiful, it’s because your soul recognizes the frequency within it.</p><p>This piece (or pieces) carry a specific vibration that your Higher Self resonates with, guiding you to receive and embody a new activation.</p><p><strong>This pull is your Higher Self’s way of saying, </strong><em><strong>“You’re ready.”</strong></em></p><p>You’re meant to grow and evolve, to follow what lights up your heart and become the version of yourself your soul already knows you can be.</p><p>When you align with your highest path, you naturally radiate from within, with clarity to live and create from the heart.</p>"
+            "text": "<p>When you feel pulled toward one of my creations, it’s not just because it’s beautiful, it’s because your soul recognizes the frequency within it.</p><p>This piece (or pieces) carry a specific vibration that your Higher Self resonates with, guiding you to receive and embody a new activation.</p><p><strong>This pull is your Higher Self’s way of saying, </strong><em><strong>“You’re ready.”</strong></em></p><p>You’re meant to grow and evolve, to follow what lights up your heart and become the version of yourself your soul already knows you can be.</p><p>When you align with your highest path, you naturally radiate from within, with clarity to live and create from the heart.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 26,
+            "text_height": 150,
+            "text_mt": 0,
+            "text_align": "left",
+            "text_align_mobile": "left",
+            "text_color": "#2B1A1A"
           }
         }
       },
       "block_order": [
-        "heading_T9zXr4",
-        "richtext_AXe68k"
+        "text_6dYgcj",
+        "text_NbkajF"
       ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "name": "SS - Image With Text #9",
       "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/PA022251.webp",
-        "mobile_image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
-        "reveal_on_scroll": true,
-        "image_position": "end",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
+        "body_gap": 0,
+        "body_gap_mobile": 0,
+        "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
+        "image_position": "right",
+        "image_position_mobile": "top",
+        "image_ratio": "original",
+        "image_ratio_mobile": "original",
+        "content_maxwidth": 550,
+        "content_padding_vertical": 40,
+        "content_padding_vertical_mobile": 20,
+        "content_padding_horizontal": 24,
+        "content_padding_horizontal_mobile": 16,
+        "row_gap": 0,
+        "row_mt": 0,
+        "row_align": "left",
+        "row_align_mobile": "left",
+        "icon_size": 10,
+        "icon_size_mobile": 10,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 18,
+        "text_size_mobile": 16,
+        "text_height": 180,
+        "icon_color": "#AA131D",
+        "text_color": "#2B1A1A",
+        "background_color": "#f1fcfd",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "padding_horizontal": 0,
+        "padding_horizontal_mobile": 0,
+        "full_width": true,
+        "content_width": 260,
+        "border_thickness": 0,
+        "lazy": true
       }
     }
   },
@@ -193,6 +239,6 @@
     "rich_text_kXAMRg",
     "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH",
-    "image_with_text_cgktbi"
+    "ss_image_with_text_9_eqkAfY"
   ]
 }
