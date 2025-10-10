@@ -108,6 +108,10 @@
     },
     "custom_liquid_cQVTUj": {
       "type": "custom-liquid",
+      "custom_css": [
+        "@media screen and (min-width: 768px) {.section-spacing.color-scheme.color-scheme--scheme-83c8f934-b06b-498f-9443-09bcaf9992d7.color-scheme--bg-ef26c368124ba6ed5975b7f8412c3813 {padding-bottom: 0px; font-family: ui-sans-serif; }}",
+        "h2.h2 {display: none !important;}"
+      ],
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
