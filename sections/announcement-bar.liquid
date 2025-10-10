@@ -17,7 +17,7 @@
 
       .shopify-section--header ~ #shopify-section-{{ section.id }} {
         top: calc(var(--header-is-sticky, 0) * var(--header-height, 0px));
-        z-index: 4; /* We have to lower the z-index in case the announcement bar is displayed after the header */
+        z-index: 4;
       }
     {%- endif -%}
 
