@@ -30,6 +30,21 @@
         --announcement-bar-font-size: {{ section.settings.desktop_font_size | divided_by: 16.0 }}rem;
       }
     }
+    <style>
+  @font-face{
+    font-family: 'InterCustom';
+    src: url({{ '' | asset_url }}) format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  :root {
+    --font-body: 'InterCustom', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+
+  body { font-family: var(--font-body); }
+</style>
   </style>
 
   <height-observer variable="announcement-bar">

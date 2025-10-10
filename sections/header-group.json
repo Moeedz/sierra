@@ -30,19 +30,12 @@
         "message_cxe74X": {
           "type": "message",
           "settings": {
-            "text": "FREE SHIPPING ORDER NOW"
-          }
-        },
-        "message_DTKxkK": {
-          "type": "message",
-          "settings": {
-            "text": "NEW COLLECTION IS LIVE"
+            "text": "<strong>Free shipping for orders over $250.00 USD!</strong>"
           }
         }
       },
       "block_order": [
-        "message_cxe74X",
-        "message_DTKxkK"
+        "message_cxe74X"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
