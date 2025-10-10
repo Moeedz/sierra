@@ -250,6 +250,59 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "rich_text_jA4VH9": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_LGd3cw": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong> Jewelry as a Bridge to Higher Guidance</strong>",
+            "heading_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LGd3cw"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_RQzJ7e": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GgpDCc": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>A deeper dive into how this works</strong>",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_DWJdgq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Energy is the building block of all life...</strong></p><p>The frequencies you carry not only shape who you are but also reflect back into the world, forming the realities you experience.</p><p>When you learn to attune to the feedback of your subtle energies ( your chakras, aura, and higher senses ) you can consciously bring yourself back into alignment with your Highest Self.</p><p>Your body radiates health, your creative life force expands, and you feel safe, supported, and capable of creating material abundance while remaining open to higher guidance. From this space, you fulfill your soul’s purpose and experience the peak of true creation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GgpDCc",
+        "richtext_DWJdgq"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -257,6 +310,8 @@
     "rich_text_kXAMRg",
     "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH",
-    "ss_image_with_text_12_wVjppG"
+    "ss_image_with_text_12_wVjppG",
+    "rich_text_jA4VH9",
+    "rich_text_RQzJ7e"
   ]
 }
