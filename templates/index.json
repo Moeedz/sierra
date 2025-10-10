@@ -106,6 +106,18 @@
         "remove_vertical_spacing": false
       }
     },
+    "custom_liquid_cQVTUj": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p>NEW ARRIVALS</p>",
+        "text_alignment": "start"
+      }
+    },
     "featured_collections_hiFjFH": {
       "type": "featured-collections",
       "blocks": {
@@ -134,13 +146,14 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 0.3,
         "vertical_spacing_factor": 0.6,
-        "subheading": "NEW ARRIVALS"
+        "subheading": ""
       }
     }
   },
   "order": [
     "slideshow_7dgTyP",
     "rich_text_kXAMRg",
+    "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH"
   ]
 }
