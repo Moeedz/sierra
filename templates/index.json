@@ -79,7 +79,7 @@
         "button_KmFND9": {
           "type": "button",
           "settings": {
-            "style": "solid",
+            "style": "outline",
             "text": "↓ Learn how below",
             "url": "https://sierraisabelactivations.com/collections/new-arrivals",
             "background": "rgba(0,0,0,0)",
@@ -94,7 +94,7 @@
       ],
       "custom_css": [
         ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}",
-        ".prose:not(.prose--tight) :is(.button,.button-group:has(.button)) {border: 0 !important; color: #575151 !important;}"
+        ".prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {border: 0 !important; color: #575151 !important;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
