@@ -105,10 +105,41 @@
         "text_position": "center",
         "remove_vertical_spacing": false
       }
+    },
+    "featured_collections_hiFjFH": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_MF7gMq": {
+          "type": "collection",
+          "settings": {
+            "collection": "necklaces",
+            "products_count": 8,
+            "title": "<strong>New Arrivals</strong>",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_MF7gMq"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 0.3,
+        "vertical_spacing_factor": 0.6,
+        "subheading": ""
+      }
     }
   },
   "order": [
     "slideshow_7dgTyP",
-    "rich_text_kXAMRg"
+    "rich_text_kXAMRg",
+    "featured_collections_hiFjFH"
   ]
 }

@@ -11,7 +11,8 @@
   "current": {
     "icon_stroke_width": 1.2,
     "section_vertical_spacing": "md",
-    "default_color_scheme": "scheme-1",
+    "default_color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+    "modal_color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
     "product_rating_color": "#1c1c1c",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#efefef",
