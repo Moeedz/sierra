@@ -45,7 +45,7 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; } p.h1 {font-family: Taviraj, serif; font-size: small; }}",
-        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 39px !important; line-height: 46px; } p.h1 {font-family: Taviraj, serif; font-size: small; margin-top: 11rem;}}"
+        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 39px !important; line-height: 46px; } p.h1 {font-family: Taviraj, serif; font-size: small; margin-top: 11rem; } p.h6 {padding-top: 8rem;}}"
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
