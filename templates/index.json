@@ -307,69 +307,89 @@
         "remove_vertical_spacing": false
       }
     },
-    "ss_testimonial_slider_z9gfkA": {
-      "type": "ss-testimonial-slider",
+    "ss_feature_1_JycCj6": {
+      "type": "ss-feature-1",
       "blocks": {
-        "quote_NCmk7N": {
-          "type": "quote",
+        "image_n4EYhB": {
+          "type": "image",
           "settings": {
-            "subheading": "",
-            "rating": 5,
-            "quote": "<p>Every color carries it's own frequency that affects us mental, emotionally, and physically. We are constantly affected by the colors around us but mosly unconsiously. the colors you like to wear and surround yourself with is a direct reflection of the state you're in. By wearing different colors, you call in new types of stimulation, activating your chakras, and</p>",
-            "author": "Colors",
-            "image": "shopify://shop_images/spirallogo.png"
+            "feature_title": "Colors",
+            "feature_text": "<p>Every color carries it's own frequency that affects us mental, emotionally, and physically. We are constantly affected by the colors around us but mosly unconsiously. the colors you like to wear and surround yourself with is a direct reflection of the state you're in. By wearing different colors, you call in new types of stimulation, activating your chakras, and</p>",
+            "feature_image": "shopify://shop_images/spirallogo.webp",
+            "feature_url": "",
+            "hide_image": false
           }
         },
-        "quote_pfdY4C": {
-          "type": "quote",
+        "image_giXVpg": {
+          "type": "image",
           "settings": {
-            "subheading": "FROM OUR CUSTOMERS",
-            "rating": 5,
-            "quote": "<p>Found an amazing deal for my new jacket shirt from Section Store. Delivery was quick as well.</p>",
-            "author": "Melanie, London"
+            "feature_title": "Crystals",
+            "feature_text": "<p>Crystal are our forgotten allies, they carry the perfect energetic structure and are here tohelp humanity evolove. We are living in a time where so many crystals have been resurfaces from deep within Earth and their frequencies can help assist us evolve. The crystalline realm is conscious and</p>",
+            "feature_image": "shopify://shop_images/spirallogo.webp",
+            "feature_url": "",
+            "hide_image": false
           }
         },
-        "quote_mfmmwb": {
-          "type": "quote",
+        "image_QA6jLn": {
+          "type": "image",
           "settings": {
-            "subheading": "FROM OUR CUSTOMERS",
-            "rating": 5,
-            "quote": "<p>I love my new swater sunglasses. Section store provided 1st class customer service</p>",
-            "author": "James, London"
-          }
-        },
-        "quote_q7CNtm": {
-          "type": "quote",
-          "settings": {
-            "subheading": "FROM OUR CUSTOMERS",
-            "rating": 5,
-            "quote": "<p>Thank you for my new stool. I even got an additional discount when I called their customer service!</p>",
-            "author": "Melanie, London"
+            "feature_title": "Chakras",
+            "feature_text": "<p>We have multiply energy centers in our physical and energetic bodies, we may know the 7 main chakras, it's important that they all are functioning properly for your life force energy to flow, strong aura, clarity in self, and high vibration. the blocks or weaknesses in your aura can guide you towards the deeper work needed to become your fullest authentic expression.</p>",
+            "feature_image": "shopify://shop_images/spirallogo.webp",
+            "feature_url": "",
+            "hide_image": false
           }
         }
       },
       "block_order": [
-        "quote_NCmk7N",
-        "quote_pfdY4C",
-        "quote_mfmmwb",
-        "quote_q7CNtm"
+        "image_n4EYhB",
+        "image_giXVpg",
+        "image_QA6jLn"
       ],
-      "name": "SS - Testimonial slider",
+      "name": "SS - Feature #1",
       "settings": {
-        "seconds_to_slide": 5,
-        "subheading": "FROM OUR CUSTOMERS",
-        "subheading_color": "#000000",
-        "star_color": "#000000",
-        "text_color": "#000000",
-        "author_color": "#000000",
-        "arrow_color": "#000000",
-        "subheading_font_size": 16,
-        "text_font_size": 20,
-        "author_font_size": 12,
-        "background-color": "#f1fcfd",
+        "feature_row": 3,
+        "feature_row_mobile": 1,
+        "feature_gap": 20,
+        "feature_gap_mobile": 20,
+        "feature_padding_horizontal": 0,
+        "feature_padding_vertical": 0,
+        "feature_radius": 16,
+        "feature_border_thickness": 0,
+        "feature_shadow": false,
+        "feature_heading_custom": true,
+        "feature_heading_font": "taviraj_n6",
+        "feature_heading_size": 22,
+        "feature_heading_size_mobile": 18,
+        "feature_heading_height": 200,
+        "feature_heading_mt": 0,
+        "feature_text_custom": true,
+        "feature_text_font": "sans_serif_n4",
+        "feature_text_size": 14,
+        "feature_text_size_mobile": 14,
+        "feature_text_height": 140,
+        "feature_text_mt": 24,
+        "feature_icon_size": 130,
+        "feature_icon_size_mobile": 144,
+        "feature_bg": "#f1fcfd",
+        "feature_border_color": "#000000",
+        "feature_shadow_color": "#000000",
+        "feature_heading_color": "#383838",
+        "feature_text_color": "#383838",
+        "feature_icon_color": "#000000",
+        "background_color": "#f1fcfd",
+        "background_gradient": "",
+        "border_color": "#000000",
+        "margin_top": 0,
+        "margin_bottom": 0,
         "padding_top": 36,
-        "padding_bottom": 36,
-        "section-width": 120
+        "padding_bottom": 16,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "full_width": true,
+        "content_width": 120,
+        "border_thickness": 0,
+        "lazy": true
       }
     }
   },
@@ -381,6 +401,6 @@
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
     "rich_text_RQzJ7e",
-    "ss_testimonial_slider_z9gfkA"
+    "ss_feature_1_JycCj6"
   ]
 }
