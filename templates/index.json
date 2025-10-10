@@ -92,7 +92,9 @@
         "richtext_ULHwfh",
         "button_KmFND9"
       ],
-      "custom_css": [],
+      "custom_css": [
+        ".prose:not(.prose--tight) :where(:not(meta,span)+*) {text-align: justify;}"
+      ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
