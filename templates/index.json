@@ -429,6 +429,46 @@
         "text_position": "center",
         "remove_vertical_spacing": false
       }
+    },
+    "image_with_text_overlay_97QHdq": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "richtext_E7M8q3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>Explore the Collection</strong></p>"
+          }
+        },
+        "button_ekJ6za": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Button text",
+            "url": "http://sierraisabelactivations.com/collections/all",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "richtext_E7M8q3",
+        "button_ekJ6za"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "image_size": "lg",
+        "image": "shopify://shop_images/P8091193_750d1176-4242-4b00-941a-75439fe51304.jpg",
+        "mobile_image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "xl",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -440,6 +480,7 @@
     "rich_text_jA4VH9",
     "rich_text_RQzJ7e",
     "ss_feature_1_JycCj6",
-    "rich_text_ppdV67"
+    "rich_text_ppdV67",
+    "image_with_text_overlay_97QHdq"
   ]
 }
