@@ -391,6 +391,40 @@
         "border_thickness": 0,
         "lazy": true
       }
+    },
+    "rich_text_ppdV67": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_CyfhGb": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>At the heart of every product lies a unique story, driven by our passion for quality and innovation. Each item enhances your everyday life and sparks joy.</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "button_t6Q3Tr": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Shop now",
+            "url": "",
+            "background": "#f1fcfd",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CyfhGb",
+        "button_t6Q3Tr"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -401,6 +435,7 @@
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
     "rich_text_RQzJ7e",
-    "ss_feature_1_JycCj6"
+    "ss_feature_1_JycCj6",
+    "rich_text_ppdV67"
   ]
 }
