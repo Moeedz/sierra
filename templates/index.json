@@ -106,6 +106,29 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_FJ8m8R": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mfMRkj": {
+          "type": "heading",
+          "settings": {
+            "text": "NEW ARRIVALS",
+            "heading_tag": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mfMRkj"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "md",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
     "featured_collections_hiFjFH": {
       "type": "featured-collections",
       "blocks": {
@@ -114,7 +137,7 @@
           "settings": {
             "collection": "necklaces",
             "products_count": 8,
-            "title": "<strong>New Arrivals</strong>",
+            "title": "",
             "link_url": "",
             "link_text": "View all"
           }
@@ -140,6 +163,7 @@
   "order": [
     "slideshow_7dgTyP",
     "rich_text_kXAMRg",
+    "rich_text_FJ8m8R",
     "featured_collections_hiFjFH"
   ]
 }
