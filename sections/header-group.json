@@ -27,7 +27,14 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "disabled": true,
-      "settings": {}
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 11,
+        "mobile_font_size": 10
+      }
     },
     "top_bar_97nrxa": {
       "type": "top-bar",
@@ -67,7 +74,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "enable_sticky": false,
         "hide_on_scroll": false,
         "show_separation_border": false,
