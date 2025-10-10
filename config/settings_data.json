@@ -95,10 +95,10 @@
           "background": "#f1fcfd",
           "background_gradient": "",
           "text_color": "#383838",
-          "primary_button_background": "#f1fcfd",
-          "primary_button_text_color": "#000000",
-          "circle_button_background": "#f1fcfd",
-          "circle_button_icon": "#000000"
+          "primary_button_background": "#cffcff",
+          "primary_button_text_color": "#1c1c1c",
+          "circle_button_background": "#1c1c1c",
+          "circle_button_icon": "#1c1c1c"
         }
       }
     }

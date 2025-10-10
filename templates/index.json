@@ -492,7 +492,7 @@
         "slide_erQmq8"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {a.image-text-button-template--25661479354677__ss_image_with_text_12_Qgq3mK {width: 40% !important;}}"
+        "@media screen and (max-width: 767px) {a.image-text-button-template--25661479354677__ss_image_with_text_12_Qgq3mK {width: 40% !important; }}"
       ],
       "name": "SS - Image With Text #12",
       "settings": {
@@ -576,6 +576,21 @@
         "section_radius": 0,
         "lazy": true
       }
+    },
+    "newsletter_txdaqM": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.presets.newsletter.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "image_size": "auto",
+        "subheading": "",
+        "title": "Sign up for our newsletter",
+        "content": "",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
@@ -589,6 +604,7 @@
     "ss_feature_1_JycCj6",
     "rich_text_ppdV67",
     "image_with_text_overlay_97QHdq",
-    "ss_image_with_text_12_Qgq3mK"
+    "ss_image_with_text_12_Qgq3mK",
+    "newsletter_txdaqM"
   ]
 }
