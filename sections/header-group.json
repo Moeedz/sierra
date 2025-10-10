@@ -26,17 +26,18 @@
     },
     "announcement-bar": {
       "type": "announcement-bar",
+      "disabled": true,
       "settings": {}
     },
     "top_bar_97nrxa": {
       "type": "top-bar",
       "name": "Announcement Bar",
       "settings": {
-        "announcement_text": "<p>Welcome to our store! Free shipping on orders over $50</p>",
-        "show_icon": false,
+        "announcement_text": "<p>Free shipping for orders over $250.00 USD!</p>",
+        "show_icon": true,
         "icon": "🎉",
-        "bg_color": "#000000",
-        "text_color": "#ffffff",
+        "bg_color": "#cffcff",
+        "text_color": "#1c1c1c",
         "link_color": "#ffffff",
         "font_size": 14,
         "font_family": "Helvetica, sans-serif",
