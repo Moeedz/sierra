@@ -398,7 +398,7 @@
         "heading_CyfhGb": {
           "type": "heading",
           "settings": {
-            "text": "<strong>At the heart of every product lies a unique story, driven by our passion for quality and innovation. Each item enhances your everyday life and sparks joy.</strong>",
+            "text": "At the heart of every product lies a unique story, driven by our passion for quality and innovation. Each item enhances your everyday life and sparks joy.",
             "heading_tag": "h1"
           }
         },
@@ -416,6 +416,9 @@
       "block_order": [
         "heading_CyfhGb",
         "button_t6Q3Tr"
+      ],
+      "custom_css": [
+        "@media screen and (min-width: 768px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 45px; line-height: normal; padding-right: 5rem; padding-left: 5rem; }}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
