@@ -23,11 +23,10 @@
 
     #shopify-section-{{ section.id }} {
       --announcement-bar-font-size: {{ section.settings.mobile_font_size | divided_by: 16.0 }}rem;
-      --announcement-bar-font-family: {{ section.settings.font_family.family }}, {{ section.settings.font_family.fallback_families }};
     }
 
     #shopify-section-{{ section.id }} .announcement-bar__carousel p {
-      font-family: var(--announcement-bar-font-family);
+      font-family: {{ section.settings.font_family.family }}, {{ section.settings.font_family.fallback_families }};
     }
 
     @media screen and (min-width: 999px) {
