@@ -23,6 +23,11 @@
 
     #shopify-section-{{ section.id }} {
       --announcement-bar-font-size: {{ section.settings.mobile_font_size | divided_by: 16.0 }}rem;
+      --announcement-bar-font-family: {{ section.settings.font_family.family }}, {{ section.settings.font_family.fallback_families }};
+    }
+
+    #shopify-section-{{ section.id }} .announcement-bar__carousel p {
+      font-family: var(--announcement-bar-font-family);
     }
 
     @media screen and (min-width: 999px) {
@@ -30,22 +35,10 @@
         --announcement-bar-font-size: {{ section.settings.desktop_font_size | divided_by: 16.0 }}rem;
       }
     }
-    <style>
-  @font-face{
-    font-family: 'InterCustom';
-    src: url({{ '' | asset_url }}) format('woff2');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-  }
-
-  :root {
-    --font-body: 'InterCustom', system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
-  }
-
-  body { font-family: var(--font-body); }
-</style>
+    
   </style>
+
+  {{ section.settings.font_family | font_face: font_display: 'swap' }}
 
   <height-observer variable="announcement-bar">
     <div class="announcement-bar color-scheme color-scheme--{{ section.settings.color_scheme.id }}">
@@ -108,6 +101,12 @@
       "id": "color_scheme",
       "label": "t:global.colors.scheme",
       "default": "scheme-3"
+    },
+    {
+      "type": "font_picker",
+      "id": "font_family",
+      "label": "Font",
+      "default": "assistant_n4"
     },
     {
       "type": "checkbox",
