@@ -124,7 +124,7 @@
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": false,
-        "content_width": "md",
+        "content_width": "xs",
         "text_position": "start",
         "remove_vertical_spacing": false
       }
@@ -145,6 +145,9 @@
       },
       "block_order": [
         "collection_MF7gMq"
+      ],
+      "custom_css": [
+        ".v-stack.justify-self-center.gap-4.text-center.sm\\:gap-5 {display: none !important;}"
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
