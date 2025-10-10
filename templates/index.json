@@ -153,12 +153,46 @@
         "vertical_spacing_factor": 0.2,
         "subheading": ""
       }
+    },
+    "image_with_text_cgktbi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_T9zXr4": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>When you're drawn to a piece, its not random.</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_AXe68k": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>When you feel pulled toward one of my creations, it’s not just because it’s beautiful, it’s because your soul recognizes the frequency within it.</p><p>This piece (or pieces) carry a specific vibration that your Higher Self resonates with, guiding you to receive and embody a new activation.</p><p><strong>This pull is your Higher Self’s way of saying, </strong><em><strong>“You’re ready.”</strong></em></p><p>You’re meant to grow and evolve, to follow what lights up your heart and become the version of yourself your soul already knows you can be.</p><p>When you align with your highest path, you naturally radiate from within, with clarity to live and create from the heart.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_T9zXr4",
+        "richtext_AXe68k"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/PA022251.webp",
+        "mobile_image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "slideshow_7dgTyP",
     "rich_text_kXAMRg",
     "custom_liquid_cQVTUj",
-    "featured_collections_hiFjFH"
+    "featured_collections_hiFjFH",
+    "image_with_text_cgktbi"
   ]
 }
