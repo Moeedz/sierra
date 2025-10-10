@@ -93,7 +93,8 @@
         "button_KmFND9"
       ],
       "custom_css": [
-        ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}"
+        ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}",
+        ".prose:not(.prose--tight) :is(.button,.button-group:has(.button)) {border: 0 !important; color: #575151 !important;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
