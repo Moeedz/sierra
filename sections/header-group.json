@@ -48,25 +48,12 @@
     "header": {
       "type": "header",
       "blocks": {
-        "mega_menu_BgnMYd": {
+        "mega_menu_TxnLMF": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "COLECCIONES",
+            "menu_item": "",
             "images_position": "right",
-            "image_1_heading": "Total Looks",
-            "image_1_text": "",
-            "image_1_link": "shopify://collections/total-looks",
-            "image_2_heading": "knitwear",
-            "image_2_text": "",
-            "image_2_link": "shopify://collections/knit-collection"
-          }
-        },
-        "mega_menu_VAP3p3": {
-          "type": "mega_menu",
-          "settings": {
-            "menu_item": "COLECCIONES",
-            "images_position": "right",
-            "image_1_heading": "LINEN ESSSENTIALS",
+            "image_1_heading": "",
             "image_1_text": "",
             "image_1_link": "",
             "image_2_heading": "",
@@ -76,8 +63,7 @@
         }
       },
       "block_order": [
-        "mega_menu_BgnMYd",
-        "mega_menu_VAP3p3"
+        "mega_menu_TxnLMF"
       ],
       "custom_css": [],
       "settings": {
@@ -95,14 +81,14 @@
         "enable_search": true,
         "sidebar_color_scheme": "",
         "sidebar_text_font": "heading",
-        "sidebar_show_dividers": false,
-        "layout": "logo_left_navigation_center",
+        "sidebar_show_dividers": true,
+        "layout": "logo_center_navigation_inline",
         "show_icons": true,
         "show_country_selector": true,
         "show_country_name": false,
-        "show_country_flag": true,
+        "show_country_flag": false,
         "show_locale_selector": true,
-        "transparent_header_text_color": "#ffffff"
+        "transparent_header_text_color": "rgba(0,0,0,0)"
       }
     }
   },
