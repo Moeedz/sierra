@@ -47,33 +47,33 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#1c1c1c",
+          "text_color": "rgba(0,0,0,0)",
+          "primary_button_background": "rgba(0,0,0,0)",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "circle_button_icon": "rgba(0,0,0,0)"
         }
       },
       "scheme-2": {
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#1c1c1c",
-          "primary_button_text_color": "#1c1c1c",
+          "text_color": "rgba(0,0,0,0)",
+          "primary_button_background": "rgba(0,0,0,0)",
+          "primary_button_text_color": "rgba(0,0,0,0)",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "circle_button_icon": "rgba(0,0,0,0)"
         }
       },
       "scheme-3": {
         "settings": {
           "background": "#faf9f1",
           "background_gradient": "",
-          "text_color": "#1c1c1c",
-          "primary_button_background": "#ffffff",
-          "primary_button_text_color": "#1c1c1c",
+          "text_color": "#f1fcfd",
+          "primary_button_background": "#f1fcfd",
+          "primary_button_text_color": "rgba(0,0,0,0)",
           "circle_button_background": "#ffffff",
-          "circle_button_icon": "#1c1c1c"
+          "circle_button_icon": "#f1fcfd"
         }
       },
       "scheme-4": {
@@ -92,7 +92,7 @@
           "background": "#f1fcfd",
           "background_gradient": "",
           "text_color": "rgba(0,0,0,0)",
-          "primary_button_background": "rgba(0,0,0,0)",
+          "primary_button_background": "#f1fcfd",
           "primary_button_text_color": "#ffffff",
           "circle_button_background": "rgba(0,0,0,0)",
           "circle_button_icon": "#ffffff"
