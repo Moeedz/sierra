@@ -41,8 +41,30 @@
         "description": {
           "type": "description",
           "settings": {
-            "collapse_content": false,
+            "collapse_content": true,
             "show_below_gallery": false
+          }
+        },
+        "accordion_k47VTa": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Energetic Properties",
+            "content": "<p>꩜ Crystals: Kunzite</p><p>꩜ Chakras: Crown</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_cEhKjK": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "Care",
+            "content": "<p>To maintain the beauty and integrity of your purchase, we recommend treating it with care. Simple maintenance practices, such as gentle washing and proper storage, can effectively preserve the longevity of your favorites. We encourage you to refer to the care instructions included with each item, designed to help you keep your purchase in top condition.</p>",
+            "liquid": "",
+            "page": ""
           }
         },
         "variant_picker": {
@@ -89,6 +111,8 @@
         "payment_terms",
         "separator",
         "description",
+        "accordion_k47VTa",
+        "accordion_cEhKjK",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
