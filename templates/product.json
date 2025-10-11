@@ -14,6 +14,7 @@
       "blocks": {
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
         },
         "title": {
@@ -34,10 +35,12 @@
         },
         "separator": {
           "type": "separator",
+          "disabled": true,
           "settings": {}
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
             "collapse_content": false,
             "show_below_gallery": false
@@ -70,6 +73,7 @@
         },
         "complementary_products": {
           "type": "complementary_products",
+          "disabled": true,
           "settings": {
             "title": "Pairs well with",
             "products_count": 2,
@@ -90,6 +94,10 @@
         "quantity_selector",
         "buy_buttons",
         "complementary_products"
+      ],
+      "custom_css": [
+        "h1.product-title.h1 {font-family: Taviraj, serif; text-transform: capitalize;}",
+        "sale-price.h4.text-subdued {font-family: poppins;}"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
