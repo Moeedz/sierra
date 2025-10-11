@@ -39,7 +39,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<b style=\"color:#383838; font-size:2rem;\">New Arrivals</b><p><b>Before browsing,</b> take a moment to pause, close your eyes and take a deep inhale and exhale.</p><p>Call upon your Higher Self and set the intention to remain open to receive the energy you're ready to recieve.</p>\n\n<b>Trust the pull.</p>",
+        "liquid": "<b style=\"color:#383838; font-size:2.5rem;\">New Arrivals</b><p><b>Before browsing,</b> take a moment to pause, close your eyes and take a deep inhale and exhale.</p><p>Call upon your Higher Self and set the intention to remain open to receive the energy you're ready to recieve.</p>\n\n<b>Trust the pull.</p>",
         "text_alignment": "center"
       }
     },
