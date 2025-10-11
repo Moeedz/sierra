@@ -11,19 +11,6 @@
   "type": "header",
   "name": "Header group",
   "sections": {
-    "countdown_condensed_XUD4xK": {
-      "type": "countdown-condensed",
-      "disabled": true,
-      "settings": {
-        "color_scheme": "",
-        "content": "ENVÍO GRATIS. CUPÓN: FREE",
-        "link_text": "",
-        "link_url": "",
-        "expiration_date": "2024-03-22",
-        "expiration_behavior": "leave",
-        "desktop_justification": "space-evenly"
-      }
-    },
     "announcement-bar": {
       "type": "announcement-bar",
       "disabled": true,
@@ -58,7 +45,7 @@
         "mega_menu_TxnLMF": {
           "type": "mega_menu",
           "settings": {
-            "menu_item": "",
+            "menu_item": "Shop",
             "images_position": "right",
             "image_1_heading": "",
             "image_1_text": "",
@@ -100,7 +87,6 @@
     }
   },
   "order": [
-    "countdown_condensed_XUD4xK",
     "announcement-bar",
     "top_bar_97nrxa",
     "header"
