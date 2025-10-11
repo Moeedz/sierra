@@ -28,6 +28,18 @@
         "overlay_opacity": 0
       }
     },
+    "custom_liquid_PdY4PW": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<b style=\"color:black; font-size:2rem;\">New Arrivals</b><p><b>Before browsing,</b> take a moment to pause, close your eyes and take a deep inhale and exhale.</p><p>Call upon your Higher Self and set the intention to remain open to receive the energy you're ready to recieve.</p>\n\n<b>Trust the pull.</p>",
+        "text_alignment": "center"
+      }
+    },
     "main": {
       "type": "main-collection",
       "settings": {
@@ -52,6 +64,7 @@
   },
   "order": [
     "collection-banner",
+    "custom_liquid_PdY4PW",
     "main"
   ]
 }
