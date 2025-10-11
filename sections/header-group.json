@@ -47,12 +47,14 @@
           "settings": {
             "menu_item": "꩜ Shop",
             "images_position": "right",
-            "image_1_heading": "",
-            "image_1_text": "",
-            "image_1_link": "",
-            "image_2_heading": "",
-            "image_2_text": "",
-            "image_2_link": ""
+            "image_1": "shopify://shop_images/PA072784.jpg",
+            "image_1_heading": "Amazonite Dolphin",
+            "image_1_text": "$150.00",
+            "image_1_link": "shopify://products/amazonite-dolphin",
+            "image_2": "shopify://shop_images/PA073017.jpg",
+            "image_2_heading": "Amethyst",
+            "image_2_text": "$0.00",
+            "image_2_link": "shopify://products/amethyst"
           }
         }
       },
@@ -60,7 +62,8 @@
         "mega_menu_TxnLMF"
       ],
       "custom_css": [
-        "li.header__primary-nav-item * {font-family: \"Poppins\" !important;}"
+        "li.header__primary-nav-item * {font-family: \"Poppins\" !important;}",
+        ".v-stack.text-center.gap-2\\.5 {width: 100% !important; text-align: -webkit-left !important;}"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
