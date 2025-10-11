@@ -46,14 +46,14 @@
             "show_below_gallery": false
           }
         },
-        "accordion_MkgYjq": {
+        "accordion_i4kqwh": {
           "type": "accordion",
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
             "title": "Description",
             "content": "",
-            "liquid": "",
+            "liquid": "{{ product.description }}",
             "page": ""
           }
         },
@@ -123,7 +123,7 @@
         "payment_terms",
         "separator",
         "description",
-        "accordion_MkgYjq",
+        "accordion_i4kqwh",
         "accordion_k47VTa",
         "accordion_cEhKjK",
         "variant_picker",
