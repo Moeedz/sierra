@@ -19,7 +19,7 @@
         "title": {
           "type": "title",
           "settings": {
-            "heading_tag": "h3"
+            "heading_tag": "h1"
           }
         },
         "price": {
@@ -92,12 +92,12 @@
         "complementary_products"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "container_size": "lg",
-        "product_info_size": 35,
+        "product_info_size": 40,
         "show_sticky_add_to_cart": true,
         "center_basic_info": false,
-        "desktop_media_layout": "grid_2x",
+        "desktop_media_layout": "grid_2x_highlighted",
         "desktop_media_grid_gap": 30,
         "mobile_controls": "dots",
         "enable_media_autoplay": false,
@@ -109,23 +109,39 @@
     "related-products": {
       "type": "related-products",
       "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "recommendations_count": 10,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
+        "horizontal_spacing_factor": 0.2,
+        "vertical_spacing_factor": 0.2,
         "subheading": "",
-        "title": "Related products",
-        "content": ""
+        "title": "",
+        "content": "<h2>You may also like</h2>"
+      }
+    },
+    "newsletter_kk9Hw4": {
+      "type": "newsletter",
+      "name": "t:sections.newsletter.presets.newsletter.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "",
+        "title": "",
+        "content": "<h3>Sign up for our newsletter</h3>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "newsletter_kk9Hw4"
   ]
 }
