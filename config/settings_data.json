@@ -97,8 +97,8 @@
           "text_color": "#383838",
           "primary_button_background": "#cffcff",
           "primary_button_text_color": "#1c1c1c",
-          "circle_button_background": "#1c1c1c",
-          "circle_button_icon": "#1c1c1c"
+          "circle_button_background": "#cffcff",
+          "circle_button_icon": "#000000"
         }
       }
     }
