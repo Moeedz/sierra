@@ -59,7 +59,9 @@
       "block_order": [
         "mega_menu_TxnLMF"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "li.header__primary-nav-item * {font-family: 'Poppins' !important;}"
+      ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "enable_sticky": false,
