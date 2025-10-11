@@ -45,7 +45,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; } p.h1 {font-family: Taviraj, serif; font-size: small; }}",
-        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 39px !important; line-height: 46px; } p.h1 {font-family: Taviraj, serif; font-size: small; margin-top: 11rem; } p.h6 {padding-top: 8rem; }}"
+        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 39px !important; line-height: 46px; } p.h1 {font-family: Taviraj, serif; font-size: small; margin-top: 11rem; } p.h6 {padding-top: 8rem; }}",
+        "a.button:hover {color: black !important; border-color: black !important;}"
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
@@ -421,7 +422,7 @@
         "@media screen and (min-width: 768px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 45px; line-height: normal; padding-right: 5rem; padding-left: 5rem; }}",
         "@media screen and (max-width: 767px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 25px; line-height: normal; padding-left: 1rem; padding-right: 1rem; }}",
         "button.button:hover {color: black !important;}",
-        "button.button:hover {background-color: #CFFCFF !important; flex-direction: row-reverse;}"
+        "button.button:hover {background-color: #cffcff !important; flex-direction: row-reverse;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -458,7 +459,8 @@
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {strong {font-size: 35px; font-family: \"Taviraj\"; }}",
-        "@media screen and (min-width: 768px) {strong {font-size: 45px; font-family: \"Taviraj\"; }}"
+        "@media screen and (min-width: 768px) {strong {font-size: 45px; font-family: \"Taviraj\"; }}",
+        "a.button:hover {color: black !important; border-color: black !important;}"
       ],
       "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
       "settings": {
