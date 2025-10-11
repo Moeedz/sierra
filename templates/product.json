@@ -134,7 +134,8 @@
       "custom_css": [
         "h1.product-title.h1 {font-family: Taviraj, serif; text-transform: capitalize;}",
         "sale-price.h4.text-subdued {font-family: poppins;}",
-        "button.button.button--outline.w-full {color: black !important;}"
+        "button.button.button--outline.w-full {color: black !important;}",
+        "details.accordion__disclosure.group span {font-family: Newsreader, serif !important;}"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
