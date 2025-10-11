@@ -46,7 +46,8 @@
     "main": {
       "type": "main-collection",
       "custom_css": [
-        "p.collection-toolbar__products-count.h6.text-subdued.md-max\\:hidden {font-family: sans-serif; text-transform: uppercase;}"
+        "p.collection-toolbar__products-count.h6.text-subdued.md-max\\:hidden {font-family: sans-serif; text-transform: uppercase;}",
+        "button.collection-toolbar__button.heading.text-xxs.w-full {font-family: sans-serif; text-transform: uppercase;}"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
