@@ -219,10 +219,10 @@
         "pagination_text_height": 130,
         "heading_color": "#383838",
         "text_color": "#666666",
-        "button_color": "#FFFFFF",
-        "button_hover_color": "#FFFFFF",
-        "button_bg_color": "#B59DE3",
-        "button_bg_hover_color": "#B198DE",
+        "button_color": "#ffffff",
+        "button_hover_color": "#ffffff",
+        "button_bg_color": "#b59de3",
+        "button_bg_hover_color": "#b198de",
         "button_border_color": "#000000",
         "button_border_hover_color": "#000000",
         "image_border_color": "rgba(0,0,0,0)",
@@ -231,7 +231,7 @@
         "dots_border_color": "#000000",
         "dots_border_hover_color": "#000000",
         "number_color": "#000000",
-        "number_hover_color": "#FFFFFF",
+        "number_hover_color": "#ffffff",
         "pagination_text_color": "#000000",
         "background_color": "#f1fcfd",
         "background_gradient": "",
@@ -419,7 +419,8 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 45px; line-height: normal; padding-right: 5rem; padding-left: 5rem; }}",
-        "@media screen and (max-width: 767px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 25px; line-height: normal; padding-left: 1rem; padding-right: 1rem; }}"
+        "@media screen and (max-width: 767px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 25px; line-height: normal; padding-left: 1rem; padding-right: 1rem; }}",
+        "button.button:hover {color: black !important;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -557,7 +558,7 @@
         "dots_border_color": "#000000",
         "dots_border_hover_color": "#000000",
         "number_color": "#000000",
-        "number_hover_color": "#FFFFFF",
+        "number_hover_color": "#ffffff",
         "pagination_text_color": "#000000",
         "background_color": "#f1fcfd",
         "background_gradient": "",
