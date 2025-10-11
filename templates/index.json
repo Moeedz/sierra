@@ -420,7 +420,8 @@
       "custom_css": [
         "@media screen and (min-width: 768px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 45px; line-height: normal; padding-right: 5rem; padding-left: 5rem; }}",
         "@media screen and (max-width: 767px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 25px; line-height: normal; padding-left: 1rem; padding-right: 1rem; }}",
-        "button.button:hover {color: black !important;}"
+        "button.button:hover {color: black !important;}",
+        "button.button:hover {background-color: #CFFCFF !important; flex-direction: row-reverse;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
