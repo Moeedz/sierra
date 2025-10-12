@@ -6,39 +6,136 @@
   .spiral {
     color: #B6F7FF !important;
     font-size: 1.25em !important;
+    display: inline-block;
+    line-height: 1;
   }
 </style>
 
 <script>
-  function replaceSpirals() {
-    // Target the specific elements we found
-    const elements = document.querySelectorAll('.prose p, .prose .h3, .text-center p');
+(function() {
+  function replaceAllSpirals() {
+    // Use TreeWalker to find ALL text nodes
+    const walker = document.createTreeWalker(
+      document.body,
+      NodeFilter.SHOW_TEXT,
+      {
+        acceptNode: function(node) {
+          // Skip script and style tags
+          const parent = node.parentElement;
+          if (!parent || parent.tagName === 'SCRIPT' || parent.tagName === 'STYLE') {
+            return NodeFilter.FILTER_REJECT;
+          }
+          // Only process nodes with the spiral
+          if (node.nodeValue && node.nodeValue.includes('꩜')) {
+            return NodeFilter.FILTER_ACCEPT;
+          }
+          return NodeFilter.FILTER_REJECT;
+        }
+      }
+    );
+
+    const nodesToProcess = [];
+    let node;
     
-    elements.forEach(el => {
-      if (el.innerHTML && el.innerHTML.includes('꩜') && !el.querySelector('.spiral')) {
-        el.innerHTML = el.innerHTML.replace(/꩜/g, '<span class="spiral">꩜</span>');
-        console.log('Replaced spiral in:', el);
+    // Collect all text nodes with spirals
+    while (node = walker.nextNode()) {
+      nodesToProcess.push(node);
+    }
+
+    console.log('Found ' + nodesToProcess.length + ' text nodes with spirals');
+
+    // Replace spirals in each text node
+    nodesToProcess.forEach(function(textNode) {
+      if (textNode.nodeValue.includes('꩜')) {
+        const fragment = document.createDocumentFragment();
+        const parts = textNode.nodeValue.split('꩜');
+        
+        parts.forEach(function(part, index) {
+          // Add the text part
+          if (part) {
+            fragment.appendChild(document.createTextNode(part));
+          }
+          
+          // Add the styled spiral (except after the last part)
+          if (index < parts.length - 1) {
+            const span = document.createElement('span');
+            span.className = 'spiral';
+            span.textContent = '꩜';
+            fragment.appendChild(span);
+          }
+        });
+        
+        // Replace the text node with the fragment
+        textNode.parentNode.replaceChild(fragment, textNode);
       }
     });
   }
 
-  // Run immediately
-  replaceSpirals();
-
-  // Run after DOM loads
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', replaceSpirals);
-  } else {
-    replaceSpirals();
+  // Run multiple times to catch all content
+  let runCount = 0;
+  const maxRuns = 5;
+  
+  function tryReplace() {
+    replaceAllSpirals();
+    runCount++;
+    
+    if (runCount < maxRuns) {
+      setTimeout(tryReplace, 500); // Keep trying for 2.5 seconds
+    }
   }
 
-  // Run after everything loads
-  window.addEventListener('load', replaceSpirals);
+  // Start immediately
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', tryReplace);
+  } else {
+    tryReplace();
+  }
+
+  // Also run on window load
+  window.addEventListener('load', replaceAllSpirals);
+
+  // Watch for new content being added (like in drawers, modals, etc)
+  const observer = new MutationObserver(function(mutations) {
+    let shouldReplace = false;
+    
+    mutations.forEach(function(mutation) {
+      mutation.addedNodes.forEach(function(node) {
+        if (node.nodeType === 1) { // Element node
+          const text = node.textContent || '';
+          if (text.includes('꩜')) {
+            shouldReplace = true;
+          }
+        }
+      });
+    });
+    
+    if (shouldReplace) {
+      setTimeout(replaceAllSpirals, 100);
+    }
+  });
+
+  // Start observing
+  if (document.body) {
+    observer.observe(document.body, {
+      childList: true,
+      subtree: true
+    });
+  }
 
   // For Shopify theme editor
   if (typeof Shopify !== 'undefined' && Shopify.designMode) {
-    document.addEventListener('shopify:section:load', replaceSpirals);
+    document.addEventListener('shopify:section:load', replaceAllSpirals);
+    document.addEventListener('shopify:section:reorder', replaceAllSpirals);
   }
+
+  // For drawer/sidebar openings (common in themes)
+  document.addEventListener('click', function(e) {
+    if (e.target.matches('[aria-controls], [data-drawer-toggle], button')) {
+      setTimeout(replaceAllSpirals, 300);
+    }
+  });
+
+})();
 </script>
     <style>
 .header-sidebar__linklist-button {
