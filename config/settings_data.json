@@ -28,6 +28,7 @@
     "button_text_font": "body",
     "button_letter_spacing": 11,
     "show_image_zoom_on_hover": true,
+    "stagger_products_apparition": false,
     "round_color_swatches": true,
     "color_swatch_config": "orange:#F1833E\nblue:#024ABB\nred:#FF0C0C\nbrown:#C88857\nprint:print.png\nprintred:printred.png\ncolors:colors.png\nblackwhite:blackwhite.png\nteja:#CD7455\nbleu:#024ABB\nstripe:stripe.jpg",
     "product_image_aspect_ratio": "natural",
