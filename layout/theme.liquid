@@ -2,74 +2,7 @@
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
-<style>
-  .spiral {
-    color: #B6F7FF !important;
-    font-size: 1.25em !important;
-  }
-</style>
 
-<script>
-  function replaceSpirals() {
-    // Target text nodes more directly
-    const walker = document.createTreeWalker(
-      document.body,
-      NodeFilter.SHOW_TEXT,
-      null,
-      false
-    );
-
-    let node;
-    const nodesToReplace = [];
-
-    // Collect all text nodes containing the spiral
-    while (node = walker.nextNode()) {
-      if (node.nodeValue && node.nodeValue.includes('꩜') && 
-          node.parentElement && 
-          node.parentElement.tagName !== 'SCRIPT' && 
-          node.parentElement.tagName !== 'STYLE') {
-        nodesToReplace.push(node);
-      }
-    }
-
-    console.log('Found nodes with spiral:', nodesToReplace.length);
-
-    // Replace the spiral in each text node
-    nodesToReplace.forEach(node => {
-      const span = document.createElement('span');
-      span.innerHTML = node.nodeValue.replace(/꩜/g, '<span class="spiral">꩜</span>');
-      node.parentElement.replaceChild(span, node);
-    });
-  }
-
-  // Run immediately
-  replaceSpirals();
-
-  // Run after DOM loads
-  document.addEventListener('DOMContentLoaded', replaceSpirals);
-
-  // Run after window loads (for Shopify sections)
-  window.addEventListener('load', replaceSpirals);
-
-  // Watch for new content (for dynamic sections)
-  const observer = new MutationObserver(function(mutations) {
-    mutations.forEach(function(mutation) {
-      if (mutation.addedNodes.length) {
-        replaceSpirals();
-      }
-    });
-  });
-
-  observer.observe(document.body, {
-    childList: true,
-    subtree: true
-  });
-
-  // For Shopify theme editor
-  if (window.Shopify && Shopify.designMode) {
-    document.addEventListener('shopify:section:load', replaceSpirals);
-  }
-</script>
     <style>
 .header-sidebar__linklist-button {
   font-size: 1.75rem !important;
