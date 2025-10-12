@@ -2,25 +2,38 @@
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
-    <script>
-  [...document.querySelectorAll('*')]
-    .filter(e => (                    // filter elements with
-         e.childElementCount==0       // only text content
-      && e.tagName != 'SCRIPT'        // not scripts
-      && e.textContent.includes('꩜') // with spiral symbol
-      && !e.classList.contains('spiral') // not already modified
-    )).forEach( e => {
-                e.innerHTML = e.textContent
-                             .replace(/꩜/g, '<span class=spiral>꩜</span>')
-              });
-</script>
-
 <style>
   .spiral {
     color: #B6F7FF !important;
     font-size: 1.25em !important;
   }
 </style>
+
+<script>
+  // Wait for DOM to fully load
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    // Also wait a bit for Shopify to render content
+    setTimeout(function() {
+      
+      [...document.querySelectorAll('*')]
+        .filter(e => (
+          e.childElementCount == 0       // only text content
+          && e.tagName != 'SCRIPT'        // not scripts
+          && e.tagName != 'STYLE'         // not styles
+          && e.textContent.includes('꩜') // with spiral symbol
+          && !e.classList.contains('spiral-processed') // not already modified
+        )).forEach(e => {
+          e.innerHTML = e.innerHTML.replace(/꩜/g, '<span class="spiral">꩜</span>');
+          e.classList.add('spiral-processed'); // mark as processed
+        });
+        
+      console.log('Spiral replacer ran!'); // Debug message
+      
+    }, 100); // Small delay to ensure content is rendered
+    
+  });
+</script>
     <style>
 .header-sidebar__linklist-button {
   font-size: 1.75rem !important;
