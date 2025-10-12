@@ -2,7 +2,32 @@
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
-
+<script>
+  // Run after everything loads
+  setTimeout(function() {
+    const body = document.body.innerHTML;
+    
+    // Check if spiral exists
+    console.log('Body contains spiral:', body.includes('꩜'));
+    
+    // Check the character code
+    const spiralChar = '꩜';
+    console.log('Spiral char code:', spiralChar.charCodeAt(0));
+    
+    // Find all elements with the text
+    const elements = [...document.querySelectorAll('*')].filter(e => 
+      e.textContent.includes('꩜') || e.innerHTML.includes('꩜')
+    );
+    console.log('Elements with spiral:', elements);
+    
+    // Show the actual HTML
+    elements.forEach(el => {
+      console.log('Element HTML:', el.innerHTML);
+      console.log('Element class:', el.className);
+      console.log('Element tag:', el.tagName);
+    });
+  }, 2000);
+</script>
     <style>
 .header-sidebar__linklist-button {
   font-size: 1.75rem !important;
