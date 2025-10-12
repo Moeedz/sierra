@@ -19,7 +19,7 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<script>\n  [...document.querySelectorAll('*')]\n    .filter(e => (                    // filter elements with\n         e.childElementCount==0       // only text content\n      && e.tagName != 'SCRIPT'        // not scripts\n      && e.textContent.includes('꩜') // with spiral symbol\n      && !e.classList.contains('spiral') // not already modified\n    )).forEach( e => {\n                e.innerHTML = e.textContent\n                             .replace(/꩜/g, '<span class=spiral>꩜</span>')\n              });\n</script>\n\n<style>\n  .spiral {\n    color: #B6F7FF;\n    #00000050;\n    font-size: 1.25em;\n  }\n</style>",
+        "liquid": "",
         "text_alignment": "center"
       }
     },
