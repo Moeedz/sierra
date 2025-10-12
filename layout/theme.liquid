@@ -12,11 +12,11 @@
 
 <script>
 (function() {
-  // Track if we've already processed nodes
+  // Track processed nodes to avoid duplicates
   const processedNodes = new WeakSet();
   
   function replaceAllSpirals() {
-    // Use TreeWalker to find ALL text nodes
+    // Find ALL text nodes
     const walker = document.createTreeWalker(
       document.body,
       NodeFilter.SHOW_TEXT,
@@ -33,13 +33,13 @@
             return NodeFilter.FILTER_REJECT;
           }
           
-          // Skip if parent already has .spiral class (already processed)
+          // Skip if parent already has .spiral class
           if (parent.classList && parent.classList.contains('spiral')) {
             return NodeFilter.FILTER_REJECT;
           }
           
-          // Only process nodes with the spiral
-          if (node.nodeValue && node.nodeValue.trim() === '꩜') {
+          // Accept nodes that CONTAIN the spiral (not just equal to it)
+          if (node.nodeValue && node.nodeValue.includes('꩜')) {
             return NodeFilter.FILTER_ACCEPT;
           }
           
@@ -56,52 +56,71 @@
       nodesToProcess.push(node);
     }
 
-    console.log('Found ' + nodesToProcess.length + ' new spirals to process');
+    console.log('Found ' + nodesToProcess.length + ' text nodes with spirals');
 
     // Replace spirals in each text node
     nodesToProcess.forEach(function(textNode) {
-      if (textNode.nodeValue.trim() === '꩜' && !processedNodes.has(textNode)) {
-        const span = document.createElement('span');
-        span.className = 'spiral';
-        span.textContent = '꩜';
+      if (textNode.nodeValue.includes('꩜') && !processedNodes.has(textNode)) {
+        const text = textNode.nodeValue;
+        const parts = text.split('꩜');
         
-        // Mark as processed
+        // Create a document fragment to hold the new nodes
+        const fragment = document.createDocumentFragment();
+        
+        parts.forEach(function(part, index) {
+          // Add the text part (if not empty)
+          if (part) {
+            const textNode = document.createTextNode(part);
+            fragment.appendChild(textNode);
+            processedNodes.add(textNode);
+          }
+          
+          // Add the styled spiral between parts (not after the last part)
+          if (index < parts.length - 1) {
+            const span = document.createElement('span');
+            span.className = 'spiral';
+            span.textContent = '꩜';
+            fragment.appendChild(span);
+            
+            // Mark the span's text as processed
+            if (span.firstChild) {
+              processedNodes.add(span.firstChild);
+            }
+          }
+        });
+        
+        // Mark original as processed
         processedNodes.add(textNode);
-        processedNodes.add(span.firstChild);
         
-        // Replace the text node
-        textNode.parentNode.replaceChild(span, textNode);
+        // Replace the original text node with the fragment
+        textNode.parentNode.replaceChild(fragment, textNode);
       }
     });
   }
 
-  // Run only once on load
-  let hasRun = false;
-  
-  function runOnce() {
-    if (!hasRun) {
-      replaceAllSpirals();
-      hasRun = true;
-    }
-  }
-
   // Run when DOM is ready
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', runOnce);
+    document.addEventListener('DOMContentLoaded', replaceAllSpirals);
   } else {
-    runOnce();
+    replaceAllSpirals();
   }
 
-  // Watch for new content being added (like in drawers, modals)
+  // Also run after a short delay (for Shopify sections)
+  setTimeout(replaceAllSpirals, 500);
+
+  // Watch for dynamically added content
   const observer = new MutationObserver(function(mutations) {
     let shouldReplace = false;
     
     mutations.forEach(function(mutation) {
       mutation.addedNodes.forEach(function(node) {
         if (node.nodeType === 1) { // Element node
-          // Check if it contains spiral and isn't already wrapped
           const text = node.textContent || '';
           if (text.includes('꩜') && !node.querySelector('.spiral')) {
+            shouldReplace = true;
+          }
+        } else if (node.nodeType === 3) { // Text node
+          if (node.nodeValue && node.nodeValue.includes('꩜') && !processedNodes.has(node)) {
             shouldReplace = true;
           }
         }
@@ -113,22 +132,30 @@
     }
   });
 
-  // Start observing after initial run
+  // Start observing after initial processing
   setTimeout(function() {
     if (document.body) {
       observer.observe(document.body, {
         childList: true,
-        subtree: true
+        subtree: true,
+        characterData: false
       });
     }
   }, 1000);
 
-  // For drawer/sidebar openings
+  // For drawers/modals/sidebars opening
   document.addEventListener('click', function(e) {
-    if (e.target.matches('[aria-controls], [data-drawer-toggle], button')) {
+    const target = e.target.closest('[aria-controls], [data-drawer-toggle], button, a');
+    if (target) {
       setTimeout(replaceAllSpirals, 300);
     }
   });
+
+  // For Shopify theme editor
+  if (typeof Shopify !== 'undefined' && Shopify.designMode) {
+    document.addEventListener('shopify:section:load', replaceAllSpirals);
+    document.addEventListener('shopify:section:reorder', replaceAllSpirals);
+  }
 
 })();
 </script>
