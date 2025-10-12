@@ -5,12 +5,17 @@
 <style>
   .spiral {
     color: #B6F7FF !important;
-    font-size: 1.25em !important;
+    font-size: 1.1em !important; /* Reduced from 1.25em */
+    display: inline-block;
+    line-height: 1;
   }
 </style>
 
 <script>
 (function() {
+  // Track if we've already processed nodes
+  const processedNodes = new WeakSet();
+  
   function replaceAllSpirals() {
     // Use TreeWalker to find ALL text nodes
     const walker = document.createTreeWalker(
@@ -18,15 +23,27 @@
       NodeFilter.SHOW_TEXT,
       {
         acceptNode: function(node) {
+          // Skip if already processed
+          if (processedNodes.has(node)) {
+            return NodeFilter.FILTER_REJECT;
+          }
+          
           // Skip script and style tags
           const parent = node.parentElement;
           if (!parent || parent.tagName === 'SCRIPT' || parent.tagName === 'STYLE') {
             return NodeFilter.FILTER_REJECT;
           }
+          
+          // Skip if parent already has .spiral class (already processed)
+          if (parent.classList && parent.classList.contains('spiral')) {
+            return NodeFilter.FILTER_REJECT;
+          }
+          
           // Only process nodes with the spiral
-          if (node.nodeValue && node.nodeValue.includes('꩜')) {
+          if (node.nodeValue && node.nodeValue.trim() === '꩜') {
             return NodeFilter.FILTER_ACCEPT;
           }
+          
           return NodeFilter.FILTER_REJECT;
         }
       }
@@ -40,67 +57,52 @@
       nodesToProcess.push(node);
     }
 
-    console.log('Found ' + nodesToProcess.length + ' text nodes with spirals');
+    console.log('Found ' + nodesToProcess.length + ' new spirals to process');
 
     // Replace spirals in each text node
     nodesToProcess.forEach(function(textNode) {
-      if (textNode.nodeValue.includes('꩜')) {
-        const fragment = document.createDocumentFragment();
-        const parts = textNode.nodeValue.split('꩜');
+      if (textNode.nodeValue.trim() === '꩜' && !processedNodes.has(textNode)) {
+        const span = document.createElement('span');
+        span.className = 'spiral';
+        span.textContent = '꩜';
         
-        parts.forEach(function(part, index) {
-          // Add the text part
-          if (part) {
-            fragment.appendChild(document.createTextNode(part));
-          }
-          
-          // Add the styled spiral (except after the last part)
-          if (index < parts.length - 1) {
-            const span = document.createElement('span');
-            span.className = 'spiral';
-            span.textContent = '꩜';
-            fragment.appendChild(span);
-          }
-        });
+        // Mark as processed
+        processedNodes.add(textNode);
+        processedNodes.add(span.firstChild);
         
-        // Replace the text node with the fragment
-        textNode.parentNode.replaceChild(fragment, textNode);
+        // Replace the text node
+        textNode.parentNode.replaceChild(span, textNode);
       }
     });
   }
 
-  // Run multiple times to catch all content
-  let runCount = 0;
-  const maxRuns = 5;
+  // Run only once on load
+  let hasRun = false;
   
-  function tryReplace() {
-    replaceAllSpirals();
-    runCount++;
-    
-    if (runCount < maxRuns) {
-      setTimeout(tryReplace, 500); // Keep trying for 2.5 seconds
+  function runOnce() {
+    if (!hasRun) {
+      replaceAllSpirals();
+      hasRun = true;
     }
   }
 
-  // Start immediately
+  // Run when DOM is ready
   if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', tryReplace);
+    document.addEventListener('DOMContentLoaded', runOnce);
   } else {
-    tryReplace();
+    runOnce();
   }
 
-  // Also run on window load
-  window.addEventListener('load', replaceAllSpirals);
-
-  // Watch for new content being added (like in drawers, modals, etc)
+  // Watch for new content being added (like in drawers, modals)
   const observer = new MutationObserver(function(mutations) {
     let shouldReplace = false;
     
     mutations.forEach(function(mutation) {
       mutation.addedNodes.forEach(function(node) {
         if (node.nodeType === 1) { // Element node
+          // Check if it contains spiral and isn't already wrapped
           const text = node.textContent || '';
-          if (text.includes('꩜')) {
+          if (text.includes('꩜') && !node.querySelector('.spiral')) {
             shouldReplace = true;
           }
         }
@@ -112,21 +114,17 @@
     }
   });
 
-  // Start observing
-  if (document.body) {
-    observer.observe(document.body, {
-      childList: true,
-      subtree: true
-    });
-  }
+  // Start observing after initial run
+  setTimeout(function() {
+    if (document.body) {
+      observer.observe(document.body, {
+        childList: true,
+        subtree: true
+      });
+    }
+  }, 1000);
 
-  // For Shopify theme editor
-  if (typeof Shopify !== 'undefined' && Shopify.designMode) {
-    document.addEventListener('shopify:section:load', replaceAllSpirals);
-    document.addEventListener('shopify:section:reorder', replaceAllSpirals);
-  }
-
-  // For drawer/sidebar openings (common in themes)
+  // For drawer/sidebar openings
   document.addEventListener('click', function(e) {
     if (e.target.matches('[aria-controls], [data-drawer-toggle], button')) {
       setTimeout(replaceAllSpirals, 300);
