@@ -34,7 +34,7 @@
         "heading_PdxwXe": {
           "type": "heading",
           "settings": {
-            "text": "{{ collection.title }}",
+            "text": "꩜ {{ collection.title }}",
             "heading_tag": "h1"
           }
         },
@@ -50,7 +50,7 @@
         "richtext_R3P7eX"
       ],
       "custom_css": [
-        "* {font-family: 'Poppins' !important;}"
+        "* {font-family: \"Poppins\" !important;}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
