@@ -2,31 +2,43 @@
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+<style>
+  .spiral {
+    color: #B6F7FF !important;
+    font-size: 1.25em !important;
+  }
+</style>
+
 <script>
-  // Run after everything loads
-  setTimeout(function() {
-    const body = document.body.innerHTML;
+  function replaceSpirals() {
+    // Target the specific elements we found
+    const elements = document.querySelectorAll('.prose p, .prose .h3, .text-center p');
     
-    // Check if spiral exists
-    console.log('Body contains spiral:', body.includes('꩜'));
-    
-    // Check the character code
-    const spiralChar = '꩜';
-    console.log('Spiral char code:', spiralChar.charCodeAt(0));
-    
-    // Find all elements with the text
-    const elements = [...document.querySelectorAll('*')].filter(e => 
-      e.textContent.includes('꩜') || e.innerHTML.includes('꩜')
-    );
-    console.log('Elements with spiral:', elements);
-    
-    // Show the actual HTML
     elements.forEach(el => {
-      console.log('Element HTML:', el.innerHTML);
-      console.log('Element class:', el.className);
-      console.log('Element tag:', el.tagName);
+      if (el.innerHTML && el.innerHTML.includes('꩜') && !el.querySelector('.spiral')) {
+        el.innerHTML = el.innerHTML.replace(/꩜/g, '<span class="spiral">꩜</span>');
+        console.log('Replaced spiral in:', el);
+      }
     });
-  }, 2000);
+  }
+
+  // Run immediately
+  replaceSpirals();
+
+  // Run after DOM loads
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', replaceSpirals);
+  } else {
+    replaceSpirals();
+  }
+
+  // Run after everything loads
+  window.addEventListener('load', replaceSpirals);
+
+  // For Shopify theme editor
+  if (typeof Shopify !== 'undefined' && Shopify.designMode) {
+    document.addEventListener('shopify:section:load', replaceSpirals);
+  }
 </script>
     <style>
 .header-sidebar__linklist-button {
