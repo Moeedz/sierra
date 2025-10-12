@@ -5144,7 +5144,6 @@ product-rerender {
 
 .header-sidebar__linklist-button {
   text-align: start;
-  justify-content: space-between;
   align-items: center;
   width: 100%;
   padding-block-start: calc(var(--header-linklist-padding-block) / 2);
