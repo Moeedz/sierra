@@ -49,6 +49,9 @@
         "heading_PdxwXe",
         "richtext_R3P7eX"
       ],
+      "custom_css": [
+        "* {font-family: 'Poppins' !important;}"
+      ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
