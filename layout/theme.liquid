@@ -2,6 +2,26 @@
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+    <script>
+  [...document.querySelectorAll('*')]
+    .filter(e => (                    // filter elements with
+         e.childElementCount==0       // only text content
+      && e.tagName != 'SCRIPT'        // not scripts
+      && e.textContent.includes('꩜') // with spiral symbol
+      && !e.classList.contains('spiral') // not already modified
+    )).forEach( e => {
+                e.innerHTML = e.textContent
+                             .replace(/꩜/g, '<span class=spiral>꩜</span>')
+              });
+</script>
+
+<style>
+  .spiral {
+    color: #B6F7FF;
+    #00000050;
+    font-size: 1.25em;
+  }
+</style>
     <style>
 .header-sidebar__linklist-button {
   font-size: 1.75rem !important;
