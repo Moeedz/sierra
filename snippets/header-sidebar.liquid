@@ -116,7 +116,7 @@ therefore using a different structure for the Shadow DOM template
             <div class="sidebar-product-scroll" style="display: flex; gap: 15px; overflow-x: auto; padding-bottom: 10px; scroll-behavior: smooth; -webkit-overflow-scrolling: touch;">
               {%- for product in featured_collection.products limit: 6 -%}
                 <a href="{{ product.url }}" class="sidebar-product-item" style="flex: 0 0 auto; width: 130px; text-decoration: none; color: inherit;">
-                  <div style="position: relative; padding-bottom: 100%; overflow: hidden; border-radius: 8px; background: #f5f5f5; margin-bottom: 8px;">
+                  <div style="position: relative; padding-bottom: 100%; overflow: hidden; background: #f5f5f5; margin-bottom: 8px;">
                     {%- if product.featured_image -%}
                       <img 
                         src="{{ product.featured_image | image_url: width: 260 }}" 
