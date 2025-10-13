@@ -45,7 +45,7 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; } p.h1 {font-family: Taviraj, serif; font-size: small; }}",
-        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; line-height: 130%; } p.h1 {font-family: Taviraj, serif; font-size: small; margin-top: 3rem; width: 70%; } p.h6 {padding-top: 8rem; letter-spacing: 1px; } .prose {text-align: -webkit-center;}}",
+        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; line-height: 130%; } p.h1 {font-family: Taviraj, serif; font-size: small; margin-top: 3rem; width: 70%; } p.h6 {padding-top: 8rem; letter-spacing: 1px; } .prose {text-align: -webkit-center; }}",
         "a.button:hover {color: black !important; border-color: black !important;}"
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
@@ -140,7 +140,8 @@
         "collection_MF7gMq"
       ],
       "custom_css": [
-        ".v-stack.justify-self-center.gap-4.text-center.sm\\:gap-5 {display: none;}"
+        ".v-stack.justify-self-center.gap-4.text-center.sm\\:gap-5 {display: none;}",
+        "@media screen and (max-width: 767px) {a.product-title {font-size: 12px; } sale-price.text-subdued {font-size: 10px; } price-list.price-list {width: 100%; justify-content: start !important; } .v-stack.justify-items-center.gap-2 {width: 100% !important; justify-items: start !important; text-align: -webkit-left !important;}}"
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
