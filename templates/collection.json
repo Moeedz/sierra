@@ -11,6 +11,9 @@
   "sections": {
     "collection-banner": {
       "type": "collection-banner",
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.collection-banner * {height: 20px !important; min-height: 100px !important;}}"
+      ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "image": "shopify://shop_images/P9091453_01cfad04-ea97-492d-a624-eaa3241fe2ed.jpg",
