@@ -28,6 +28,7 @@
       "blocks": {
         "image_qzweQD": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/mkkokok_7c188b29-d49b-4ee4-8222-1e14103d9b6e.png",
             "image_width": 300,
