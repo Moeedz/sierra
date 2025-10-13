@@ -172,6 +172,9 @@
       "block_order": [
         "slide_PNg3gD"
       ],
+      "custom_css": [
+        ".image-text-heading-template--25661479354677__ss_image_with_text_12_wVjppG * {font-weight: 900 !important;}"
+      ],
       "name": "SS - Image With Text #12",
       "settings": {
         "slide_gap": 70,
