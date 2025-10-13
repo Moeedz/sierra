@@ -140,8 +140,7 @@
         "collection_MF7gMq"
       ],
       "custom_css": [
-        ".v-stack.justify-self-center.gap-4.text-center.sm\\:gap-5 {display: none;}",
-        "product-list.floating-controls-container.floating-controls-container--inside.floating-controls-container--on-hover {padding-top: 20px;}"
+        ".v-stack.justify-self-center.gap-4.text-center.sm\\:gap-5 {display: none;}"
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
