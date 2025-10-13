@@ -28,7 +28,7 @@
 
             {%- when 'richtext' -%}
               {%- if block.settings.content != blank -%}
-                <div {{ block.shopify_attributes }}>
+                <div {{ block.shopify_attributes }} class="rich-content">
                   {{- block.settings.content -}}
                 </div>
               {%- endif -%}
