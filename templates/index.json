@@ -461,6 +461,7 @@
         "richtext_E7M8q3",
         "button_ekJ6za"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {strong {font-size: 35px; font-family: \"Taviraj\"; }}",
         "@media screen and (min-width: 768px) {strong {font-size: 45px; font-family: \"Taviraj\"; }}",
