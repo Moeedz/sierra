@@ -7554,36 +7554,36 @@ product-rerender {
 
 .h1, :where(.prose h1) {
   font-size: var(--text-h1);
-  line-height: 1.5;
+  line-height: 130%;
 }
 
 .h2, :where(.prose h2) {
   font-size: var(--text-h2);
-  line-height: 1.5;
+  line-height: 130%;
 }
 
 .h3, :where(.prose h3) {
   font-size: var(--text-h3);
-  line-height: 1.6;
+  line-height: 130%;
 }
 
 .h4, :where(.prose h4) {
   font-size: var(--text-h4);
-  line-height: 1.6;
+  line-height: 130%;
 }
 
 .h5, :where(.prose h5) {
   font-size: var(--text-h5);
-  line-height: 1.7;
+  line-height: 130%;
 }
 
 .h6, :where(.prose h6) {
   font-size: var(--text-h6);
-  line-height: 1.7;
+  line-height: 130%;
 }
 
 .prose blockquote {
-  line-height: 1.75;
+  line-height: 130%;
 }
 
 @media screen and (min-width: 700px) {
