@@ -126,20 +126,18 @@ therefore using a different structure for the Shadow DOM template
                 {%- for sub_link in link.links -%}
                   <li>
                     {%- if sub_link.links.size > 0 -%}
-                      <accordion-disclosure>
-                        <details class="accordion__disclosure group">
-                          <summary class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
-                            {{- sub_link.title -}}
-                            <span class="animated-plus group-expanded:rotate" aria-hidden="true"></span>
-                          </summary>
+                      {%- comment -%}Changed: Remove accordion, show sub-items directly{%- endcomment -%}
+                      <div class="header-sidebar__category-section">
+                        <div class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}" style="pointer-events: none; opacity: 0.6;">
+                          {{- sub_link.title -}}
+                        </div>
 
-                          <div class="header-sidebar__nested-linklist">
-                            {%- for sub_sub_link in sub_link.links -%}
-                              <a href="{{ sub_sub_link.url }}" class="link-faded-reverse">{{ sub_sub_link.title }}</a>
-                            {%- endfor -%}
-                          </div>
-                        </details>
-                      </accordion-disclosure>
+                        <div class="header-sidebar__nested-linklist" style="display: block;">
+                          {%- for sub_sub_link in sub_link.links -%}
+                            <a href="{{ sub_sub_link.url }}" class="link-faded-reverse">{{ sub_sub_link.title }}</a>
+                          {%- endfor -%}
+                        </div>
+                      </div>
                     {%- else -%}
                       <a href="{{ sub_link.url }}" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
                         {{- sub_link.title -}}
