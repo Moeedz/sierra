@@ -279,7 +279,8 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "header-sidebar#sidebar-menu * {font-family: \"Poppins\" !important;}"
+      "header-sidebar#sidebar-menu * {font-family: \"Poppins\" !important;}",
+      "ul.header-sidebar__linklist.divide-y.unstyled-list li {border: unset !important;}"
     ]
   }
 }
