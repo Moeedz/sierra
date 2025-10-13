@@ -19,7 +19,7 @@
             "mobile_image": "shopify://shop_images/IMG_0086-8_29750f8e-2ec5-479b-bbc8-3e49e663e10a.jpg",
             "subheading": "Your Higher Self Is Calling...",
             "title": "Awaken your light through the power of colors, crystals, and frequencies. ",
-            "mobile_text_position": "place-self-start-center text-center",
+            "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 700,
             "button_1_text": "Explore the energy",
@@ -45,8 +45,7 @@
       ],
       "custom_css": [
         "@media screen and (min-width: 768px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; } p.h1 {font-family: Taviraj, serif; font-size: small; }}",
-        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; line-height: 130%; } p.h1 {font-family: Taviraj, serif; font-size: small; margin-top: 6rem; width: 70%; } p.h6 {padding-top: 5rem; letter-spacing: 1px; } .prose {text-align: -webkit-center; }}",
-        "a.button:hover {color: black !important; border-color: black !important;}"
+        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; line-height: 130%; } p.h1 {font-family: Taviraj, serif; font-size: small; margin-top: 2rem; width: 70%; } p.h6 {padding-top: 5rem; letter-spacing: 1px; bottom: 20px; position: relative; } .prose {text-align: -webkit-center; }}"
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
@@ -461,7 +460,6 @@
         "richtext_E7M8q3",
         "button_ekJ6za"
       ],
-      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {strong {font-size: 35px; font-family: \"Taviraj\"; }}",
         "@media screen and (min-width: 768px) {strong {font-size: 45px; font-family: \"Taviraj\"; }}",
