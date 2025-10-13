@@ -96,7 +96,7 @@
       "custom_css": [
         ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}",
         ".prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {border: 0 !important; color: #575151 !important;}",
-        "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } .prose.text-center strong {font-size: 15px !important; } p.h3 {padding-bottom: 20px !important; }}"
+        "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } .prose.text-center strong {font-size: 15px !important; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px; padding-bottom: 3px; padding-left: 29px; padding-right: 29px; margin-top: 0 !important;}}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
