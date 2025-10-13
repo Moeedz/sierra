@@ -5211,12 +5211,15 @@ product-rerender {
 
 .header-sidebar__footer:before {
   content: "";
-  background: linear-gradient(transparent, rgb(var(--background)));
+  background: #F1FCFD;
   width: 100%;
   height: 2.5rem;
   position: absolute;
   inset-block-end: 100%;
   inset-inline-start: 0;
+}
+.header-sidebar__footer {
+    background: #F1FCFD !important;
 }
 
 .header-sidebar__footer > * {
