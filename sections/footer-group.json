@@ -39,6 +39,9 @@
       "block_order": [
         "image_qzweQD"
       ],
+      "custom_css": [
+        "p.heading.text-subdued.text-xxs {font-family: 'Poppins';}"
+      ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": false,
