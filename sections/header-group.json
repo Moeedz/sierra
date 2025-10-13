@@ -63,7 +63,8 @@
       ],
       "custom_css": [
         "li.header__primary-nav-item * {font-family: \"Poppins\" !important;}",
-        ".v-stack.text-center.gap-2\\.5 {width: 100% !important; text-align: -webkit-left !important;}"
+        ".v-stack.text-center.gap-2\\.5 {width: 100% !important; text-align: -webkit-left !important;}",
+        "@media screen and (max-width: 767px) {nav.header__secondary-nav {flex-wrap: nowrap !important;}}"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
