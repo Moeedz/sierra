@@ -126,9 +126,9 @@ therefore using a different structure for the Shadow DOM template
                 {%- for sub_link in link.links -%}
                   <li>
                     {%- if sub_link.links.size > 0 -%}
-                      {%- comment -%}Changed: Remove accordion, show sub-items directly{%- endcomment -%}
+                      {%- comment -%}Subcategory heading with nested items{%- endcomment -%}
                       <div class="header-sidebar__category-section">
-                        <div class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}" style="pointer-events: none; opacity: 0.6;">
+                        <div class="header-sidebar__linklist-button header-sidebar__subcategory-heading {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}" style="pointer-events: none; opacity: 0.6;">
                           {{- sub_link.title -}}
                         </div>
 
@@ -139,7 +139,8 @@ therefore using a different structure for the Shadow DOM template
                         </div>
                       </div>
                     {%- else -%}
-                      <a href="{{ sub_link.url }}" class="header-sidebar__linklist-button {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
+                      {%- comment -%}Subcategory heading without nested items{%- endcomment -%}
+                      <a href="{{ sub_link.url }}" class="header-sidebar__linklist-button header-sidebar__subcategory-heading {% if section.settings.sidebar_text_font == 'heading' %}h6{% endif %}">
                         {{- sub_link.title -}}
                       </a>
                     {%- endif -%}
