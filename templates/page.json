@@ -40,7 +40,7 @@
       ],
       "name": "SS - Image/Text overlap",
       "settings": {
-        "background-color": "#cffcff",
+        "background-color": "#f1fcfd",
         "padding_top": 36,
         "padding_bottom": 36,
         "text_aligment": "right",
