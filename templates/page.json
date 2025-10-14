@@ -1,1 +1,58 @@
-{"sections":{"main":{"type":"main-page","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "ss_image_with_text_2_ipN7Bx": {
+      "type": "ss-image-with-text-2",
+      "blocks": {
+        "block_QKizTj": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0073-5.jpg",
+            "title": "Heading",
+            "text": "<p>Description goes here</p>",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_QKizTj"
+      ],
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.brick__block.text-block {padding-left: 20px; }}"
+      ],
+      "name": "SS - Image/Text overlap",
+      "settings": {
+        "background-color": "#cffcff",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "text_aligment": "right",
+        "section_title_size": 28,
+        "section_text_size": 14,
+        "section_color_h2": "#000000",
+        "section_color_p": "#000000",
+        "section_btn_size": 14
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_image_with_text_2_ipN7Bx"
+  ]
+}
