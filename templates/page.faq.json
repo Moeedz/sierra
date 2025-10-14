@@ -122,6 +122,9 @@
         "question_wC3AyP",
         "question_EAJii3"
       ],
+      "custom_css": [
+        ".section-header.justify-self-center.text-center h2 {font-size: 35px !important;}"
+      ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
