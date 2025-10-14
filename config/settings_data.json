@@ -287,7 +287,8 @@
   "platform_customizations": {
     "custom_css": [
       "header-sidebar#sidebar-menu * {font-family: \"Poppins\" !important;}",
-      "ul.header-sidebar__linklist.divide-y.unstyled-list li {border: unset !important;}"
+      "ul.header-sidebar__linklist.divide-y.unstyled-list li {border: unset !important;}",
+      "@media screen and (max-width: 767px) {.img-with-text.inverted.section-template--25661479649589__ss_image_with_text_2_ipN7Bx-padding {margin-top: 0 !important; padding-top: 0 !important; }}"
     ]
   }
 }
