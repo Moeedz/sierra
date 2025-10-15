@@ -90,11 +90,34 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "rich_text_6XVaGj": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_MziJep": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_MziJep"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "lg",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
     "main",
     "ss_image_with_text_2_ipN7Bx",
-    "image_with_text_overlay_8tMaPf"
+    "image_with_text_overlay_8tMaPf",
+    "rich_text_6XVaGj"
   ]
 }
