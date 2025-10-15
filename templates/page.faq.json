@@ -12,112 +12,85 @@
     "faq": {
       "type": "faq",
       "blocks": {
-        "category": {
-          "type": "category",
-          "settings": {
-            "title": "PEDIDOS Y PAGOS",
-            "icon": "none",
-            "icon_width": 16
-          }
-        },
         "question-1": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿Cuánto tardaré en recibir mi pedido?</strong>",
-            "answer": "<p>Todos los pedidos realizados antes de las 15:00 de la tarde se enviarán el mismo día laborable. Sin embargo, durante los periodos de rebajas y promociones, puede haber un ligero retraso en el envío de su pedido.<br/><br/>Visite nuestra página de Envíos <a href=\"/pages/envios\" title=\"Envíos\">aquí </a>para obtener más información sobre los plazos de envío.</p>"
+            "question": "What is Light-Infused Jewelry?",
+            "answer": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn’t the case, let us know and we’ll do our best to work with you to make it right.</p>"
           }
         },
         "question-2": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿Cómo puedo recibir el código de descuento para mi primer pedido?</strong>",
-            "answer": "<p>Para todos los clientes de Meyme por primera vez, ofrecemos un código de descuento del 10%, que se enviará por correo electrónico una vez que se haya suscrito a nuestra Newsletter. Si no lo recibe, envíe un correo electrónico a shop@meymestore.com o póngase en contacto con nosotros a través del chat en vivo.</p>"
+            "question": "What is my 'Higher Self'?",
+            "answer": "<p>We are unable to accept returns on certain items. These will be carefully marked before purchase.</p>"
           }
         },
         "question-3": {
           "type": "question",
           "settings": {
-            "question": "<strong>He recibido un artículo defectuoso o incorrecto, ¿qué hago?</strong>",
-            "answer": "<p>Si crees que has recibido un artículo defectuoso o incorrecto, ponte en contacto con nosotros <a href=\"/pages/contacto\" title=\"Contacto\">aquí</a></p>"
+            "question": "What does the term \"light\" mean?",
+            "answer": "<p>We will work quickly to ship your order as soon as possible. Once your order has shipped, you will receive an email with further information. Delivery times vary depending on your location.</p>"
           }
         },
         "question_BdHDEG": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿Qué métodos de pago aceptan?</strong>",
-            "answer": "<p>Actualmente aceptamos los siguientes métodos de pago:<br/>Visa, MasterCard, American Express, Maestro, iDEAL, Bancontact, Shop Pay, Apple Pay, Google Pay, PayPal, Amazon Pay, Bizum, Clearpay y Klarna.</p>"
-          }
-        },
-        "category_V6gQWh": {
-          "type": "category",
-          "settings": {
-            "title": "ENVÍOS",
-            "icon": "none",
-            "icon_width": 16
+            "question": "How is the jewelry 'Activated'?",
+            "answer": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>"
           }
         },
         "question_4qPggP": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿Cuánto tarda el envío?</strong>",
-            "answer": "<p>Dado que los gastos de envío varían considerablemente en función del destino, consulte nuestra <a href=\"/pages/envios\" title=\"Envíos\">política de envíos</a> para conocer los plazos de envío estimados.</p>"
+            "question": "How can I manifest with my jewelry?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
         "question_Jkf6xh": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿Cómo puedo hacer el seguimiento de mi pedido?</strong>",
-            "answer": "<p>Cuando su pedido se envíe, recibirá un correo electrónico de la empresa de transporte con la información de seguimiento de su pedido.</p>"
+            "question": "How do I cleanse the energy of my jewelry?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
         "question_gmdhUx": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿Con qué empresa de mensajería se enviará mi pedido?</strong>",
-            "answer": "<p>Utilizamos diferentes empresas de mensajería para hacer llegar a los clientes sus pedidos de la forma más rápida y eficaz posible. Una vez enviado su pedido, recibirá un correo electrónico del transportista correspondiente. Así como cualquier información de seguimiento relevante que pueda necesitar.<br/><br/>Nuestros transportistas de envío son exclusivamente:</p><p>CTT: España y Portugal.</p><p>UPS: Resto de Europa y Estados Unidos.</p>"
-          }
-        },
-        "category_xNGDcm": {
-          "type": "category",
-          "settings": {
-            "title": "cambios y devoluciones",
-            "icon": "none",
-            "icon_width": 16
+            "question": "How can I program my jewelry?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
         "question_dQHLfQ": {
           "type": "question",
           "settings": {
-            "question": "<strong>Si no estoy satisfecha con mi compra, ¿Puedo devolverla/cambiarla?</strong>",
-            "answer": "<p>Si no está satisfecha con su pedido reciente de Meyme. Estaremos encantados de aceptar cualquier artículo que esté en condiciones nuevas y que no haya sido usado, lavado o alterado.<br/><br/>Todas las devoluciones y cambios deben realizarse de acuerdo con las directrices de nuestra Política de cambios y devoluciones.</p>"
+            "question": "Can my jewelry get wet?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
         "question_wC3AyP": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿De cuanto tiempo dispongo para solicitar una devolución o un cambio?</strong>",
-            "answer": "<p>Dispones de 30 días desde la recepción del pedido para solicitar una devolución o un cambio.</p>"
+            "question": "How do I know which piece is right for me?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
         "question_EAJii3": {
           "type": "question",
           "settings": {
-            "question": "<strong>¿Cuál es el coste de la devolución?</strong>",
-            "answer": "<p>Los costes de transporte asumidos por el cliente relativos a la devolución de un pedido serán los siguientes:</p><p>3,95€ en España | 8,95€ Unión Europea y Reino Unido | 25€ fuera de Unión Europea.</p><p>Estos costes serán descontados del importe a devolver al medio de pago que utilizaste en el momento de la compra.</p>"
+            "question": "How much does shipping cost?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         }
       },
       "block_order": [
-        "category",
         "question-1",
         "question-2",
         "question-3",
         "question_BdHDEG",
-        "category_V6gQWh",
         "question_4qPggP",
         "question_Jkf6xh",
         "question_gmdhUx",
-        "category_xNGDcm",
         "question_dQHLfQ",
         "question_wC3AyP",
         "question_EAJii3"
@@ -130,7 +103,7 @@
         "separate_section_with_border": true,
         "show_categories": false,
         "subheading": "",
-        "title": "Frequently Asked Questions",
+        "title": "꩜ Frequently Asked Questions",
         "content": ""
       }
     }
