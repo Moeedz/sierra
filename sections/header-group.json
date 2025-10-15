@@ -73,7 +73,7 @@
         "hide_on_scroll": false,
         "show_separation_border": false,
         "reduce_padding": true,
-        "logo": "shopify://shop_images/wesbite.logo..png",
+        "logo": "shopify://shop_images/mkkokok.png",
         "logo_max_width": 230,
         "logo_mobile_max_width": 200,
         "menu": "main-menu",
@@ -89,7 +89,8 @@
         "show_country_name": false,
         "show_country_flag": false,
         "show_locale_selector": true,
-        "transparent_header_text_color": "rgba(0,0,0,0)"
+        "transparent_header_text_color": "rgba(0,0,0,0)",
+        "transparent_logo": "shopify://shop_images/wesbite.logo..png"
       }
     }
   },
