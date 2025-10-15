@@ -35,6 +35,7 @@
       "block_order": [
         "block_QKizTj"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {.brick__block.text-block {padding-left: 20px; } .img-with-text.inverted.section-template--25661479649589__ss_image_with_text_2_ipN7Bx-padding {margin-top: 0 !important; padding-top: 0 !important; }}"
       ],
@@ -50,10 +51,50 @@
         "section_color_p": "#000000",
         "section_btn_size": 14
       }
+    },
+    "image_with_text_overlay_8tMaPf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_cyCXTb": {
+          "type": "heading",
+          "settings": {
+            "text": "About me",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_wJT8jr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Sierra Isabel</h1>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cyCXTb",
+        "richtext_wJT8jr"
+      ],
+      "custom_css": [
+        "h1 {font-family: \"Poppins\"; font-size: 40px;}"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify://shop_images/IMG_0073-5.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "main",
-    "ss_image_with_text_2_ipN7Bx"
+    "ss_image_with_text_2_ipN7Bx",
+    "image_with_text_overlay_8tMaPf"
   ]
 }
