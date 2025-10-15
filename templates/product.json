@@ -156,6 +156,9 @@
     },
     "related-products": {
       "type": "related-products",
+      "custom_css": [
+        "h2 {font-family: \"Poppins\" !important;}"
+      ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": false,
@@ -173,6 +176,9 @@
     },
     "newsletter_kk9Hw4": {
       "type": "newsletter",
+      "custom_css": [
+        "h3 {font-family: 'Poppins' !important;}"
+      ],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
