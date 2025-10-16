@@ -110,7 +110,7 @@ therefore using a different structure for the Shadow DOM template
         {%- comment -%}Product Slider Section{%- endcomment -%}
         <div class="header-sidebar__product-slider" style="margin-top: 20px; padding: 0 15px; margin-bottom: 20px;">
           {%- comment -%}Change 'all' to your collection handle or use a specific collection{%- endcomment -%}
-          {%- assign featured_collection = collections.all -%}
+          {%- assign featured_collection = collections.['new-arrivals'] -%}
           
           {%- if featured_collection.products.size > 0 -%}
             <div class="sidebar-product-scroll" style="display: flex; gap: 15px; overflow-x: auto; padding-bottom: 10px; scroll-behavior: smooth; -webkit-overflow-scrolling: touch;">
