@@ -41,9 +41,9 @@
     "cart_icon": "shopping_bag",
     "cart_show_free_shipping_bar": true,
     "cart_free_shipping_threshold": "60",
-    "social_pinterest": "https://www.pinterest.es/meymeofficial/",
-    "social_instagram": "https://www.instagram.com/meymeofficial/?hl=es",
-    "social_tiktok": "https://www.tiktok.com/@meymeofficial",
+    "social_pinterest": "",
+    "social_instagram": "https://www.instagram.com/sierraisabel.activations?igsh=MWVxbHpqODQ0N29oYw%3D%3D&utm_source=qr",
+    "social_tiktok": "",
     "favicon": "shopify://shop_images/spirallogo.webp",
     "content_for_index": [],
     "blocks": {
@@ -288,7 +288,7 @@
     "custom_css": [
       "header-sidebar#sidebar-menu * {font-family: \"Poppins\" !important;}",
       "ul.header-sidebar__linklist.divide-y.unstyled-list li {border: unset !important;}",
-      "@media screen and (max-width: 767px) {.img-with-text.inverted.section-template--25661479649589__ss_image_with_text_2_ipN7Bx-padding {margin-top: 0 !important; padding-top: 0 !important; } a.header-sidebar__linklist-button.header-sidebar__subcategory-heading.h6 {padding-bottom: 0.66rem !important;}}"
+      "@media screen and (max-width: 767px) {.img-with-text.inverted.section-template--25661479649589__ss_image_with_text_2_ipN7Bx-padding {margin-top: 0 !important; padding-top: 0 !important; } a.header-sidebar__linklist-button.header-sidebar__subcategory-heading.h6 {padding-bottom: 0.66rem !important; }}"
     ]
   }
 }
