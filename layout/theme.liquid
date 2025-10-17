@@ -2,6 +2,13 @@
 
 <html lang="{{ request.locale.iso_code }}" dir="{% render 'direction' %}">
   <head>
+    {% if template == 'password' %}
+     <style>
+      .essential_free_shipping_bar_wrapper.free_shipping_bar_wrapper_cmfaqkmaw00fwvg2ufmy9adv3 {
+    display: none !important;
+}
+     </style>
+    {% endif %}
 <style>
   .spiral {
     color: #B6F7FF !important;
