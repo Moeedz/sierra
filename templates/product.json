@@ -126,6 +126,10 @@
             "stack_products": false,
             "show_quick_buy": true
           }
+        },
+        "judge_me_reviews_preview_badge_VhDGm8": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -142,7 +146,8 @@
         "accordion_cEhKjK",
         "accordion_6aR3PE",
         "quantity_selector",
-        "complementary_products"
+        "complementary_products",
+        "judge_me_reviews_preview_badge_VhDGm8"
       ],
       "custom_css": [
         "h1.product-title.h1 {font-family: Taviraj, serif; text-transform: capitalize;}",
