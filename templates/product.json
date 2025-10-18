@@ -83,8 +83,8 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "Energetic Properties",
-            "content": "<p>꩜ Crystals: Kunzite</p><p>꩜ Chakras: Crown</p>",
+            "title": "Colors & Chakras",
+            "content": "<p></p><p>Pink/heart:</p><p>Blue/throat:</p><p>Clear/Crown:</p>",
             "liquid": "",
             "page": ""
           }
@@ -177,7 +177,7 @@
     "newsletter_kk9Hw4": {
       "type": "newsletter",
       "custom_css": [
-        "h3 {font-family: 'Poppins' !important;}"
+        "h3 {font-family: \"Poppins\" !important;}"
       ],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
