@@ -222,7 +222,7 @@
     "newsletter_kk9Hw4": {
       "type": "newsletter",
       "custom_css": [
-        "h3 {font-family: \"Poppins\" !important;}"
+        "h2 {font-family: \"Poppins\" !important;}"
       ],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
@@ -231,7 +231,7 @@
         "image_size": "auto",
         "subheading": "",
         "title": "",
-        "content": "<h3>Sign up for our newsletter</h3>",
+        "content": "<h2>Sign up for 10% off your first order </h2>",
         "button_text": "Subscribe",
         "overlay_color": "#000000",
         "overlay_opacity": 0

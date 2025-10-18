@@ -590,12 +590,13 @@
     "newsletter_txdaqM": {
       "type": "newsletter",
       "custom_css": [
-        "button.button:hover {color: black !important; border-color: black !important;}"
+        "button.button:hover {color: black !important; border-color: black !important;}",
+        "h2 {font-family: \"Poppins\" !important;}"
       ],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "auto",
         "subheading": "",
         "title": "Sign up for 10% off your first order",

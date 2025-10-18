@@ -107,14 +107,18 @@
     },
     "newsletter_4i6pTX": {
       "type": "newsletter",
+      "custom_css": [
+        "button.button:hover {color: black !important; border-color: black !important;}",
+        "h2 {font-family: \"Poppins\" !important;}"
+      ],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "image_size": "auto",
         "subheading": "",
         "title": "",
-        "content": "<h3>Sign up for our newsletter</h3>",
+        "content": "<h2>Sign up for 10% off your first order</h2>",
         "button_text": "Subscribe",
         "overlay_color": "#000000",
         "overlay_opacity": 0
