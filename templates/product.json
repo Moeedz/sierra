@@ -155,10 +155,10 @@
         "judge_me_reviews_preview_badge_VhDGm8"
       ],
       "custom_css": [
-        "h1.product-title.h1 {font-family: Taviraj, serif; text-transform: capitalize;}",
+        "h1.product-title.h1 {font-family: \"Poppins\"; text-transform: capitalize;}",
         "sale-price.h4.text-subdued {font-family: poppins;}",
         "button.button.button--outline.w-full {color: black !important;}",
-        "details.accordion__disclosure.group span {font-family: 'Poppins' !important;}",
+        "details.accordion__disclosure.group span {font-family: \"Poppins\" !important; font-size: 16px;}",
         "button.button.w-full:hover {color: black !important; border-color: black !important;}"
       ],
       "settings": {
