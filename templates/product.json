@@ -67,6 +67,10 @@
             "payment_button_text_color": ""
           }
         },
+        "es_back_in_stock_product_restore_email_xtnkU7": {
+          "type": "shopify://apps/es-back-in-stock/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
+          "settings": {}
+        },
         "accordion_i4kqwh": {
           "type": "accordion",
           "settings": {
@@ -141,6 +145,7 @@
         "description",
         "variant_picker",
         "buy_buttons",
+        "es_back_in_stock_product_restore_email_xtnkU7",
         "accordion_i4kqwh",
         "accordion_k47VTa",
         "accordion_cEhKjK",
