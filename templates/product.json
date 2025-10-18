@@ -159,7 +159,8 @@
         "sale-price.h4.text-subdued {font-family: poppins;}",
         "button.button.button--outline.w-full {color: black !important;}",
         "details.accordion__disclosure.group span {font-family: \"Poppins\" !important; font-size: 16px;}",
-        "button.button.w-full:hover {color: black !important; border-color: black !important;}"
+        "button.button.w-full:hover {color: black !important; border-color: black !important;}",
+        ".accordion__content.prose * {font-size: 12px !important;}"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
