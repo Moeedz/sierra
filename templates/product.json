@@ -87,7 +87,7 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "Crystal Codes & Wisdom",
+            "title": "<strong>꩜ </strong>Crystal Codes & Wisdom",
             "content": "<p></p><p>Pink/heart:</p><p>Blue/throat:</p><p>Clear/Crown:</p>",
             "liquid": "",
             "page": ""
@@ -98,7 +98,7 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "Color Frequencies & Chakra Activation",
+            "title": "<strong>꩜</strong> Color Frequencies & Chakra Activation",
             "content": "<p>To maintain the beauty and integrity of your purchase, we recommend treating it with care. Simple maintenance practices, such as gentle washing and proper storage, can effectively preserve the longevity of your favorites. We encourage you to refer to the care instructions included with each item, designed to help you keep your purchase in top condition.</p>",
             "liquid": "",
             "page": ""
@@ -109,8 +109,8 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "How to Cleanse & Care",
-            "content": "<p>To maintain the beauty and integrity of your purchase, we recommend treating it with care. Simple maintenance practices, such as gentle washing and proper storage, can effectively preserve the longevity of your favorites. We encourage you to refer to the care instructions included with each item, designed to help you keep your purchase in top condition.</p>",
+            "title": "<strong>꩜</strong> Specifics",
+            "content": "<p><strong>Hardware: </strong>14k gold filled clasp, chain extender, and logo tag.</p>",
             "liquid": "",
             "page": ""
           }
