@@ -24,7 +24,7 @@
             "content_max_width": 700,
             "button_1_text": "Explore the Activations",
             "button_1_link": "https://sierraisabelactivations.com/collections/new-arrivals",
-            "button_1_style": "outline",
+            "button_1_style": "solid",
             "button_1_background": "#cffcff",
             "button_1_text_color": "#1c1c1c",
             "button_2_text": "",
