@@ -66,7 +66,14 @@
         "richtext_ULHwfh": {
           "type": "richtext",
           "settings": {
-            "content": "<p>꩜ This is more than just jewelry — this is an activation.</p><p></p><p>Each piece </p><p></p><p>Portals of energy designed to reawaken your unique energetic expression, your Higher Self.</p><p></p><p>deeper part of your Higher Self that is ready to be embodied.</p><p>Every crystal, color, and intention creates a frequency and portal of energy, that activates an aspect of your vast soul.</p><p>This is  guiding you towards the energy you're ready to connect with to rediscover who you truly are and the energy you are here to share. </p><p>Because you've always felt that there's more to life, more to this existence... now allow me to introduce you to a new </p><p></p>"
+            "content": "<p>꩜ Deep down you've always felt that there's more to this existence. </p><p>That the lif</p><p></p><p></p>"
+          }
+        },
+        "richtext_BVt96Q": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>꩜ This is more than just jewelry — this is an activation.</p><p></p><p>A return to your True unique essence, your Higher Self. </p><p>Each piece as unique a</p><p></p><p>Portals of energy designed to reawaken your unique energetic expression, your Higher Self.</p><p></p><p>deeper part of your Higher Self that is ready to be embodied.</p><p>Every crystal, color, and intention creates a frequency and portal of energy, that activates an aspect of your vast soul.</p><p>This is  guiding you towards the energy you're ready to connect with to rediscover who you truly are and the energy you are here to share. </p><p>Because you've always felt that there's more to life, more to this existence... now allow me to introduce you to a new </p><p></p>"
           }
         },
         "button_KmFND9": {
@@ -82,6 +89,7 @@
       },
       "block_order": [
         "richtext_ULHwfh",
+        "richtext_BVt96Q",
         "button_KmFND9"
       ],
       "custom_css": [
