@@ -65,7 +65,7 @@
           "type": "question",
           "settings": {
             "question": "Do you accept returns?",
-            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
+            "answer": "<p>All sales are final.</p>"
           }
         },
         "question_EAJii3": {
