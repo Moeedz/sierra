@@ -15,7 +15,7 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "question": "<strong>What is Light-Infused Jewelry?</strong>",
+            "question": "What is Light-Coded Jewelry?",
             "answer": "<p>Our goal is for every customer to be totally satisfied with their purchase. If this isn’t the case, let us know and we’ll do our best to work with you to make it right.</p>"
           }
         },
@@ -38,13 +38,6 @@
           "settings": {
             "question": "How is the jewelry 'Activated'?",
             "answer": "<p>Our products are manufactured both locally and globally. We carefully select our manufacturing partners to ensure our products are high quality and a fair value.</p>"
-          }
-        },
-        "question_4qPggP": {
-          "type": "question",
-          "settings": {
-            "question": "How can I manifest with my jewelry?",
-            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
         "question_Jkf6xh": {
@@ -95,7 +88,6 @@
         "question-2",
         "question-3",
         "question_BdHDEG",
-        "question_4qPggP",
         "question_Jkf6xh",
         "question_gmdhUx",
         "question_dQHLfQ",
