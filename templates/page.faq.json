@@ -54,10 +54,10 @@
             "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
-        "question_EAJii3": {
+        "question_CrP7LY": {
           "type": "question",
           "settings": {
-            "question": "How much does shipping cost?",
+            "question": "What happens if my jewelry breaks?",
             "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
@@ -68,10 +68,10 @@
             "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
-        "question_CrP7LY": {
+        "question_EAJii3": {
           "type": "question",
           "settings": {
-            "question": "What happens if my jewelry breaks?",
+            "question": "How much does shipping cost?",
             "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         }
@@ -83,9 +83,9 @@
         "question_wC3AyP",
         "question_Jkf6xh",
         "question_dQHLfQ",
-        "question_EAJii3",
+        "question_CrP7LY",
         "question_wJN9MN",
-        "question_CrP7LY"
+        "question_EAJii3"
       ],
       "custom_css": [
         ".section-header.justify-self-center.text-center h2 {font-size: 35px !important; font-family: \"Poppins\" !important;}"
