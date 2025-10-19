@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/IMG_9439.jpg",
             "mobile_image": "shopify://shop_images/IMG_0086-8_29750f8e-2ec5-479b-bbc8-3e49e663e10a.jpg",
             "subheading": "",
-            "title": "",
+            "title": "Will you listen to the whispers of your soul and remember who you truly are?",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 700,
@@ -58,6 +58,41 @@
         "cycle_speed": 4,
         "background": "#000000",
         "controls_color": "#ffffff"
+      }
+    },
+    "image_with_text_overlay_RmbpCF": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_9CHzj7": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text overlay",
+            "heading_tag": "h4"
+          }
+        },
+        "richtext_VazqfQ": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Will you </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9CHzj7",
+        "richtext_VazqfQ"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#f1fcfd",
+        "overlay_opacity": 30
       }
     },
     "rich_text_kXAMRg": {
@@ -658,6 +693,7 @@
   },
   "order": [
     "slideshow_7dgTyP",
+    "image_with_text_overlay_RmbpCF",
     "rich_text_kXAMRg",
     "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH",
