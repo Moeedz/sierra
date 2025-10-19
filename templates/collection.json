@@ -37,7 +37,7 @@
         "heading_PdxwXe": {
           "type": "heading",
           "settings": {
-            "text": "꩜ {{ collection.title }}",
+            "text": "{{ collection.title }}",
             "heading_tag": "h1"
           }
         },
