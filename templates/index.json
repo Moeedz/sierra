@@ -60,55 +60,13 @@
         "controls_color": "#ffffff"
       }
     },
-    "image_with_text_overlay_RmbpCF": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "heading_9CHzj7": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text overlay",
-            "heading_tag": "h4"
-          }
-        },
-        "richtext_VazqfQ": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Will you </p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9CHzj7",
-        "richtext_VazqfQ"
-      ],
-      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "image_size": "auto",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "md",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#f1fcfd",
-        "overlay_opacity": 30
-      }
-    },
     "rich_text_kXAMRg": {
       "type": "rich-text",
       "blocks": {
-        "heading_gq7HwT": {
-          "type": "heading",
-          "settings": {
-            "text": "꩜ <strong>You've always felt there was more...</strong>",
-            "heading_tag": "h2"
-          }
-        },
         "richtext_ULHwfh": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>A deeper wisdom, a higher truth, a light within you ready to be remembered. </strong></p><p><strong>But sometimes life has a way of dimming that light...</strong></p><p>We all carry childhood wounds, fears of being judged, or the weight of everyday responsibilities.</p><p>Whatever may have caused you to lose sight of your own divine light and power, <strong>my creations are here to help you remember.</strong></p><p>Each piece is intentionally <strong>created with potent & high frequencies that your Higher Self uses to communicate through to you.</strong></p>"
+            "content": "<p>꩜ You've always felt there was more...</p><p>more to this physical existence, an ancient wisdom, and deeper calling within yourself.</p><p></p><p>Whatever may have caused you to lose sight of your own divine light and power, <strong>my creations are here to help you remember.</strong></p><p>Each piece is intentionally <strong>created with potent & high frequencies that your Higher Self uses to communicate through to you.</strong></p>"
           }
         },
         "button_KmFND9": {
@@ -123,7 +81,6 @@
         }
       },
       "block_order": [
-        "heading_gq7HwT",
         "richtext_ULHwfh",
         "button_KmFND9"
       ],
@@ -693,7 +650,6 @@
   },
   "order": [
     "slideshow_7dgTyP",
-    "image_with_text_overlay_RmbpCF",
     "rich_text_kXAMRg",
     "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH",
