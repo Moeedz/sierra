@@ -26,24 +26,10 @@
             "answer": "<p>We are unable to accept returns on certain items. These will be carefully marked before purchase.</p>"
           }
         },
-        "question_Jkf6xh": {
-          "type": "question",
-          "settings": {
-            "question": "How do I cleanse the energy of my jewelry?",
-            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
-          }
-        },
         "question_gmdhUx": {
           "type": "question",
           "settings": {
-            "question": "How can I program my jewelry?",
-            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
-          }
-        },
-        "question_dQHLfQ": {
-          "type": "question",
-          "settings": {
-            "question": "Can my jewelry get wet?",
+            "question": "Can I meditate or astral travel with my jewelry?",
             "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
@@ -51,6 +37,20 @@
           "type": "question",
           "settings": {
             "question": "How do I know which piece is right for me?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
+          }
+        },
+        "question_Jkf6xh": {
+          "type": "question",
+          "settings": {
+            "question": "How do I cleanse the energy of my jewelry?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
+          }
+        },
+        "question_dQHLfQ": {
+          "type": "question",
+          "settings": {
+            "question": "Can my jewelry get wet?",
             "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
         },
@@ -67,17 +67,25 @@
             "question": "Do you accept returns?",
             "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
+        },
+        "question_CrP7LY": {
+          "type": "question",
+          "settings": {
+            "question": "What happens if my jewelry breaks?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
+          }
         }
       },
       "block_order": [
         "question-1",
         "question-2",
-        "question_Jkf6xh",
         "question_gmdhUx",
-        "question_dQHLfQ",
         "question_wC3AyP",
+        "question_Jkf6xh",
+        "question_dQHLfQ",
         "question_EAJii3",
-        "question_wJN9MN"
+        "question_wJN9MN",
+        "question_CrP7LY"
       ],
       "custom_css": [
         ".section-header.justify-self-center.text-center h2 {font-size: 35px !important; font-family: \"Poppins\" !important;}"
