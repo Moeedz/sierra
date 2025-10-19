@@ -81,6 +81,13 @@
             "question": "How much does shipping cost?",
             "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
           }
+        },
+        "question_wJN9MN": {
+          "type": "question",
+          "settings": {
+            "question": "Do you accept returns?",
+            "answer": "<p>Shipping is calculated based on your location and the items in your order. You will always know the shipping price before you purchase.</p>"
+          }
         }
       },
       "block_order": [
@@ -93,7 +100,8 @@
         "question_gmdhUx",
         "question_dQHLfQ",
         "question_wC3AyP",
-        "question_EAJii3"
+        "question_EAJii3",
+        "question_wJN9MN"
       ],
       "custom_css": [
         ".section-header.justify-self-center.text-center h2 {font-size: 35px !important; font-family: \"Poppins\" !important;}"
