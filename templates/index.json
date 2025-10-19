@@ -17,14 +17,14 @@
           "settings": {
             "image": "shopify://shop_images/IMG_9439.jpg",
             "mobile_image": "shopify://shop_images/IMG_0086-8_29750f8e-2ec5-479b-bbc8-3e49e663e10a.jpg",
-            "subheading": "Your Higher Self Is Calling...",
-            "title": "Will you listen to the whispers of your soul and remember who you truly are?",
+            "subheading": "",
+            "title": "",
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 700,
-            "button_1_text": "Explore the activations",
+            "button_1_text": "Rediscover You",
             "button_1_link": "https://sierraisabelactivations.com/collections/new-arrivals",
-            "button_1_style": "solid",
+            "button_1_style": "outline",
             "button_1_background": "#cffcff",
             "button_1_text_color": "#1c1c1c",
             "button_2_text": "",
@@ -312,6 +312,55 @@
         "content_width": "sm",
         "text_position": "start",
         "remove_vertical_spacing": false
+      }
+    },
+    "text_with_icons_WMk68J": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_KzRhrW": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_bbrjFH": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_KDGGNm": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_KzRhrW",
+        "item_bbrjFH",
+        "item_KDGGNm"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
       }
     },
     "ss_feature_1_JycCj6": {
@@ -615,6 +664,7 @@
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
     "rich_text_RQzJ7e",
+    "text_with_icons_WMk68J",
     "ss_feature_1_JycCj6",
     "rich_text_ppdV67",
     "image_with_text_overlay_97QHdq",
