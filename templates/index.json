@@ -333,9 +333,9 @@
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify://shop_images/spirallogo.webp",
-            "icon_width": 24,
+            "icon_width": 48,
             "mobile_icon_width": 64,
-            "title": "Colors",
+            "title": "<strong>Colors</strong>",
             "content": "<p>Every color carries it's own frequency that affects us mental, emotionally, and physically. We are constantly affected by the colors around us but mosly unconsiously. the colors you like to wear and surround yourself with is a direct reflection of the state you're in. By wearing different colors, you call in new types of stimulation, activating your chakras, and</p>"
           }
         },
@@ -354,6 +354,9 @@
         "item_KzRhrW",
         "item_bbrjFH",
         "item_KDGGNm"
+      ],
+      "custom_css": [
+        ".h6 {font-size: 25px;}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
