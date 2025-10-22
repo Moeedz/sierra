@@ -161,7 +161,7 @@
         "slide_PNg3gD": {
           "type": "slide",
           "settings": {
-            "heading": "<h3>꩜<strong> </strong>When you're drawn to a piece, its not random. </h3>",
+            "heading": "<h3>꩜ When you're drawn to a piece, its not random. </h3>",
             "text": "<p>When you feel pulled toward one of my creations, it’s not just because it’s beautiful, it’s because your soul recognizes the frequency within it.</p><p>This piece (or pieces) carry a specific vibration that your Higher Self resonates with, guiding you to receive and embody a new activation.</p><p><strong>This pull is your Higher Self’s way of saying, </strong><em><strong>“You’re ready.”</strong></em></p><p>You’re meant to grow and evolve, to follow what lights up your heart and become the version of yourself your soul already knows you can be.</p><p>When you align with your highest path, you naturally radiate from within, with clarity to live and create from the heart.</p>",
             "button": "",
             "button_url": "",
@@ -182,7 +182,7 @@
         "content_horizontal_align": "start",
         "content_horizontal_align_mobile": "start",
         "content_mt": 0,
-        "heading_custom": true,
+        "heading_custom": false,
         "heading_font": "poppins_n4",
         "heading_size": 34,
         "heading_size_mobile": 20,
@@ -320,10 +320,11 @@
         "item_KzRhrW": {
           "type": "item",
           "settings": {
-            "icon": "picto-delivery-truck",
-            "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Free shipping",
+            "icon": "picto-love",
+            "custom_icon": "shopify://shop_images/spirallogo.webp",
+            "icon_width": 48,
+            "mobile_icon_width": 64,
+            "title": "<strong>Crystals</strong>",
             "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
           }
         },
