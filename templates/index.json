@@ -540,7 +540,7 @@
         "item_KDGGNm"
       ],
       "custom_css": [
-        ".h6 {font-size: 25px;}"
+        ".h3 {font-size: 25px;}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
