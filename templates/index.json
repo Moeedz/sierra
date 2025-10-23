@@ -106,6 +106,47 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_Gpidd4": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Y3JGGH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>꩜ Welcome to a new way of reconnecting with your Higher Self.</p><p></p><p>Every piece of my Light-Coded jewelry is a unique portal within...</p><p>Some pieces gently awaken memories from <em>past life Starseed origins,</em> others reawaken the<strong> </strong><em>joy of your inner child</em>, and many are designed to activate and <em>harmonize your energy centers (chakras).</em></p><p>Whichever pieces calls to you, they're here to guide you back to your own Highest Self and truth — made possible through crystal allies and the high frequencies encoded in each creation.</p><p></p><p></p><p></p><p></p><p></p>"
+          }
+        },
+        "richtext_9ca6kK": {
+          "type": "richtext",
+          "disabled": true,
+          "settings": {
+            "content": "<p>꩜ This is more than just jewelry — this is an activation.</p><p></p><p>A return to your True unique essence, your Higher Self. </p><p>Each piece as unique a</p><p></p><p>Portals of energy designed to reawaken your unique energetic expression, your Higher Self.</p><p></p><p>deeper part of your Higher Self that is ready to be embodied.</p><p>Every crystal, color, and intention creates a frequency and portal of energy, that activates an aspect of your vast soul.</p><p>This is  guiding you towards the energy you're ready to connect with to rediscover who you truly are and the energy you are here to share. </p><p>Because you've always felt that there's more to life, more to this existence... now allow me to introduce you to a new </p><p></p>"
+          }
+        },
+        "button_jrDmEb": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "text": "↓ Learn more below",
+            "url": "https://sierraisabelactivations.com/collections/new-arrivals",
+            "background": "rgba(0,0,0,0)",
+            "text_color": "#d3d3d3"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Y3JGGH",
+        "richtext_9ca6kK",
+        "button_jrDmEb"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "custom_liquid_cQVTUj": {
       "type": "custom-liquid",
       "custom_css": [
@@ -162,7 +203,7 @@
           "type": "slide",
           "settings": {
             "heading": "<h3>꩜ When you're drawn to a piece, its not random...</h3>",
-            "text": "<h2></h2><p>It's a sign that your ready to receive new energy or a activation.</p><p><strong>This pull is your Higher Self guiding you toward what your soul is ready to awaken and embody, it's showing you the way/</strong></p><p></p><p>Because the pieces of you that are ready to emerge and reconnect with, they're tied to the deeper purpose of who you are and your soul's mission.</p><p>Because you are not alive here and now randomly, you chose to incarnate at this specific time in this specific version of you to share something po </p><p></p><p></p><p>When you feel pulled toward one of my creations, it’s not just because it’s beautiful, it’s because your soul recognizes the frequency within it.</p><p>This piece (or pieces) carry a specific vibration that your Higher Self resonates with, guiding you to receive and embody a new activation.</p><p><strong>This pull is your Higher Self’s way of saying, </strong><em><strong>“You’re ready.”</strong></em></p><p>You’re meant to grow and evolve, to follow what lights up your heart and become the version of yourself your soul already knows you can be.</p><p>When you align with your highest path, you naturally radiate from within, with clarity to live and create from the heart.</p>",
+            "text": "<h2></h2><p>It's a sign that your ready to receive new energy or a activation.</p><p><strong>This pull is your Higher Self guiding you toward what your soul is ready to awaken and embody, it's showing you the way/</strong></p><p></p><p>Because the pieces of you that are ready to emerge and reconnect with, they're tied to the deeper purpose of who you are and your soul's mission.</p><p>Because you are not alive here and now randomly, you chose to incarnate at this specific time in this specific version of you to share something power and beautiful with the world.</p><p></p><p> </p><p></p><p></p><p>When you feel pulled toward one of my creations, it’s not just because it’s beautiful, it’s because your soul recognizes the frequency within it.</p><p>This piece (or pieces) carry a specific vibration that your Higher Self resonates with, guiding you to receive and embody a new activation.</p><p><strong>This pull is your Higher Self’s way of saying, </strong><em><strong>“You’re ready.”</strong></em></p><p>You’re meant to grow and evolve, to follow what lights up your heart and become the version of yourself your soul already knows you can be.</p><p>When you align with your highest path, you naturally radiate from within, with clarity to live and create from the heart.</p>",
             "button": "",
             "button_url": "",
             "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp"
@@ -710,6 +751,7 @@
   "order": [
     "slideshow_7dgTyP",
     "rich_text_kXAMRg",
+    "rich_text_Gpidd4",
     "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH",
     "ss_image_with_text_12_wVjppG",
