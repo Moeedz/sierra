@@ -302,6 +302,99 @@
         "remove_vertical_spacing": false
       }
     },
+    "image_with_text_block_XKzwGa": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_XjjDxN": {
+          "type": "subheading",
+          "settings": {
+            "text": "Crystals"
+          }
+        },
+        "richtext_YEtmym": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Crystal are our forgotten allies, they carry the perfect energetic structure and are here tohelp humanity evolove. We are living in a time where so many crystals have been resurfaces from deep within Earth and their frequencies can help assist us evolve. The crystalline realm is conscious and</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XjjDxN",
+        "richtext_YEtmym"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
+        "mobile_image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
+        "content_width": "lg",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_block_76gtae": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_JmCVKB": {
+          "type": "subheading",
+          "settings": {
+            "text": "Colors"
+          }
+        },
+        "richtext_WLAeCb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Crystal are our forgotten allies, they carry the perfect energetic structure and are here tohelp humanity evolove. We are living in a time where so many crystals have been resurfaces from deep within Earth and their frequencies can help assist us evolve. The crystalline realm is conscious and</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JmCVKB",
+        "richtext_WLAeCb"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
+        "mobile_image": "shopify://shop_images/P9091453_1dc625cd-0e88-403e-8137-6ff9fe0596fd.jpg",
+        "content_width": "lg",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_block_Hyc3U8": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_P6t3bN": {
+          "type": "subheading",
+          "settings": {
+            "text": "Light Codes"
+          }
+        },
+        "richtext_byDAdX": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Crystal are our forgotten allies, they carry the perfect energetic structure and are here tohelp humanity evolove. We are living in a time where so many crystals have been resurfaces from deep within Earth and their frequencies can help assist us evolve. The crystalline realm is conscious and</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_P6t3bN",
+        "richtext_byDAdX"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
+        "mobile_image": "shopify://shop_images/P7110672_08b995ad-e89a-4d77-bf1a-1838d318619b.jpg",
+        "content_width": "lg",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
+      }
+    },
     "text_with_icons_WMk68J": {
       "type": "text-with-icons",
       "blocks": {
@@ -649,37 +742,6 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
-    },
-    "image_with_text_block_XKzwGa": {
-      "type": "image-with-text-block",
-      "blocks": {
-        "subheading_XjjDxN": {
-          "type": "subheading",
-          "settings": {
-            "text": "Crystals"
-          }
-        },
-        "richtext_YEtmym": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Crystal are our forgotten allies, they carry the perfect energetic structure and are here tohelp humanity evolove. We are living in a time where so many crystals have been resurfaces from deep within Earth and their frequencies can help assist us evolve. The crystalline realm is conscious and</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_XjjDxN",
-        "richtext_YEtmym"
-      ],
-      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
-      "settings": {
-        "color_scheme": "",
-        "image_size": "lg",
-        "image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
-        "mobile_image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
-        "content_width": "lg",
-        "enable_parallax": true,
-        "remove_vertical_spacing": true
-      }
     }
   },
   "order": [
@@ -690,12 +752,14 @@
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
     "rich_text_RQzJ7e",
+    "image_with_text_block_XKzwGa",
+    "image_with_text_block_76gtae",
+    "image_with_text_block_Hyc3U8",
     "text_with_icons_WMk68J",
     "ss_feature_1_JycCj6",
     "rich_text_ppdV67",
     "image_with_text_overlay_97QHdq",
     "ss_image_with_text_12_Qgq3mK",
-    "newsletter_txdaqM",
-    "image_with_text_block_XKzwGa"
+    "newsletter_txdaqM"
   ]
 }
