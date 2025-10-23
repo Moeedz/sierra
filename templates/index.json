@@ -260,18 +260,6 @@
     },
     "rich_text_jA4VH9": {
       "type": "rich-text",
-      "blocks": {
-        "heading_LGd3cw": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong> Jewelry as a Bridge to Higher Guidance</strong>",
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LGd3cw"
-      ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -661,6 +649,37 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "image_with_text_block_XKzwGa": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_XjjDxN": {
+          "type": "subheading",
+          "settings": {
+            "text": "Crystals"
+          }
+        },
+        "richtext_YEtmym": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Crystal are our forgotten allies, they carry the perfect energetic structure and are here tohelp humanity evolove. We are living in a time where so many crystals have been resurfaces from deep within Earth and their frequencies can help assist us evolve. The crystalline realm is conscious and</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XjjDxN",
+        "richtext_YEtmym"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
+        "mobile_image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
+        "content_width": "lg",
+        "enable_parallax": true,
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
@@ -676,6 +695,7 @@
     "rich_text_ppdV67",
     "image_with_text_overlay_97QHdq",
     "ss_image_with_text_12_Qgq3mK",
-    "newsletter_txdaqM"
+    "newsletter_txdaqM",
+    "image_with_text_block_XKzwGa"
   ]
 }
