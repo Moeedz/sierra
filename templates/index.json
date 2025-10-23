@@ -343,9 +343,10 @@
           "type": "item",
           "settings": {
             "icon": "picto-shield",
+            "custom_icon": "shopify://shop_images/spirallogo.webp",
             "icon_width": 24,
-            "mobile_icon_width": 24,
-            "title": "Secure payment",
+            "mobile_icon_width": 64,
+            "title": "Light Codes",
             "content": "<p>Your payment information is processed securely.</p>"
           }
         }
@@ -407,6 +408,7 @@
         "image_giXVpg",
         "image_QA6jLn"
       ],
+      "disabled": true,
       "name": "SS - Feature #1",
       "settings": {
         "feature_row": 3,
