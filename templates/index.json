@@ -552,9 +552,9 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Shop now",
+            "text": "Explore your energy",
             "url": "",
-            "background": "#f1fcfd",
+            "background": "#cffcff",
             "text_color": "#000000"
           }
         }
