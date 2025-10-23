@@ -578,51 +578,6 @@
         "remove_vertical_spacing": false
       }
     },
-    "image_with_text_overlay_97QHdq": {
-      "type": "image-with-text-overlay",
-      "blocks": {
-        "richtext_E7M8q3": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Explore the Collection</strong></p>"
-          }
-        },
-        "button_ekJ6za": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "SHOP NOW",
-            "url": "http://sierraisabelactivations.com/collections/all",
-            "background": "",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "richtext_E7M8q3",
-        "button_ekJ6za"
-      ],
-      "custom_css": [
-        "@media screen and (max-width: 767px) {strong {font-size: 35px; font-family: \"Taviraj\"; }}",
-        "@media screen and (min-width: 768px) {strong {font-size: 45px; font-family: \"Taviraj\"; }}",
-        "a.button:hover {color: black !important; border-color: black !important;}"
-      ],
-      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
-      "settings": {
-        "color_scheme": "scheme-4",
-        "image_size": "lg",
-        "image": "shopify://shop_images/P8091193_750d1176-4242-4b00-941a-75439fe51304.jpg",
-        "mobile_image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
-        "allow_transparent_header": false,
-        "reveal_on_scroll": true,
-        "remove_vertical_spacing": true,
-        "content_width": "xl",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "ss_image_with_text_12_Qgq3mK": {
       "type": "ss-image-with-text-12",
       "blocks": {
@@ -640,6 +595,7 @@
       "block_order": [
         "slide_erQmq8"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {a.image-text-button-template--25661479354677__ss_image_with_text_12_Qgq3mK {width: 40% !important; }}"
       ],
@@ -760,7 +716,6 @@
     "text_with_icons_WMk68J",
     "ss_feature_1_JycCj6",
     "rich_text_ppdV67",
-    "image_with_text_overlay_97QHdq",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_txdaqM"
   ]
