@@ -330,7 +330,7 @@
         "mobile_image": "shopify://shop_images/P8091193_e92442b0-bb3c-4840-ab1c-37bac85f7cf7.jpg",
         "content_width": "lg",
         "enable_parallax": false,
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "image_with_text_block_76gtae": {
@@ -392,7 +392,7 @@
         "mobile_image": "shopify://shop_images/P7110672_08b995ad-e89a-4d77-bf1a-1838d318619b.jpg",
         "content_width": "lg",
         "enable_parallax": false,
-        "remove_vertical_spacing": true
+        "remove_vertical_spacing": false
       }
     },
     "text_with_icons_WMk68J": {
