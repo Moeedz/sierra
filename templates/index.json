@@ -258,6 +258,50 @@
         "lazy": true
       }
     },
+    "rich_text_jA4VH9": {
+      "type": "rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_RQzJ7e": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_GgpDCc": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>A deeper dive into how this works</strong>",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_DWJdgq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Energy is the building block of all life...</p><p>The frequencies you carry not only shape who you are but also reflect back into the world, forming the realities you experience.</p><p>When you learn to attune to the feedback of your subtle energies ( your chakras, aura, and higher senses ) you can consciously bring yourself back into alignment with your Highest Self.</p><p>Your body radiates health, your creative life force expands, and you feel safe, supported, and capable of creating material abundance while remaining open to higher guidance. From this space, you fulfill your soul’s purpose and experience the peak of true creation.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GgpDCc",
+        "richtext_DWJdgq"
+      ],
+      "custom_css": [
+        "p.h3 {text-align: center !important;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
     "ss_image_with_text_12_tn3TyT": {
       "type": "ss-image-with-text-12",
       "blocks": {
@@ -356,50 +400,6 @@
         "border_thickness": 0,
         "section_radius": 0,
         "lazy": true
-      }
-    },
-    "rich_text_jA4VH9": {
-      "type": "rich-text",
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "rich_text_RQzJ7e": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GgpDCc": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>A deeper dive into how this works</strong>",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_DWJdgq": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Energy is the building block of all life...</strong></p><p>The frequencies you carry not only shape who you are but also reflect back into the world, forming the realities you experience.</p><p>When you learn to attune to the feedback of your subtle energies ( your chakras, aura, and higher senses ) you can consciously bring yourself back into alignment with your Highest Self.</p><p>Your body radiates health, your creative life force expands, and you feel safe, supported, and capable of creating material abundance while remaining open to higher guidance. From this space, you fulfill your soul’s purpose and experience the peak of true creation.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GgpDCc",
-        "richtext_DWJdgq"
-      ],
-      "custom_css": [
-        "p.h3 {text-align: center !important;}"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "start",
-        "remove_vertical_spacing": false
       }
     },
     "text_with_icons_WMk68J": {
@@ -713,9 +713,9 @@
     "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH",
     "ss_image_with_text_12_wVjppG",
-    "ss_image_with_text_12_tn3TyT",
     "rich_text_jA4VH9",
     "rich_text_RQzJ7e",
+    "ss_image_with_text_12_tn3TyT",
     "text_with_icons_WMk68J",
     "ss_feature_1_JycCj6",
     "rich_text_ppdV67",
