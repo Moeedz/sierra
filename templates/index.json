@@ -322,6 +322,7 @@
         "subheading_XjjDxN",
         "richtext_YEtmym"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -353,6 +354,7 @@
         "subheading_JmCVKB",
         "richtext_WLAeCb"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -367,6 +369,7 @@
       "blocks": {
         "subheading_P6t3bN": {
           "type": "subheading",
+          "disabled": true,
           "settings": {
             "text": "Light Codes"
           }
@@ -382,6 +385,7 @@
         "subheading_P6t3bN",
         "richtext_byDAdX"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
