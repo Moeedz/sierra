@@ -69,13 +69,6 @@
             "content": "<p>꩜ Welcome to a new way of reconnecting with your Higher Self.</p><p></p><p>Every piece of my Light-Coded jewelry is a unique portal within...</p><p>Some pieces gently awaken memories from <em>past life Starseed origins,</em> others reawaken the<strong> </strong><em>joy of your inner child</em>, and many are designed to activate and <em>harmonize your energy centers (chakras).</em></p><p>Whichever pieces calls to you, they're here to guide you back to your own Highest Self and truth — made possible through crystal allies and the high frequencies encoded in each creation.</p><p></p><p></p><p></p><p></p><p></p>"
           }
         },
-        "richtext_BVt96Q": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>꩜ This is more than just jewelry — this is an activation.</p><p></p><p>A return to your True unique essence, your Higher Self. </p><p>Each piece as unique a</p><p></p><p>Portals of energy designed to reawaken your unique energetic expression, your Higher Self.</p><p></p><p>deeper part of your Higher Self that is ready to be embodied.</p><p>Every crystal, color, and intention creates a frequency and portal of energy, that activates an aspect of your vast soul.</p><p>This is  guiding you towards the energy you're ready to connect with to rediscover who you truly are and the energy you are here to share. </p><p>Because you've always felt that there's more to life, more to this existence... now allow me to introduce you to a new </p><p></p>"
-          }
-        },
         "button_KmFND9": {
           "type": "button",
           "settings": {
@@ -89,54 +82,12 @@
       },
       "block_order": [
         "richtext_ULHwfh",
-        "richtext_BVt96Q",
         "button_KmFND9"
       ],
       "custom_css": [
         ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}",
         ".prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {border: 0 !important; color: #575151 !important;}",
         "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px; padding-bottom: 3px; padding-left: 29px; padding-right: 29px; margin-top: 0 !important; }}"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "rich_text_Gpidd4": {
-      "type": "rich-text",
-      "blocks": {
-        "richtext_Y3JGGH": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>꩜ Welcome to a new way of reconnecting with your Higher Self.</p><p></p><p>Every piece of my Light-Coded jewelry is a unique portal within...</p><p>Some pieces gently awaken memories from <em>past life Starseed origins,</em> others reawaken the<strong> </strong><em>joy of your inner child</em>, and many are designed to activate and <em>harmonize your energy centers (chakras).</em></p><p>Whichever pieces calls to you, they're here to guide you back to your own Highest Self and truth — made possible through crystal allies and the high frequencies encoded in each creation.</p><p></p><p></p><p></p><p></p><p></p>"
-          }
-        },
-        "richtext_9ca6kK": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>꩜ This is more than just jewelry — this is an activation.</p><p></p><p>A return to your True unique essence, your Higher Self. </p><p>Each piece as unique a</p><p></p><p>Portals of energy designed to reawaken your unique energetic expression, your Higher Self.</p><p></p><p>deeper part of your Higher Self that is ready to be embodied.</p><p>Every crystal, color, and intention creates a frequency and portal of energy, that activates an aspect of your vast soul.</p><p>This is  guiding you towards the energy you're ready to connect with to rediscover who you truly are and the energy you are here to share. </p><p>Because you've always felt that there's more to life, more to this existence... now allow me to introduce you to a new </p><p></p>"
-          }
-        },
-        "button_jrDmEb": {
-          "type": "button",
-          "settings": {
-            "style": "outline",
-            "text": "↓ Learn more below",
-            "url": "https://sierraisabelactivations.com/collections/new-arrivals",
-            "background": "rgba(0,0,0,0)",
-            "text_color": "#d3d3d3"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_Y3JGGH",
-        "richtext_9ca6kK",
-        "button_jrDmEb"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -194,6 +145,28 @@
         "horizontal_spacing_factor": 0.2,
         "vertical_spacing_factor": 0.2,
         "subheading": ""
+      }
+    },
+    "rich_text_Gpidd4": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_Y3JGGH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>꩜ The jewelry you're drawn to, isn't random</p><p></p><p>Every piece of my Light-Coded jewelry is a unique portal within...</p><p>Some pieces gently awaken memories from <em>past life Starseed origins,</em> others reawaken the<strong> </strong><em>joy of your inner child</em>, and many are designed to activate and <em>harmonize your energy centers (chakras).</em></p><p>Whichever pieces calls to you, they're here to guide you back to your own Highest Self and truth — made possible through crystal allies and the high frequencies encoded in each creation.</p><p></p><p></p><p></p><p></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_Y3JGGH"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "start",
+        "remove_vertical_spacing": false
       }
     },
     "ss_image_with_text_12_wVjppG": {
@@ -751,9 +724,9 @@
   "order": [
     "slideshow_7dgTyP",
     "rich_text_kXAMRg",
-    "rich_text_Gpidd4",
     "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH",
+    "rich_text_Gpidd4",
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
     "rich_text_RQzJ7e",
