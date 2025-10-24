@@ -306,9 +306,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "header-sidebar#sidebar-menu * {font-family: \"Poppins\" !important;}",
-      "ul.header-sidebar__linklist.divide-y.unstyled-list li {border: unset !important;}",
-      "@media screen and (max-width: 767px) {.img-with-text.inverted.section-template--25661479649589__ss_image_with_text_2_ipN7Bx-padding {margin-top: 0 !important; padding-top: 0 !important; } a.header-sidebar__linklist-button.header-sidebar__subcategory-heading.h6 {padding-bottom: 0.66rem !important; }}"
+      "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; }}"
     ]
   }
 }
