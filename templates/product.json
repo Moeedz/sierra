@@ -82,24 +82,24 @@
             "page": ""
           }
         },
-        "accordion_bztLyL": {
-          "type": "accordion",
-          "settings": {
-            "show_below_gallery": false,
-            "icon": "none",
-            "title": "<strong>꩜ </strong>Crystal & Light Codes",
-            "content": "<p>{{ product.metafields.custom.crystal_light_codes | metafield_tag }}</p>",
-            "liquid": "",
-            "page": ""
-          }
-        },
         "accordion_cEhKjK": {
           "type": "accordion",
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "<strong>꩜</strong> Color & Chakra Activation",
+            "title": "<strong>Crystals & Chakras</strong>",
             "content": "<p>{{ product.metafields.custom.color_chakra_activation | metafield_tag }}</p>",
+            "liquid": "",
+            "page": ""
+          }
+        },
+        "accordion_bztLyL": {
+          "type": "accordion",
+          "settings": {
+            "show_below_gallery": false,
+            "icon": "none",
+            "title": "<strong>Care Instructions</strong>",
+            "content": "<p>{{ product.metafields.custom.crystal_light_codes | metafield_tag }}</p>",
             "liquid": "",
             "page": ""
           }
@@ -109,7 +109,7 @@
           "settings": {
             "show_below_gallery": false,
             "icon": "none",
-            "title": "<strong>꩜</strong> Specifics",
+            "title": "<strong>Materials & Specifics</strong>",
             "content": "<p>{{ product.metafields.custom.specifics | metafield_tag }}</p>",
             "liquid": "",
             "page": ""
@@ -147,8 +147,8 @@
         "buy_buttons",
         "es_back_in_stock_product_restore_email_xtnkU7",
         "accordion_i4kqwh",
-        "accordion_bztLyL",
         "accordion_cEhKjK",
+        "accordion_bztLyL",
         "accordion_6aR3PE",
         "quantity_selector",
         "complementary_products",
