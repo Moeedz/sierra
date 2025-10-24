@@ -141,14 +141,14 @@
         "heading_rEQmdg": {
           "type": "heading",
           "settings": {
-            "text": "Image with text",
+            "text": "Ever since I was a child, I’ve been searching for the “other side”...",
             "heading_tag": "h1"
           }
         },
         "richtext_EiGMrc": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Ever since I was a child, I’ve been searching for the “other side”—a world beyond the physical that I somehow knew was there. I believed in fairies and unseen beings, even when I couldn’t see them. I was always drawn to crystals—collecting them, surrounding myself with them—yet I didn’t fully realize their deeper energy until much later.</p>"
+            "content": "<p>a world beyond the physical that I somehow knew was there. I believed in fairies and unseen beings, even when I couldn’t see them. I was always drawn to crystals—collecting them, surrounding myself with them—yet I didn’t fully realize their deeper energy until much later.</p>"
           }
         }
       },
