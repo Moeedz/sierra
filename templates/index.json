@@ -153,7 +153,7 @@
         "richtext_Y3JGGH": {
           "type": "richtext",
           "settings": {
-            "content": "<p>꩜ The pieces you're drawn to, aren't random...</p><p></p><p>The pull you feel, is your Higher Self's gentle way of guiding you toward the energies and activations you're now ready for. </p><p>Each piece acts as a bridge, reconnecting you with the parts of yourself that are ready to come forward, along with the unique gifts and wisdom they carry.</p><p>Because deep down you know you're meant foe something bigger than what you know, as if something ancient wants to vcome through.</p><p>Because you chose to be alive in this moment in time in this exact version of you, nothing is random.</p><p>My creations are here to help you connect the missing puzzle pieces of yourself, to gain a grander perspective of who you are, where you came from, and your mission for being here.</p><p></p><p></p><p>  </p><p></p><p></p><p></p>"
+            "content": "<p>꩜ Forgotten frequencies</p><p></p><p> </p>"
           }
         }
       },
@@ -161,6 +161,28 @@
         "richtext_Y3JGGH"
       ],
       "custom_css": [],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "rich_text_i39D6f": {
+      "type": "rich-text",
+      "blocks": {
+        "richtext_QTzwHN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>꩜ The pieces you're drawn to, aren't random...</p><p></p><p>The pull you feel, is your Higher Self's gentle way of guiding you toward the energies and activations you're now ready for. </p><p>Each piece acts as a bridge, reconnecting you with the parts of yourself that are ready to come forward, along with the unique gifts and wisdom they carry.</p><p>Because deep down you know you're meant foe something bigger than what you know, as if something ancient wants to vcome through.</p><p>Because you chose to be alive in this moment in time in this exact version of you, nothing is random.</p><p>My creations are here to help you connect the missing puzzle pieces of yourself, to gain a grander perspective of who you are, where you came from, and your mission for being here.</p><p></p><p></p><p>  </p><p></p><p></p><p></p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_QTzwHN"
+      ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -762,6 +784,7 @@
     "custom_liquid_cQVTUj",
     "featured_collections_hiFjFH",
     "rich_text_Gpidd4",
+    "rich_text_i39D6f",
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
     "image_with_text_EL7MM9",
