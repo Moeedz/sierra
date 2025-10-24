@@ -234,6 +234,39 @@
         "remove_vertical_spacing": true
       }
     },
+    "image_with_text_Rq88tG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rGfmMt": {
+          "type": "heading",
+          "settings": {
+            "text": "When I followed my heart to Mexico",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_YcrNch": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>When I followed my heart to Mexico, I learned to create jewelry. As I worked with colors and crystals, I realized how profoundly these energies could accelerate our evolution. Each color, each stone, was like a key unlocking a deeper part of our being. It was incredible to see how simply embracing these energies could shift someone’s frequency and help them remember who they truly are.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rGfmMt",
+        "richtext_YcrNch"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC0814.jpg",
+        "mobile_image": "shopify://shop_images/DSC0814.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
     "rich_text_eAzHJc": {
       "type": "rich-text",
       "blocks": {
@@ -280,6 +313,7 @@
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
     "image_with_text_VraMht",
+    "image_with_text_Rq88tG",
     "rich_text_eAzHJc"
   ]
 }
