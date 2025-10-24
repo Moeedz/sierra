@@ -288,6 +288,12 @@
     "image_with_text_89VbyH": {
       "type": "image-with-text",
       "blocks": {
+        "subheading_JnKJtY": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
         "heading_QKNxEK": {
           "type": "heading",
           "settings": {
@@ -303,6 +309,7 @@
         }
       },
       "block_order": [
+        "subheading_JnKJtY",
         "heading_QKNxEK",
         "richtext_nffGkH"
       ],
@@ -315,7 +322,7 @@
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
-        "remove_vertical_spacing": false
+        "remove_vertical_spacing": true
       }
     },
     "image_with_text_EL7MM9": {
