@@ -112,12 +112,19 @@
           "settings": {
             "content": "<p>I'm Sierra Isabel, a multidimensional creator and ______- devoted to helping souls reconnect with their multidimensionality and true essence. </p>"
           }
+        },
+        "richtext_8gyBbN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Everything I create begins with energy, the unseen light that shapes our reality. I've always felt that jewelry can be more than decoration, it can be a living frequency and consciousness. </p>"
+          }
         }
       },
       "block_order": [
         "subheading_FdF6fe",
         "heading_mi7dtN",
-        "richtext_YFCdLt"
+        "richtext_YFCdLt",
+        "richtext_8gyBbN"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
