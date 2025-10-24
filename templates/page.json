@@ -74,7 +74,8 @@
         "richtext_wJT8jr"
       ],
       "custom_css": [
-        "h1 {font-family: \"Poppins\"; font-size: 40px;}"
+        "h1 {font-family: \"Poppins\"; font-size: 40px;}",
+        ".prose div {margin-top: 0 !important;}"
       ],
       "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
       "settings": {
