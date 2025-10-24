@@ -60,7 +60,7 @@
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": false,
-        "content_width": "sm",
+        "content_width": "xs",
         "text_position": "center",
         "remove_vertical_spacing": false
       }
