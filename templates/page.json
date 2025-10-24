@@ -163,8 +163,8 @@
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC0806-5.jpg",
-        "mobile_image": "shopify://shop_images/DSC0806-5.jpg",
+        "image": "shopify://shop_images/DSC0814.jpg",
+        "mobile_image": "shopify://shop_images/DSC0814.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "lg",
@@ -199,6 +199,39 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_VraMht": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yJE9y9": {
+          "type": "heading",
+          "settings": {
+            "text": "Ever since I was a child, I’ve been searching for the “other side”...",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_aXDLDb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>a world beyond the physical that I somehow knew was there. I believed in fairies and unseen beings, even when I couldn’t see them. I was always drawn to crystals—collecting them, surrounding myself with them—yet I didn’t fully realize their deeper energy until much later.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yJE9y9",
+        "richtext_aXDLDb"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC0806-5.jpg",
+        "mobile_image": "shopify://shop_images/DSC0806-5.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
       }
     },
     "rich_text_eAzHJc": {
@@ -239,6 +272,7 @@
     "rich_text_E6tVfw",
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
+    "image_with_text_VraMht",
     "rich_text_eAzHJc"
   ]
 }
