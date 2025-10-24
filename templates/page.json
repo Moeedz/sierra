@@ -94,12 +94,6 @@
     "rich_text_E6tVfw": {
       "type": "rich-text",
       "blocks": {
-        "subheading_FdF6fe": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_mi7dtN": {
           "type": "heading",
           "settings": {
@@ -127,7 +121,6 @@
         }
       },
       "block_order": [
-        "subheading_FdF6fe",
         "heading_mi7dtN",
         "richtext_YFCdLt",
         "richtext_8gyBbN",
@@ -142,25 +135,47 @@
         "remove_vertical_spacing": false
       }
     },
-    "rich_text_6XVaGj": {
+    "rich_text_dWqaXC": {
       "type": "rich-text",
       "blocks": {
-        "richtext_MziJep": {
+        "heading_ERYtpX": {
+          "type": "heading",
+          "settings": {
+            "text": "Welcome to my world of light, color, and remembrance.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_7bMgVB": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Welcome </p>"
+            "content": "<p>I'm Sierra Isabel, a multidimensional creator and ______- devoted to helping souls reconnect with their multidimensionality and true essence. </p>"
+          }
+        },
+        "richtext_xfFxKr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Everything I create begins with energy, the unseen light that shapes our reality. I've always felt that jewelry can be more than decoration, it can be a living frequency and consciousness. </p><p></p><p>My work is an offering to those who are ready to remember who they truly are and embody their divine light.</p>"
+          }
+        },
+        "richtext_7mzP8K": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>I’ve always known there was more to this life than what meets the eye. What began as a simple love for crystals grew into a lifelong exploration of energy, color, and multidimensional healing. Today, I channel that passion into creating jewelry that awakens remembrance, harmony, and purpose.<br/><br/><br/></p>"
           }
         }
       },
       "block_order": [
-        "richtext_MziJep"
+        "heading_ERYtpX",
+        "richtext_7bMgVB",
+        "richtext_xfFxKr",
+        "richtext_7mzP8K"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "content_width": "lg",
-        "text_position": "start",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
         "remove_vertical_spacing": false
       }
     },
@@ -190,7 +205,7 @@
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": false,
         "image": "shopify://shop_images/IMG_9440_dcfa8de9-9775-4bdf-a250-c235781ec674.jpg",
         "reveal_on_scroll": true,
@@ -205,7 +220,7 @@
     "ss_image_with_text_2_ipN7Bx",
     "image_with_text_overlay_8tMaPf",
     "rich_text_E6tVfw",
-    "rich_text_6XVaGj",
+    "rich_text_dWqaXC",
     "image_with_text_z9GUzW"
   ]
 }
