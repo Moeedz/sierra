@@ -87,7 +87,7 @@
       "custom_css": [
         ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}",
         ".prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {border: 0 !important; color: #575151 !important;}",
-        "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px; padding-bottom: 3px; padding-left: 29px; padding-right: 29px; margin-top: 0 !important; }}"
+        "@media screen and (max-width: 800px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px; padding-bottom: 3px; padding-left: 29px; padding-right: 29px; margin-top: 0 !important; }}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -282,6 +282,46 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_89VbyH": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_JnKJtY": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_QKNxEK": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_nffGkH": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JnKJtY",
+        "heading_QKNxEK",
+        "richtext_nffGkH"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
+        "mobile_image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
       }
     },
     "rich_text_RQzJ7e": {
@@ -720,46 +760,6 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
-    },
-    "image_with_text_89VbyH": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_JnKJtY": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
-        "heading_QKNxEK": {
-          "type": "heading",
-          "settings": {
-            "text": "Image with text",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nffGkH": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_JnKJtY",
-        "heading_QKNxEK",
-        "richtext_nffGkH"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
-        "mobile_image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
     }
   },
   "order": [
@@ -770,13 +770,13 @@
     "rich_text_Gpidd4",
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
+    "image_with_text_89VbyH",
     "rich_text_RQzJ7e",
     "text_with_icons_WMk68J",
     "ss_image_with_text_12_tn3TyT",
     "ss_feature_1_JycCj6",
     "rich_text_ppdV67",
     "ss_image_with_text_12_Qgq3mK",
-    "newsletter_txdaqM",
-    "image_with_text_89VbyH"
+    "newsletter_txdaqM"
   ]
 }
