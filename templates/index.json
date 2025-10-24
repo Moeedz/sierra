@@ -285,59 +285,13 @@
         "remove_vertical_spacing": false
       }
     },
-    "image_with_text_89VbyH": {
-      "type": "image-with-text",
-      "blocks": {
-        "subheading_JnKJtY": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_QKNxEK": {
-          "type": "heading",
-          "settings": {
-            "text": "꩜ The jewelry you're drawn to, isn't random...",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_nffGkH": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_JnKJtY",
-        "heading_QKNxEK",
-        "richtext_nffGkH"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
-        "mobile_image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
     "image_with_text_EL7MM9": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_YByiMB": {
-          "type": "subheading",
-          "settings": {
-            "text": "Subheading"
-          }
-        },
         "heading_MJ9Pij": {
           "type": "heading",
           "settings": {
-            "text": "Let's take a deeper look",
+            "text": "꩜ Let's take a deeper look",
             "heading_tag": "h1"
           }
         },
@@ -349,7 +303,6 @@
         }
       },
       "block_order": [
-        "subheading_YByiMB",
         "heading_MJ9Pij",
         "richtext_bYB8Ti"
       ],
@@ -811,7 +764,6 @@
     "rich_text_Gpidd4",
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
-    "image_with_text_89VbyH",
     "image_with_text_EL7MM9",
     "rich_text_RQzJ7e",
     "text_with_icons_WMk68J",
