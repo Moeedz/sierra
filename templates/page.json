@@ -65,7 +65,7 @@
         "richtext_wJT8jr": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>Sierra Isabel</h1>"
+            "content": "<h1>Sierra Isabel </h1>"
           }
         }
       },
@@ -97,7 +97,7 @@
         "heading_mi7dtN": {
           "type": "heading",
           "settings": {
-            "text": "Welcome to my world of light, color, and remembrance.",
+            "text": "Welcome to my world of light, color, and remembrance. ꩜",
             "heading_tag": "h1"
           }
         },
