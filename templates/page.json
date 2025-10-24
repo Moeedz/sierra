@@ -58,8 +58,8 @@
         "heading_cyCXTb": {
           "type": "heading",
           "settings": {
-            "text": "The soul behind the activations",
-            "heading_tag": "h6"
+            "text": "Meet",
+            "heading_tag": "h3"
           }
         },
         "richtext_wJT8jr": {
@@ -97,7 +97,7 @@
         "richtext_MziJep": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>Welcome </p>"
           }
         }
       },
