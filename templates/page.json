@@ -249,11 +249,18 @@
           "settings": {
             "content": "<p>My mission is to help you reconnect to the parts of yourself beyond the physical. We all know deep down that there’s more to this life, more than what we’ve been taught to believe. By remembering our true nature, we step into our gifts, our purpose, and our highest potential. Every piece of jewelry I create is a portal—an activation—designed to help you remember, heal, and shine your light. As each of us awakens, we create a ripple effect, slowly bringing more love, harmony, and higher consciousness back into the world.</p>"
           }
+        },
+        "richtext_kQEcQE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>I’m here to guide you to that remembrance. Together, let’s awaken the beauty and truth that’s always been within you.</p>"
+          }
         }
       },
       "block_order": [
         "heading_Me8pCW",
-        "richtext_CBY3Hx"
+        "richtext_CBY3Hx",
+        "richtext_kQEcQE"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
