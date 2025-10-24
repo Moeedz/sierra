@@ -161,7 +161,7 @@
         "richtext_Y3JGGH"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px; padding-bottom: 3px; padding-left: 29px; padding-right: 29px; margin-top: 0 !important; }}"
+        "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; }}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
