@@ -91,6 +91,43 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_E6tVfw": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_FdF6fe": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_mi7dtN": {
+          "type": "heading",
+          "settings": {
+            "text": "Welcome to my world of light, color, and remembrance.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_YFCdLt": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>I'm Sierra Isabel, a multidimensional creator and ______- devoted to helping souls reconnect with their multidimensionality and true essence. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FdF6fe",
+        "heading_mi7dtN",
+        "richtext_YFCdLt"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "rich_text_6XVaGj": {
       "type": "rich-text",
       "blocks": {
@@ -106,7 +143,7 @@
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": false,
         "content_width": "lg",
         "text_position": "start",
@@ -153,6 +190,7 @@
     "main",
     "ss_image_with_text_2_ipN7Bx",
     "image_with_text_overlay_8tMaPf",
+    "rich_text_E6tVfw",
     "rich_text_6XVaGj",
     "image_with_text_z9GUzW"
   ]
