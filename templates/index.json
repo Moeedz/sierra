@@ -350,7 +350,9 @@
         "item_KzRhrW"
       ],
       "custom_css": [
-        ".h3 {font-size: 25px;}"
+        ".h3 {font-size: 25px;}",
+        ".gap-2 {gap: 1.5rem;}",
+        "p.h6 {font-size: 22px;}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
@@ -380,6 +382,10 @@
       "block_order": [
         "item_dzA64z"
       ],
+      "custom_css": [
+        ".gap-2 {gap: 1.5rem;}",
+        "p.h6 {font-size: 22px;}"
+      ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -407,6 +413,10 @@
       },
       "block_order": [
         "item_gBFhtw"
+      ],
+      "custom_css": [
+        ".gap-2 {gap: 1.5rem;}",
+        "p.h6 {font-size: 22px;}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
