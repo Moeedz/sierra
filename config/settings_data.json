@@ -306,7 +306,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; }}"
+      "@media screen and (max-width: 767px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } .rich-content {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; }}"
     ]
   }
 }
