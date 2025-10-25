@@ -551,7 +551,7 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Explore your energy",
+            "text": "Explore the Activations",
             "url": "",
             "background": "#252525",
             "text_color": "#cffcff"
