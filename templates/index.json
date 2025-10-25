@@ -286,25 +286,6 @@
     },
     "image_with_text_EL7MM9": {
       "type": "image-with-text",
-      "blocks": {
-        "heading_MJ9Pij": {
-          "type": "heading",
-          "settings": {
-            "text": "꩜ How the Jewelry Works",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_bYB8Ti": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>The trinity of crystal allies, light codes, and sacred intention.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_MJ9Pij",
-        "richtext_bYB8Ti"
-      ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -323,7 +304,7 @@
         "heading_GgpDCc": {
           "type": "heading",
           "settings": {
-            "text": "<strong>A deeper dive into how this works</strong>",
+            "text": "꩜ How the Jewelry Works",
             "heading_tag": "h3"
           }
         },
@@ -363,8 +344,28 @@
             "title": "<strong>Crystals</strong>",
             "content": "<p>Crystal are our forgotten allies, they carry the perfect energetic structure and are here tohelp humanity evolove. We are living in a time where so many crystals have been resurfaces from deep within Earth and their frequencies can help assist us evolve. The crystalline realm is conscious and</p>"
           }
-        },
-        "item_bbrjFH": {
+        }
+      },
+      "block_order": [
+        "item_KzRhrW"
+      ],
+      "custom_css": [
+        ".h3 {font-size: 25px;}"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "text_with_icons_F64Kt6": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_dzA64z": {
           "type": "item",
           "settings": {
             "icon": "picto-customer-support",
@@ -374,26 +375,38 @@
             "title": "<strong>Colors</strong>",
             "content": "<p>Every color carries it's own frequency that affects us mental, emotionally, and physically. We are constantly affected by the colors around us but mosly unconsiously. the colors you like to wear and surround yourself with is a direct reflection of the state you're in. By wearing different colors, you call in new types of stimulation, activating your chakras, and</p>"
           }
-        },
-        "item_KDGGNm": {
+        }
+      },
+      "block_order": [
+        "item_dzA64z"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    },
+    "text_with_icons_4Ebr3X": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_gBFhtw": {
           "type": "item",
           "settings": {
             "icon": "picto-shield",
             "custom_icon": "shopify://shop_images/spirallogo.webp",
             "icon_width": 24,
             "mobile_icon_width": 64,
-            "title": "Light Codes",
+            "title": "<strong>Light Codes</strong>",
             "content": "<p>Your payment information is processed securely.</p>"
           }
         }
       },
       "block_order": [
-        "item_KzRhrW",
-        "item_bbrjFH",
-        "item_KDGGNm"
-      ],
-      "custom_css": [
-        ".h3 {font-size: 25px;}"
+        "item_gBFhtw"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
@@ -699,6 +712,8 @@
     "image_with_text_EL7MM9",
     "rich_text_RQzJ7e",
     "text_with_icons_WMk68J",
+    "text_with_icons_F64Kt6",
+    "text_with_icons_4Ebr3X",
     "image_with_text_9znibH",
     "ss_feature_1_JycCj6",
     "rich_text_ppdV67",
