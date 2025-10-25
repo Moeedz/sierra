@@ -158,14 +158,22 @@
     "rich_text_i39D6f": {
       "type": "rich-text",
       "blocks": {
+        "heading_LGzpCU": {
+          "type": "heading",
+          "settings": {
+            "text": "꩜ The jewelry that calls to you is no coincidence.",
+            "heading_tag": "h3"
+          }
+        },
         "richtext_QTzwHN": {
           "type": "richtext",
           "settings": {
-            "content": "<p>꩜ The jewelry that calls to you is no coincidence.</p><p></p><p>The pull you feel is your Higher Self's gentle way of guiding you toward the energies and activations you're now ready for.</p><p>Each piece acts as a bridge, reconnecting you with the parts of yourself that are ready to come forward, along with the unique gifts and wisdom they carry.</p><p>Because deep down, you know you're here for something more—a deeper purpose that only you can uncover.</p><p>My creations are here to help you connect to the pieces of yourself beyond what you've known and gain clarity on your multidimensionality, soul gifts, and unique essence.</p><p></p><p>  </p><p></p><p></p><p></p>"
+            "content": "<p>The pull you feel is your Higher Self's gentle way of guiding you toward the energies and activations you're now ready for.</p><p>Each piece acts as a bridge, reconnecting you with the parts of yourself that are ready to come forward, along with the unique gifts and wisdom they carry.</p><p>Because deep down, you know you're here for something more—a deeper purpose that only you can uncover.</p><p>My creations are here to help you connect to the pieces of yourself beyond what you've known and gain clarity on your multidimensionality, soul gifts, and unique essence.</p><p></p><p>  </p><p></p><p></p><p></p>"
           }
         }
       },
       "block_order": [
+        "heading_LGzpCU",
         "richtext_QTzwHN"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
