@@ -18,7 +18,7 @@
             "image": "shopify://shop_images/PA022390-9.jpg",
             "mobile_image": "shopify://shop_images/PA022390-9.jpg",
             "subheading": "",
-            "title": "A Journey Back to Your <strong>Highest Self</strong> Through Every Piece.",
+            "title": "A Journey Back to Your Highest Self Through Every Piece.",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 700,
@@ -177,7 +177,7 @@
         "richtext_QTzwHN"
       ],
       "custom_css": [
-        "@media screen and (max-width: 767px) {p.h3 {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; text-align: -webkit-center !important;}}"
+        "@media screen and (max-width: 767px) {p.h3 {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; text-align: -webkit-center !important; }}"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
