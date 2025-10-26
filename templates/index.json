@@ -371,7 +371,7 @@
       "custom_css": [
         ".h3 {font-size: 25px;}",
         ".gap-2 {gap: 1.5rem;}",
-        "p.h6 {font-size: 22px;}"
+        "p.h6 {font-size: var(--text-h3);}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
@@ -403,7 +403,7 @@
       ],
       "custom_css": [
         ".gap-2 {gap: 1.5rem;}",
-        "p.h6 {font-size: 22px;}"
+        "p.h6 {font-size: var(--text-h3);}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
@@ -435,7 +435,7 @@
       ],
       "custom_css": [
         ".gap-2 {gap: 1.5rem;}",
-        "p.h6 {font-size: 22px;}"
+        "p.h6 {font-size: var(--text-h3);}"
       ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
