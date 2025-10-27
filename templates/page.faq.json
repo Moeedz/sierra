@@ -71,6 +71,13 @@
         "question_wJN9MN": {
           "type": "question",
           "settings": {
+            "question": " Do you offer custom or commissioned pieces?",
+            "answer": "<p>Yes, I occasionally create custom Light-Coded jewelry through a co-creative process where we select the stones, colors, and energies aligned with your soul’s current journey.<br/><br/></p>"
+          }
+        },
+        "question_cDAwgj": {
+          "type": "question",
+          "settings": {
             "question": "Do you accept returns?",
             "answer": "<p>All sales are final, as each piece is handcrafted and energetically attuned with care and intention.</p><p>Please be sure to choose the piece that truly calls to you.</p><p>If you have any concerns about your order, you’re always welcome to reach out so I can assist you personally.</p>"
           }
@@ -93,6 +100,7 @@
         "question_dQHLfQ",
         "question_CrP7LY",
         "question_wJN9MN",
+        "question_cDAwgj",
         "question_EAJii3"
       ],
       "custom_css": [
