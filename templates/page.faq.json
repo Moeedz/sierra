@@ -72,7 +72,7 @@
           "type": "question",
           "settings": {
             "question": "How much does shipping cost?",
-            "answer": "<p>Right now I only ship to Mexico and the U.S. </p><p>I'm working to find a lower cost for shipping that is just as fast and secure, but right now I only offer DHL express shipping.</p><p><strong>International Shipping to the U.S.</strong> takes 3-5 business days for a flat rate of $75 USD.</p><p><strong>National Shipping to Mexico</strong> take 1-3 business days for a flat rate of $350 MXN or Free Shipping on orders over $5,000MXN.</p>"
+            "answer": "<p></p><p>I currently only ship within Mexico and to the U.S. using <strong>DHL Express</strong> to ensure your jewelry arrives safely and quickly.</p><p><strong>U.S. Shipping:</strong> Flat rate of $75 USD, arriving within 3–5 business days.<br/><br/><strong>Mexico Shipping:</strong> Flat rate of $350 MXN, arriving within 1–3 business days, or Free Shipping on orders over $5,000 MXN.<br/></p><p>I’m actively working to find a more affordable option that maintains the same fast and secure delivery experience.</p>"
           }
         }
       },
