@@ -24,14 +24,14 @@
     "contact-form": {
       "type": "contact",
       "custom_css": [
-        ".section-header.justify-self-center.text-center h2 {font-family: 'Poppins';}"
+        ".section-header.justify-self-center.text-center h2 {font-family: \"Poppins\";}"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
         "subheading": "",
         "title": "Contact",
-        "content": ""
+        "content": "<p>I’d love to connect with you. Whether you have a question about your order, a custom jewelry request, or simply feel called to reach out—this is the space to do so. Fill out the form below and I’ll get back to you as soon as possible. </p>"
       }
     }
   },
