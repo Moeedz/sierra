@@ -13,6 +13,9 @@
   "sections": {
     "custom_liquid_n8iE6Y": {
       "type": "custom-liquid",
+      "custom_css": [
+        ".product__price {font-size: 0.875rem;}"
+      ],
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
         "color_scheme": "",
