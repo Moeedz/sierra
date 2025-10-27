@@ -26,20 +26,6 @@
             "answer": "<p></p><p>Your Higher Self is the purest and most complete version of you, a higher consciousness that exists beyond the physical plane. </p><p>It holds the wisdom of every lifetime and the truth of who you really are.</p><p>As humans, we often forget our purpose and divine potential, but your Higher Self is always guiding you back—reminding you of your gifts, your mission, and the soul-aligned life you came here to live.</p>"
           }
         },
-        "question_gmdhUx": {
-          "type": "question",
-          "settings": {
-            "question": "Can I meditate or astral travel with my jewelry?",
-            "answer": "<p></p><p>Yes! Each piece is an energetic anchor designed to support deeper states of awakening, healing, and remembrance. </p><p>When you consciously connect with your Light-Coded jewelry during meditation or astral travel, you open a direct channel to your Higher Self—allowing you to receive clear guidance, activations, and experiences.</p>"
-          }
-        },
-        "question_Jkf6xh": {
-          "type": "question",
-          "settings": {
-            "question": "How do I cleanse the energy of my jewelry?",
-            "answer": "<p></p><p>My favorite ways to cleanse your jewelry are with<strong> sunlight</strong>, <strong>sound frequency</strong>, and <strong>pure intention</strong>. </p><p>These methods help reset and recharge the energy so it can fully align with you again. </p><p>You can place your piece in the sun for a few minutes, play healing tones or sound bowls nearby, or simply hold it in your hands and set the intention to clear and renew its energy.</p><p> I’ll be sharing a more in-depth cleansing guide on my Instagram for you to follow along with. </p>"
-          }
-        },
         "question_imK9x9": {
           "type": "question",
           "settings": {
@@ -52,6 +38,20 @@
           "settings": {
             "question": "How can I activate my jewelry?",
             "answer": "<p></p><p>Activation begins with intention.</p><p>When you first receive your piece, take a moment to connect—hold it in your hands, close your eyes, and breathe. Call in your Higher Self and set the intention for what you’re ready to awaken or receive. </p><p>The jewelry will attune to your energy and begin working with you immediately, amplifying the frequencies your soul is ready to embody.</p><p>In the future, I’ll be offering guided activations to help you take this connection even deeper. </p>"
+          }
+        },
+        "question_gmdhUx": {
+          "type": "question",
+          "settings": {
+            "question": "Can I meditate or astral travel with my jewelry?",
+            "answer": "<p></p><p>Yes! Each piece is an energetic anchor designed to support deeper states of awakening, healing, and remembrance. </p><p>When you consciously connect with your Light-Coded jewelry during meditation or astral travel, you open a direct channel to your Higher Self—allowing you to receive clear guidance, activations, and experiences.</p>"
+          }
+        },
+        "question_Jkf6xh": {
+          "type": "question",
+          "settings": {
+            "question": "How do I cleanse the energy of my jewelry?",
+            "answer": "<p></p><p>My favorite ways to cleanse your jewelry are with<strong> sunlight</strong>, <strong>sound frequency</strong>, and <strong>pure intention</strong>. </p><p>These methods help reset and recharge the energy so it can fully align with you again. </p><p>You can place your piece in the sun for a few minutes, play healing tones or sound bowls nearby, or simply hold it in your hands and set the intention to clear and renew its energy.</p><p> I’ll be sharing a more in-depth cleansing guide on my Instagram for you to follow along with. </p>"
           }
         },
         "question_dQHLfQ": {
@@ -93,10 +93,10 @@
       "block_order": [
         "question-1",
         "question-2",
-        "question_gmdhUx",
-        "question_Jkf6xh",
         "question_imK9x9",
         "question_hUzPAb",
+        "question_gmdhUx",
+        "question_Jkf6xh",
         "question_dQHLfQ",
         "question_CrP7LY",
         "question_wJN9MN",
