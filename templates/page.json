@@ -221,6 +221,36 @@
         "remove_vertical_spacing": true
       }
     },
+    "rich_text_xJT68H": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DWCUUz": {
+          "type": "heading",
+          "settings": {
+            "text": "This moments shifted absolutely everything.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NcT3kN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At the time I didnt believe in anything but the physical, that nothing existed beyond what we could preceive. I beleived life was random and meaningless. </p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DWCUUz",
+        "richtext_NcT3kN"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
     "image_with_text_XAEfEb": {
       "type": "image-with-text",
       "blocks": {
@@ -326,6 +356,7 @@
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
     "image_with_text_VraMht",
+    "rich_text_xJT68H",
     "image_with_text_XAEfEb",
     "image_with_text_Rq88tG",
     "rich_text_eAzHJc"
