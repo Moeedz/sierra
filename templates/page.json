@@ -105,20 +105,13 @@
         "richtext_8gyBbN": {
           "type": "richtext",
           "settings": {
-            "content": "<p>I'm Sierra Isabel, a multidimensional creator and activatress devoted to helping you reconnect with<strong> your own multidimensionality </strong>and <strong>soul purpose. </strong></p><p>Everything I create begins with energy — the unseen force that connects all that is, guiding you back to the truth of who you are and<strong> inviting you to experience life beyond what you've been taught to believe.</strong></p><p><strong>I'm here to offer a bridge that anyone can access.</strong> No matter your background or abilities, being multidimensional is part of your very DNA — you don't need to consider yourself 'gifted' to step into this truth.</p><p></p><p>I know this because I wasn't born conscious of my abilities either. They awakened gradually, unfolding deeper and deeper as I said yes to this path.</p>"
-          }
-        },
-        "richtext_WHKHgm": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>I’ve always known there was more to this life than what meets the eye.</p><p>As a child, I found myself constantly searching for the “other side” — sensing deeply that something beyond the physical was calling to me, even if I couldn’t yet explain or perceive it.</p>"
+            "content": "<p>I'm Sierra Isabel, a multidimensional creator and activatress devoted to helping you reconnect with<strong> your own multidimensionality </strong>and <strong>soul purpose. </strong></p><p>Everything I create begins with energy — the unseen force that connects all that is, guiding you back to the truth of who you are and<strong> inviting you to experience life beyond what you've been taught to believe.</strong></p><p><strong>I'm here to offer a bridge that anyone can access.</strong> No matter your background or abilities, being multidimensional is part of your very DNA — you don't need to consider yourself 'gifted' to step into this truth.</p><p></p><p>I know this because I wasn't born conscious of my abilities either. They awakened gradually, unfolding deeper and deeper as I said yes to this path...</p>"
           }
         }
       },
       "block_order": [
         "heading_mi7dtN",
-        "richtext_8gyBbN",
-        "richtext_WHKHgm"
+        "richtext_8gyBbN"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -135,14 +128,14 @@
         "heading_rEQmdg": {
           "type": "heading",
           "settings": {
-            "text": "I spent my childhood in nature, calling out to the elementals, fairies, and spirits...",
+            "text": "I’ve always known there was more to this life than what meets the eye...",
             "heading_tag": "h1"
           }
         },
         "richtext_EiGMrc": {
           "type": "richtext",
           "settings": {
-            "content": "<p> longing to see them and to confirm they were real. But when they wouldn’t reveal themselves to me, I became frustrated and disappointed.</p><p></p><p>Eventually, I shut down that longing for connection and returned to sleep. I focused instead on the physical and the animals and crystals became my companions.</p><p></p><p>Life continued on and for a while, that part of me remained silent. But around the age of 17 or 18, during my final year of high school, <strong>the calling returned.</strong></p>"
+            "content": "<p></p><p>As a child, I found myself constantly searching for the “other side” — sensing deeply that something beyond the physical was calling to me, even if I couldn’t yet explain or perceive it.</p><p>I spent my childhood in nature, calling out to the elementals, fairies, and spirits...</p><p>longing to see them and to confirm they were real. But when they wouldn’t reveal themselves to me, I became frustrated and disappointed.</p><p></p><p>Eventually, I shut down that longing for connection and returned to sleep. I focused instead on the physical and the animals and crystals became my companions.</p><p></p><p>Life continued on and for a while, that part of me remained silent. But around the age of 17 or 18, during my final year of high school, <strong>the calling returned.</strong></p>"
           }
         }
       },
