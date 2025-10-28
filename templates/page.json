@@ -171,7 +171,7 @@
         "richtext_7bMgVB": {
           "type": "richtext",
           "settings": {
-            "content": "<p>I was deeply depressed, lonely, and suicidal. Everyone around me was preparing for college and planning their futures, but I felt completely hopeless. <br/></p><p>The idea of living a traditional human life, getting a job, starting a family, following the script, felt meaningless to me. I couldn’t understand why I was here, and I didn’t see a reason to keep going.</p><p></p><p>But during that last year of high school, something within me began to shift. For <strong>the</strong> <strong>first time in my life, I felt and heard a clear voice, one that wasn’t mine</strong>, persistently telling me, <em>“After graduation, move out.</em></p><p>This immediately awakened me from hopelessness and the belief that nothing exists beyond the physical and that everything is random and meaningless.</p><p>My soul swung open, It was like a door opened to a universe of remembrance—past lives, intuitive gifts, healing abilities—and my true journey began.</p>"
+            "content": "<p>I was deeply depressed, lonely, and suicidal. Everyone around me was preparing for college and planning their futures, but I felt completely hopeless. </p><p>The idea of living a traditional human life — getting a job, starting a family, following the script — felt so meaningless to me. I couldn't understand why I was here, and I didn't see a reason to keep going.</p><p>But during that last year of high school, something within me began to shift. <strong>For the first time in my life</strong>,<strong> I felt and heard a clear voice, one that wasn't mine,</strong> persistently telling me, 'After graduation, move out.'</p><p>I didn't question or doubt this voice. I instantly knew that's what I needed to do — and thats what i did.</p>"
           }
         }
       },
@@ -184,7 +184,7 @@
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
         "content_width": "sm",
-        "text_position": "center",
+        "text_position": "start",
         "remove_vertical_spacing": false
       }
     },
@@ -194,7 +194,7 @@
         "heading_yJE9y9": {
           "type": "heading",
           "settings": {
-            "text": "When I followed my heart to Mexico",
+            "text": "On the 3rd night alone, I was visited...",
             "heading_tag": "h1"
           }
         },
@@ -208,6 +208,39 @@
       "block_order": [
         "heading_yJE9y9",
         "richtext_aXDLDb"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC0805.jpg",
+        "mobile_image": "shopify://shop_images/DSC0805.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_XAEfEb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NBbUFr": {
+          "type": "heading",
+          "settings": {
+            "text": "When I followed my heart to Mexico",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_WU46nL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>When I followed my heart to Mexico, I learned to create jewelry. As I worked with colors and crystals, I realized how profoundly these energies could accelerate our evolution. Each color, each stone, was like a key unlocking a deeper part of our being. It was incredible to see how simply embracing these energies could shift someone’s frequency and help them remember who they truly are.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NBbUFr",
+        "richtext_WU46nL"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
@@ -293,6 +326,7 @@
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
     "image_with_text_VraMht",
+    "image_with_text_XAEfEb",
     "image_with_text_Rq88tG",
     "rich_text_eAzHJc"
   ]
