@@ -135,14 +135,14 @@
         "heading_rEQmdg": {
           "type": "heading",
           "settings": {
-            "text": "Ever since I was a child, I’ve been searching for the “other side”...",
+            "text": "I spent my childhood in nature, calling out to the elementals, fairies, and spirits...",
             "heading_tag": "h1"
           }
         },
         "richtext_EiGMrc": {
           "type": "richtext",
           "settings": {
-            "content": "<p>a world beyond the physical that<strong> I always knew was there</strong>. I believed in fairies and unseen beings, even when I couldn’t see them.</p><p> I was always drawn to crystals—collecting them, surrounding myself with them—yet I didn’t fully realize their deeper energy until much later.</p>"
+            "content": "<p> longing to see them and to confirm they were real. But when they wouldn’t reveal themselves to me, I became frustrated and disappointed.</p>"
           }
         }
       },
