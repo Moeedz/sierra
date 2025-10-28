@@ -316,36 +316,6 @@
         "content_width": "lg",
         "remove_vertical_spacing": true
       }
-    },
-    "rich_text_eAzHJc": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_Me8pCW": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_kQEcQE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>I’m here to guide you to that remembrance. Together, let’s awaken the beauty and truth that’s always been within you.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_Me8pCW",
-        "richtext_kQEcQE"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
     }
   },
   "order": [
@@ -358,7 +328,6 @@
     "image_with_text_VraMht",
     "rich_text_xJT68H",
     "image_with_text_XAEfEb",
-    "image_with_text_Rq88tG",
-    "rich_text_eAzHJc"
+    "image_with_text_Rq88tG"
   ]
 }
