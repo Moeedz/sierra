@@ -361,7 +361,7 @@
             "icon_width": 48,
             "mobile_icon_width": 64,
             "title": "<strong>Crystals</strong>",
-            "content": "<p>Crystals are more than beautiful stones — they are <strong>conscious beings</strong>, our<strong> ancient allies</strong>, here to assist humanity in healing, evolving, and expanding our awareness. </p><p></p><p></p>"
+            "content": "<p></p><p>Crystals are more than beautiful stones — they are conscious beings, our ancient allies, here to assist humanity in healing, evolving, and expanding our awareness. </p><p>Each crystal holds a perfect, unchanging frequency that aligns us with higher states of being. They carry deep Earth records and cosmic memories, offering insights into who we are, where we came from, and where we’re meant to go.</p><p>Every crystal is its own sovereign intelligence — with unique personalities, preferences, and a soul purpose. They are not tools to be used, but beings to be partnered with. Generic crystal definitions in books often miss the depth and individuality of each stone. That’s why I always recommend forming a relationship with the crystal collective within each piece — listening, feeling, and allowing them to reveal not only their truth… but yours.</p><p></p><p></p>"
           }
         }
       },
@@ -380,7 +380,7 @@
         "stack_on_mobile": false,
         "icon_color": "",
         "text_color": "",
-        "text_alignment": "center"
+        "text_alignment": "start"
       }
     },
     "text_with_icons_F64Kt6": {
