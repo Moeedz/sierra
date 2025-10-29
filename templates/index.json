@@ -376,7 +376,7 @@
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
+        "separate_section_with_border": false,
         "stack_on_mobile": false,
         "icon_color": "",
         "text_color": "",
