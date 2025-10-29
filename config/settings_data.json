@@ -41,7 +41,7 @@
     "show_discount": false,
     "cart_type": "drawer",
     "cart_icon": "shopping_bag",
-    "cart_show_free_shipping_bar": true,
+    "cart_show_free_shipping_bar": false,
     "cart_free_shipping_threshold": "5000",
     "social_pinterest": "",
     "social_instagram": "https://www.instagram.com/sierraisabel.activations?igsh=MWVxbHpqODQ0N29oYw%3D%3D&utm_source=qr",
