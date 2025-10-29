@@ -41,8 +41,8 @@
     "show_discount": false,
     "cart_type": "drawer",
     "cart_icon": "shopping_bag",
-    "cart_show_free_shipping_bar": false,
-    "cart_free_shipping_threshold": "5000",
+    "cart_show_free_shipping_bar": true,
+    "cart_free_shipping_threshold": "60",
     "social_pinterest": "",
     "social_instagram": "https://www.instagram.com/sierraisabel.activations?igsh=MWVxbHpqODQ0N29oYw%3D%3D&utm_source=qr",
     "social_tiktok": "",
@@ -73,7 +73,7 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#f1fcfd",
           "background_gradient": "",
           "text_color": "rgba(0,0,0,0)",
           "primary_button_background": "rgba(0,0,0,0)",
