@@ -68,6 +68,13 @@
             "answer": "<p></p><p>When a piece breaks, it’s often more than physical, it can symbolize the completion of a cycle or the release of energy that’s no longer needed. </p><p>You can choose to keep the stones for future work, or reach out to me to see if it can be repaired. </p><p>Every piece carries its own journey with you, and sometimes, breaking simply means its purpose has been fulfilled.</p>"
           }
         },
+        "question_UVhhqG": {
+          "type": "question",
+          "settings": {
+            "question": "Are your stones natural?",
+            "answer": "<p></p><p>Yes, every stone I use is completely natural, undyed, and untreated. </p><p>Each crystal is hand-selected for its energetic purity, vibrant color, and high gem quality. </p><p>I intentionally source from trusted suppliers who prioritize ethical and conscious mining practices. </p><p>Every piece is chosen not only for its frequency and feeling but also for its clarity, brilliance, and overall visual beauty, <strong>ensuring that each necklace carries both energetic and material excellence.</strong></p>"
+          }
+        },
         "question_wJN9MN": {
           "type": "question",
           "settings": {
@@ -99,6 +106,7 @@
         "question_Jkf6xh",
         "question_dQHLfQ",
         "question_CrP7LY",
+        "question_UVhhqG",
         "question_wJN9MN",
         "question_EAJii3",
         "question_cDAwgj"
