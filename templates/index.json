@@ -323,7 +323,7 @@
         "heading_GgpDCc": {
           "type": "heading",
           "settings": {
-            "text": "꩜ How does it work?",
+            "text": "꩜ How Light-Coded Jewelry Works?",
             "heading_tag": "h3"
           }
         },
@@ -765,6 +765,17 @@
         "overlay_color": "#000000",
         "overlay_opacity": 30
       }
+    },
+    "contact_gFhMDx": {
+      "type": "contact",
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Contact",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -785,6 +796,7 @@
     "rich_text_ppdV67",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_txdaqM",
-    "image_with_text_overlay_xfErkb"
+    "image_with_text_overlay_xfErkb",
+    "contact_gFhMDx"
   ]
 }
