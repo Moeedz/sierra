@@ -575,8 +575,8 @@
             "style": "solid",
             "text": "Explore the Activations",
             "url": "",
-            "background": "#252525",
-            "text_color": "#cffcff"
+            "background": "#cffcff",
+            "text_color": "#000000"
           }
         }
       },
