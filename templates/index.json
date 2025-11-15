@@ -44,8 +44,8 @@
         "image_T6xH7n"
       ],
       "custom_css": [
-        "@media screen and (min-width: 800px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; } p.h1 {font-family: Taviraj, serif; font-size: small; }}",
-        "@media screen and (max-width: 1000px) {p.h6 {font-family: Taviraj, serif !important; font-size: 47.23px !important; line-height: 130%; } p.h1 {font-size: 14.5px; margin-top: 5rem; width: 70%; } p.h6 {padding-top: 7rem; letter-spacing: 1px; bottom: 20px; position: relative; } .prose {text-align: -webkit-center; margin-bottom: 15px; }}"
+        "@media screen and (min-width: 768px) {p.h6 {font-family: Taviraj, serif !important; font-size: 45px !important; } p.h1 {font-family: Taviraj, serif; font-size: small; }}",
+        "@media screen and (max-width: 767px) {p.h6 {font-family: Taviraj, serif !important; font-size: 47.23px !important; line-height: 130%; } p.h1 {font-size: 14.5px; margin-top: 5rem; width: 70%; } p.h6 {padding-top: 7rem; letter-spacing: 1px; bottom: 20px; position: relative; } .prose {text-align: -webkit-center; margin-bottom: 15px; }}"
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
@@ -309,8 +309,8 @@
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
-        "mobile_image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
+        "image": "shopify://shop_images/IMG_4279.jpg",
+        "mobile_image": "shopify://shop_images/IMG_4279.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -472,8 +472,8 @@
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/P9251934.jpg",
-        "mobile_image": "shopify://shop_images/P9251934.jpg",
+        "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
+        "mobile_image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
