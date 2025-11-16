@@ -330,7 +330,7 @@
         "richtext_DWJdgq": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Light-coded jewelry works through the synergy of three pure, high-vibrational forces:  crystals, colors, and the encoded frequencies that activate your soul.</p><p></p><p>These elements are pure and alive. They are not decorative, they are conscious allies here to raise your vibration and awaken your Higher Self.</p><p><strong>Let's take a closer look at each element:</strong></p><p></p><p></p>"
+            "content": "<p>Light-coded jewelry works through the synergy of three pure, high-vibrational forces:  crystals, colors, and the encoded frequencies that activate your soul.</p><p></p><p>These elements are pure and alive. They are not decorative, they are conscious allies here to raise your vibration and awaken your Higher Self.</p><p><strong>Let's take a closer look at each element:</strong></p><p></p><p></p><p></p><p></p>"
           }
         }
       },
@@ -344,7 +344,7 @@
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
+        "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "start",
         "remove_vertical_spacing": false
@@ -357,7 +357,7 @@
           "type": "item",
           "settings": {
             "icon": "picto-love",
-            "custom_icon": "shopify://shop_images/spirallogo.webp",
+            "custom_icon": "shopify://shop_images/kkkkkk.png",
             "icon_width": 48,
             "mobile_icon_width": 64,
             "title": "<strong>Crystals</strong>",
