@@ -55,22 +55,14 @@
     "image_with_text_overlay_8tMaPf": {
       "type": "image-with-text-overlay",
       "blocks": {
-        "heading_cyCXTb": {
-          "type": "heading",
-          "settings": {
-            "text": "Meet",
-            "heading_tag": "h3"
-          }
-        },
         "richtext_wJT8jr": {
           "type": "richtext",
           "settings": {
-            "content": "<h1>Sierra Isabel </h1>"
+            "content": "<h1>Sessions & Activations</h1>"
           }
         }
       },
       "block_order": [
-        "heading_cyCXTb",
         "richtext_wJT8jr"
       ],
       "custom_css": [
@@ -81,7 +73,7 @@
       "settings": {
         "color_scheme": "",
         "image_size": "md",
-        "image": "shopify://shop_images/IMG_0073-5.jpg",
+        "image": "shopify://shop_images/IMG_4385.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
