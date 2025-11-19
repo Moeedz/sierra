@@ -38,7 +38,7 @@
       "type": "top-bar",
       "name": "Announcement Bar",
       "settings": {
-        "announcement_text": "<p>Free Shipping & Guided Activations on all jewelry purchases! </p>",
+        "announcement_text": "<p>Free Shipping + Guided Activation Included with all Jewelry! </p>",
         "show_icon": true,
         "icon": "",
         "bg_color": "#cffcff",
