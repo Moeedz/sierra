@@ -13,7 +13,18 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
-      "disabled": true,
+      "blocks": {
+        "message_3NzdrD": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "All Orders Ship for free"
+          }
+        }
+      },
+      "block_order": [
+        "message_3NzdrD"
+      ],
       "settings": {
         "color_scheme": "",
         "enable_sticky": false,
@@ -25,16 +36,15 @@
     },
     "top_bar_97nrxa": {
       "type": "top-bar",
-      "disabled": true,
       "name": "Announcement Bar",
       "settings": {
-        "announcement_text": "<p>Free shipping for orders over $250.00 USD!</p>",
+        "announcement_text": "<p>Enjoy free shipping for all orders!</p>",
         "show_icon": true,
-        "icon": "🎉",
+        "icon": "",
         "bg_color": "#cffcff",
         "text_color": "#1c1c1c",
         "link_color": "#ffffff",
-        "font_size": 14,
+        "font_size": 12,
         "font_family": "Helvetica, sans-serif",
         "padding_top": 12,
         "padding_bottom": 12
