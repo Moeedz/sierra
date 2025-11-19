@@ -38,7 +38,7 @@
       "type": "top-bar",
       "name": "Announcement Bar",
       "settings": {
-        "announcement_text": "<p>Enjoy free express shipping on all orders! </p>",
+        "announcement_text": "<p>Free Shipping & Guided Activations on all jewelry purchases! </p>",
         "show_icon": true,
         "icon": "",
         "bg_color": "#cffcff",
