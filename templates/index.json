@@ -603,7 +603,7 @@
         "cycle_speed": 5,
         "font_size_factor": 1,
         "subheading": "",
-        "title": "꩜What Others Have Experienced:",
+        "title": "꩜ Guided Activations:",
         "content": ""
       }
     },
@@ -700,7 +700,7 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Guided Activations",
+            "text": "Activate your Jewelry",
             "url": "shopify://products/1-on-1-guided-activation",
             "background": "#cffcff",
             "text_color": "#000000"
