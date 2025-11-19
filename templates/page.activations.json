@@ -431,6 +431,54 @@
         "content_width": "lg",
         "remove_vertical_spacing": true
       }
+    },
+    "testimonials_FmkQdd": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Ujhgab": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Saul Almaraz | Austin, TX"
+          }
+        },
+        "testimonial_Agcd7J": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_nAwyDQ": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Ujhgab",
+        "testimonial_Agcd7J",
+        "testimonial_nAwyDQ"
+      ],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -442,6 +490,7 @@
     "featured_product_f9AVDr",
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
-    "image_with_text_Rq88tG"
+    "image_with_text_Rq88tG",
+    "testimonials_FmkQdd"
   ]
 }
