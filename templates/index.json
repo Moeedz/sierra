@@ -547,20 +547,13 @@
         "heading_BjXJnq": {
           "type": "heading",
           "settings": {
-            "text": "꩜ Your Higher Self brought you here for a reason.",
+            "text": "",
             "heading_tag": "h3"
-          }
-        },
-        "richtext_pQiyaT": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>If you’ve made it this far, something deep within you is already remembering. </p><p>This isn’t jewelry… it’s your journey home. Back to your deepest truth and your Highest Self.</p>"
           }
         }
       },
       "block_order": [
-        "heading_BjXJnq",
-        "richtext_pQiyaT"
+        "heading_BjXJnq"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
@@ -572,6 +565,54 @@
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
+      }
+    },
+    "testimonials_gYYaAy": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_RYa4aa": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"Since my ring activation with Sierra, I can confidently say I am so much closer to my most empowered self. I've seen internal transformation ( that others have noticed and commented on as well ) from the moment I was in her care, and since then I've felt deeply connected to a part of me that previously had seemed much further away....\"</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Marina, New York"
+          }
+        },
+        "testimonial_ny849e": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"....I've found myself much more able to move from a place that my highest self would. And making choices that leave me feeling empowered, brave, & self assured. It was though the puzzle of self- past, present, & future came together & now I get to admire and exist as a whole\"</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Gianna, New York"
+          }
+        },
+        "testimonial_LtacJq": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_RYa4aa",
+        "testimonial_ny849e",
+        "testimonial_LtacJq"
+      ],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": true,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "꩜What Others Have Experienced:",
+        "content": ""
       }
     },
     "ss_feature_1_JycCj6": {
@@ -826,120 +867,6 @@
         "title": "Contact",
         "content": "<p>Have a question? Feel called to a custom piece? Want to share your experience with the jewelry? I'd love to hear from you. <strong>Reach out below and I'll get back to you soon.</strong></p>"
       }
-    },
-    "testimonials_yCD8rR": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_QWrjLW": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>\"Since my ring activation with Sierra, I can confidently say I am so much closer to my most empowered self. I've seen internal transformation ( that others have noticed and commented on as well ) from the moment I was in her care, and since then I've felt deeply connected to a part of me that previously had seemed much further away....\"</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_QWrjLW"
-      ],
-      "name": "t:sections.testimonials.presets.testimonials.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "auto_rotate_between_testimonials": false,
-        "cycle_speed": 5,
-        "font_size_factor": 1,
-        "subheading": "",
-        "title": "⟡ Marina ⟡",
-        "content": ""
-      }
-    },
-    "testimonials_VkDEdp": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_GHQfa8": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>\"Since my ring activation with Sierra, I can confidently say I am so much closer to my most empowered self. I've seen internal transformation ( that others have noticed and commented on as well ) from the moment I was in her care, and since then I've felt deeply connected to a part of me that previously had seemed much further away....\"</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        },
-        "testimonial_JcEDgw": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_GHQfa8",
-        "testimonial_JcEDgw"
-      ],
-      "name": "t:sections.testimonials.presets.testimonials.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "auto_rotate_between_testimonials": false,
-        "cycle_speed": 5,
-        "font_size_factor": 1,
-        "subheading": "",
-        "title": "⟡ Marina ⟡",
-        "content": ""
-      }
-    },
-    "testimonials_gYYaAy": {
-      "type": "testimonials",
-      "blocks": {
-        "testimonial_ny849e": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>\"....I've found myself much more able to move from a place that my highest self would. And making choices that leave me feeling empowered, brave, & self assured. It was though the puzzle of self- past, present, & future came together & now I get to admire and exist as a whole\"</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": "Gianna, New York"
-          }
-        },
-        "testimonial_RYa4aa": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>\"Since my ring activation with Sierra, I can confidently say I am so much closer to my most empowered self. I've seen internal transformation ( that others have noticed and commented on as well ) from the moment I was in her care, and since then I've felt deeply connected to a part of me that previously had seemed much further away....\"</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": "Marina, New York"
-          }
-        },
-        "testimonial_LtacJq": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
-        }
-      },
-      "block_order": [
-        "testimonial_ny849e",
-        "testimonial_RYa4aa",
-        "testimonial_LtacJq"
-      ],
-      "name": "t:sections.testimonials.presets.testimonials.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "auto_rotate_between_testimonials": true,
-        "cycle_speed": 5,
-        "font_size_factor": 1,
-        "subheading": "",
-        "title": "꩜What Others Have Experienced:",
-        "content": ""
-      }
     }
   },
   "order": [
@@ -958,13 +885,11 @@
     "slideshow_fH99in",
     "text_with_icons_4Ebr3X",
     "image_with_text_9znibH",
+    "testimonials_gYYaAy",
     "ss_feature_1_JycCj6",
     "rich_text_ppdV67",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_txdaqM",
-    "contact_gFhMDx",
-    "testimonials_yCD8rR",
-    "testimonials_VkDEdp",
-    "testimonials_gYYaAy"
+    "contact_gFhMDx"
   ]
 }
