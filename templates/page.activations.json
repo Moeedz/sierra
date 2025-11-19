@@ -315,7 +315,7 @@
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
-        "product": "1-on-1-guided-activation",
+        "product": "prerecorded-guided-activation-copy",
         "separate_section_with_border": true,
         "container_size": "lg",
         "product_info_size": 45,
