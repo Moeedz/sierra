@@ -97,7 +97,7 @@
         "richtext_8gyBbN": {
           "type": "richtext",
           "settings": {
-            "content": "<p>I'm Sierra Isabel, a multidimensional creator and activatress devoted to helping you reconnect with<strong> your own multidimensionality </strong>and <strong>soul purpose. </strong></p><p>Everything I create begins with energy — the unseen force that connects all that is, guiding you back to the truth of who you are and<strong> inviting you to experience life beyond what you've been taught to believe.</strong></p><p><strong>I'm here to offer a bridge that anyone can access.</strong> No matter your background or abilities, being multidimensional is part of your very DNA — you don't need to consider yourself 'gifted' to step into this truth.</p><p></p><p>I know this because I wasn't born conscious of my abilities either. They awakened gradually, unfolding deeper and deeper as I said yes to this path.</p><p> <strong>This is my story...   </strong>↓↓↓</p>"
+            "content": "<p>If you're ready to take your journey a bit deeper, </p>"
           }
         }
       },
@@ -112,6 +112,114 @@
         "content_width": "sm",
         "text_position": "start",
         "remove_vertical_spacing": false
+      }
+    },
+    "featured_product_qCHB9B": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_kJMnni": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_tVjkMK": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_PE6tDx": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_EVDd38": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_Tyz3qc": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_ANL6Kx": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_Q3nQxt": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_L4VFHA": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_GTG7FM": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_Hij7wz": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_xRyAHP": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_WiNV4j": {
+          "type": "pickup_availability",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_kJMnni",
+        "title_tVjkMK",
+        "badges_PE6tDx",
+        "price_EVDd38",
+        "rating_Tyz3qc",
+        "payment_terms_ANL6Kx",
+        "separator_Q3nQxt",
+        "description_L4VFHA",
+        "variant_picker_GTG7FM",
+        "quantity_selector_Hij7wz",
+        "buy_buttons_xRyAHP",
+        "pickup_availability_WiNV4j"
+      ],
+      "name": "t:sections.featured_product.presets.featured_product.name",
+      "settings": {
+        "color_scheme": "",
+        "product": "1-on-1-guided-activation",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "Featured product",
+        "content": ""
       }
     },
     "image_with_text_z9GUzW": {
@@ -308,114 +416,6 @@
         "content_width": "lg",
         "remove_vertical_spacing": true
       }
-    },
-    "featured_product_qCHB9B": {
-      "type": "featured-product",
-      "blocks": {
-        "vendor_kJMnni": {
-          "type": "vendor",
-          "settings": {}
-        },
-        "title_tVjkMK": {
-          "type": "title",
-          "settings": {
-            "heading_tag": "h3"
-          }
-        },
-        "badges_PE6tDx": {
-          "type": "badges",
-          "settings": {}
-        },
-        "price_EVDd38": {
-          "type": "price",
-          "settings": {
-            "show_taxes_notice": false
-          }
-        },
-        "rating_Tyz3qc": {
-          "type": "rating",
-          "settings": {
-            "show_empty": true,
-            "rating_mode": "rating"
-          }
-        },
-        "payment_terms_ANL6Kx": {
-          "type": "payment_terms",
-          "settings": {}
-        },
-        "separator_Q3nQxt": {
-          "type": "separator",
-          "settings": {}
-        },
-        "description_L4VFHA": {
-          "type": "description",
-          "settings": {
-            "collapse_content": false
-          }
-        },
-        "variant_picker_GTG7FM": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "selector_style": "block",
-            "swatch_selector_style": "swatch",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
-        "quantity_selector_Hij7wz": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_xRyAHP": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
-        "pickup_availability_WiNV4j": {
-          "type": "pickup_availability",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "vendor_kJMnni",
-        "title_tVjkMK",
-        "badges_PE6tDx",
-        "price_EVDd38",
-        "rating_Tyz3qc",
-        "payment_terms_ANL6Kx",
-        "separator_Q3nQxt",
-        "description_L4VFHA",
-        "variant_picker_GTG7FM",
-        "quantity_selector_Hij7wz",
-        "buy_buttons_xRyAHP",
-        "pickup_availability_WiNV4j"
-      ],
-      "name": "t:sections.featured_product.presets.featured_product.name",
-      "settings": {
-        "color_scheme": "",
-        "product": "1-on-1-guided-activation",
-        "separate_section_with_border": true,
-        "container_size": "lg",
-        "product_info_size": 45,
-        "center_basic_info": false,
-        "desktop_media_layout": "carousel_thumbnails_bottom",
-        "desktop_media_grid_gap": 30,
-        "mobile_controls": "dots",
-        "enable_media_autoplay": false,
-        "enable_video_looping": true,
-        "enable_image_zoom": false,
-        "max_image_zoom_level": 3,
-        "subheading": "",
-        "title": "Featured product",
-        "content": ""
-      }
     }
   },
   "order": [
@@ -423,12 +423,12 @@
     "ss_image_with_text_2_ipN7Bx",
     "image_with_text_overlay_8tMaPf",
     "rich_text_E6tVfw",
+    "featured_product_qCHB9B",
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
     "image_with_text_VraMht",
     "rich_text_xJT68H",
     "image_with_text_XAEfEb",
-    "image_with_text_Rq88tG",
-    "featured_product_qCHB9B"
+    "image_with_text_Rq88tG"
   ]
 }
