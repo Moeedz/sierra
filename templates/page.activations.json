@@ -244,6 +244,7 @@
         "heading_rEQmdg",
         "richtext_EiGMrc"
       ],
+      "disabled": true,
       "custom_css": [
         ".prose.text-center.sm\\:text-start {text-align: -webkit-left !important;}"
       ],
@@ -265,7 +266,7 @@
         "heading_ERYtpX": {
           "type": "heading",
           "settings": {
-            "text": "At that time, I fell into one of the darkest periods of my life.",
+            "text": "2 types of guided Activations",
             "heading_tag": "h1"
           }
         },
@@ -287,102 +288,6 @@
         "content_width": "sm",
         "text_position": "start",
         "remove_vertical_spacing": false
-      }
-    },
-    "image_with_text_VraMht": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_yJE9y9": {
-          "type": "heading",
-          "settings": {
-            "text": "On the third night alone, I was visited...",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_aXDLDb": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>That night I was honestly ready to end it all. But out of nowhere I <strong>began receiving telepathic messages </strong>— such beautiful and loving words that filled me with hope. This energy completely shifted something inside me. For the first time in so long, I actually felt good.</p><p>I got up and looked at myself in the mirror, still absorbing what I'd just received. Then, <strong>all of a sudden my door slowly creaked open...  </strong>I felt a presence enter my room.</p><p>I'm not going to lie — I was terrified. It was like a scene from a horror movie. But immediately, a wave of pure love and trust washed over me, and the telepathic communication began again.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_yJE9y9",
-        "richtext_aXDLDb"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC0776.jpg",
-        "mobile_image": "shopify://shop_images/DSC0776.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "lg",
-        "remove_vertical_spacing": true
-      }
-    },
-    "rich_text_xJT68H": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_DWCUUz": {
-          "type": "heading",
-          "settings": {
-            "text": "That moment shifted everything I thought I knew.",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_NcT3kN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>At the time, I didn’t believe in anything beyond the physical. I thought life was random, meaningless, and that nothing existed outside of what we could perceive.</p><p><strong>But after that undeniable night,</strong> I couldn’t ignore what I had experienced. I <em>had</em> to understand it. That moment ignited something deep within me —<strong> a search for the truth.</strong></p><p><br/>From then on, I spent every waking moment diving into any knowledge I could get my hands on — until I started remembering my own.</p><p>What began as a search for understanding <strong>became a deep journey of awakening my soul's wisdom, memories, gifts, and tools. </strong></p><p>Ones that I used to heal my own traumas, programming, and wounds — and that <strong>finally gave me access to the 'other side,'</strong> my spirit guides, higher self, and higher dimensions.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_DWCUUz",
-        "richtext_NcT3kN"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "start",
-        "remove_vertical_spacing": false
-      }
-    },
-    "image_with_text_XAEfEb": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_NBbUFr": {
-          "type": "heading",
-          "settings": {
-            "text": "Frequency is the key",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_WU46nL": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>I've undergone a complete transformation — physically, mentally, emotionally, and spiritually. The difference between who I was and who I am now is night and day. (this transformation is still unfolding)</p><p>But no matter how much knowledge I consumed, something was still missing. <strong>The real shift didn't happen from what I knew —</strong> it happened when my base frequency began to rise.</p><p><strong>As my vibration elevated, I naturally became more attuned to higher realms </strong>and higher-dimensional beings. And the higher my frequency became, the more clearly I could sense what was real and what was distorted.</p><p>That's when I began to see that much of the spiritual world — including many teachers and teachings — <strong>wasn't as pure as it appeared.</strong> The frequency was off. And you can't fake frequency.</p><p>That's what led me to my deep connection with <strong>crystals, light,</strong> <strong>and light codes. </strong>These are pure, high-vibrational tools — <strong>untouched by ego, agenda, or distortion</strong>. They don't manipulate you, they activate you. They remind you of who you really are.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_NBbUFr",
-        "richtext_WU46nL"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC0805.jpg",
-        "mobile_image": "shopify://shop_images/DSC0805.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "lg",
-        "remove_vertical_spacing": true
       }
     },
     "image_with_text_Rq88tG": {
@@ -427,9 +332,6 @@
     "featured_product_qCHB9B",
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
-    "image_with_text_VraMht",
-    "rich_text_xJT68H",
-    "image_with_text_XAEfEb",
     "image_with_text_Rq88tG"
   ]
 }
