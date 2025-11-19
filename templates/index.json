@@ -826,6 +826,54 @@
         "title": "Contact",
         "content": "<p>Have a question? Feel called to a custom piece? Want to share your experience with the jewelry? I'd love to hear from you. <strong>Reach out below and I'll get back to you soon.</strong></p>"
       }
+    },
+    "testimonials_yCD8rR": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_QWrjLW": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"Since my ring activation with Sierra, I can confidently say I am so much closer to my most empowered self. I've seen internal transformation ( that others have noticed and commented on as well ) from the moment I was in her care, and since then I've felt deeply connected to a part of me that previously had seemed much further away....\"</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_pEqyFq": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        },
+        "testimonial_Gj3j8G": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_QWrjLW",
+        "testimonial_pEqyFq",
+        "testimonial_Gj3j8G"
+      ],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "⟡ Marina ⟡",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -848,6 +896,7 @@
     "rich_text_ppdV67",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_txdaqM",
-    "contact_gFhMDx"
+    "contact_gFhMDx",
+    "testimonials_yCD8rR"
   ]
 }
