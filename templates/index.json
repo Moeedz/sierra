@@ -589,21 +589,11 @@
             "logo_mobile_max_width": 100,
             "author": "Gianna, New York"
           }
-        },
-        "testimonial_LtacJq": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": ""
-          }
         }
       },
       "block_order": [
         "testimonial_RYa4aa",
-        "testimonial_ny849e",
-        "testimonial_LtacJq"
+        "testimonial_ny849e"
       ],
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
