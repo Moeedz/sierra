@@ -700,7 +700,7 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Meet your new guide",
+            "text": "Meet your Jewelry",
             "url": "shopify://products/1-on-1-guided-activation",
             "background": "#cffcff",
             "text_color": "#000000"
