@@ -1,0 +1,136 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.collection-banner * {height: 20px !important; min-height: 100px !important; }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "image": "shopify://shop_images/PB203573_d9c4f8b7-354d-4602-a6ce-9dc45d6ce23a.jpg",
+        "mobile_image": "shopify://shop_images/PB203573.jpg",
+        "image_size": "auto",
+        "allow_transparent_header": false,
+        "reveal": true,
+        "enable_parallax": true,
+        "show_image": true,
+        "show_collection_title": false,
+        "show_collection_description": false,
+        "show_breadcrumb": false,
+        "content_width": "xs",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_xWPteY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PdxwXe": {
+          "type": "heading",
+          "settings": {
+            "text": "꩜ {{ collection.title }}",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_R3P7eX": {
+          "type": "richtext",
+          "settings": {
+            "content": "{{ collection.description }}"
+          }
+        }
+      },
+      "block_order": [
+        "heading_PdxwXe",
+        "richtext_R3P7eX"
+      ],
+      "custom_css": [
+        "* {font-family: \"Poppins\" !important;}",
+        "@media screen and (max-width: 767px) {.rich-content * {font-size: 12px; }}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
+    "custom_liquid_PdY4PW": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "custom_css": [
+        "b {font-family: Taviraj, ui-sans-serif;}"
+      ],
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<p><b style=\"color:#383838; font-size:2.5rem;\">New Arrivals</b></p><p><b>Before browsing,</b> take a moment to pause, close your eyes and take a deep inhale and exhale.</p><p>Call upon your Higher Self and set the intention to remain open to receive the energy you're ready to recieve.</p>\n\n<b>Trust the pull.</p>",
+        "text_alignment": "center"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "custom_css": [
+        "p.collection-toolbar__products-count.h6.text-subdued.md-max\\:hidden {font-family: sans-serif; text-transform: uppercase;}",
+        "button.collection-toolbar__button.heading.text-xxs.w-full {font-family: sans-serif; text-transform: uppercase;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "hide_product_information": false,
+        "products_per_page": 50,
+        "products_per_row_mobile": "2",
+        "products_size_desktop": "medium",
+        "show_grid_mode_selector": true,
+        "horizontal_spacing_factor": 0.5,
+        "vertical_spacing_factor": 1,
+        "filter_layout": "drawer",
+        "quick_links_menu": "",
+        "show_sort_by": true,
+        "show_filters": true,
+        "show_results_count": true,
+        "show_filter_group_name": false,
+        "show_filter_values_count": true,
+        "open_filters_by_default": true
+      }
+    },
+    "newsletter_4i6pTX": {
+      "type": "newsletter",
+      "custom_css": [
+        "button.button:hover {color: black !important; border-color: black !important;}",
+        "h2 {font-family: \"Poppins\" !important;}"
+      ],
+      "name": "t:sections.newsletter.presets.newsletter.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "",
+        "title": "",
+        "content": "<h2>Sign up for 10% off your first order</h2>",
+        "button_text": "Subscribe",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "collection-banner",
+    "rich_text_xWPteY",
+    "custom_liquid_PdY4PW",
+    "main",
+    "newsletter_4i6pTX"
+  ]
+}
