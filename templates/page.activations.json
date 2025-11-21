@@ -390,6 +390,7 @@
         "heading_ERYtpX",
         "richtext_7bMgVB"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -491,7 +492,7 @@
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
-        "product": "prerecorded-guided-activation-copy",
+        "product": "soul-alignment-session",
         "separate_section_with_border": true,
         "container_size": "lg",
         "product_info_size": 45,
