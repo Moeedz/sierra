@@ -97,7 +97,7 @@
         "richtext_8gyBbN": {
           "type": "richtext",
           "settings": {
-            "content": "<p>If you're ready to dive deeper, explore my additional offerings that are here to support your awakening and activation. </p>"
+            "content": "<p>Right now I'm offering <strong>2 types of guided activations</strong> and <strong>Soul Alignment Sessions. </strong>Check out below for more information and see which offer is for you.</p>"
           }
         }
       },
@@ -399,6 +399,115 @@
         "remove_vertical_spacing": false
       }
     },
+    "featured_product_VnQdFP": {
+      "type": "featured-product",
+      "blocks": {
+        "vendor_VXKMNN": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title_8njYNY": {
+          "type": "title",
+          "settings": {
+            "heading_tag": "h3"
+          }
+        },
+        "badges_Q3nwfi": {
+          "type": "badges",
+          "settings": {}
+        },
+        "price_mwNNQW": {
+          "type": "price",
+          "settings": {
+            "show_taxes_notice": false
+          }
+        },
+        "rating_BkwDtj": {
+          "type": "rating",
+          "settings": {
+            "show_empty": true,
+            "rating_mode": "rating"
+          }
+        },
+        "payment_terms_kjp98g": {
+          "type": "payment_terms",
+          "settings": {}
+        },
+        "separator_RxVBGb": {
+          "type": "separator",
+          "settings": {}
+        },
+        "description_7dBEhM": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false
+          }
+        },
+        "variant_picker_gmGyEy": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_style": "block",
+            "swatch_selector_style": "swatch",
+            "variant_image_options": "",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector_KYWFKq": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_GmXyd6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
+        "pickup_availability_QpMfyc": {
+          "type": "pickup_availability",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor_VXKMNN",
+        "title_8njYNY",
+        "badges_Q3nwfi",
+        "price_mwNNQW",
+        "rating_BkwDtj",
+        "payment_terms_kjp98g",
+        "separator_RxVBGb",
+        "description_7dBEhM",
+        "variant_picker_gmGyEy",
+        "quantity_selector_KYWFKq",
+        "buy_buttons_GmXyd6",
+        "pickup_availability_QpMfyc"
+      ],
+      "name": "t:sections.featured_product.presets.featured_product.name",
+      "settings": {
+        "color_scheme": "",
+        "product": "prerecorded-guided-activation-copy",
+        "separate_section_with_border": true,
+        "container_size": "lg",
+        "product_info_size": 45,
+        "center_basic_info": false,
+        "desktop_media_layout": "carousel_thumbnails_bottom",
+        "desktop_media_grid_gap": 30,
+        "mobile_controls": "dots",
+        "enable_media_autoplay": false,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "max_image_zoom_level": 3,
+        "subheading": "",
+        "title": "Soul Alignment Session",
+        "content": ""
+      }
+    },
     "image_with_text_Rq88tG": {
       "type": "image-with-text",
       "blocks": {
@@ -490,6 +599,7 @@
     "featured_product_f9AVDr",
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
+    "featured_product_VnQdFP",
     "image_with_text_Rq88tG",
     "testimonials_FmkQdd"
   ]
