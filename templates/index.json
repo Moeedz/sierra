@@ -22,7 +22,7 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
             "content_max_width": 700,
-            "button_1_text": "Explore the Activations",
+            "button_1_text": "Explore the Collection",
             "button_1_link": "https://sierraisabelactivations.com/collections/new-arrivals",
             "button_1_style": "solid",
             "button_1_background": "#cffcff",
