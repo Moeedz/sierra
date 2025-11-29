@@ -626,6 +626,46 @@
         "remove_vertical_spacing": false
       }
     },
+    "rich_text_EmkgJN": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_JDjUwD": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "richtext_aN6Gpj": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><strong>This is so much more than jewelry.</strong></p><p>Every piece is a portal, an invitation to remember who you are and why you're here.</p><p> If what you've read stirs curiosity, excitement, or a full-body <em>yes</em>, I invite you to explore the current collection and trust which piece calls to you. Your soul already knows.</p><p>And if you're ready to go deeper into your personal evolution—to heal, activate, and remember your gifts and purpose—explore my <a href=\"https://admin.shopify.com/store/6ee411-77/link-to-sessions-page\">Soul Alignment Sessions</a>. This is where the real transformation begins.</p><p>For behind-the-scenes energy updates and pieces not yet listed on the site, follow along on <a href=\"https://admin.shopify.com/store/6ee411-77/your-handle-here\">Instagram</a>.</p>"
+          }
+        },
+        "button_KmdnAh": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Learn More",
+            "url": "shopify://pages/sessions-guided-activations",
+            "background": "#cffcff",
+            "text_color": "#000000"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JDjUwD",
+        "richtext_aN6Gpj",
+        "button_KmdnAh"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "1764349737cbe0df2e": {
       "type": "apps",
       "blocks": {
@@ -958,6 +998,7 @@
     "text_with_icons_4Ebr3X",
     "image_with_text_9znibH",
     "rich_text_VLrajx",
+    "rich_text_EmkgJN",
     "1764349737cbe0df2e",
     "testimonials_gYYaAy",
     "ss_feature_1_JycCj6",
