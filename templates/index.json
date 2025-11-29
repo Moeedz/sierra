@@ -590,7 +590,7 @@
         "heading_bxbTdC": {
           "type": "heading",
           "settings": {
-            "text": "‏꩜ Guided Activations",
+            "text": "<strong>‏꩜ Guided Activations</strong>",
             "heading_tag": "h2"
           }
         },
@@ -599,12 +599,23 @@
           "settings": {
             "content": "<p>Every purchase includes a <strong>complimentary Guided Activation</strong>, designed to help you connect with the messages, spirit guides, and consciousness encoded within your jewelry.</p><p>Through a <em>visual astral journey</em> or guided meditation (available via Zoom or in person), you'll open your channels to receive <strong>direct connection and guidance from the higher realms. </strong></p><p>This ceremonial activation allows the energies within your piece to reveal exactly what is needed at this point in your journey—empowering you to embody your highest self, reach your fullest potential, and create a life aligned with your <strong>soul's purpose.</strong></p><p>Each activation is a personalized experience, ensuring you receive the <em>complete energetic transmission</em> your jewelry has to offer.</p>"
           }
+        },
+        "button_Pt9pHg": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Learn More",
+            "url": "",
+            "background": "#cffcff",
+            "text_color": "#000000"
+          }
         }
       },
       "block_order": [
         "subheading_gP8zLm",
         "heading_bxbTdC",
-        "richtext_6X7D6U"
+        "richtext_6X7D6U",
+        "button_Pt9pHg"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
