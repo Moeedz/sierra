@@ -589,7 +589,7 @@
             "icon_width": 24,
             "mobile_icon_width": 64,
             "title": "<strong>Guided Activations</strong>",
-            "content": "<p></p><p>Every piece of my jewelry is woven and sealed with a specific encoded frequency, a <strong>light-based imprint that speaks directly to your soul.</strong></p><p>Since we are multidimensional beings, the deepest parts of who we are can’t always be accessed through the mind; but instead through energy, symbolism, and vibration, a language older than words. </p><p>Each piece is created in collaboration with your <strong>Spirit Guides and Higher Self</strong>, carrying the exact codes, colors, and frequencies you’re meant to receive in this chapter of your evolution.</p><p></p><p>When you’re drawn to a piece, it’s never just the aesthetic. You’re responding to the activation within it — the energy, frequency, and transmission your soul recognizes and is finally ready to integrate.</p><p>This is why my jewelry is different.</p><p>It’s not just adornment — it’s <strong>energetic technology</strong> for your awakening.</p>"
+            "content": "<p>Every purchase comes with a Free Guided Activation to take you deeper into what your piece has to ofeer.</p>"
           }
         }
       },
@@ -654,6 +654,7 @@
         "testimonial_RYa4aa",
         "testimonial_ny849e"
       ],
+      "disabled": true,
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
