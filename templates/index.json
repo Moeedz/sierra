@@ -645,8 +645,8 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Learn More",
-            "url": "shopify://pages/sessions-guided-activations",
+            "text": "Explore the collection",
+            "url": "shopify://collections/new-arrivals",
             "background": "#cffcff",
             "text_color": "#000000"
           }
@@ -813,38 +813,6 @@
         "lazy": true
       }
     },
-    "rich_text_ppdV67": {
-      "type": "rich-text",
-      "blocks": {
-        "button_t6Q3Tr": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Meet your Jewelry",
-            "url": "shopify://products/1-on-1-guided-activation",
-            "background": "#cffcff",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "button_t6Q3Tr"
-      ],
-      "custom_css": [
-        "@media screen and (min-width: 768px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 45px; line-height: normal; padding-right: 5rem; padding-left: 5rem; }}",
-        "@media screen and (max-width: 767px) {p.h1 {font-family: \"Taviraj-sans-serif\"; font-size: 25px; line-height: normal; padding-left: 1rem; padding-right: 1rem; }}",
-        "button.button:hover {color: black !important;}",
-        "button.button:hover {background-color: #cffcff !important; flex-direction: row-reverse;}"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "ss_image_with_text_12_Qgq3mK": {
       "type": "ss-image-with-text-12",
       "blocks": {
@@ -1002,7 +970,6 @@
     "1764349737cbe0df2e",
     "testimonials_gYYaAy",
     "ss_feature_1_JycCj6",
-    "rich_text_ppdV67",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_txdaqM",
     "contact_gFhMDx"
