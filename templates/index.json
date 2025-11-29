@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_3169-2_589b9987-343c-4e37-b1e8-a6e86303d920.jpg",
-            "mobile_image": "shopify://shop_images/IMG_3934-2.jpg",
+            "mobile_image": "shopify://shop_images/IMG_5292.jpg",
             "subheading": "",
             "title": "A new way to remember who you truly are.",
             "mobile_text_position": "place-self-end-center text-center",
@@ -859,6 +859,26 @@
         "title": "Contact",
         "content": "<p>Have a question? Feel called to a custom piece? Want to share your experience with the jewelry? I'd love to hear from you. <strong>Reach out below and I'll get back to you soon.</strong></p>"
       }
+    },
+    "1764349737cbe0df2e": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_featured_carousel_jX8tnD": {
+          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "maxwidth": 1080
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_featured_carousel_jX8tnD"
+      ],
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
     }
   },
   "order": [
@@ -882,6 +902,7 @@
     "rich_text_ppdV67",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_txdaqM",
-    "contact_gFhMDx"
+    "contact_gFhMDx",
+    "1764349737cbe0df2e"
   ]
 }
