@@ -170,11 +170,22 @@
           "settings": {
             "content": "<p>My jewelry serves as an intentional <strong>bridge between the physical and the spiritual</strong> — a meeting place where your Higher Self and spirit guides can reveal to you what you're now ready to activate.</p><p>Whether you're just beginning your journey or have already transformed many times in this lifetime, each piece offers direct guidance toward your highest alignment.</p><p><strong>You don’t need to be “gifted” to access it</strong> — Your soul already carries the wisdom and memories... <em>my creations simply help you access it</em>.</p><p><strong>There are 2 ways to use my jewelry: </strong></p><p><strong>1. Simply wear it. </strong>The encoded frequencies naturally weave through your energy field, raising your vibration and anchoring the codes into your aura. This attracts the aligned energies, messages, and synchronicities meant to support this phase of your journey.</p><p><strong>2. Use it as a sacred tool during meditation, channeling, or astral travel. </strong>Each piece opens a portal to specific past lives, soul memories, and direct Higher Self guidance—for deeper healing, awakening, and personal expansion.</p><p>‏꩜ <strong>Every purchase comes with a FREE Guided Activation </strong>to connect you directly with the spirit guides, messages, and activation your jewelry is offering to you. </p>"
           }
+        },
+        "button_KfNmhy": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Guided Activations",
+            "url": "",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_LGzpCU",
-        "richtext_QTzwHN"
+        "richtext_QTzwHN",
+        "button_KfNmhy"
       ],
       "custom_css": [
         "@media screen and (max-width: 767px) {p.h3 {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; text-align: -webkit-center !important; }}"
