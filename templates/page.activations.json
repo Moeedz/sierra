@@ -219,6 +219,12 @@
     "featured_product_f9AVDr": {
       "type": "featured-product",
       "blocks": {
+        "judge_me_reviews_preview_badge_homepage_xYeewk": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "product": "prerecorded-guided-activation-copy"
+          }
+        },
         "vendor_MnqUGT": {
           "type": "vendor",
           "settings": {}
@@ -245,10 +251,6 @@
             "show_empty": true,
             "rating_mode": "rating"
           }
-        },
-        "payment_terms_T7bJip": {
-          "type": "payment_terms",
-          "settings": {}
         },
         "separator_WVwpgd": {
           "type": "separator",
@@ -292,12 +294,12 @@
         }
       },
       "block_order": [
+        "judge_me_reviews_preview_badge_homepage_xYeewk",
         "vendor_MnqUGT",
         "title_KVUge7",
         "badges_af3eJ7",
         "price_Bx9kTr",
         "rating_EBjHwj",
-        "payment_terms_T7bJip",
         "separator_WVwpgd",
         "description_edaXHx",
         "variant_picker_Vi9hNp",
@@ -502,39 +504,6 @@
         "content": ""
       }
     },
-    "image_with_text_Rq88tG": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_rGfmMt": {
-          "type": "heading",
-          "settings": {
-            "text": "That's why I created this work...",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_YcrNch": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p> To offer you<strong> potent and powerful tools</strong> that help you access your own truth — supported by the highest vibrations and the purest intentions.</p><p>Because when you remember and embody who you truly are — beyond the distortions placed on humanity — everything shifts. Your sense of purpose ignites, your gifts and wisdom come online, and you begin creating a life that is deeply fulfilling on every level.</p><p>From this space, <strong>you</strong> <strong>naturally manifest all that your soul desires, aligning you with your highest purpose.</strong></p><p>And as your frequency expands, it ripples outward — uplifting the collective consciousness of humanity and the vibration of Earth itself.</p><p><strong>Together, we can create a world where every living being is safe, free, and thriving. </strong></p><p><em>The ultimate purpose for why souls like you and I are here.</em></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rGfmMt",
-        "richtext_YcrNch"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "image": "shopify://shop_images/DSC0814.jpg",
-        "mobile_image": "shopify://shop_images/DSC0814.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "lg",
-        "remove_vertical_spacing": true
-      }
-    },
     "testimonials_FmkQdd": {
       "type": "testimonials",
       "blocks": {
@@ -594,7 +563,6 @@
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
     "featured_product_VnQdFP",
-    "image_with_text_Rq88tG",
     "testimonials_FmkQdd"
   ]
 }
