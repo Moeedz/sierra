@@ -29,11 +29,10 @@
             "show_taxes_notice": false
           }
         },
-        "description": {
-          "type": "description",
+        "text_fKRi6C": {
+          "type": "text",
           "settings": {
-            "collapse_content": false,
-            "show_below_gallery": false
+            "text": "<p>⛟ This piece comes included Free shipping & Guided Activation.</p>"
           }
         },
         "payment_terms": {
@@ -69,6 +68,13 @@
         "es_back_in_stock_product_restore_email_xtnkU7": {
           "type": "shopify://apps/es-back-in-stock/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
           "settings": {}
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "collapse_content": false,
+            "show_below_gallery": false
+          }
         },
         "accordion_i4kqwh": {
           "type": "accordion",
@@ -140,12 +146,13 @@
         "vendor",
         "title",
         "price",
-        "description",
+        "text_fKRi6C",
         "payment_terms",
         "separator",
         "variant_picker",
         "buy_buttons",
         "es_back_in_stock_product_restore_email_xtnkU7",
+        "description",
         "accordion_i4kqwh",
         "accordion_cEhKjK",
         "accordion_bztLyL",
