@@ -12,12 +12,12 @@
     "main": {
       "type": "main-cart",
       "settings": {
-        "color_scheme": "scheme-2",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "show_cart_note": true,
         "show_order_weight": false,
         "show_shipping_text": false,
         "show_accelerated_buttons": false,
-        "show_shipping_estimator": true
+        "show_shipping_estimator": false
       }
     }
   },

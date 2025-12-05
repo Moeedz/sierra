@@ -42,18 +42,13 @@
     "cart_type": "drawer",
     "cart_icon": "shopping_bag",
     "cart_show_free_shipping_bar": true,
-    "cart_free_shipping_threshold": "60",
+    "cart_free_shipping_threshold": "10,000",
     "social_pinterest": "",
     "social_instagram": "https://www.instagram.com/sierraisabel.activations?igsh=MWVxbHpqODQ0N29oYw%3D%3D&utm_source=qr",
     "social_tiktok": "",
     "favicon": "shopify://shop_images/spirallogo.webp",
     "content_for_index": [],
     "blocks": {
-      "15079184273603081885": {
-        "type": "shopify://apps/essential-free-shipping/blocks/app_embed/4125375e-37c8-4137-949d-c4e1a3aac572",
-        "disabled": false,
-        "settings": {}
-      },
       "14060646107696862457": {
         "type": "shopify://apps/judge-me-reviews/blocks/judgeme_core/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
         "disabled": false,
