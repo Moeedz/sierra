@@ -38,7 +38,7 @@
       "type": "top-bar",
       "name": "Announcement Bar",
       "settings": {
-        "announcement_text": "<p>Free Shipping + Guided Activation with Every Purchase! </p>",
+        "announcement_text": "<p>Free Guided Activation with Every Purchase! </p>",
         "show_icon": true,
         "icon": "",
         "bg_color": "#cffcff",
