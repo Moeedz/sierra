@@ -36,6 +36,7 @@
     },
     "top_bar_97nrxa": {
       "type": "top-bar",
+      "disabled": true,
       "name": "Announcement Bar",
       "settings": {
         "announcement_text": "<p>Free Guided Activation with Every Purchase! </p>",
