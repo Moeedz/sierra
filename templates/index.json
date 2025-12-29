@@ -16,8 +16,8 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_3169-2_589b9987-343c-4e37-b1e8-a6e86303d920.jpg",
-            "mobile_image": "shopify://shop_images/IMG_5292_5e80aaee-e792-4a88-b8d7-2e03b80d3a44.jpg",
-            "subheading": "",
+            "mobile_image": "shopify://shop_images/PC044376-5.jpg",
+            "subheading": "Remember who you are.",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -66,8 +66,8 @@
         "heading_9tYwDt": {
           "type": "heading",
           "settings": {
-            "text": "<strong>꩜ Welcome to a new way of remembering who you truly are.</strong>",
-            "heading_tag": "h3"
+            "text": "",
+            "heading_tag": "h4"
           }
         },
         "richtext_ULHwfh": {
@@ -570,7 +570,7 @@
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp",
+        "image": "shopify://shop_images/IMG_4279.jpg",
         "mobile_image": "shopify://shop_images/IMG_4279.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
