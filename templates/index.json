@@ -329,7 +329,7 @@
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
         "image": "shopify://shop_images/IMG_5292.jpg",
-        "mobile_image": "shopify://shop_images/IMG_5292.jpg",
+        "mobile_image": "shopify://shop_images/IMG_0199-2.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
@@ -408,8 +408,8 @@
         "image_hbTRFc": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/PB023284-4.jpg",
-            "mobile_image": "shopify://shop_images/PB023284-4_c1d95460-b9f5-4060-8966-cb4950198f9e.jpg",
+            "image": "shopify://shop_images/IMG_3179.jpg",
+            "mobile_image": "shopify://shop_images/IMG_3179.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -487,8 +487,8 @@
         "image_dCRUUN": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/IMG_3179_7f56370a-a55a-4711-a58b-e285dfe39b4e.jpg",
-            "mobile_image": "shopify://shop_images/IMG_3179_7f56370a-a55a-4711-a58b-e285dfe39b4e.jpg",
+            "image": "shopify://shop_images/IMG_0151-2.jpg",
+            "mobile_image": "shopify://shop_images/IMG_0151-2.jpg",
             "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-center text-center",
@@ -578,8 +578,8 @@
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/IMG_4279.jpg",
-        "mobile_image": "shopify://shop_images/IMG_4279.jpg",
+        "image": "shopify://shop_images/PC044335-2.jpg",
+        "mobile_image": "shopify://shop_images/PC044335-2.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
