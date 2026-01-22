@@ -16,7 +16,7 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_3169-2_589b9987-343c-4e37-b1e8-a6e86303d920.jpg",
-            "mobile_image": "shopify://shop_images/IMG_0418-4.jpg",
+            "mobile_image": "shopify://shop_images/IMG_0418-5.jpg",
             "subheading": "Welcome to Remembering.",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
@@ -25,7 +25,7 @@
             "button_1_text": "Enter the portal",
             "button_1_link": "https://sierraisabelactivations.com/collections/new-arrivals",
             "button_1_style": "solid",
-            "button_1_background": "#cffcff",
+            "button_1_background": "#f9ceff",
             "button_1_text_color": "#1c1c1c",
             "button_2_text": "",
             "button_2_link": "",
@@ -34,7 +34,7 @@
             "button_2_text_color": "#000000",
             "background": "",
             "background_opacity": 0,
-            "text_color": "#323333",
+            "text_color": "#302c2c",
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(4, 4, 4, 0.65) 100%)"
           }
