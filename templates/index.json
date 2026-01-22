@@ -949,7 +949,7 @@
       "type": "contact",
       "name": "t:sections.contact.presets.contact_form.name",
       "settings": {
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-lavender-pink",
         "separate_section_with_border": true,
         "subheading": "",
         "title": "Contact",
