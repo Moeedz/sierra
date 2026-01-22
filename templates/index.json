@@ -86,10 +86,10 @@
         "button_KmFND9": {
           "type": "button",
           "settings": {
-            "style": "outline",
+            "style": "solid",
             "text": "↓ Explore more below",
             "url": "https://sierraisabelactivations.com/collections/new-arrivals",
-            "background": "rgba(0,0,0,0)",
+            "background": "#fdeeff",
             "text_color": "#d3d3d3"
           }
         }
