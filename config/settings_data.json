@@ -125,6 +125,17 @@
           "circle_button_background": "#cffcff",
           "circle_button_icon": "#000000"
         }
+      },
+      "scheme-lavender-pink": {
+        "settings": {
+          "background": "#f1fcfd",
+          "background_gradient": "",
+          "text_color": "#F9CEFF",
+          "primary_button_background": "rgba(0,0,0,0)",
+          "primary_button_text_color": "#ffffff",
+          "circle_button_background": "#ffffff",
+          "circle_button_icon": "rgba(0,0,0,0)"
+        }
       }
     }
   },
