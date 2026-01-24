@@ -12,11 +12,11 @@
     "collection-banner": {
       "type": "collection-banner",
       "custom_css": [
-        "@media screen and (max-width: 767px) {.collection-banner * {height: 20px !important; min-height: 100px !important; }}"
+        "@media screen and (max-width: 767px) {.collection-banner * {height: 50px !important; min-height: 100px !important; }}"
       ],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "image": "shopify://shop_images/IMG_0354-3.jpg",
+        "image": "shopify://shop_images/IMG_0329-2.jpg",
         "mobile_image": "shopify://shop_images/IMG_0354-3.jpg",
         "image_size": "auto",
         "allow_transparent_header": false,
