@@ -90,7 +90,7 @@
         "richtext_8gyBbN": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Welcome. If you’re feeling called to reconnect with your purpose, your intuition, or your higher self, you’re in the right place.</p><p>Here you’ll find two pathways, <strong>Guided Activations</strong> and <strong>Soul Alignment Sessions, </strong>each designed to gently guide you back into deeper alignment and inner harmony.</p>"
+            "content": "<p>Explore my current offers below.</p>"
           }
         }
       },
@@ -219,16 +219,6 @@
     "featured_product_f9AVDr": {
       "type": "featured-product",
       "blocks": {
-        "judge_me_reviews_preview_badge_homepage_xYeewk": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge_homepage/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "product": "prerecorded-guided-activation-copy"
-          }
-        },
-        "vendor_MnqUGT": {
-          "type": "vendor",
-          "settings": {}
-        },
         "title_KVUge7": {
           "type": "title",
           "settings": {
@@ -241,12 +231,14 @@
         },
         "price_Bx9kTr": {
           "type": "price",
+          "disabled": true,
           "settings": {
             "show_taxes_notice": false
           }
         },
         "rating_EBjHwj": {
           "type": "rating",
+          "disabled": true,
           "settings": {
             "show_empty": true,
             "rating_mode": "rating"
@@ -294,8 +286,6 @@
         }
       },
       "block_order": [
-        "judge_me_reviews_preview_badge_homepage_xYeewk",
-        "vendor_MnqUGT",
         "title_KVUge7",
         "badges_af3eJ7",
         "price_Bx9kTr",
