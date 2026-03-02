@@ -929,38 +929,6 @@
         "lazy": true
       }
     },
-    "newsletter_txdaqM": {
-      "type": "newsletter",
-      "disabled": true,
-      "custom_css": [
-        "button.button:hover {color: black !important; border-color: black !important;}",
-        "h2 {font-family: \"Poppins\" !important;}"
-      ],
-      "name": "t:sections.newsletter.presets.newsletter.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "image_size": "auto",
-        "subheading": "",
-        "title": "Sign up for 10% off your first order",
-        "content": "",
-        "button_text": "Subscribe",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
-    "contact_gFhMDx": {
-      "type": "contact",
-      "disabled": true,
-      "name": "t:sections.contact.presets.contact_form.name",
-      "settings": {
-        "color_scheme": "scheme-lavender-pink",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Contact",
-        "content": "<p>Have a question? Feel called to a custom piece? Want to share your experience with the jewelry? I'd love to hear from you. <strong>Reach out below and I'll get back to you soon.</strong></p>"
-      }
-    },
     "newsletter_dyNQMj": {
       "type": "newsletter",
       "name": "t:sections.newsletter.presets.newsletter.name",
@@ -985,6 +953,46 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "image_with_text_cmWxUe": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_RezPiq": {
+          "type": "subheading",
+          "settings": {
+            "text": "Subheading"
+          }
+        },
+        "heading_iXMFCE": {
+          "type": "heading",
+          "settings": {
+            "text": "Image with text",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_zREEd6": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_RezPiq",
+        "heading_iXMFCE",
+        "richtext_zREEd6"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/IMG_1623-3.jpg",
+        "mobile_image": "shopify://shop_images/IMG_1623-3.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
@@ -1008,9 +1016,8 @@
     "testimonials_gYYaAy",
     "ss_feature_1_JycCj6",
     "ss_image_with_text_12_Qgq3mK",
-    "newsletter_txdaqM",
-    "contact_gFhMDx",
     "newsletter_dyNQMj",
-    "177248664187f8066b"
+    "177248664187f8066b",
+    "image_with_text_cmWxUe"
   ]
 }
