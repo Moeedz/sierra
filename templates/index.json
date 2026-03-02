@@ -707,7 +707,7 @@
         "richtext_zREEd6"
       ],
       "custom_css": [
-        ".subheading {font-size: 24px;}"
+        "#template--25661479354677__image_with_text_cmWxUe .subheading {font-size: 24px !important;}"
       ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
