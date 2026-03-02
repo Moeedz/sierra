@@ -17,8 +17,8 @@
           "settings": {
             "image": "shopify://shop_images/IMG_3169-2_589b9987-343c-4e37-b1e8-a6e86303d920.jpg",
             "mobile_image": "shopify://shop_images/IMG_1657.jpg",
-            "subheading": "",
-            "title": "",
+            "subheading": "Ancient Tools, Modern Woman.",
+            "title": "Activated jewelry for self embodied reclamation.",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 700,
@@ -36,7 +36,7 @@
             "background_opacity": 0,
             "text_color": "#ffffff",
             "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(4, 4, 4, 0.65) 100%)"
+            "gradient_overlay": "linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%)"
           }
         }
       },
@@ -127,7 +127,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<p>EXPLORE NEW ARRIVALS</p>\n\n<style>\n.section-spacing.color-scheme.color-scheme--scheme-83c8f934-b06b-498f-9443-09bcaf9992d7.color-scheme--bg-ef26c368124ba6ed5975b7f8412c3813:has(p) {\n    padding-bottom: 15px !important;\n}\n</style>",
+        "liquid": "<style>\n  #shopify-section-template--25661479354677__slideshow_7dgTyP .slideshow__content h2 + p,\n  #shopify-section-template--25661479354677__slideshow_7dgTyP .slideshow__content h1 + p,\n  #shopify-section-template--25661479354677__slideshow_7dgTyP [class*=\"heading\"] + [class*=\"subheading\"] {\n    margin-top: 0.25rem !important;\n    gap: 0.25rem !important;\n  }\n  \n  #shopify-section-template--25661479354677__slideshow_7dgTyP .slideshow__content > * + * {\n    margin-top: 0.25rem !important;\n  }\n</style>",
         "text_alignment": "start"
       }
     },
