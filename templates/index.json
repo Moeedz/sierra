@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_3169-2_589b9987-343c-4e37-b1e8-a6e86303d920.jpg",
             "mobile_image": "shopify://shop_images/IMG_1657.jpg",
-            "subheading": "Welcome to Remembering.",
+            "subheading": "",
             "title": "",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-start sm:text-start",
@@ -49,7 +49,7 @@
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_next_section_button": false,
         "media_size": "fill",
         "show_initial_transition": false,
@@ -438,7 +438,7 @@
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_next_section_button": true,
         "media_size": "auto",
         "show_initial_transition": false,
@@ -517,7 +517,7 @@
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
-        "allow_transparent_header": true,
+        "allow_transparent_header": false,
         "show_next_section_button": true,
         "media_size": "auto",
         "show_initial_transition": false,
