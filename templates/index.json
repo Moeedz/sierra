@@ -980,8 +980,8 @@
         "image_size": "auto",
         "image": "shopify://shop_images/Palm_trees_forever.jpg",
         "subheading": "",
-        "title": "Sign up for 15% off",
-        "content": "<p>Subscribe to our newsletter below to receive an exclusive offer</p>",
+        "title": "Join the Portal",
+        "content": "<p>Receive 15% off your first activation + early access to new releases.</p>",
         "button_text": "Subscribe",
         "overlay_color": "#faf9f1",
         "overlay_opacity": 24
