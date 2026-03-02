@@ -116,37 +116,33 @@
         "remove_vertical_spacing": false
       }
     },
-    "featured_collections_hiFjFH": {
+    "featured_collections_73HxnG": {
       "type": "featured-collections",
       "blocks": {
-        "collection_MF7gMq": {
+        "collection_Yi6GaJ": {
           "type": "collection",
           "settings": {
             "collection": "new-arrivals",
             "products_count": 8,
-            "title": "EXPLORE NEWEST ARRIVALS",
+            "title": "",
             "link_url": "",
-            "link_text": ""
+            "link_text": "View all"
           }
         }
       },
       "block_order": [
-        "collection_MF7gMq"
-      ],
-      "custom_css": [
-        ".v-stack.justify-self-center.gap-4.text-center.sm\\:gap-5 {display: none;}",
-        "@media screen and (max-width: 767px) {a.product-title {font-size: 12px; } sale-price.text-subdued {font-size: 10px; } price-list.price-list {width: 100%; justify-content: start !important; } .v-stack.justify-items-center.gap-2 {width: 100% !important; justify-items: start !important; text-align: -webkit-left !important; } .product-card {gap: 0.5rem !important; }}"
+        "collection_Yi6GaJ"
       ],
       "name": "t:sections.featured_collections.presets.featured_collections.name",
       "settings": {
-        "color_scheme": "scheme-lavender-pink",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": false,
         "hide_product_information": false,
         "stack_products": false,
         "products_per_row_mobile": "2",
         "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 0.2,
-        "vertical_spacing_factor": 0.2,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
         "subheading": "EXPLORE NEWEST ARRIVALS"
       }
     },
@@ -994,7 +990,7 @@
   "order": [
     "slideshow_7dgTyP",
     "rich_text_kXAMRg",
-    "featured_collections_hiFjFH",
+    "featured_collections_73HxnG",
     "rich_text_i39D6f",
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
