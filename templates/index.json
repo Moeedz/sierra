@@ -681,10 +681,11 @@
     "image_with_text_cmWxUe": {
       "type": "image-with-text",
       "blocks": {
-        "subheading_RezPiq": {
-          "type": "subheading",
+        "heading_BFLhYJ": {
+          "type": "heading",
           "settings": {
-            "text": "Meet Sierra Isabel"
+            "text": "꩜ Meet Sierra Isabel ꩜",
+            "heading_tag": "h1"
           }
         },
         "heading_iXMFCE": {
@@ -702,13 +703,11 @@
         }
       },
       "block_order": [
-        "subheading_RezPiq",
+        "heading_BFLhYJ",
         "heading_iXMFCE",
         "richtext_zREEd6"
       ],
-      "custom_css": [
-        ".caption {font-size: 24px !important;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "",
