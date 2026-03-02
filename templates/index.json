@@ -127,7 +127,7 @@
         "separate_section_with_border": false,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<p>NEW ARRIVALS</p>\n\n<style>\n.section-spacing.color-scheme.color-scheme--scheme-83c8f934-b06b-498f-9443-09bcaf9992d7.color-scheme--bg-ef26c368124ba6ed5975b7f8412c3813:has(p) {\n    padding-bottom: 15px !important;\n}\n</style>",
+        "liquid": "<p>EXPLORE NEW ARRIVALS</p>\n\n<style>\n.section-spacing.color-scheme.color-scheme--scheme-83c8f934-b06b-498f-9443-09bcaf9992d7.color-scheme--bg-ef26c368124ba6ed5975b7f8412c3813:has(p) {\n    padding-bottom: 15px !important;\n}\n</style>",
         "text_alignment": "start"
       }
     },
@@ -988,6 +988,55 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "text_with_icons_mBcdLj": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_ipjEjC": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-delivery-truck",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Free shipping",
+            "content": "<p>Free worldwide shipping and returns - customs and duties taxes included</p>"
+          }
+        },
+        "item_yxUpP7": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-customer-support",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Customer service",
+            "content": "<p>We are available from monday to friday to answer your questions.</p>"
+          }
+        },
+        "item_DGkbXj": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-shield",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Secure payment",
+            "content": "<p>Your payment information is processed securely.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ipjEjC",
+        "item_yxUpP7",
+        "item_DGkbXj"
+      ],
+      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
@@ -1014,6 +1063,7 @@
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_txdaqM",
     "contact_gFhMDx",
-    "177248664187f8066b"
+    "177248664187f8066b",
+    "text_with_icons_mBcdLj"
   ]
 }
