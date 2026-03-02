@@ -79,6 +79,7 @@
         },
         "richtext_CajCPT": {
           "type": "richtext",
+          "disabled": true,
           "settings": {
             "content": "<p>‏꩜ There's a part of you that knows you're here on Earth with a purpose. </p><p>That <strong>you carry a gift deep inside that's meant to be shared with this world</strong>, even if it's not yet clear what that is.<br/><br/>You've explored many modalities and spiritual teachings, hoping they would bring the clarity you seek, yet nothing has allowed you to fully<strong> unlock</strong> in the way you need.</p><p>You're not broken. There's nothing wrong with you.</p><p>You've prepared for this lifetime in ways you couldn't possibly imagine, and you definitely  didn't come here alone.</p><p>Everything I offer is designed to guide you back to this knowing, through light-coded jewelry, guided activations, and soul alignment sessions that work as <strong>ancient tools</strong> and <strong>multidimensional allies</strong> your soul already recognizes. </p>"
           }
@@ -100,6 +101,7 @@
         "richtext_CajCPT",
         "button_KmFND9"
       ],
+      "disabled": true,
       "custom_css": [
         ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}",
         ".prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {border: 0 !important; color: #575151 !important;}",
@@ -195,6 +197,7 @@
         "richtext_QTzwHN",
         "button_KfNmhy"
       ],
+      "disabled": true,
       "custom_css": [
         "@media screen and (max-width: 767px) {p.h3 {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; text-align: -webkit-center !important; }}"
       ],
@@ -324,6 +327,17 @@
     },
     "image_with_text_EL7MM9": {
       "type": "image-with-text",
+      "blocks": {
+        "richtext_nUBUki": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_nUBUki"
+      ],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -357,6 +371,7 @@
         "heading_GgpDCc",
         "richtext_DWJdgq"
       ],
+      "disabled": true,
       "custom_css": [
         "p.h3 {text-align: center !important;}"
       ],
@@ -387,6 +402,7 @@
       "block_order": [
         "item_KzRhrW"
       ],
+      "disabled": true,
       "custom_css": [
         ".h3 {font-size: 25px;}",
         ".gap-2 {gap: 1.5rem;}",
@@ -407,6 +423,7 @@
       "blocks": {
         "image_hbTRFc": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_0193.jpg",
             "mobile_image": "shopify://shop_images/IMG_0193.jpg",
@@ -454,6 +471,7 @@
       "blocks": {
         "item_dzA64z": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "icon": "picto-customer-support",
             "custom_icon": "shopify://shop_images/bbbbb.png",
@@ -486,6 +504,7 @@
       "blocks": {
         "image_dCRUUN": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/IMG_0151-2.jpg",
             "mobile_image": "shopify://shop_images/IMG_0151-2.jpg",
@@ -546,6 +565,7 @@
       "block_order": [
         "item_gBFhtw"
       ],
+      "disabled": true,
       "custom_css": [
         ".gap-2 {gap: 1.5rem;}",
         "p.h6 {font-size: var(--text-h3);}"
@@ -574,6 +594,7 @@
       "block_order": [
         "heading_BjXJnq"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -625,6 +646,7 @@
         "richtext_6X7D6U",
         "button_Pt9pHg"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "",
@@ -665,6 +687,7 @@
         "richtext_aN6Gpj",
         "button_KmdnAh"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "",
@@ -947,6 +970,7 @@
     },
     "contact_gFhMDx": {
       "type": "contact",
+      "disabled": true,
       "name": "t:sections.contact.presets.contact_form.name",
       "settings": {
         "color_scheme": "scheme-lavender-pink",
@@ -954,6 +978,15 @@
         "subheading": "",
         "title": "Contact",
         "content": "<p>Have a question? Feel called to a custom piece? Want to share your experience with the jewelry? I'd love to hear from you. <strong>Reach out below and I'll get back to you soon.</strong></p>"
+      }
+    },
+    "177248664187f8066b": {
+      "type": "apps",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
       }
     }
   },
@@ -980,6 +1013,7 @@
     "ss_feature_1_JycCj6",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_txdaqM",
-    "contact_gFhMDx"
+    "contact_gFhMDx",
+    "177248664187f8066b"
   ]
 }
