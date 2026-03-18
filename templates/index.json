@@ -720,6 +720,41 @@
         "remove_vertical_spacing": true
       }
     },
+    "17738066989ce5e874": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_carousel_gNTK8K": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "corner-radius": 40,
+            "items-per-view": 2,
+            "items-per-view-mobile": 3,
+            "max-characters": 180,
+            "autoplay": false,
+            "autoplay-delay": 5,
+            "main-color": "#ae8868",
+            "stars-color": "#ff8d00",
+            "show-review-text": true,
+            "text-color": "",
+            "reviewer-name-color": "",
+            "verified-badge-color": "",
+            "quote-marks-icon": "style-1",
+            "quote-marks-icon-color": "",
+            "review-background-color": "",
+            "product-ids": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_carousel_gNTK8K"
+      ],
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "1764349737cbe0df2e": {
       "type": "apps",
       "settings": {
@@ -978,41 +1013,6 @@
     },
     "177248664187f8066b": {
       "type": "apps",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
-      }
-    },
-    "17738066989ce5e874": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_carousel_gNTK8K": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "corner-radius": 40,
-            "items-per-view": 2,
-            "items-per-view-mobile": 3,
-            "max-characters": 180,
-            "autoplay": false,
-            "autoplay-delay": 5,
-            "main-color": "#ae8868",
-            "stars-color": "#ff8d00",
-            "show-review-text": true,
-            "text-color": "",
-            "reviewer-name-color": "",
-            "verified-badge-color": "",
-            "quote-marks-icon": "style-1",
-            "quote-marks-icon-color": "",
-            "review-background-color": "",
-            "product-ids": ""
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_carousel_gNTK8K"
-      ],
       "settings": {
         "color_scheme": "",
         "separate_section_with_border": true,
