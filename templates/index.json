@@ -641,7 +641,7 @@
         "richtext_GqpzpE": {
           "type": "richtext",
           "settings": {
-            "content": "<p>We live in such a magical time where humanity is surrounded by divine guidance and support. Crystals are now more accessible than ever, and for a good reason. </p><p>Powerful souls like you have chosen to incarnate on Earth at this precise time, because you carry a signature frequency & unique gifts that can help heal the world.</p><p>But when \"cosmic amnesia\" takes over, we lose sight of our soul mission, that's when our spirit & crystalline guides come in to help us reawaken. </p><p></p><p></p><p></p>"
+            "content": "<p>We live in such a magical time where humanity is surrounded by divine guidance and support. Crystals are now more accessible than ever, and for a good reason. </p><p>Powerful souls like you have chosen to incarnate on Earth at this precise time, because you carry a signature frequency & unique gifts that can help heal the world.</p><p>But when \"cosmic amnesia\" takes over, we lose sight of our soul mission, that's when our spirit & crystalline guides come in to help us reawaken. helping us reconnect with our authentic selves</p><p></p><p></p><p></p>"
           }
         }
       },
@@ -678,6 +678,7 @@
         "subheading_Kp94RE",
         "richtext_4MA4Lk"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -702,7 +703,7 @@
         "heading_iXMFCE": {
           "type": "heading",
           "settings": {
-            "text": "Meet Sierra Isabel",
+            "text": "",
             "heading_tag": "h6"
           }
         },
