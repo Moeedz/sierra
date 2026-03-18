@@ -60,62 +60,6 @@
         "controls_color": "#ffffff"
       }
     },
-    "rich_text_kXAMRg": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_9tYwDt": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h4"
-          }
-        },
-        "richtext_ULHwfh": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>Every piece of my Light-Coded jewelry is a portal within — intentionally designed to reveal the deeper layers of yourself that have been waiting to emerge. </p><p>With the help of <strong>crystal allies</strong>, <strong>color activations</strong>, and <strong>encoded frequencies</strong>, each piece becomes more than jewelry.</p><p>Some gently awaken memories from <strong>past lives</strong> and <strong>Starseed origins</strong><em>,</em> others reawaken the<strong> playful nature </strong>of your <strong>inner child</strong>, and many are designed to<strong> </strong>reactivate and <strong>harmonize your energy centers </strong>(chakras).</p><p><strong>Whichever pieces call to you, it's for a reason.</strong> Your Higher Self is guiding you toward the energy, healing, and remembrance you're now ready to receive.</p><p></p><p></p><p></p><p></p><p></p>"
-          }
-        },
-        "richtext_CajCPT": {
-          "type": "richtext",
-          "disabled": true,
-          "settings": {
-            "content": "<p>‏꩜ There's a part of you that knows you're here on Earth with a purpose. </p><p>That <strong>you carry a gift deep inside that's meant to be shared with this world</strong>, even if it's not yet clear what that is.<br/><br/>You've explored many modalities and spiritual teachings, hoping they would bring the clarity you seek, yet nothing has allowed you to fully<strong> unlock</strong> in the way you need.</p><p>You're not broken. There's nothing wrong with you.</p><p>You've prepared for this lifetime in ways you couldn't possibly imagine, and you definitely  didn't come here alone.</p><p>Everything I offer is designed to guide you back to this knowing, through light-coded jewelry, guided activations, and soul alignment sessions that work as <strong>ancient tools</strong> and <strong>multidimensional allies</strong> your soul already recognizes. </p>"
-          }
-        },
-        "button_KmFND9": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "↓ Explore more below",
-            "url": "https://sierraisabelactivations.com/collections/new-arrivals",
-            "background": "#fdeeff",
-            "text_color": "#d3d3d3"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9tYwDt",
-        "richtext_ULHwfh",
-        "richtext_CajCPT",
-        "button_KmFND9"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".prose:not(.prose--tight) :where(:not(meta, span) + *) {text-align: justify;}",
-        ".prose:not(.prose--tight) :is(.button, .button-group:has(.button)) {border: 0 !important; color: #575151 !important;}",
-        "@media screen and (max-width: 800px) {.prose :where(:not(meta, span) + *) {font-size: 11px; } p.h3 {padding-bottom: 20px !important; } .rich-content {padding-top: 27px; padding-bottom: 3px; padding-left: 29px; padding-right: 29px; margin-top: 0 !important; }}"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
     "featured_collections_73HxnG": {
       "type": "featured-collections",
       "blocks": {
@@ -174,32 +118,6 @@
         "mobile_image": "shopify://shop_images/IMG_0395-2_0c68619f-6276-436e-b32b-d52391d5dc76.jpg",
         "content_width": "lg",
         "enable_parallax": false,
-        "remove_vertical_spacing": true
-      }
-    },
-    "image_with_text_EL7MM9": {
-      "type": "image-with-text",
-      "blocks": {
-        "richtext_nUBUki": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>This isn't just jewelry. ꩜</p><p><br/>Each piece is a bridge to your higher self, intuitively designed and energetically activated to support a specific transformation. Allow these crystalline guides to call to you and bring you back to your truest, most authetic self.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_nUBUki"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/IMG_0395-2.jpg",
-        "mobile_image": "shopify://shop_images/IMG_0395-2.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
         "remove_vertical_spacing": true
       }
     },
@@ -1044,10 +962,8 @@
   },
   "order": [
     "slideshow_7dgTyP",
-    "rich_text_kXAMRg",
     "featured_collections_73HxnG",
     "image_with_text_block_nC7wRG",
-    "image_with_text_EL7MM9",
     "rich_text_i39D6f",
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
