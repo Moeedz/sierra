@@ -210,7 +210,7 @@
           "type": "heading",
           "settings": {
             "text": "<strong>꩜ Each creation bridges you with your Higher Self</strong>",
-            "heading_tag": "h3"
+            "heading_tag": "h1"
           }
         },
         "richtext_QTzwHN": {
@@ -1010,6 +1010,36 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "rich_text_TkPkw4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pDFP9z": {
+          "type": "heading",
+          "settings": {
+            "text": "Crystals are alive & conscious",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_GqpzpE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pDFP9z",
+        "richtext_GqpzpE"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
     }
   },
   "order": [
@@ -1036,6 +1066,7 @@
     "ss_image_with_text_12_Qgq3mK",
     "17738066989ce5e874",
     "newsletter_dyNQMj",
-    "177248664187f8066b"
+    "177248664187f8066b",
+    "rich_text_TkPkw4"
   ]
 }
