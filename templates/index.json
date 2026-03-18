@@ -146,6 +146,37 @@
         "subheading": "EXPLORE NEWEST ARRIVALS"
       }
     },
+    "image_with_text_block_nC7wRG": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_AgyJ7K": {
+          "type": "subheading",
+          "settings": {
+            "text": "This Isnt just jewelry"
+          }
+        },
+        "richtext_dVLV74": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AgyJ7K",
+        "richtext_dVLV74"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "image_size": "lg",
+        "image": "shopify://shop_images/Bazaart_FDE4054F-0FFD-4E63-9C16-190BAF436846_2.jpg",
+        "mobile_image": "shopify://shop_images/IMG_0395-2_0c68619f-6276-436e-b32b-d52391d5dc76.jpg",
+        "content_width": "md",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
+      }
+    },
     "image_with_text_EL7MM9": {
       "type": "image-with-text",
       "blocks": {
@@ -1019,43 +1050,13 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
-    },
-    "image_with_text_block_nC7wRG": {
-      "type": "image-with-text-block",
-      "blocks": {
-        "subheading_AgyJ7K": {
-          "type": "subheading",
-          "settings": {
-            "text": "This Isnt just jewelry"
-          }
-        },
-        "richtext_dVLV74": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_AgyJ7K",
-        "richtext_dVLV74"
-      ],
-      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
-      "settings": {
-        "color_scheme": "",
-        "image_size": "lg",
-        "image": "shopify://shop_images/Bazaart_FDE4054F-0FFD-4E63-9C16-190BAF436846_2.jpg",
-        "mobile_image": "shopify://shop_images/Bazaart_FDE4054F-0FFD-4E63-9C16-190BAF436846_2.jpg",
-        "content_width": "md",
-        "enable_parallax": false,
-        "remove_vertical_spacing": true
-      }
     }
   },
   "order": [
     "slideshow_7dgTyP",
     "rich_text_kXAMRg",
     "featured_collections_73HxnG",
+    "image_with_text_block_nC7wRG",
     "image_with_text_EL7MM9",
     "17738066989ce5e874",
     "rich_text_i39D6f",
@@ -1076,7 +1077,6 @@
     "ss_feature_1_JycCj6",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_dyNQMj",
-    "177248664187f8066b",
-    "image_with_text_block_nC7wRG"
+    "177248664187f8066b"
   ]
 }
