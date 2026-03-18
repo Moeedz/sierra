@@ -152,13 +152,13 @@
         "subheading_AgyJ7K": {
           "type": "subheading",
           "settings": {
-            "text": "This Isnt just jewelry"
+            "text": "꩜ This Isn't just jewelry ꩜"
           }
         },
         "richtext_dVLV74": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+            "content": "<p>Each piece is a bridge to your higher self, intuitively designed and energetically activated to support a specific transformation. Allow these crystalline guides to call to you and bring you back to your truest, most authentic self.</p>"
           }
         }
       },
@@ -172,7 +172,7 @@
         "image_size": "lg",
         "image": "shopify://shop_images/Bazaart_FDE4054F-0FFD-4E63-9C16-190BAF436846_2.jpg",
         "mobile_image": "shopify://shop_images/IMG_0395-2_0c68619f-6276-436e-b32b-d52391d5dc76.jpg",
-        "content_width": "md",
+        "content_width": "lg",
         "enable_parallax": false,
         "remove_vertical_spacing": true
       }
