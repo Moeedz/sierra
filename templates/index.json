@@ -658,6 +658,37 @@
         "remove_vertical_spacing": false
       }
     },
+    "image_with_text_block_UMGPJi": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_Kp94RE": {
+          "type": "subheading",
+          "settings": {
+            "text": "꩜ This Isn't just jewelry ꩜"
+          }
+        },
+        "richtext_4MA4Lk": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Each piece serves as a bridge to your Higher Self, intuitively created and energetically activated to support a specific transformation. Let these crystalline guides call to you and awaken your truest, most authentic self.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Kp94RE",
+        "richtext_4MA4Lk"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "image_size": "lg",
+        "image": "shopify://shop_images/61.jpg",
+        "mobile_image": "shopify://shop_images/61.jpg",
+        "content_width": "lg",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
+      }
+    },
     "image_with_text_cmWxUe": {
       "type": "image-with-text",
       "blocks": {
@@ -977,6 +1008,7 @@
     "rich_text_VLrajx",
     "rich_text_EmkgJN",
     "rich_text_TkPkw4",
+    "image_with_text_block_UMGPJi",
     "image_with_text_cmWxUe",
     "1764349737cbe0df2e",
     "ss_feature_1_JycCj6",
