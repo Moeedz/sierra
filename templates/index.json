@@ -146,6 +146,66 @@
         "subheading": "EXPLORE NEWEST ARRIVALS"
       }
     },
+    "image_with_text_EL7MM9": {
+      "type": "image-with-text",
+      "blocks": {
+        "richtext_nUBUki": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>This isn't just jewelry. ꩜</p><p><br/>Each piece is a bridge to your higher self, intuitively designed and energetically activated to support a specific transformation. Allow these crystalline guides to call to you and bring you back to your truest, most authetic self.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "richtext_nUBUki"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/IMG_0395-2.jpg",
+        "mobile_image": "shopify://shop_images/IMG_0395-2.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "17738066989ce5e874": {
+      "type": "apps",
+      "blocks": {
+        "loox_reviews_loox_dynamic_carousel_gNTK8K": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "corner-radius": 40,
+            "items-per-view": 2,
+            "items-per-view-mobile": 3,
+            "max-characters": 180,
+            "autoplay": false,
+            "autoplay-delay": 5,
+            "main-color": "#ae8868",
+            "stars-color": "#ff8d00",
+            "show-review-text": true,
+            "text-color": "",
+            "reviewer-name-color": "",
+            "verified-badge-color": "",
+            "quote-marks-icon": "style-1",
+            "quote-marks-icon-color": "",
+            "review-background-color": "",
+            "product-ids": ""
+          }
+        }
+      },
+      "block_order": [
+        "loox_reviews_loox_dynamic_carousel_gNTK8K"
+      ],
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false
+      }
+    },
     "rich_text_i39D6f": {
       "type": "rich-text",
       "blocks": {
@@ -304,31 +364,6 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "image_with_text_EL7MM9": {
-      "type": "image-with-text",
-      "blocks": {
-        "richtext_nUBUki": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>This isn't just jewelry. ꩜</p><p><br/>Each piece is a bridge to your higher self, intuitively designed and energetically activated to support a specific transformation. Allow these crystalline guides to call to you and bring you back to your truest, most authetic self.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "richtext_nUBUki"
-      ],
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/IMG_0395-2.jpg",
-        "mobile_image": "shopify://shop_images/IMG_0395-2.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
       }
     },
     "rich_text_RQzJ7e": {
@@ -720,41 +755,6 @@
         "remove_vertical_spacing": true
       }
     },
-    "17738066989ce5e874": {
-      "type": "apps",
-      "blocks": {
-        "loox_reviews_loox_dynamic_carousel_gNTK8K": {
-          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
-          "settings": {
-            "corner-radius": 40,
-            "items-per-view": 2,
-            "items-per-view-mobile": 3,
-            "max-characters": 180,
-            "autoplay": false,
-            "autoplay-delay": 5,
-            "main-color": "#ae8868",
-            "stars-color": "#ff8d00",
-            "show-review-text": true,
-            "text-color": "",
-            "reviewer-name-color": "",
-            "verified-badge-color": "",
-            "quote-marks-icon": "style-1",
-            "quote-marks-icon-color": "",
-            "review-background-color": "",
-            "product-ids": ""
-          }
-        }
-      },
-      "block_order": [
-        "loox_reviews_loox_dynamic_carousel_gNTK8K"
-      ],
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false
-      }
-    },
     "1764349737cbe0df2e": {
       "type": "apps",
       "settings": {
@@ -1019,16 +1019,48 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "image_with_text_block_nC7wRG": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_AgyJ7K": {
+          "type": "subheading",
+          "settings": {
+            "text": "This Isnt just jewelry"
+          }
+        },
+        "richtext_dVLV74": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Add your own custom content to give more information about your store, availability details...</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AgyJ7K",
+        "richtext_dVLV74"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/Bazaart_FDE4054F-0FFD-4E63-9C16-190BAF436846_2.jpg",
+        "mobile_image": "shopify://shop_images/Bazaart_FDE4054F-0FFD-4E63-9C16-190BAF436846_2.jpg",
+        "content_width": "md",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
+      }
     }
   },
   "order": [
     "slideshow_7dgTyP",
     "rich_text_kXAMRg",
     "featured_collections_73HxnG",
+    "image_with_text_EL7MM9",
+    "17738066989ce5e874",
     "rich_text_i39D6f",
     "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
-    "image_with_text_EL7MM9",
     "rich_text_RQzJ7e",
     "text_with_icons_WMk68J",
     "slideshow_iFw4fP",
@@ -1039,12 +1071,12 @@
     "rich_text_VLrajx",
     "rich_text_EmkgJN",
     "image_with_text_cmWxUe",
-    "17738066989ce5e874",
     "1764349737cbe0df2e",
     "testimonials_gYYaAy",
     "ss_feature_1_JycCj6",
     "ss_image_with_text_12_Qgq3mK",
     "newsletter_dyNQMj",
-    "177248664187f8066b"
+    "177248664187f8066b",
+    "image_with_text_block_nC7wRG"
   ]
 }
