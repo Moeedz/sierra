@@ -974,6 +974,7 @@
         "separate_section_with_border": false,
         "image_size": "auto",
         "image": "shopify://shop_images/Palm_trees_forever.jpg",
+        "mobile_image": "shopify://shop_images/Palm_trees_forever.jpg",
         "subheading": "",
         "title": "Join the Portal",
         "content": "<p>Receive 15% off your first activation + early access to new releases.</p>",
