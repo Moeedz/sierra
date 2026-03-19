@@ -91,7 +91,7 @@
         "richtext_8gyBbN": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Are you feeling called to go deeper? </strong>Our Soul Alignment Sessions and Custom Guided Activations offer a sacred space to reconnect, realign, and activate the energy already living within you and your pieces.</p>"
+            "content": "<p><strong>Are you feeling called to go deeper? </strong>Our Soul Alignment Sessions and Custom Guided Activations offer a sacred space to reconnect, realign, and activate the energy already living within you and your pieces.</p><p>Browse the sessions below and find what's calling you.</p>"
           }
         }
       },
@@ -430,21 +430,6 @@
             "size_chart_page": ""
           }
         },
-        "quantity_selector_KYWFKq": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "buy_buttons_GmXyd6": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
-          }
-        },
         "pickup_availability_QpMfyc": {
           "type": "pickup_availability",
           "disabled": true,
@@ -459,8 +444,6 @@
         "separator_RxVBGb",
         "description_7dBEhM",
         "variant_picker_gmGyEy",
-        "quantity_selector_KYWFKq",
-        "buy_buttons_GmXyd6",
         "pickup_availability_QpMfyc"
       ],
       "name": "t:sections.featured_product.presets.featured_product.name",
