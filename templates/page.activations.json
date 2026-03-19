@@ -466,6 +466,17 @@
         "content": ""
       }
     },
+    "contact_UHFPny": {
+      "type": "contact",
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Fill out this form below or DM on Instagram to book your session.",
+        "content": ""
+      }
+    },
     "testimonials_FmkQdd": {
       "type": "testimonials",
       "blocks": {
@@ -513,17 +524,6 @@
         "title": "Testimonials",
         "content": ""
       }
-    },
-    "contact_UHFPny": {
-      "type": "contact",
-      "name": "t:sections.contact.presets.contact_form.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Fill out this form below or DM on Instagram to book your session.",
-        "content": ""
-      }
     }
   },
   "order": [
@@ -536,7 +536,7 @@
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
     "featured_product_VnQdFP",
-    "testimonials_FmkQdd",
-    "contact_UHFPny"
+    "contact_UHFPny",
+    "testimonials_FmkQdd"
   ]
 }
