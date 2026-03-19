@@ -135,9 +135,9 @@
         "settings": {
           "background": "#f1fcfd",
           "background_gradient": "",
-          "text_color": "#000000",
+          "text_color": "#4d4f4f",
           "primary_button_background": "#fdeeff",
-          "primary_button_text_color": "#000000",
+          "primary_button_text_color": "#cffcff",
           "circle_button_background": "#ffffff",
           "circle_button_icon": "rgba(0,0,0,0)"
         }
