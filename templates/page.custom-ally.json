@@ -82,12 +82,12 @@
       "settings": {
         "color_scheme": "",
         "image_size": "md",
-        "image": "shopify://shop_images/IMG_5714-2.jpg",
+        "image": "shopify://shop_images/IMG_5726.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
         "content_width": "md",
-        "mobile_text_position": "place-self-end-start text-start",
+        "mobile_text_position": "place-self-start text-start",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "overlay_color": "#000000",
         "overlay_opacity": 0
