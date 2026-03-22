@@ -82,8 +82,8 @@
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "image_size": "md",
-        "image": "shopify://shop_images/IMG_5714-2.jpg",
-        "mobile_image": "shopify://shop_images/IMG_5714-2.jpg",
+        "image": "shopify://shop_images/IMG_5714-3.jpg",
+        "mobile_image": "shopify://shop_images/IMG_5714-3.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
@@ -98,7 +98,7 @@
       "type": "contact",
       "name": "t:sections.contact.presets.contact_form.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
         "subheading": "",
         "title": "Apply For Your Custom Ally",
