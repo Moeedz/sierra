@@ -256,6 +256,16 @@
             "size_chart_page": ""
           }
         },
+        "button_McKkrj": {
+          "type": "button",
+          "settings": {
+            "link": "shopify://pages/contact",
+            "text": "Button",
+            "stretch": false,
+            "background": "#cffcff",
+            "text_color": "#000000"
+          }
+        },
         "quantity_selector_df6Wfr": {
           "type": "quantity_selector",
           "disabled": true,
@@ -286,6 +296,7 @@
         "separator_WVwpgd",
         "description_edaXHx",
         "variant_picker_Vi9hNp",
+        "button_McKkrj",
         "quantity_selector_df6Wfr",
         "buy_buttons_pezPAz",
         "pickup_availability_wQf8Pj"
