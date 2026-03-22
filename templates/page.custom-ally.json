@@ -107,7 +107,7 @@
         "richtext_cAjwJT": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+            "content": "<p>The Custom Sacred Ally is more than a piece of jewelry... it is a living, activated crystalline tool created exclusively for you and your path.</p><p>Through an intuitive channeling process, I select the specific stones and crystals that resonate most deeply with your energy, your mission, and the frequency of your higher self. ꩜</p><p></p>"
           }
         }
       },
@@ -122,6 +122,37 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_block_XAxpb9": {
+      "type": "image-with-text-block",
+      "blocks": {
+        "subheading_DWMmY3": {
+          "type": "subheading",
+          "settings": {
+            "text": "Image with text block"
+          }
+        },
+        "richtext_VFcenN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Each ally is then personally activated and encoded, so that from the moment it arrives in your hands, it is already attuned to you.</p><p>꩜ Wear it as a reminder of your divine origin, meditate with it to deepen your connection, and call on it when you need to return to your highest alignment. ꩜</p><p>This is a companion for your journey — one that holds your frequency, anchors your light, and reflects back the truth of who you are.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DWMmY3",
+        "richtext_VFcenN"
+      ],
+      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "lg",
+        "image": "shopify://shop_images/Bazaart_4210AE4F-632B-4295-B3F5-61BAAF2EC861.jpg",
+        "mobile_image": "shopify://shop_images/Bazaart_CE07AD94-0AED-4111-A42A-5051EF82162C-2.jpg",
+        "content_width": "lg",
+        "enable_parallax": false,
+        "remove_vertical_spacing": true
       }
     },
     "contact_Y6kt4K": {
@@ -141,6 +172,7 @@
     "ss_image_with_text_2_ipN7Bx",
     "image_with_text_overlay_8tMaPf",
     "rich_text_QcnXrb",
+    "image_with_text_block_XAxpb9",
     "contact_Y6kt4K"
   ]
 }
