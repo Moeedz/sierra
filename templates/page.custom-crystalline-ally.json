@@ -1,0 +1,333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "ss_image_with_text_2_ipN7Bx": {
+      "type": "ss-image-with-text-2",
+      "blocks": {
+        "block_QKizTj": {
+          "type": "block",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0073-5.jpg",
+            "title": "Heading",
+            "text": "<p>Description goes here</p>",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "block_QKizTj"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media screen and (max-width: 767px) {.brick__block.text-block {padding-left: 20px; } .img-with-text.inverted.section-template--25661479649589__ss_image_with_text_2_ipN7Bx-padding {margin-top: 0 !important; padding-top: 0 !important; }}"
+      ],
+      "name": "SS - Image/Text overlap",
+      "settings": {
+        "background-color": "#f1fcfd",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "text_aligment": "right",
+        "section_title_size": 28,
+        "section_text_size": 14,
+        "section_color_h2": "#000000",
+        "section_color_p": "#000000",
+        "section_btn_size": 14
+      }
+    },
+    "image_with_text_overlay_8tMaPf": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_cyCXTb": {
+          "type": "heading",
+          "settings": {
+            "text": "Meet",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_wJT8jr": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h1>Sierra Isabel </h1>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cyCXTb",
+        "richtext_wJT8jr"
+      ],
+      "custom_css": [
+        "h1 {font-family: \"Poppins\"; font-size: 40px;}",
+        ".prose div {margin-top: 0 !important;}"
+      ],
+      "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "md",
+        "image": "shopify://shop_images/IMG_0073-5.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-end-start text-start",
+        "desktop_text_position": "sm:place-self-end-start sm:text-start",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "rich_text_E6tVfw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_mi7dtN": {
+          "type": "heading",
+          "settings": {
+            "text": "Welcome to my world of light, color, and remembrance. ꩜",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_8gyBbN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>I'm Sierra Isabel, a multidimensional creator and activatress devoted to helping you reconnect with<strong> your own multidimensionality </strong>and <strong>soul purpose. </strong></p><p>Everything I create begins with energy — the unseen force that connects all that is, guiding you back to the truth of who you are and<strong> inviting you to experience life beyond what you've been taught to believe.</strong></p><p><strong>I'm here to offer a bridge that anyone can access.</strong> No matter your background or abilities, being multidimensional is part of your very DNA — you don't need to consider yourself 'gifted' to step into this truth.</p><p></p><p>I know this because I wasn't born conscious of my abilities either. They awakened gradually, unfolding deeper and deeper as I said yes to this path.</p><p> <strong>This is my story...   </strong>↓↓↓</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mi7dtN",
+        "richtext_8gyBbN"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_z9GUzW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rEQmdg": {
+          "type": "heading",
+          "settings": {
+            "text": "I’ve always known there was more to this life than what meets the eye...",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_EiGMrc": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p></p><p>As a child, I found myself constantly searching for the “other side”, <strong>sensing deeply that something beyond the physical was calling to me,</strong> even if I couldn’t yet explain or perceive it.</p><p>I spent my childhood in nature, calling out to the elementals, fairies, and spirits. Longing to see them and to confirm they were real. But <strong>when they wouldn’t reveal themselves to me, I became frustrated and disappointed.</strong></p><p></p><p>Eventually, I shut down that longing for connection and returned to sleep. I focused on the physical world instead, and life continued on. For a while, that part of me remained silent.</p><p></p><p>But around the age of 17 or 18, during my final year of high school, <strong>the calling returned.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rEQmdg",
+        "richtext_EiGMrc"
+      ],
+      "custom_css": [
+        ".prose.text-center.sm\\:text-start {text-align: -webkit-left !important;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC0833-2_cceacde0-5870-4099-8803-ad6e04e79e3b.jpg",
+        "mobile_image": "shopify://shop_images/DSC0833-2_cceacde0-5870-4099-8803-ad6e04e79e3b.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_dWqaXC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_ERYtpX": {
+          "type": "heading",
+          "settings": {
+            "text": "At that time, I fell into one of the darkest periods of my life.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_7bMgVB": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>I was <strong>deeply depressed, lonely, and suicidal.</strong> Everyone around me was preparing for college and planning their futures, but I felt completely hopeless. </p><p>The idea of living a traditional human life — getting a job, starting a family, following the script — felt so meaningless to me. I couldn't understand why I was here, and I didn't see a reason to keep going.</p><p>But during that last year of high school, something within me began to shift. <strong>For the first time in my life</strong>,<strong> I felt and heard a clear voice, one that wasn't mine,</strong> persistently telling me, 'After graduation, move out.'</p><p>I didn't question or doubt this voice. I instantly knew that's what I needed to do — and thats what i did.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ERYtpX",
+        "richtext_7bMgVB"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_VraMht": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yJE9y9": {
+          "type": "heading",
+          "settings": {
+            "text": "On the third night alone, I was visited...",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_aXDLDb": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>That night I was honestly ready to end it all. But out of nowhere I <strong>began receiving telepathic messages </strong>— such beautiful and loving words that filled me with hope. This energy completely shifted something inside me. For the first time in so long, I actually felt good.</p><p>I got up and looked at myself in the mirror, still absorbing what I'd just received. Then, <strong>all of a sudden my door slowly creaked open...  </strong>I felt a presence enter my room.</p><p>I'm not going to lie — I was terrified. It was like a scene from a horror movie. But immediately, a wave of pure love and trust washed over me, and the telepathic communication began again.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yJE9y9",
+        "richtext_aXDLDb"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC0776.jpg",
+        "mobile_image": "shopify://shop_images/DSC0776.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "rich_text_xJT68H": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_DWCUUz": {
+          "type": "heading",
+          "settings": {
+            "text": "That moment shifted everything I thought I knew.",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_NcT3kN": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>At the time, I didn’t believe in anything beyond the physical. I thought life was random, meaningless, and that nothing existed outside of what we could perceive.</p><p><strong>But after that undeniable night,</strong> I couldn’t ignore what I had experienced. I <em>had</em> to understand it. That moment ignited something deep within me —<strong> a search for the truth.</strong></p><p><br/>From then on, I spent every waking moment diving into any knowledge I could get my hands on — until I started remembering my own.</p><p>What began as a search for understanding <strong>became a deep journey of awakening my soul's wisdom, memories, gifts, and tools. </strong></p><p>Ones that I used to heal my own traumas, programming, and wounds — and that <strong>finally gave me access to the 'other side,'</strong> my spirit guides, higher self, and higher dimensions.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DWCUUz",
+        "richtext_NcT3kN"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "start",
+        "remove_vertical_spacing": false
+      }
+    },
+    "image_with_text_XAEfEb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_NBbUFr": {
+          "type": "heading",
+          "settings": {
+            "text": "Frequency is the key",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_WU46nL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>I've undergone a complete transformation — physically, mentally, emotionally, and spiritually. The difference between who I was and who I am now is night and day. (this transformation is still unfolding)</p><p>But no matter how much knowledge I consumed, something was still missing. <strong>The real shift didn't happen from what I knew —</strong> it happened when my base frequency began to rise.</p><p><strong>As my vibration elevated, I naturally became more attuned to higher realms </strong>and higher-dimensional beings. And the higher my frequency became, the more clearly I could sense what was real and what was distorted.</p><p>That's when I began to see that much of the spiritual world — including many teachers and teachings — <strong>wasn't as pure as it appeared.</strong> The frequency was off. And you can't fake frequency.</p><p>That's what led me to my deep connection with <strong>crystals, light,</strong> <strong>and light codes. </strong>These are pure, high-vibrational tools — <strong>untouched by ego, agenda, or distortion</strong>. They don't manipulate you, they activate you. They remind you of who you really are.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_NBbUFr",
+        "richtext_WU46nL"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC0805.jpg",
+        "mobile_image": "shopify://shop_images/DSC0805.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_Rq88tG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rGfmMt": {
+          "type": "heading",
+          "settings": {
+            "text": "That's why I created this work...",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_YcrNch": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p> To offer you<strong> potent and powerful tools</strong> that help you access your own truth — supported by the highest vibrations and the purest intentions.</p><p>Because when you remember and embody who you truly are — beyond the distortions placed on humanity — everything shifts. Your sense of purpose ignites, your gifts and wisdom come online, and you begin creating a life that is deeply fulfilling on every level.</p><p>From this space, <strong>you</strong> <strong>naturally manifest all that your soul desires, aligning you with your highest purpose.</strong></p><p>And as your frequency expands, it ripples outward — uplifting the collective consciousness of humanity and the vibration of Earth itself.</p><p><strong>Together, we can create a world where every living being is safe, free, and thriving. </strong></p><p><em>The ultimate purpose for why souls like you and I are here.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rGfmMt",
+        "richtext_YcrNch"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "image": "shopify://shop_images/DSC0814.jpg",
+        "mobile_image": "shopify://shop_images/DSC0814.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "lg",
+        "remove_vertical_spacing": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ss_image_with_text_2_ipN7Bx",
+    "image_with_text_overlay_8tMaPf",
+    "rich_text_E6tVfw",
+    "image_with_text_z9GUzW",
+    "rich_text_dWqaXC",
+    "image_with_text_VraMht",
+    "rich_text_xJT68H",
+    "image_with_text_XAEfEb",
+    "image_with_text_Rq88tG"
+  ]
+}
