@@ -91,7 +91,7 @@
         "richtext_8gyBbN": {
           "type": "richtext",
           "settings": {
-            "content": "<p><strong>Are you ready to go deeper? </strong></p><p>Within each session, a portal activates — a sacred space where your soul's next expansion begins.</p><p>Your Spirit Guides and Higher Self lead every session, ensuring it meets you exactly where you are and gives you the precise experience you need in this moment.</p><p>Scroll through each offering below and feel what calls to you.</p>"
+            "content": "<p><strong>Are you ready to go deeper? </strong></p><p>Within each session, a portal activates — a sacred space where your soul's next expansion begins.</p><p>Your Spirit Guides and Higher Self lead every session, ensuring it meets you exactly where you are and gives you the precise experience you need in this moment.</p><p>Scroll through each offering below and feel what calls to you. ꩜</p>"
           }
         }
       },
@@ -236,14 +236,6 @@
             "show_taxes_notice": false
           }
         },
-        "rating_EBjHwj": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-            "show_empty": true,
-            "rating_mode": "rating"
-          }
-        },
         "separator_WVwpgd": {
           "type": "separator",
           "settings": {}
@@ -291,7 +283,6 @@
         "title_KVUge7",
         "badges_af3eJ7",
         "price_Bx9kTr",
-        "rating_EBjHwj",
         "separator_WVwpgd",
         "description_edaXHx",
         "variant_picker_Vi9hNp",
