@@ -75,14 +75,14 @@
           "settings": {
             "menu_item": "꩜ Shop",
             "images_position": "right",
-            "image_1": "shopify://shop_images/PA072784.jpg",
-            "image_1_heading": "Amazonite Dolphin",
-            "image_1_text": "$150.00",
-            "image_1_link": "shopify://products/amazonite-dolphin",
-            "image_2": "shopify://shop_images/PA073017.jpg",
-            "image_2_heading": "Amethyst",
-            "image_2_text": "$0.00",
-            "image_2_link": "shopify://products/amethyst"
+            "image_1": "shopify://shop_images/Bazaart_CE07AD94-0AED-4111-A42A-5051EF82162C-2.jpg",
+            "image_1_heading": "꩜ Seraphim Codes",
+            "image_1_text": "$5,500",
+            "image_1_link": "shopify://products/seraphim-codes",
+            "image_2": "shopify://shop_images/IMG_01652.jpg",
+            "image_2_heading": "꩜ Aquamarine Dream",
+            "image_2_text": "$1,400",
+            "image_2_link": "shopify://products/aquamarine"
           }
         }
       },
