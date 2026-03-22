@@ -66,7 +66,7 @@
         "richtext_wJT8jr": {
           "type": "richtext",
           "settings": {
-            "content": "<h2>𖦹 Custom Sacred Ally 𖦹</h2>"
+            "content": "<h1>𖦹 Custom Sacred Ally 𖦹</h1>"
           }
         }
       },
@@ -80,14 +80,15 @@
       ],
       "name": "t:sections.image_with_text_overlay.presets.image_with_text_overlay.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "image_size": "md",
-        "image": "shopify://shop_images/IMG_5726.jpg",
+        "image": "shopify://shop_images/IMG_5714-2.jpg",
+        "mobile_image": "shopify://shop_images/IMG_5714-2.jpg",
         "allow_transparent_header": false,
         "reveal_on_scroll": true,
         "remove_vertical_spacing": true,
         "content_width": "md",
-        "mobile_text_position": "place-self-start text-start",
+        "mobile_text_position": "place-self-end-start text-start",
         "desktop_text_position": "sm:place-self-end-start sm:text-start",
         "overlay_color": "#000000",
         "overlay_opacity": 0
