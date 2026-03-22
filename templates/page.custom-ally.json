@@ -93,11 +93,23 @@
         "overlay_color": "#000000",
         "overlay_opacity": 0
       }
+    },
+    "contact_Y6kt4K": {
+      "type": "contact",
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Apply For Your Custom Ally",
+        "content": "<p>Fill out the form below and mention that you're inquiring to co-create a custom sacred ally for your journey. I'll personally review your submission and get back to you with more details and next steps.</p>"
+      }
     }
   },
   "order": [
     "main",
     "ss_image_with_text_2_ipN7Bx",
-    "image_with_text_overlay_8tMaPf"
+    "image_with_text_overlay_8tMaPf",
+    "contact_Y6kt4K"
   ]
 }
