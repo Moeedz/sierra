@@ -696,7 +696,7 @@
         "heading_BFLhYJ": {
           "type": "heading",
           "settings": {
-            "text": "꩜ Meet Sierra Isabel ꩜",
+            "text": "",
             "heading_tag": "h1"
           }
         },
@@ -710,7 +710,7 @@
         "richtext_zREEd6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Coming Soon</p>"
+            "content": ""
           }
         }
       },
@@ -718,6 +718,48 @@
         "heading_BFLhYJ",
         "heading_iXMFCE",
         "richtext_zREEd6"
+      ],
+      "custom_css": [],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "image": "shopify://shop_images/P3261605.jpg",
+        "mobile_image": "shopify://shop_images/P3261605.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_NezMPc": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QnQrVx": {
+          "type": "heading",
+          "settings": {
+            "text": "꩜ Meet Sierra Isabel ꩜",
+            "heading_tag": "h1"
+          }
+        },
+        "heading_ytEX7g": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h6"
+          }
+        },
+        "richtext_Ecd4AL": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Coming Soon</p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_QnQrVx",
+        "heading_ytEX7g",
+        "richtext_Ecd4AL"
       ],
       "custom_css": [],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
@@ -1012,6 +1054,7 @@
     "rich_text_TkPkw4",
     "image_with_text_block_UMGPJi",
     "image_with_text_cmWxUe",
+    "image_with_text_NezMPc",
     "1764349737cbe0df2e",
     "ss_feature_1_JycCj6",
     "ss_image_with_text_12_Qgq3mK",
