@@ -1010,6 +1010,7 @@
     },
     "newsletter_dyNQMj": {
       "type": "newsletter",
+      "custom_css": [],
       "name": "t:sections.newsletter.presets.newsletter.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
