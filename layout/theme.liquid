@@ -332,5 +332,14 @@ a.header-sidebar__linklist-button.header-sidebar__subcategory-heading.h6 {
         {%- sections 'footer-group' -%}
       {%- endif -%}
     </main>
+  <script>
+  window.addEventListener('load', function() {
+    if (window.location.hash === '#newsletter') {
+      setTimeout(function() {
+        document.getElementById('newsletter').scrollIntoView();
+      }, 500);
+    }
+  });
+</script>
   </body>
 </html>
