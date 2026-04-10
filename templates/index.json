@@ -593,7 +593,7 @@
         "heading_pDFP9z": {
           "type": "heading",
           "settings": {
-            "text": "You may have felt it before,",
+            "text": "<strong>You may have felt it before,</strong>",
             "heading_tag": "h1"
           }
         },
