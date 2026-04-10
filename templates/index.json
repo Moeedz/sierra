@@ -102,7 +102,7 @@
         "richtext_dVLV74": {
           "type": "richtext",
           "settings": {
-            "content": "<p>They are <strong>sacred crystalline companions</strong> designed to guide you back home to your True Self.</p>"
+            "content": "<p>They are <strong>sacred crystalline allies </strong>that are here to guide you back home to your mo</p>"
           }
         }
       },
@@ -600,7 +600,7 @@
         "richtext_GqpzpE": {
           "type": "richtext",
           "settings": {
-            "content": "<p>being drawn to a crystal or piece of jewelry without knowing why.</p><p>That connection isn't random. Crystals are <strong>conscious beings</strong> that carry unique frequencies and energetic signature that interact with your own to support healing, spiritual awakening, and personal transformation.</p><p>When you begin to <strong>work with them intentionally</strong>, they reveal their hidden wisdom, guiding you back into alignment with your soul's path and who you’re here to become.<br/><br/><br/></p>"
+            "content": "<p>being drawn to a crystal or piece of jewelry without knowing why.</p><p>That connection isn't random. Crystals are <strong>conscious beings</strong> that carry potent frequencies and ancient codes that awaken deeper layers of your soul's memories. </p><p>They have a way of speaking directly to you, bypassing the logical mind by creating that undeniable pull.<br/></p><p><strong>When a crystalline ally calls to you, it’s because you’re ready to receive what it holds. </strong></p><p></p>"
           }
         }
       },
@@ -610,7 +610,7 @@
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
         "content_width": "sm",
         "text_position": "center",
@@ -703,7 +703,7 @@
         "richtext_aN6Gpj": {
           "type": "richtext",
           "settings": {
-            "content": ""
+            "content": "<p>coming soon</p>"
           }
         },
         "button_KmdnAh": {
