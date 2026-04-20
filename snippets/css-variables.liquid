@@ -101,10 +101,7 @@ note that this may have impact on different places.
     --text-h4: max(0.6875rem, clamp(1rem, 0.9542682926829268rem + 0.1951219512195122vw, 1.125rem) * var(--text-heading-size-factor));
     --text-h5: calc(0.875rem * var(--text-heading-size-factor));
    --text-h6: calc(0.75rem * var(--text-heading-size-factor));
-   
-@media screen and (max-width: 749px) {
-  :root { --text-h6: 11px; }
-}
+
 
 
     --text-xs: {{ settings.text_font_size_mobile | minus: 2 | at_least: 11 | divided_by: 16.0 }}rem;
@@ -280,3 +277,8 @@ note that this may have impact on different places.
       --circle-button-text-color: {{ color_scheme.settings.circle_button_icon.rgb }};
     }
 </style>
+}
+
+@media screen and (max-width: 749px) {
+  :root { --text-h6: 11px; }
+}
