@@ -7587,11 +7587,11 @@ product-rerender {
 }
 
 @media screen and (max-width: 749px) {
-  .slideshow__slide-content .h6,
-  .slideshow__slide-content :where(.prose h6) {
-    font-size: 11px;
+  .h6, :where(.prose h6) {
+    font-size: 11px !important;
   }
 }
+
 
 
 
