@@ -7585,12 +7585,7 @@ product-rerender {
   font-size: var(--text-h6);
   line-height: 130%;
 }
-@media screen and (max-width: 749px) {
-  .shopify-section--slideshow .h6,
-  .shopify-section--slideshow :where(.prose h6) {
-    font-size: 11px !important;
-  }
-}
+
 
 
 
