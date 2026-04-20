@@ -7586,11 +7586,6 @@ product-rerender {
   line-height: 130%;
 }
 
-@media screen and (max-width: 749px) {
-  .h6, :where(.prose h6) {
-    font-size: 4px !important;
-  }
-}
 
 
 
