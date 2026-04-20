@@ -7584,11 +7584,15 @@ product-rerender {
 .h6, :where(.prose h6) {
   font-size: var(--text-h6);
   line-height: 130%;
-}@media screen and (max-width: 749px) {
-  .h6, :where(.prose h6) {
-    font-size: 11px !important;
+}
+
+@media screen and (max-width: 749px) {
+  .slideshow__slide-content .h6,
+  .slideshow__slide-content :where(.prose h6) {
+    font-size: 11px;
   }
 }
+
 
 
 .prose blockquote {
