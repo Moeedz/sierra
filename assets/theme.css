@@ -7583,7 +7583,7 @@ product-rerender {
 
 .h6, :where(.prose h6) {
   font-size: var(--text-h6);
-  line-height: 130%;
+  line-height: 100%;
 }
 
 
