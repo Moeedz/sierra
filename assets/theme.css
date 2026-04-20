@@ -7584,7 +7584,12 @@ product-rerender {
 .h6, :where(.prose h6) {
   font-size: var(--text-h6);
   line-height: 130%;
+}@media screen and (max-width: 749px) {
+  .h6, :where(.prose h6) {
+    font-size: 11px !important;
+  }
 }
+
 
 .prose blockquote {
   line-height: 130%;
