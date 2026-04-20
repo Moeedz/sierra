@@ -7585,6 +7585,12 @@ product-rerender {
   font-size: var(--text-h6);
   line-height: 130%;
 }
+@media screen and (max-width: 749px) {
+  [id*="slideshow"] .h6, 
+  [id*="slideshow"] :where(.prose h6) {
+    font-size: 11px !important;
+  }
+}
 
 
 
