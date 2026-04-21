@@ -294,7 +294,7 @@
         "heading_QnQrVx": {
           "type": "heading",
           "settings": {
-            "text": "꩜ Meet Sierra Isabel ꩜",
+            "text": "Some souls are ready to go further.",
             "heading_tag": "h1"
           }
         },
@@ -308,22 +308,33 @@
         "richtext_Ecd4AL": {
           "type": "richtext",
           "settings": {
-            "content": "<p>Coming Soon</p>"
+            "content": "<p>My creations teach you to listen.</p><p>My 1:1 Soul Sessions take you into direct conversation with your soul, your higher self, your guides — where you stop wondering what you're here for and start receiving the answers that are uniquely yours.</p><p><em>Because the only accurate guidance you will ever receive comes from within you. I'm here to help you hear it.</em></p>"
+          }
+        },
+        "button_pwmWTM": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Explore soul sessions",
+            "url": "shopify://pages/sessions-guided-activations",
+            "background": "",
+            "text_color": ""
           }
         }
       },
       "block_order": [
         "heading_QnQrVx",
         "heading_ytEX7g",
-        "richtext_Ecd4AL"
+        "richtext_Ecd4AL",
+        "button_pwmWTM"
       ],
       "custom_css": [],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/IMG_6776-5.jpg",
-        "mobile_image": "shopify://shop_images/IMG_6776-5.jpg",
+        "image": "shopify://shop_images/IMG_6770-4_cc87015f-369c-4bec-834b-10d452f8342b.jpg",
+        "mobile_image": "shopify://shop_images/IMG_6770-4_cc87015f-369c-4bec-834b-10d452f8342b.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
