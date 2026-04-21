@@ -258,6 +258,36 @@
         "subheading": "<strong>What is calling to you?</strong>"
       }
     },
+    "rich_text_KDFeE7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Dfr86N": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>This is about more than jewelry.</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_ffqbhh": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Every piece is a breadcrumb. Every activation a layer of yourself coming back online.</p><p>That longing you've carried ~ something uniquely yours that nothing out there has ever answered ~ that's not emptiness. That's your soul gifts. Your purpose.</p><p><em>When you come back to yourself, everything becomes clear.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dfr86N",
+        "richtext_ffqbhh"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "image_with_text_NezMPc": {
       "type": "image-with-text",
       "blocks": {
@@ -382,6 +412,7 @@
     "slideshow_fH99in",
     "image_with_text_cmWxUe",
     "featured_collections_73HxnG",
+    "rich_text_KDFeE7",
     "image_with_text_NezMPc",
     "1764349737cbe0df2e",
     "17738066989ce5e874",
