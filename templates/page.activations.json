@@ -324,6 +324,16 @@
     "testimonials_FmkQdd": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_feCUmx": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"....I've found myself much more able to move from a place that my highest self would. And making choices that leave me feeling empowered, brave, & self assured. It was though the puzzle of self- past, present, & future came together & now I get to admire and exist as a whole\"</p>",
+            "image": "shopify://shop_images/knknkn.png",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Gianna | New York"
+          }
+        },
         "testimonial_Ujhgab": {
           "type": "testimonial",
           "settings": {
@@ -334,20 +344,21 @@
             "author": "Saul Almaraz | Austin, TX"
           }
         },
-        "testimonial_feCUmx": {
+        "testimonial_DRN4MH": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>\"....I've found myself much more able to move from a place that my highest self would. And making choices that leave me feeling empowered, brave, & self assured. It was though the puzzle of self- past, present, & future came together & now I get to admire and exist as a whole\"</p>",
-            "image": "shopify://shop_images/knknkn.png",
+            "content": "<p>\"I've tried traditional talk therapy but never found it particularly helpful... From our very first session I felt a difference — it was as if so much bad energy had left not just my mind but my body itself. One of the most rewarding experiences was when I was able to fully connect with and talk to my higher self. My sessions with Sierra have re-lit something inside me; her guidance gave me valuable tools, of both strength and comfort, that I carry with me in my daily life\"</p>",
+            "image": "shopify://shop_images/nnknk.png",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
-            "author": "Gianna | New York"
+            "author": "Violet | Austin, TX"
           }
         }
       },
       "block_order": [
+        "testimonial_feCUmx",
         "testimonial_Ujhgab",
-        "testimonial_feCUmx"
+        "testimonial_DRN4MH"
       ],
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
