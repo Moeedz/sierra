@@ -66,7 +66,7 @@
         "heading_pDFP9z": {
           "type": "heading",
           "settings": {
-            "text": "<strong>You've felt it.</strong>",
+            "text": "<strong>You've felt it. </strong>",
             "heading_tag": "h1"
           }
         },
@@ -207,10 +207,10 @@
       "custom_css": [],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,
-        "image": "shopify://shop_images/IMG_6754-2.jpg",
-        "mobile_image": "shopify://shop_images/IMG_6754-2.jpg",
+        "image": "shopify://shop_images/IMG_5905.jpg",
+        "mobile_image": "shopify://shop_images/IMG_5905.jpg",
         "reveal_on_scroll": true,
         "image_position": "start",
         "content_width": "sm",
