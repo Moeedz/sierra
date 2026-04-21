@@ -197,12 +197,23 @@
           "settings": {
             "content": "<p>Each piece carries a specific crystal, color and intention, a living energetic anchor between your conscious mind and your soul.</p><p>When you feel drawn to a piece in a way you can't explain, that pull is your soul communicating. Showing you something you're ready to receive.</p><p><em>When you say yes to a piece, you say yes to an activation.</em></p>"
           }
+        },
+        "button_eeUUBH": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Find your piece",
+            "url": "shopify://collections/new-arrivals",
+            "background": "",
+            "text_color": ""
+          }
         }
       },
       "block_order": [
         "heading_BFLhYJ",
         "heading_iXMFCE",
-        "richtext_zREEd6"
+        "richtext_zREEd6",
+        "button_eeUUBH"
       ],
       "custom_css": [],
       "name": "t:sections.image_with_text.presets.image_with_text.name",
@@ -244,7 +255,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "<strong>What's calling to you?</strong>"
+        "subheading": "<strong>What is calling to you?</strong>"
       }
     },
     "image_with_text_NezMPc": {
