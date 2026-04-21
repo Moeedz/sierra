@@ -324,14 +324,14 @@
     "testimonials_FmkQdd": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_NRn8cd": {
+        "testimonial_DRN4MH": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>\"Sierra created a calm and relaxing space for me to experience a journey that reflected back my own inner wisdom and true capability. </p><p>The space that she holds is strong in genuine encouragement and is great for those seeking to become more open to their spiritual selves as well as for those who have already done plenty of search and study.</p><p> Sierra advocates that all you need is within and will help you to find a place where you can begin to discover it.</p><p> During my session with Sierra, I was able to just be where I am comfortable and receive a personal message from my \"spiritual team\" verbalized with my own words.\"</p>",
-            "image": "shopify://shop_images/lkknlknl.png",
+            "content": "<p>\"I've tried traditional talk therapy but never found it particularly helpful... From our very first session I felt a difference — it was as if so much bad energy had left not just my mind but my body itself. </p><p>In subsequent sessions Sierra aided me in connecting with my past lives, something I had never thought possible and which opened up a much clearer perspective on not just my issues and blockages, but the power and strength and beauty within. </p><p>One of the most rewarding experiences was when I was able to fully connect with and talk to my higher self. My sessions with Sierra have re-lit something inside me; her guidance gave me valuable tools, of both strength and comfort, that I carry with me in my daily life\"</p>",
+            "image": "shopify://shop_images/nnknk.png",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
-            "author": "Maryam | Austin, TX"
+            "author": "Violet | Austin, TX"
           }
         },
         "testimonial_7Jiaqk": {
@@ -344,14 +344,24 @@
             "author": "Tristian | Austin, TX"
           }
         },
-        "testimonial_DRN4MH": {
+        "testimonial_Ujhgab": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>\"I've tried traditional talk therapy but never found it particularly helpful... From our very first session I felt a difference — it was as if so much bad energy had left not just my mind but my body itself. </p><p>In subsequent sessions Sierra aided me in connecting with my past lives, something I had never thought possible and which opened up a much clearer perspective on not just my issues and blockages, but the power and strength and beauty within. </p><p>One of the most rewarding experiences was when I was able to fully connect with and talk to my higher self. My sessions with Sierra have re-lit something inside me; her guidance gave me valuable tools, of both strength and comfort, that I carry with me in my daily life\"</p>",
-            "image": "shopify://shop_images/nnknk.png",
+            "content": "<p>As someone who is not in tune with their spirituality, I was shocked and blown away from Sierra’s soul activation, I became aware of my body in its entirety, followed by sensations and perceived feelings that I didn’t know were possible through a guided experience. It was surreal and dreamlike. Sierra was wonderful guide for my exploration.</p>",
+            "image": "shopify://shop_images/Untitled_design_ea33b90a-3e04-4935-ab90-4625518c6b5c.png",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
-            "author": "Violet | Austin, TX"
+            "author": "Saul Almaraz | Austin, TX"
+          }
+        },
+        "testimonial_NRn8cd": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"Sierra created a calm and relaxing space for me to experience a journey that reflected back my own inner wisdom and true capability. </p><p>The space that she holds is strong in genuine encouragement and is great for those seeking to become more open to their spiritual selves as well as for those who have already done plenty of search and study.</p><p> Sierra advocates that all you need is within and will help you to find a place where you can begin to discover it.</p><p> During my session with Sierra, I was able to just be where I am comfortable and receive a personal message from my \"spiritual team\" verbalized with my own words.\"</p>",
+            "image": "shopify://shop_images/lkknlknl.png",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Maryam | Austin, TX"
           }
         },
         "testimonial_feCUmx": {
@@ -363,24 +373,14 @@
             "logo_mobile_max_width": 100,
             "author": "Gianna | New York"
           }
-        },
-        "testimonial_Ujhgab": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>As someone who is not in tune with their spirituality, I was shocked and blown away from Sierra’s soul activation, I became aware of my body in its entirety, followed by sensations and perceived feelings that I didn’t know were possible through a guided experience. It was surreal and dreamlike. Sierra was wonderful guide for my exploration.</p>",
-            "image": "shopify://shop_images/Untitled_design_ea33b90a-3e04-4935-ab90-4625518c6b5c.png",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": "Saul Almaraz | Austin, TX"
-          }
         }
       },
       "block_order": [
-        "testimonial_NRn8cd",
-        "testimonial_7Jiaqk",
         "testimonial_DRN4MH",
-        "testimonial_feCUmx",
-        "testimonial_Ujhgab"
+        "testimonial_7Jiaqk",
+        "testimonial_Ujhgab",
+        "testimonial_NRn8cd",
+        "testimonial_feCUmx"
       ],
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
