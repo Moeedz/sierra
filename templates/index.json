@@ -60,6 +60,36 @@
         "controls_color": "#ffffff"
       }
     },
+    "rich_text_TkPkw4": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pDFP9z": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>You've felt it.</strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_GqpzpE": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>That subtle pull you feel toward something enormous — that's not your imagination.</p><p>It's an energy that wants to be created and birthed through you.<em> Your soul's gifts, waiting to be known.</em></p><p>You've tried every hobby, relationship, and job you thought could fulfill it. And still the craving remains.</p><p>You're not crazy. You're not broken.</p><p><em>Your soul is simply waiting to be heard. Waiting to be remembered. </em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_pDFP9z",
+        "richtext_GqpzpE"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "featured_collections_73HxnG": {
       "type": "featured-collections",
       "blocks": {
@@ -121,155 +151,6 @@
         "remove_vertical_spacing": true
       }
     },
-    "rich_text_i39D6f": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_LGzpCU": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>꩜ Each creation bridges you with your Higher Self</strong>",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_QTzwHN": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p><strong>Powerful souls like you have chosen to incarnate on Earth at this precise moment, carrying a signature frequency and unique gifts that can help heal the world.</strong></p><p>Each crystalline creation holds the codes, frequency, and guidance to take you deeper within. Trust the one that calls to you.</p>"
-          }
-        },
-        "button_KfNmhy": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Guided Activations",
-            "url": "",
-            "background": "#fdeeff",
-            "text_color": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading_LGzpCU",
-        "richtext_QTzwHN",
-        "button_KfNmhy"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 767px) {p.h3 {padding-top: 27px !important; padding-bottom: 3px !important; padding-left: 29px !important; padding-right: 29px !important; margin-top: 0 !important; text-align: -webkit-center !important; }}"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "content_width": "xs",
-        "text_position": "start",
-        "remove_vertical_spacing": false
-      }
-    },
-    "ss_image_with_text_12_wVjppG": {
-      "type": "ss-image-with-text-12",
-      "blocks": {
-        "slide_PNg3gD": {
-          "type": "slide",
-          "settings": {
-            "heading": "<h3>꩜ When you're drawn to a piece, its not random...</h3>",
-            "text": "<h2></h2><p>It's a sign that your ready to receive new energy or a activation.</p><p><strong>This pull is your Higher Self guiding you toward what your soul is ready to awaken and embody, it's showing you the way/</strong></p><p></p><p>Because the pieces of you that are ready to emerge and reconnect with, they're tied to the deeper purpose of who you are and your soul's mission.</p><p>Because you are not alive here and now randomly, you chose to incarnate at this specific time in this specific version of you to share something power and beautiful with the world.</p><p></p><p> </p><p></p><p></p><p>When you feel pulled toward one of my creations, it’s not just because it’s beautiful, it’s because your soul recognizes the frequency within it.</p><p>This piece (or pieces) carry a specific vibration that your Higher Self resonates with, guiding you to receive and embody a new activation.</p><p><strong>This pull is your Higher Self’s way of saying, </strong><em><strong>“You’re ready.”</strong></em></p><p>You’re meant to grow and evolve, to follow what lights up your heart and become the version of yourself your soul already knows you can be.</p><p>When you align with your highest path, you naturally radiate from within, with clarity to live and create from the heart.</p>",
-            "button": "",
-            "button_url": "",
-            "image": "shopify://shop_images/PA022251_d01f5121-c118-4b6b-accf-60b26efde8d5.webp"
-          }
-        }
-      },
-      "block_order": [
-        "slide_PNg3gD"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".image-text-heading-template--25661479354677__ss_image_with_text_12_wVjppG * {font-weight: 900 !important;}"
-      ],
-      "name": "SS - Image With Text #12",
-      "settings": {
-        "slide_gap": 70,
-        "slide_gap_mobile": 24,
-        "content_horizontal_align": "start",
-        "content_horizontal_align_mobile": "start",
-        "content_mt": 0,
-        "heading_custom": false,
-        "heading_font": "poppins_n4",
-        "heading_size": 34,
-        "heading_size_mobile": 20,
-        "heading_height": 110,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 14,
-        "text_size_mobile": 12,
-        "text_height": 170,
-        "text_mt": 32,
-        "button_custom": false,
-        "button_font": "josefin_sans_n4",
-        "button_size": 16,
-        "button_size_mobile": 16,
-        "button_height": 100,
-        "button_mt": 32,
-        "button_mt_mobile": 32,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 16,
-        "button_padding_horizontal": 38,
-        "button_padding_horizontal_mobile": 38,
-        "button_radius": 100,
-        "button_border_thickness": 0,
-        "button_style": "non_outline",
-        "images_position": "right",
-        "images_position_mobile": "bottom",
-        "image_ratio": "original",
-        "image_ratio_mobile": "original",
-        "image_shape": "none",
-        "image_radius": 0,
-        "image_border_thickness": 0,
-        "number_custom": false,
-        "number_font": "josefin_sans_n4",
-        "number_size": 13,
-        "number_size_mobile": 13,
-        "pagination_text": "",
-        "pagination_text_custom": false,
-        "pagination_text_font": "josefin_sans_n4",
-        "pagination_text_size": 16,
-        "pagination_text_size_mobile": 16,
-        "pagination_text_height": 130,
-        "heading_color": "#383838",
-        "text_color": "#666666",
-        "button_color": "#ffffff",
-        "button_hover_color": "#ffffff",
-        "button_bg_color": "#b59de3",
-        "button_bg_hover_color": "#b198de",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "image_border_color": "rgba(0,0,0,0)",
-        "dots_bg_color": "",
-        "dots_bg_hover_color": "#000000",
-        "dots_border_color": "#000000",
-        "dots_border_hover_color": "#000000",
-        "number_color": "#000000",
-        "number_hover_color": "#ffffff",
-        "pagination_text_color": "#000000",
-        "background_color": "#f1fcfd",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 3,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": false,
-        "content_width": 400,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
     "rich_text_jA4VH9": {
       "type": "rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
@@ -281,109 +162,8 @@
         "remove_vertical_spacing": false
       }
     },
-    "rich_text_RQzJ7e": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_GgpDCc": {
-          "type": "heading",
-          "settings": {
-            "text": "꩜<strong> How Light-Coded Jewelry Works:</strong>",
-            "heading_tag": "h3"
-          }
-        },
-        "richtext_DWJdgq": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Light-coded jewelry works through the synergy of <strong>three pure, high-vibrational forces</strong>:  crystals, colors, and the encoded frequencies.</p><p></p><p>These elements are pure and alive. They are not decorative, they are conscious allies here to raise your vibration and activate your body, mind, and soul.</p><p><strong>Let's take a closer look at each element:</strong></p><p></p><p></p><p></p><p></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_GgpDCc",
-        "richtext_DWJdgq"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "p.h3 {text-align: center !important;}"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "start",
-        "remove_vertical_spacing": false
-      }
-    },
-    "text_with_icons_WMk68J": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_KzRhrW": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-love",
-            "custom_icon": "shopify://shop_images/bbbbb.png",
-            "icon_width": 48,
-            "mobile_icon_width": 64,
-            "title": "<strong>Crystals</strong>",
-            "content": "<p></p><p>Most of us are so deeply drawn to them without even realizing the power they hold. Crystals are more than just beautiful objects, they are <strong>conscious beings</strong>, our ancient allies, that are here to help you (and all of humanity) heal, evolve, and expand our consciousness.</p><p>Each crystal is just as unique as we are. Every crystal carries it own unique frequency, personality, and skill set. They are the anchor that holds each encoded frequency in my jewelry.</p><p></p><p><strong>I communicate with them to activate each piece</strong>, and they work together to anchor and harmonize that frequency with your energetic field, activating the physical and energetic parts of you that are ready. <strong>Crystals are here to help you remember who you are, </strong>where you've come from, and what you're here to become.</p><p></p><p></p><p></p><p></p><p></p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_KzRhrW"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".h3 {font-size: 25px;}",
-        ".gap-2 {gap: 1.5rem;}",
-        "p.h6 {font-size: var(--text-h3);}"
-      ],
-      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "start"
-      }
-    },
     "slideshow_iFw4fP": {
       "type": "slideshow",
-      "blocks": {
-        "image_hbTRFc": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/IMG_0193.jpg",
-            "mobile_image": "shopify://shop_images/IMG_0193.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_hbTRFc"
-      ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": false,
@@ -399,27 +179,6 @@
     },
     "text_with_icons_F64Kt6": {
       "type": "text-with-icons",
-      "blocks": {
-        "item_dzA64z": {
-          "type": "item",
-          "disabled": true,
-          "settings": {
-            "icon": "picto-customer-support",
-            "custom_icon": "shopify://shop_images/bbbbb.png",
-            "icon_width": 48,
-            "mobile_icon_width": 64,
-            "title": "<strong>Colors</strong>",
-            "content": "<p></p><p>We’re surrounded by colors every day. We wear them, eat them, express through them, and are unconsciously influenced by them. Colors shape our reality, yet we don’t always realize how deeply they affect us.</p><p>Colors are <strong>frequencies of light in physical form</strong>, and each hue carries its own purpose, message, and activation. They help harmonize your energy and bring all parts of you into your highest alignment.</p><p>When colors speak to you, they are guiding you towards what needs to be stimulated, soothed, awakened, or balanced. </p><p>By simply surrounding yourself with certain colors, your body, mind, and soul begin to receive the activations each color naturally provides.</p><p><strong>This is why color is </strong><em><strong>never</strong></em><strong> random in my jewelry.</strong></p><p>Color isn’t just aesthetic — it’s a <strong>tool of transformation.</strong></p><p></p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_dzA64z"
-      ],
-      "custom_css": [
-        ".gap-2 {gap: 1.5rem;}",
-        "p.h6 {font-size: var(--text-h3);}"
-      ],
       "name": "t:sections.text_with_icons.presets.text_with_icons.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -432,39 +191,6 @@
     },
     "slideshow_fH99in": {
       "type": "slideshow",
-      "blocks": {
-        "image_dCRUUN": {
-          "type": "image",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/IMG_0151-2.jpg",
-            "mobile_image": "shopify://shop_images/IMG_0151-2.jpg",
-            "subheading": "",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_dCRUUN"
-      ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
         "allow_transparent_header": false,
@@ -476,177 +202,6 @@
         "cycle_speed": 5,
         "background": "#000000",
         "controls_color": "#ffffff"
-      }
-    },
-    "text_with_icons_4Ebr3X": {
-      "type": "text-with-icons",
-      "blocks": {
-        "item_gBFhtw": {
-          "type": "item",
-          "settings": {
-            "icon": "picto-shield",
-            "custom_icon": "shopify://shop_images/bbbbb.png",
-            "icon_width": 24,
-            "mobile_icon_width": 64,
-            "title": "<strong>Encoded Frequencies</strong>",
-            "content": "<p></p><p>Every piece of my jewelry is woven and sealed with a specific encoded frequency, a <strong>light-based imprint that speaks directly to your soul.</strong></p><p>Since we are multidimensional beings, the deepest parts of who we are can’t always be accessed through the mind; but instead through energy, symbolism, and vibration, a language older than words. </p><p>Each piece is created in collaboration with your <strong>Spirit Guides and Higher Self</strong>, carrying the exact codes, colors, and frequencies you’re meant to receive in this chapter of your evolution.</p><p></p><p>When you’re drawn to a piece, it’s never just the aesthetic. You’re responding to the activation within it — the energy, frequency, and transmission your soul recognizes and is finally ready to integrate.</p><p>This is why my jewelry is different.</p><p>It’s not just adornment — it’s <strong>energetic technology</strong> for your awakening.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "item_gBFhtw"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".gap-2 {gap: 1.5rem;}",
-        "p.h6 {font-size: var(--text-h3);}"
-      ],
-      "name": "t:sections.text_with_icons.presets.text_with_icons.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "stack_on_mobile": false,
-        "icon_color": "",
-        "text_color": "",
-        "text_alignment": "center"
-      }
-    },
-    "image_with_text_9znibH": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_BjXJnq": {
-          "type": "heading",
-          "settings": {
-            "text": "",
-            "heading_tag": "h3"
-          }
-        }
-      },
-      "block_order": [
-        "heading_BjXJnq"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "image": "shopify://shop_images/IMG_0354-3.jpg",
-        "mobile_image": "shopify://shop_images/IMG_0354-3.jpg",
-        "reveal_on_scroll": true,
-        "image_position": "start",
-        "content_width": "sm",
-        "remove_vertical_spacing": true
-      }
-    },
-    "rich_text_VLrajx": {
-      "type": "rich-text",
-      "blocks": {
-        "subheading_gP8zLm": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "heading_bxbTdC": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>‏꩜ Guided Activations</strong>",
-            "heading_tag": "h2"
-          }
-        },
-        "richtext_6X7D6U": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Every purchase includes a <strong>complimentary Guided Activation</strong>, designed to help you connect with the messages, spirit guides, and consciousness encoded within your jewelry.</p><p>Through a <em>visual astral journey</em> or guided meditation (available via Zoom or in person), you'll open your channels to receive <strong>direct connection and guidance from the higher realms. </strong></p><p>This ceremonial activation allows the energies within your piece to reveal exactly what is needed at this point in your journey—empowering you to embody your highest self, reach your fullest potential, and create a life aligned with your <strong>soul's purpose.</strong></p><p>Each activation is a personalized experience, ensuring you receive the <em>complete energetic transmission</em> your jewelry has to offer.</p>"
-          }
-        },
-        "button_Pt9pHg": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Learn More",
-            "url": "shopify://pages/sessions-guided-activations",
-            "background": "#fdeeff",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_gP8zLm",
-        "heading_bxbTdC",
-        "richtext_6X7D6U",
-        "button_Pt9pHg"
-      ],
-      "disabled": true,
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "rich_text_TkPkw4": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_pDFP9z": {
-          "type": "heading",
-          "settings": {
-            "text": "<strong>You may have felt it before,</strong>",
-            "heading_tag": "h1"
-          }
-        },
-        "richtext_GqpzpE": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>being drawn to a crystal or piece of jewelry without knowing why.</p><p>That connection isn't random. Crystals are <strong>conscious beings</strong> that carry potent frequencies and ancient codes that awaken deeper layers of your soul's memories. </p><p>They have a way of speaking directly to you, bypassing the logical mind by creating that undeniable pull.<br/></p><p><strong>When a crystalline ally calls to you, it’s because you’re ready to receive what it holds. </strong></p><p></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_pDFP9z",
-        "richtext_GqpzpE"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
-      }
-    },
-    "image_with_text_block_UMGPJi": {
-      "type": "image-with-text-block",
-      "blocks": {
-        "subheading_Kp94RE": {
-          "type": "subheading",
-          "settings": {
-            "text": "꩜ This Isn't just jewelry ꩜"
-          }
-        },
-        "richtext_4MA4Lk": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Each piece serves as a bridge to your Higher Self, intuitively created and energetically activated to support a specific transformation. Let these crystalline guides call to you and awaken your truest, most authentic self.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_Kp94RE",
-        "richtext_4MA4Lk"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "image_size": "lg",
-        "image": "shopify://shop_images/61.jpg",
-        "mobile_image": "shopify://shop_images/61.jpg",
-        "content_width": "lg",
-        "enable_parallax": false,
-        "remove_vertical_spacing": true
       }
     },
     "image_with_text_cmWxUe": {
@@ -782,196 +337,6 @@
         "remove_horizontal_spacing": false
       }
     },
-    "ss_feature_1_JycCj6": {
-      "type": "ss-feature-1",
-      "blocks": {
-        "image_n4EYhB": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Colors",
-            "feature_text": "<p>Every color carries it's own frequency that affects us mental, emotionally, and physically. We are constantly affected by the colors around us but mosly unconsiously. the colors you like to wear and surround yourself with is a direct reflection of the state you're in. By wearing different colors, you call in new types of stimulation, activating your chakras, and</p>",
-            "feature_image": "shopify://shop_images/spirallogo.webp",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_giXVpg": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Crystals",
-            "feature_text": "<p>Crystal are our forgotten allies, they carry the perfect energetic structure and are here tohelp humanity evolove. We are living in a time where so many crystals have been resurfaces from deep within Earth and their frequencies can help assist us evolve. The crystalline realm is conscious and</p>",
-            "feature_image": "shopify://shop_images/spirallogo.webp",
-            "feature_url": "",
-            "hide_image": false
-          }
-        },
-        "image_QA6jLn": {
-          "type": "image",
-          "settings": {
-            "feature_title": "Chakras",
-            "feature_text": "<p>We have multiply energy centers in our physical and energetic bodies, we may know the 7 main chakras, it's important that they all are functioning properly for your life force energy to flow, strong aura, clarity in self, and high vibration. the blocks or weaknesses in your aura can guide you towards the deeper work needed to become your fullest authentic expression.</p>",
-            "feature_image": "shopify://shop_images/spirallogo.webp",
-            "feature_url": "",
-            "hide_image": false
-          }
-        }
-      },
-      "block_order": [
-        "image_n4EYhB",
-        "image_giXVpg",
-        "image_QA6jLn"
-      ],
-      "disabled": true,
-      "name": "SS - Feature #1",
-      "settings": {
-        "feature_row": 3,
-        "feature_row_mobile": 1,
-        "feature_gap": 20,
-        "feature_gap_mobile": 20,
-        "feature_padding_horizontal": 0,
-        "feature_padding_vertical": 0,
-        "feature_radius": 16,
-        "feature_border_thickness": 0,
-        "feature_shadow": false,
-        "feature_heading_custom": true,
-        "feature_heading_font": "taviraj_n6",
-        "feature_heading_size": 22,
-        "feature_heading_size_mobile": 18,
-        "feature_heading_height": 200,
-        "feature_heading_mt": 0,
-        "feature_text_custom": true,
-        "feature_text_font": "sans_serif_n4",
-        "feature_text_size": 14,
-        "feature_text_size_mobile": 14,
-        "feature_text_height": 140,
-        "feature_text_mt": 24,
-        "feature_icon_size": 130,
-        "feature_icon_size_mobile": 144,
-        "feature_bg": "#f1fcfd",
-        "feature_border_color": "#000000",
-        "feature_shadow_color": "#000000",
-        "feature_heading_color": "#383838",
-        "feature_text_color": "#383838",
-        "feature_icon_color": "#000000",
-        "background_color": "#f1fcfd",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "padding_top": 36,
-        "padding_bottom": 16,
-        "padding_horizontal": 5,
-        "padding_horizontal_mobile": 1.5,
-        "full_width": true,
-        "content_width": 120,
-        "border_thickness": 0,
-        "lazy": true
-      }
-    },
-    "ss_image_with_text_12_Qgq3mK": {
-      "type": "ss-image-with-text-12",
-      "blocks": {
-        "slide_erQmq8": {
-          "type": "slide",
-          "settings": {
-            "heading": "<p><strong>Shop Crystals</strong></p>",
-            "text": "<p>Made with care and unconditionally loved by our customers, this signature bestseller exceeds all expectations.</p>",
-            "button": "SHOP NOW",
-            "button_url": "",
-            "image": "shopify://shop_images/IMG_9440_dcfa8de9-9775-4bdf-a250-c235781ec674.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "slide_erQmq8"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "@media screen and (max-width: 767px) {a.image-text-button-template--25661479354677__ss_image_with_text_12_Qgq3mK {width: 40% !important; }}"
-      ],
-      "name": "SS - Image With Text #12",
-      "settings": {
-        "slide_gap": 70,
-        "slide_gap_mobile": 28,
-        "content_horizontal_align": "start",
-        "content_horizontal_align_mobile": "start",
-        "content_mt": 0,
-        "heading_custom": true,
-        "heading_font": "taviraj_n4",
-        "heading_size": 34,
-        "heading_size_mobile": 36,
-        "heading_height": 110,
-        "text_custom": false,
-        "text_font": "josefin_sans_n4",
-        "text_size": 12,
-        "text_size_mobile": 16,
-        "text_height": 120,
-        "text_mt": 32,
-        "button_custom": true,
-        "button_font": "taviraj_n4",
-        "button_size": 14,
-        "button_size_mobile": 14,
-        "button_height": 100,
-        "button_mt": 32,
-        "button_mt_mobile": 10,
-        "button_padding_vertical": 16,
-        "button_padding_vertical_mobile": 12,
-        "button_padding_horizontal": 38,
-        "button_padding_horizontal_mobile": 16,
-        "button_radius": 0,
-        "button_border_thickness": 0,
-        "button_style": "non_outline",
-        "images_position": "left",
-        "images_position_mobile": "top",
-        "image_ratio": "square",
-        "image_ratio_mobile": "square",
-        "image_shape": "none",
-        "image_radius": 0,
-        "image_border_thickness": 0,
-        "number_custom": false,
-        "number_font": "josefin_sans_n4",
-        "number_size": 13,
-        "number_size_mobile": 13,
-        "pagination_text": "",
-        "pagination_text_custom": false,
-        "pagination_text_font": "josefin_sans_n4",
-        "pagination_text_size": 16,
-        "pagination_text_size_mobile": 16,
-        "pagination_text_height": 130,
-        "heading_color": "#383838",
-        "text_color": "#666666",
-        "button_color": "#383838",
-        "button_hover_color": "#383838",
-        "button_bg_color": "#cffcff",
-        "button_bg_hover_color": "#d3d3d3",
-        "button_border_color": "#000000",
-        "button_border_hover_color": "#000000",
-        "image_border_color": "rgba(0,0,0,0)",
-        "dots_bg_color": "",
-        "dots_bg_hover_color": "#000000",
-        "dots_border_color": "#000000",
-        "dots_border_hover_color": "#000000",
-        "number_color": "#000000",
-        "number_hover_color": "#ffffff",
-        "pagination_text_color": "#000000",
-        "background_color": "#f1fcfd",
-        "background_gradient": "",
-        "border_color": "#000000",
-        "margin_top": 0,
-        "margin_bottom": 0,
-        "margin_horizontal": 0,
-        "margin_horizontal_mobile": 0,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "padding_horizontal": 3,
-        "padding_horizontal_mobile": 1,
-        "full_width": false,
-        "content_width": 400,
-        "border_thickness": 0,
-        "section_radius": 0,
-        "lazy": true
-      }
-    },
     "17738066989ce5e874": {
       "type": "apps",
       "blocks": {
@@ -1037,27 +402,17 @@
   },
   "order": [
     "slideshow_7dgTyP",
+    "rich_text_TkPkw4",
     "featured_collections_73HxnG",
     "image_with_text_block_nC7wRG",
-    "rich_text_i39D6f",
-    "ss_image_with_text_12_wVjppG",
     "rich_text_jA4VH9",
-    "rich_text_RQzJ7e",
-    "text_with_icons_WMk68J",
     "slideshow_iFw4fP",
     "text_with_icons_F64Kt6",
     "slideshow_fH99in",
-    "text_with_icons_4Ebr3X",
-    "image_with_text_9znibH",
-    "rich_text_VLrajx",
-    "rich_text_TkPkw4",
-    "image_with_text_block_UMGPJi",
     "image_with_text_cmWxUe",
     "rich_text_EmkgJN",
     "image_with_text_NezMPc",
     "1764349737cbe0df2e",
-    "ss_feature_1_JycCj6",
-    "ss_image_with_text_12_Qgq3mK",
     "17738066989ce5e874",
     "newsletter_dyNQMj",
     "177248664187f8066b"
