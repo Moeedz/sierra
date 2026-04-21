@@ -334,30 +334,19 @@
             "author": "Saul Almaraz | Austin, TX"
           }
         },
-        "testimonial_Agcd7J": {
+        "testimonial_feCUmx": {
           "type": "testimonial",
           "settings": {
-            "content": "<p>\"Since my ring activation with Sierra, I can confidently say I am so much closer to my most empowered self. I've seen internal transformation ( that others have noticed and commented on as well ) from the moment I was in her care, and since then I've felt deeply connected to a part of me that previously had seemed much further away....\"</p>",
-            "image": "shopify://shop_images/Uhykgkbmk.png",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>",
             "logo_max_width": 140,
             "logo_mobile_max_width": 100,
-            "author": "Marianna | New York"
-          }
-        },
-        "testimonial_nAwyDQ": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>\"....I've found myself much more able to move from a place that my highest self would. And making choices that leave me feeling empowered, brave, & self assured. It was though the puzzle of self- past, present, & future came together & now I get to admire and exist as a whole\"</p>",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": "Gianna | New York"
+            "author": ""
           }
         }
       },
       "block_order": [
         "testimonial_Ujhgab",
-        "testimonial_Agcd7J",
-        "testimonial_nAwyDQ"
+        "testimonial_feCUmx"
       ],
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
