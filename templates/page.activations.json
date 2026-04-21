@@ -532,21 +532,10 @@
             "logo_mobile_max_width": 100,
             "author": "Marianna | New York"
           }
-        },
-        "testimonial_bQt9WR": {
-          "type": "testimonial",
-          "settings": {
-            "content": "<p>\"....I've found myself much more able to move from a place that my highest self would. And making choices that leave me feeling empowered, brave, & self assured. It was though the puzzle of self- past, present, & future came together & now I get to admire and exist as a whole\"</p>",
-            "image": "shopify://shop_images/knknkn.png",
-            "logo_max_width": 140,
-            "logo_mobile_max_width": 100,
-            "author": "Gianna | New York"
-          }
         }
       },
       "block_order": [
-        "testimonial_rR9gde",
-        "testimonial_bQt9WR"
+        "testimonial_rR9gde"
       ],
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
