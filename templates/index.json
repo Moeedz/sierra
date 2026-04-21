@@ -16,9 +16,9 @@
           "type": "image",
           "settings": {
             "image": "shopify://shop_images/IMG_6810-2.jpg",
-            "mobile_image": "shopify://shop_images/IMG_6750-5.jpg",
+            "mobile_image": "shopify://shop_images/IMG_6810-3.jpg",
             "subheading": "𖦹Your soul has never forgotten who you are.𖦹",
-            "title": "What you've been searching for has been waiting inside you all along. This is where you remember.",
+            "title": "What you've been searching for has been waiting inside you all along.",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "content_max_width": 700,
