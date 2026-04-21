@@ -250,6 +250,15 @@
     "rich_text_EmkgJN": {
       "type": "rich-text",
       "blocks": {
+        "image_D4Fp8z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_6770-4_cc87015f-369c-4bec-834b-10d452f8342b.jpg",
+            "width_mode": "custom",
+            "max_width": 600,
+            "mobile_max_width": 400
+          }
+        },
         "subheading_JDjUwD": {
           "type": "subheading",
           "settings": {
@@ -274,6 +283,7 @@
         }
       },
       "block_order": [
+        "image_D4Fp8z",
         "subheading_JDjUwD",
         "richtext_aN6Gpj",
         "button_KmdnAh"
