@@ -195,7 +195,7 @@
         "richtext_zREEd6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>That feeling you get when you're drawn to a specific piece 𖦹 a color, a crystal, a shape 𖦹 without knowing why. That pull that bypasses logic completely.</p><p>That's not coincidence. That's the part of you that already knows, trying to get through.</p><p><em>This is where you start listening.</em></p>"
+            "content": "<p>That feeling you get when you're drawn to a specific piece ⟢ a color, a crystal, a shape ⟢ without knowing why. That pull that bypasses logic completely.</p><p>That's not coincidence. That's the part of you that already knows, trying to get through.</p><p><em>This is where you start listening.</em></p>"
           }
         }
       },
@@ -227,7 +227,7 @@
             "products_count": 8,
             "title": "",
             "link_url": "",
-            "link_text": "View all"
+            "link_text": "Find Your piece"
           }
         }
       },
@@ -244,7 +244,7 @@
         "products_per_row_desktop": 4,
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
-        "subheading": "What's calling to you?"
+        "subheading": "<strong>What's calling to you?</strong>"
       }
     },
     "rich_text_EmkgJN": {
