@@ -321,6 +321,55 @@
         "content": ""
       }
     },
+    "testimonials_FmkQdd": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_Ujhgab": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>As someone who is not in tune with their spirituality, I was shocked and blown away from Sierra’s soul activation, I became aware of my body in its entirety, followed by sensations and perceived feelings that I didn’t know were possible through a guided experience. It was surreal and dreamlike. Sierra was wonderful guide for my exploration.</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Saul Almaraz | Austin, TX"
+          }
+        },
+        "testimonial_Agcd7J": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"Since my ring activation with Sierra, I can confidently say I am so much closer to my most empowered self. I've seen internal transformation ( that others have noticed and commented on as well ) from the moment I was in her care, and since then I've felt deeply connected to a part of me that previously had seemed much further away....\"</p>",
+            "image": "shopify://shop_images/Uhykgkbmk.png",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Marianna | New York"
+          }
+        },
+        "testimonial_nAwyDQ": {
+          "type": "testimonial",
+          "settings": {
+            "content": "<p>\"....I've found myself much more able to move from a place that my highest self would. And making choices that leave me feeling empowered, brave, & self assured. It was though the puzzle of self- past, present, & future came together & now I get to admire and exist as a whole\"</p>",
+            "logo_max_width": 140,
+            "logo_mobile_max_width": 100,
+            "author": "Gianna | New York"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_Ujhgab",
+        "testimonial_Agcd7J",
+        "testimonial_nAwyDQ"
+      ],
+      "name": "t:sections.testimonials.presets.testimonials.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "auto_rotate_between_testimonials": false,
+        "cycle_speed": 5,
+        "font_size_factor": 1,
+        "subheading": "",
+        "title": "꩜ <strong>Soul Alignment Testimonials </strong>꩜",
+        "content": ""
+      }
+    },
     "image_with_text_z9GUzW": {
       "type": "image-with-text",
       "blocks": {
@@ -480,21 +529,10 @@
         "content": ""
       }
     },
-    "contact_UHFPny": {
-      "type": "contact",
-      "name": "t:sections.contact.presets.contact_form.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": true,
-        "subheading": "",
-        "title": "Fill out this form below or DM on Instagram to book your session.",
-        "content": ""
-      }
-    },
-    "testimonials_FmkQdd": {
+    "testimonials_EpjUrR": {
       "type": "testimonials",
       "blocks": {
-        "testimonial_Ujhgab": {
+        "testimonial_gKtLc8": {
           "type": "testimonial",
           "settings": {
             "content": "<p>As someone who is not in tune with their spirituality, I was shocked and blown away from Sierra’s soul activation, I became aware of my body in its entirety, followed by sensations and perceived feelings that I didn’t know were possible through a guided experience. It was surreal and dreamlike. Sierra was wonderful guide for my exploration.</p>",
@@ -503,7 +541,7 @@
             "author": "Saul Almaraz | Austin, TX"
           }
         },
-        "testimonial_Agcd7J": {
+        "testimonial_rR9gde": {
           "type": "testimonial",
           "settings": {
             "content": "<p>\"Since my ring activation with Sierra, I can confidently say I am so much closer to my most empowered self. I've seen internal transformation ( that others have noticed and commented on as well ) from the moment I was in her care, and since then I've felt deeply connected to a part of me that previously had seemed much further away....\"</p>",
@@ -513,7 +551,7 @@
             "author": "Marianna | New York"
           }
         },
-        "testimonial_nAwyDQ": {
+        "testimonial_bQt9WR": {
           "type": "testimonial",
           "settings": {
             "content": "<p>\"....I've found myself much more able to move from a place that my highest self would. And making choices that leave me feeling empowered, brave, & self assured. It was though the puzzle of self- past, present, & future came together & now I get to admire and exist as a whole\"</p>",
@@ -524,9 +562,9 @@
         }
       },
       "block_order": [
-        "testimonial_Ujhgab",
-        "testimonial_Agcd7J",
-        "testimonial_nAwyDQ"
+        "testimonial_gKtLc8",
+        "testimonial_rR9gde",
+        "testimonial_bQt9WR"
       ],
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
@@ -539,6 +577,17 @@
         "title": "꩜ Testimonials ꩜",
         "content": ""
       }
+    },
+    "contact_UHFPny": {
+      "type": "contact",
+      "name": "t:sections.contact.presets.contact_form.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": true,
+        "subheading": "",
+        "title": "Fill out this form below or DM on Instagram to book your session.",
+        "content": ""
+      }
     }
   },
   "order": [
@@ -548,10 +597,11 @@
     "rich_text_E6tVfw",
     "featured_product_qCHB9B",
     "featured_product_f9AVDr",
+    "testimonials_FmkQdd",
     "image_with_text_z9GUzW",
     "rich_text_dWqaXC",
     "featured_product_VnQdFP",
-    "contact_UHFPny",
-    "testimonials_FmkQdd"
+    "testimonials_EpjUrR",
+    "contact_UHFPny"
   ]
 }
