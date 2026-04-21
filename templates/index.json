@@ -195,7 +195,7 @@
         "richtext_zREEd6": {
           "type": "richtext",
           "settings": {
-            "content": "<p>That feeling you get when you're drawn to a specific piece ⟢ a color, a crystal, a shape ⟢ without knowing why. That pull that bypasses logic completely.</p><p>That's not coincidence. That's the part of you that already knows, trying to get through.</p><p><em>This is where you start listening.</em></p>"
+            "content": "<p>That feeling you get when you're drawn to a specific piece ~ a color, a crystal, a shape ~ without knowing why. That pull that bypasses logic completely.</p><p>That's not coincidence. That's the part of you that already knows, trying to get through.</p><p><em>This is where you start listening.</em></p>"
           }
         }
       },
@@ -245,56 +245,6 @@
         "horizontal_spacing_factor": 1,
         "vertical_spacing_factor": 1,
         "subheading": "<strong>What's calling to you?</strong>"
-      }
-    },
-    "rich_text_EmkgJN": {
-      "type": "rich-text",
-      "blocks": {
-        "image_D4Fp8z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IMG_6770-4_cc87015f-369c-4bec-834b-10d452f8342b.jpg",
-            "width_mode": "custom",
-            "max_width": 600,
-            "mobile_max_width": 400
-          }
-        },
-        "subheading_JDjUwD": {
-          "type": "subheading",
-          "settings": {
-            "text": ""
-          }
-        },
-        "richtext_aN6Gpj": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>coming soon</p>"
-          }
-        },
-        "button_KmdnAh": {
-          "type": "button",
-          "settings": {
-            "style": "solid",
-            "text": "Explore the collection",
-            "url": "shopify://collections/new-arrivals",
-            "background": "#cffcff",
-            "text_color": "#000000"
-          }
-        }
-      },
-      "block_order": [
-        "image_D4Fp8z",
-        "subheading_JDjUwD",
-        "richtext_aN6Gpj",
-        "button_KmdnAh"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "color_scheme": "",
-        "separate_section_with_border": true,
-        "content_width": "sm",
-        "text_position": "center",
-        "remove_vertical_spacing": false
       }
     },
     "image_with_text_NezMPc": {
@@ -421,7 +371,6 @@
     "slideshow_fH99in",
     "image_with_text_cmWxUe",
     "featured_collections_73HxnG",
-    "rich_text_EmkgJN",
     "image_with_text_NezMPc",
     "1764349737cbe0df2e",
     "17738066989ce5e874",
