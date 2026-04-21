@@ -202,7 +202,7 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Find your piece",
+            "text": "Find what's calling to you",
             "url": "shopify://collections/new-arrivals",
             "background": "",
             "text_color": ""
