@@ -90,43 +90,13 @@
         "remove_vertical_spacing": false
       }
     },
-    "featured_collections_73HxnG": {
-      "type": "featured-collections",
-      "blocks": {
-        "collection_Yi6GaJ": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-arrivals",
-            "products_count": 8,
-            "title": "",
-            "link_url": "",
-            "link_text": "View all"
-          }
-        }
-      },
-      "block_order": [
-        "collection_Yi6GaJ"
-      ],
-      "name": "t:sections.featured_collections.presets.featured_collections.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "separate_section_with_border": false,
-        "hide_product_information": false,
-        "stack_products": false,
-        "products_per_row_mobile": "2",
-        "products_per_row_desktop": 4,
-        "horizontal_spacing_factor": 1,
-        "vertical_spacing_factor": 1,
-        "subheading": "EXPLORE THE NEWEST ARRIVALS"
-      }
-    },
     "image_with_text_block_nC7wRG": {
       "type": "image-with-text-block",
       "blocks": {
         "subheading_AgyJ7K": {
           "type": "subheading",
           "settings": {
-            "text": "<strong>꩜ These creations aren't just jewelry ꩜ </strong>"
+            "text": "<strong>When something calls to you, that's not random.</strong>"
           }
         },
         "richtext_dVLV74": {
@@ -140,12 +110,13 @@
         "subheading_AgyJ7K",
         "richtext_dVLV74"
       ],
+      "disabled": true,
       "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "image_size": "lg",
         "image": "shopify://shop_images/IMG_6813-4.jpg",
-        "mobile_image": "shopify://shop_images/IMG_6813-4.jpg",
+        "mobile_image": "shopify://shop_images/IMG_0193.jpg",
         "content_width": "lg",
         "enable_parallax": false,
         "remove_vertical_spacing": true
@@ -210,7 +181,7 @@
         "heading_BFLhYJ": {
           "type": "heading",
           "settings": {
-            "text": "",
+            "text": "꩜ When something calls to you, that's not random. ꩜",
             "heading_tag": "h1"
           }
         },
@@ -224,7 +195,7 @@
         "richtext_zREEd6": {
           "type": "richtext",
           "settings": {
-            "content": ""
+            "content": "<p>That feeling you get when you're drawn to a specific piece 𖦹 a color, a crystal, a shape 𖦹 without knowing why. That pull that bypasses logic completely.</p><p>That's not coincidence. That's the part of you that already knows, trying to get through.</p><p><em>This is where you start listening.</em></p>"
           }
         }
       },
@@ -244,6 +215,36 @@
         "image_position": "start",
         "content_width": "sm",
         "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_73HxnG": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_Yi6GaJ": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-arrivals",
+            "products_count": 8,
+            "title": "",
+            "link_url": "",
+            "link_text": "View all"
+          }
+        }
+      },
+      "block_order": [
+        "collection_Yi6GaJ"
+      ],
+      "name": "t:sections.featured_collections.presets.featured_collections.name",
+      "settings": {
+        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
+        "separate_section_with_border": false,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "EXPLORE THE NEWEST ARRIVALS"
       }
     },
     "rich_text_EmkgJN": {
@@ -403,13 +404,13 @@
   "order": [
     "slideshow_7dgTyP",
     "rich_text_TkPkw4",
-    "featured_collections_73HxnG",
     "image_with_text_block_nC7wRG",
     "rich_text_jA4VH9",
     "slideshow_iFw4fP",
     "text_with_icons_F64Kt6",
     "slideshow_fH99in",
     "image_with_text_cmWxUe",
+    "featured_collections_73HxnG",
     "rich_text_EmkgJN",
     "image_with_text_NezMPc",
     "1764349737cbe0df2e",
