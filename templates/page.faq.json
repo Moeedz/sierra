@@ -48,11 +48,19 @@
             "answer": "<p>Yes. Every crystal is sourced with intention and care — the energy of how a crystal is obtained matters. I only work with sources I trust.</p>"
           }
         },
+        "category_R9M8yY": {
+          "type": "category",
+          "settings": {
+            "title": "꩜ The Sessions",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
         "question_gmdhUx": {
           "type": "question",
           "settings": {
-            "question": "Can I meditate or astral travel with my jewelry?",
-            "answer": "<p></p><p>Yes! Each piece is an energetic anchor designed to support deeper states of awakening, healing, and remembrance. </p><p>When you consciously connect with your Light-Coded jewelry during meditation or astral travel, you open a direct channel to your Higher Self—allowing you to receive clear guidance, activations, and experiences.</p>"
+            "question": "What actually happens in a Soul Session?",
+            "answer": "<p>We begin with grounding breathwork and a live crystal sound bath. As the bowls play, most people notice something shift — the body softens, the mind quiets. </p><p>From there, I guide you into a deeply relaxed state where your higher self leads. Every session is different because every soul is different</p><p> People leave feeling grounded, clear, and like themselves again — sometimes more than they ever have.</p>"
           }
         },
         "question_Jkf6xh": {
@@ -111,6 +119,7 @@
         "question-2",
         "question_imK9x9",
         "question_hUzPAb",
+        "category_R9M8yY",
         "question_gmdhUx",
         "question_Jkf6xh",
         "question_dQHLfQ",
