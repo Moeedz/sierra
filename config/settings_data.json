@@ -12,7 +12,7 @@
     "icon_stroke_width": 1.2,
     "section_vertical_spacing": "md",
     "default_color_scheme": "scheme-1",
-    "modal_color_scheme": "scheme-1",
+    "modal_color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
     "product_rating_color": "#f1fcfd",
     "product_on_sale_accent": "#e32c2b",
     "product_sold_out_badge_background": "#efefef",
@@ -134,9 +134,9 @@
       },
       "scheme-lavender-pink": {
         "settings": {
-          "background": "#f1fcfd",
+          "background": "#fdeeff",
           "background_gradient": "",
-          "text_color": "#ffffff",
+          "text_color": "#000000",
           "primary_button_background": "#fdeeff",
           "primary_button_text_color": "#cffcff",
           "circle_button_background": "#ffffff",
