@@ -356,11 +356,11 @@
         "loox_reviews_loox_dynamic_carousel_gNTK8K": {
           "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-carousel/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
           "settings": {
-            "corner-radius": 40,
-            "items-per-view": 2,
+            "corner-radius": 24,
+            "items-per-view": 4,
             "items-per-view-mobile": 3,
-            "max-characters": 180,
-            "autoplay": false,
+            "max-characters": 200,
+            "autoplay": true,
             "autoplay-delay": 5,
             "main-color": "#826231",
             "stars-color": "#fffab1",
@@ -378,6 +378,7 @@
       "block_order": [
         "loox_reviews_loox_dynamic_carousel_gNTK8K"
       ],
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
         "separate_section_with_border": true,

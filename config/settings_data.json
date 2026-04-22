@@ -319,6 +319,8 @@
     }
   },
   "platform_customizations": {
-    "custom_css": []
+    "custom_css": [
+      "/* Loox review body text */.loox-rating span,.loox-review-text,.loox-reviews-widget p {font-size: 12px !important;}"
+    ]
   }
 }
