@@ -94,7 +94,7 @@
         "category_DPUWee": {
           "type": "category",
           "settings": {
-            "title": "Orders & Shipping",
+            "title": "꩜ Orders & Shipping",
             "icon": "none",
             "icon_width": 16
           }
@@ -109,8 +109,8 @@
         "question_wJN9MN": {
           "type": "question",
           "settings": {
-            "question": " Do you offer custom or commissioned pieces?",
-            "answer": "<p></p><p>Yes, I occasionally create custom Light-Coded jewelry through a co-creative process where we choose the stones, colors, and energies that align with your current journey.</p><p>Each piece is made with intention to mirror your unique frequency and support your next level of awakening.<br/><br/></p>"
+            "question": "Where do you ship?",
+            "answer": "<p>Currently shipping to the US, Mexico, and Canada.</p><p><strong> More destinations coming soon </strong>— if you're outside these regions, reach out and we'll do our best to get your piece to you.</p>"
           }
         }
       },
