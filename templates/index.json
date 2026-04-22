@@ -294,7 +294,7 @@
         "heading_QnQrVx": {
           "type": "heading",
           "settings": {
-            "text": "꩜ Some souls are ready to go further. ꩜",
+            "text": "꩜ <strong>Soul Sessions </strong>꩜",
             "heading_tag": "h1"
           }
         },
@@ -315,7 +315,7 @@
           "type": "button",
           "settings": {
             "style": "solid",
-            "text": "Explore soul sessions",
+            "text": "Learn more",
             "url": "shopify://pages/sessions-guided-activations",
             "background": "",
             "text_color": ""
