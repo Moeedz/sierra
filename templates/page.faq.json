@@ -15,7 +15,7 @@
         "category_XUGzpA": {
           "type": "category",
           "settings": {
-            "title": "꩜ The Jewelry",
+            "title": "<strong>꩜ The Jewelry</strong>",
             "icon": "none",
             "icon_width": 16
           }
@@ -65,7 +65,7 @@
         "category_R9M8yY": {
           "type": "category",
           "settings": {
-            "title": "꩜ The Sessions",
+            "title": "<strong>꩜ The Sessions</strong>",
             "icon": "none",
             "icon_width": 16
           }
@@ -94,7 +94,7 @@
         "category_DPUWee": {
           "type": "category",
           "settings": {
-            "title": "꩜ Orders & Shipping",
+            "title": "<strong>꩜ Orders & Shipping</strong>",
             "icon": "none",
             "icon_width": 16
           }
