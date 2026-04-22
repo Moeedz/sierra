@@ -48,6 +48,13 @@
             "answer": "<p>Every crystal is chosen intuitively from where ever I am, I let them come to me. I have a great sense of selecting only the ones I can feel are carrying a high vibrations and are ready to work. </p><p>All crystals are 100% natural with no dyes, treatments, or enhancements of any kind. What you receive is pure, as it came from the earth.</p>"
           }
         },
+        "question_CrP7LY": {
+          "type": "question",
+          "settings": {
+            "question": "What does it mean if my piece breaks?",
+            "answer": "<p>In this work, a piece breaking isn't always an accident — it can mean the crystal has completed its purpose with you.</p><p>It absorbed what it needed to, held what it needed to hold, and its work is done.</p><p> If this happens, take a moment to acknowledge what that piece carried for you. It served you well. When you feel ready, something new will call to you.</p>"
+          }
+        },
         "category_R9M8yY": {
           "type": "category",
           "settings": {
@@ -85,13 +92,6 @@
             "icon_width": 16
           }
         },
-        "question_CrP7LY": {
-          "type": "question",
-          "settings": {
-            "question": "What happens if my jewelry breaks?",
-            "answer": "<p></p><p>When a piece breaks, it’s often more than physical, it can symbolize the completion of a cycle or the release of energy that’s no longer needed. </p><p>You can choose to keep the stones for future work, or reach out to me to see if it can be repaired. </p><p>Every piece carries its own journey with you, and sometimes, breaking simply means its purpose has been fulfilled.</p>"
-          }
-        },
         "question_UVhhqG": {
           "type": "question",
           "settings": {
@@ -113,12 +113,12 @@
         "question-2",
         "question_imK9x9",
         "question_hUzPAb",
+        "question_CrP7LY",
         "category_R9M8yY",
         "question_gmdhUx",
         "question_Jkf6xh",
         "question_dQHLfQ",
         "category_DPUWee",
-        "question_CrP7LY",
         "question_UVhhqG",
         "question_wJN9MN"
       ],
