@@ -55,6 +55,13 @@
             "answer": "<p>In this work, a piece breaking isn't always an accident — it can mean the crystal has completed its purpose with you.</p><p>It absorbed what it needed to, held what it needed to hold, and its work is done.</p><p> If this happens, take a moment to acknowledge what that piece carried for you. It served you well. When you feel ready, something new will call to you.</p>"
           }
         },
+        "question_hU9q9K": {
+          "type": "question",
+          "settings": {
+            "question": "Can I request a custom piece?",
+            "answer": "<p>Yes. If you feel called to something created specifically for you — a specific intention, crystal, or energy — custom pieces are available. </p><p>Reach out directly or visit the \"custom sacred ally\" page on my website and we'll co-create something made for exactly where you are right now.</p>"
+          }
+        },
         "category_R9M8yY": {
           "type": "category",
           "settings": {
@@ -114,6 +121,7 @@
         "question_imK9x9",
         "question_hUzPAb",
         "question_CrP7LY",
+        "question_hU9q9K",
         "category_R9M8yY",
         "question_gmdhUx",
         "question_Jkf6xh",
