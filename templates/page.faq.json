@@ -12,11 +12,19 @@
     "faq": {
       "type": "faq",
       "blocks": {
+        "category_XUGzpA": {
+          "type": "category",
+          "settings": {
+            "title": "꩜ The Jewelry",
+            "icon": "none",
+            "icon_width": 16
+          }
+        },
         "question-1": {
           "type": "question",
           "settings": {
-            "question": "What is Light-Coded Jewelry?",
-            "answer": "<p></p><p>“Light-Coded” is a term I use to describe the high vibrations and energetic activation codes infused into every piece.</p><p>Each creation is a living frequency—a bridge between your physical self and your Higher Self. </p><p>Through crystal allies, color frequencies, and sacred intention, these pieces awaken the wisdom within you, helping you remember who you are, why you’re here, and guiding you back into full alignment with your soul’s purpose.</p>"
+            "question": "Do I need to be spiritual to wear your jewelry?",
+            "answer": "<p>Not at all. You don't need any experience, background, or even a belief system. You just need to notice what you're drawn to, that pull is your starting point. Everything else unfolds from there.</p>"
           }
         },
         "question-2": {
@@ -98,6 +106,7 @@
         }
       },
       "block_order": [
+        "category_XUGzpA",
         "question-1",
         "question-2",
         "question_imK9x9",
