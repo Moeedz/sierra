@@ -88,14 +88,22 @@
     "rich_text_E6tVfw": {
       "type": "rich-text",
       "blocks": {
+        "heading_DnzEtf": {
+          "type": "heading",
+          "settings": {
+            "text": "This is where the listening begins.",
+            "heading_tag": "h1"
+          }
+        },
         "richtext_8gyBbN": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em>You are welcome here.</em></p><p>This is a sacred space created for your return to yourself, to your knowing, to the truth your soul has never forgotten. Whatever brought you here, trust it. You are exactly where you are meant to be.</p>"
+            "content": "<p>In a world that has conditioned you to look outside yourself for answers, these sessions bring you home. </p><p>Through breathwork, sound, and sacred guidance, you are gently led back into your body, back into stillness, and back into the voice that has always known the way. ꩜ </p>"
           }
         }
       },
       "block_order": [
+        "heading_DnzEtf",
         "richtext_8gyBbN"
       ],
       "name": "t:sections.rich_text.presets.rich_text.name",
