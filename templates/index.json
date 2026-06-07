@@ -17,7 +17,7 @@
           "settings": {
             "image": "shopify://shop_images/IMG_6810-2.jpg",
             "mobile_image": "shopify://shop_images/IMG_6810-5.jpg",
-            "subheading": "𖦹Your soul has never forgotten who you are.𖦹",
+            "subheading": "Your soul has never forgotten who you are.",
             "title": "Everything you are longing for — your soul already knows the way.",
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
@@ -60,6 +60,43 @@
         "controls_color": "#ffffff"
       }
     },
+    "rich_text_Tc8paG": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_DfctAJ": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_4QVXk9": {
+          "type": "heading",
+          "settings": {
+            "text": "꩜ 3 Ways To Begin ꩜",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_3AAteT": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_DfctAJ",
+        "heading_4QVXk9",
+        "richtext_3AAteT"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "content_width": "sm",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "1780854174d8df69f4": {
       "type": "_blocks",
       "blocks": {
@@ -100,9 +137,10 @@
             "offer_1_description": "<p>The piece you feel drawn to is never random. It's already holding something for you — wear it, and let it remind you who you are.<br/></p>",
             "offer_1_button_text": "Find what's calling you",
             "offer_1_button_link": "shopify://collections/new-arrivals",
-            "offer_2_title": "Custom Crystal Jewelry",
-            "offer_2_description": "<p>Commission a one-of-a-kind piece crafted with ethically sourced crystals, infused with intention and designed to support your unique journey.</p>",
-            "offer_2_button_text": "Learn More",
+            "offer_2_image": "shopify://shop_images/IMG_6755-2.jpg",
+            "offer_2_title": "Crystalline Jewelry",
+            "offer_2_description": "<p>Discover the energy your soul is calling you to activate & embody, through the power of crystalline consciousness,.</p>",
+            "offer_2_button_text": "Find what's calling you",
             "offer_2_button_link": "",
             "offer_3_title": "Lemurian Light Codes",
             "offer_3_description": "<p>Experience the transformative power of ancient Lemurian wisdom through our exclusive collection of light-encoded crystal jewelry.</p>",
@@ -485,10 +523,15 @@
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false
       }
+    },
+    "178085524798f08973": {
+      "type": "_blocks",
+      "settings": {}
     }
   },
   "order": [
     "slideshow_7dgTyP",
+    "rich_text_Tc8paG",
     "1780854174d8df69f4",
     "rich_text_TkPkw4",
     "image_with_text_block_nC7wRG",
@@ -503,6 +546,7 @@
     "1764349737cbe0df2e",
     "17738066989ce5e874",
     "newsletter_dyNQMj",
-    "177248664187f8066b"
+    "177248664187f8066b",
+    "178085524798f08973"
   ]
 }
