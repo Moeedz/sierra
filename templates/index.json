@@ -109,7 +109,7 @@
             "text_alignment": "center",
             "card_background": "#efefef",
             "card_border_radius": 12,
-            "card_padding": 40,
+            "card_padding": 25,
             "content_spacing": 20,
             "image_border_radius": 8,
             "title_size": 28,
