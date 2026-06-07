@@ -60,6 +60,62 @@
         "controls_color": "#ffffff"
       }
     },
+    "1780854174d8df69f4": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_4cafcb2_Pg349n": {
+          "type": "ai_gen_block_4cafcb2",
+          "settings": {
+            "desktop_width_percent": 100,
+            "section_padding": 40,
+            "slide_padding": 20,
+            "text_alignment": "center",
+            "card_background": "#ffffff",
+            "card_border_radius": 12,
+            "card_padding": 40,
+            "content_spacing": 20,
+            "image_border_radius": 8,
+            "title_size": 28,
+            "title_color": "#000000",
+            "description_size": 14,
+            "description_color": "#666666",
+            "button_size": 14,
+            "button_background": "#cffcff",
+            "button_hover_background": "#333333",
+            "button_text_color": "#000000",
+            "button_border_radius": 4,
+            "button_padding": 12,
+            "controls_spacing": 40,
+            "nav_button_size": 40,
+            "nav_button_background": "#f1fcfd",
+            "nav_button_hover_background": "#cffcff",
+            "nav_button_icon_color": "#000000",
+            "dot_size": 10,
+            "dot_active_color": "#000000",
+            "dot_inactive_color": "#cccccc",
+            "enable_autoplay": true,
+            "autoplay_speed": 5,
+            "offer_1_title": "Soul Activation Session",
+            "offer_1_description": "<p>Unlock your highest potential with a personalized crystal activation session designed to align your energy and awaken your soul's purpose.</p>",
+            "offer_1_button_text": "Book Now",
+            "offer_1_button_link": "",
+            "offer_2_title": "Custom Crystal Jewelry",
+            "offer_2_description": "<p>Commission a one-of-a-kind piece crafted with ethically sourced crystals, infused with intention and designed to support your unique journey.</p>",
+            "offer_2_button_text": "Learn More",
+            "offer_2_button_link": "",
+            "offer_3_title": "Lemurian Light Codes",
+            "offer_3_description": "<p>Experience the transformative power of ancient Lemurian wisdom through our exclusive collection of light-encoded crystal jewelry.</p>",
+            "offer_3_button_text": "Explore Collection",
+            "offer_3_button_link": ""
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_4cafcb2_Pg349n"
+      ],
+      "settings": {}
+    },
     "rich_text_TkPkw4": {
       "type": "rich-text",
       "blocks": {
@@ -432,6 +488,7 @@
   },
   "order": [
     "slideshow_7dgTyP",
+    "1780854174d8df69f4",
     "rich_text_TkPkw4",
     "image_with_text_block_nC7wRG",
     "rich_text_jA4VH9",
