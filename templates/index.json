@@ -70,7 +70,7 @@
             "section_padding": 40,
             "slide_padding": 20,
             "text_alignment": "center",
-            "card_background": "#faf9f1",
+            "card_background": "#efefef",
             "card_border_radius": 12,
             "card_padding": 40,
             "content_spacing": 20,
