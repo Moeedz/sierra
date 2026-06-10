@@ -601,6 +601,64 @@
         "title": "Fill out this form below or DM on Instagram to book your session.",
         "content": ""
       }
+    },
+    "1781055379cafafb96": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_36c2908_iiAVfk": {
+          "type": "ai_gen_block_36c2908",
+          "settings": {
+            "section_heading": "Guided Activation Sessions",
+            "section_subheading": "Choose the session that resonates with your journey",
+            "session_1_name": "Crystal Activation",
+            "session_1_description": "Connect with crystal allies to activate your energy field and align with higher frequencies.",
+            "session_1_duration": "60 minutes",
+            "session_1_price": "$111",
+            "session_1_expectations": "Deep energetic clearing, crystal grid activation, and personalized guidance for your spiritual journey.",
+            "session_1_button_text": "Book Session",
+            "session_1_button_link": "",
+            "session_2_name": "Chakra Alignment",
+            "session_2_description": "Balance and harmonize your chakra system for optimal energy flow and vitality.",
+            "session_2_duration": "75 minutes",
+            "session_2_price": "$144",
+            "session_2_expectations": "Full chakra assessment, energy balancing, and integration practices for sustained alignment.",
+            "session_2_button_text": "Book Session",
+            "session_2_button_link": "",
+            "session_3_name": "Light Code Activation",
+            "session_3_description": "Receive and integrate high-frequency light codes to accelerate your spiritual evolution.",
+            "session_3_duration": "90 minutes",
+            "session_3_price": "$188",
+            "session_3_expectations": "Light language transmission, DNA activation, and guidance for integrating new frequencies.",
+            "session_3_button_text": "Book Session",
+            "session_3_button_link": "",
+            "session_4_name": "Lemurian Healing",
+            "session_4_description": "Journey into ancient Lemurian wisdom for deep soul healing and remembrance.",
+            "session_4_duration": "120 minutes",
+            "session_4_price": "$222",
+            "session_4_expectations": "Past life healing, Lemurian crystal work, and activation of ancient soul gifts and memories.",
+            "session_4_button_text": "Book Session",
+            "session_4_button_link": "",
+            "heading_size": 36,
+            "subheading_size": 16,
+            "card_title_size": 22,
+            "card_text_size": 14,
+            "card_border_radius": 8,
+            "button_border_radius": 4,
+            "heading_color": "#000000",
+            "text_color": "#383838",
+            "card_background": "#ffffff",
+            "card_border_color": "#e8e8e8",
+            "button_background": "#cffcff",
+            "button_hover_background": "#a8f5f9",
+            "button_text_color": "#000000"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_36c2908_iiAVfk"
+      ],
+      "settings": {}
     }
   },
   "order": [
@@ -615,6 +673,7 @@
     "rich_text_dWqaXC",
     "featured_product_VnQdFP",
     "testimonials_EpjUrR",
-    "contact_UHFPny"
+    "contact_UHFPny",
+    "1781055379cafafb96"
   ]
 }
