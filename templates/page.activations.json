@@ -26,11 +26,12 @@
           "settings": {
             "section_heading": "꩜ 1 on 1 Sessions ꩜",
             "section_subheading": "If you're ready to go deeper, explore my offers below & feel which one calls to you.",
-            "session_1_name": "1 on 1 Soul Sessions",
-            "session_1_description": "Connect with crystal allies to activate your energy field and align with higher frequencies.",
+            "session_1_name": "Soul Sessions",
+            "session_1_description": "You can feel there's more for you. A deeper knowing, a guidance you can't quite hear over the noise of everyday life. A Soul Session is the space to finally get quiet enough to listen.\n\nTogether we open your channels and reconnect you to your own inner guidance — your soul, your higher self, your spirit guides — through sound, crystals, and energetic healing.\n\n You leave not with my answers, but with your own: clearer, lighter, and remembering who you are.",
             "session_1_duration": "2 hours",
-            "session_1_price": "$111",
+            "session_1_price": "$175",
             "session_1_expectations": "Deep energetic clearing, crystal grid activation, and personalized guidance for your spiritual journey.",
+            "session_1_image": "shopify://shop_images/IMG_6770-6.jpg",
             "session_1_button_text": "Book Session",
             "session_1_button_link": "",
             "session_2_name": "Chakra Alignment",
@@ -123,6 +124,7 @@
       "block_order": [
         "richtext_wJT8jr"
       ],
+      "disabled": true,
       "custom_css": [
         "h1 {font-family: \"Poppins\"; font-size: 40px;}",
         ".prose div {margin-top: 0 !important;}"
@@ -164,6 +166,7 @@
         "heading_DnzEtf",
         "richtext_8gyBbN"
       ],
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
@@ -367,6 +370,7 @@
         "buy_buttons_pezPAz",
         "pickup_availability_wQf8Pj"
       ],
+      "disabled": true,
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
@@ -448,6 +452,7 @@
         "testimonial_Ujhgab",
         "testimonial_NRn8cd"
       ],
+      "disabled": true,
       "custom_css": [],
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
@@ -600,6 +605,7 @@
         "variant_picker_gmGyEy",
         "pickup_availability_QpMfyc"
       ],
+      "disabled": true,
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "color_scheme": "",
@@ -637,6 +643,7 @@
       "block_order": [
         "testimonial_rR9gde"
       ],
+      "disabled": true,
       "name": "t:sections.testimonials.presets.testimonials.name",
       "settings": {
         "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
