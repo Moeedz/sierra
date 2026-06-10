@@ -88,7 +88,6 @@
         "heading_4QVXk9",
         "richtext_3AAteT"
       ],
-      "disabled": true,
       "custom_css": [],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
@@ -156,7 +155,6 @@
       "block_order": [
         "ai_gen_block_4cafcb2_Pg349n"
       ],
-      "disabled": true,
       "settings": {}
     },
     "rich_text_TkPkw4": {
@@ -187,38 +185,6 @@
         "content_width": "sm",
         "text_position": "center",
         "remove_vertical_spacing": false
-      }
-    },
-    "image_with_text_block_nC7wRG": {
-      "type": "image-with-text-block",
-      "blocks": {
-        "subheading_AgyJ7K": {
-          "type": "subheading",
-          "settings": {
-            "text": "<strong>When something calls to you, that's not random.</strong>"
-          }
-        },
-        "richtext_dVLV74": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>This is an ancient way of remembering — <strong>who you are beyond this lifetime</strong>, the gifts you came to share, and the wisdom your soul has always carried. <strong>Your</strong> <strong>crystalline allies</strong> are here to help you access it all.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "subheading_AgyJ7K",
-        "richtext_dVLV74"
-      ],
-      "disabled": true,
-      "name": "t:sections.image_with_text_block.presets.image_with_text_block.name",
-      "settings": {
-        "color_scheme": "scheme-83c8f934-b06b-498f-9443-09bcaf9992d7",
-        "image_size": "lg",
-        "image": "shopify://shop_images/IMG_6813-4.jpg",
-        "mobile_image": "shopify://shop_images/IMG_0193.jpg",
-        "content_width": "lg",
-        "enable_parallax": false,
-        "remove_vertical_spacing": true
       }
     },
     "rich_text_jA4VH9": {
@@ -538,7 +504,6 @@
     "rich_text_Tc8paG",
     "1780854174d8df69f4",
     "rich_text_TkPkw4",
-    "image_with_text_block_nC7wRG",
     "rich_text_jA4VH9",
     "178085524798f08973",
     "slideshow_iFw4fP",
