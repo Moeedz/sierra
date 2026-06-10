@@ -1,6 +1,653 @@
+{% doc %}
+  @prompt
+    create a professional looking page to highlight my 4 session options, make them individual cards where i can add a description, price, time, an image, and what to expect. keep it minimal and aesthetically pleasing and match the colors I already have on my website.
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-session-cards-{{ ai_gen_id }} {
+    width: 100%;
+    display: block;
+    padding: 40px 20px;
+  }
+
+  .ai-session-cards__container-{{ ai_gen_id }} {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .ai-session-cards__header-{{ ai_gen_id }} {
+    text-align: center;
+    margin-bottom: 48px;
+  }
+
+  .ai-session-cards__title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.heading_size }}px;
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 16px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  }
+
+  .ai-session-cards__subtitle-{{ ai_gen_id }} {
+    font-size: {{ block.settings.subheading_size }}px;
+    color: {{ block.settings.text_color }};
+    margin: 0;
+    opacity: 0.8;
+  }
+
+  .ai-session-cards__grid-{{ ai_gen_id }} {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 32px;
+    margin-bottom: 24px;
+  }
+
+  .ai-session-card-{{ ai_gen_id }} {
+    background: {{ block.settings.card_background }};
+    border-radius: {{ block.settings.card_border_radius }}px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid {{ block.settings.card_border_color }};
+  }
+
+  .ai-session-card-{{ ai_gen_id }}:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .ai-session-card__image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    padding-bottom: 75%;
+    overflow: hidden;
+    background: #f4f4f4;
+  }
+
+  .ai-session-card__image-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .ai-session-card__placeholder-{{ ai_gen_id }} {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #f1fcfd 0%, #cffcff 100%);
+  }
+
+  .ai-session-card__placeholder-{{ ai_gen_id }} svg {
+    width: 60%;
+    height: 60%;
+    opacity: 0.3;
+  }
+
+  .ai-session-card__content-{{ ai_gen_id }} {
+    padding: 28px 24px;
+  }
+
+  .ai-session-card__name-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_title_size }}px;
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 12px;
+    font-weight: 500;
+    letter-spacing: 0.03em;
+  }
+
+  .ai-session-card__description-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_text_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.6;
+    margin: 0 0 20px;
+    opacity: 0.85;
+  }
+
+  .ai-session-card__meta-{{ ai_gen_id }} {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 20px;
+    padding: 16px 0;
+    border-top: 1px solid {{ block.settings.card_border_color }};
+    border-bottom: 1px solid {{ block.settings.card_border_color }};
+  }
+
+  .ai-session-card__meta-item-{{ ai_gen_id }} {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: {{ block.settings.card_text_size }}px;
+    color: {{ block.settings.text_color }};
+  }
+
+  .ai-session-card__meta-label-{{ ai_gen_id }} {
+    font-weight: 500;
+    min-width: 60px;
+  }
+
+  .ai-session-card__meta-value-{{ ai_gen_id }} {
+    opacity: 0.85;
+  }
+
+  .ai-session-card__expectations-{{ ai_gen_id }} {
+    margin-bottom: 24px;
+  }
+
+  .ai-session-card__expectations-title-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_text_size }}px;
+    font-weight: 500;
+    color: {{ block.settings.heading_color }};
+    margin: 0 0 12px;
+    letter-spacing: 0.03em;
+  }
+
+  .ai-session-card__expectations-text-{{ ai_gen_id }} {
+    font-size: {{ block.settings.card_text_size }}px;
+    color: {{ block.settings.text_color }};
+    line-height: 1.6;
+    margin: 0;
+    opacity: 0.85;
+  }
+
+  .ai-session-card__button-{{ ai_gen_id }} {
+    display: inline-block;
+    width: 100%;
+    padding: 14px 24px;
+    background: {{ block.settings.button_background }};
+    color: {{ block.settings.button_text_color }};
+    text-align: center;
+    text-decoration: none;
+    border-radius: {{ block.settings.button_border_radius }}px;
+    font-size: {{ block.settings.card_text_size }}px;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+  }
+
+  .ai-session-card__button-{{ ai_gen_id }}:hover {
+    background: {{ block.settings.button_hover_background }};
+    transform: translateY(-1px);
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-session-cards__grid-{{ ai_gen_id }} {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+
+    .ai-session-cards__title-{{ ai_gen_id }} {
+      font-size: calc({{ block.settings.heading_size }}px * 0.8);
+    }
+
+    .ai-session-card__content-{{ ai_gen_id }} {
+      padding: 20px 18px;
+    }
+  }
+{% endstyle %}
+
+<session-cards-{{ ai_gen_id }} class="ai-session-cards-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-session-cards__container-{{ ai_gen_id }}">
+    {% if block.settings.section_heading != blank or block.settings.section_subheading != blank %}
+      <div class="ai-session-cards__header-{{ ai_gen_id }}">
+        {% if block.settings.section_heading != blank %}
+          <h2 class="ai-session-cards__title-{{ ai_gen_id }}">{{ block.settings.section_heading }}</h2>
+        {% endif %}
+        {% if block.settings.section_subheading != blank %}
+          <p class="ai-session-cards__subtitle-{{ ai_gen_id }}">{{ block.settings.section_subheading }}</p>
+        {% endif %}
+      </div>
+    {% endif %}
+
+    <div class="ai-session-cards__grid-{{ ai_gen_id }}">
+      {% for i in (1..4) %}
+        {% liquid
+          assign session_name_key = 'session_' | append: i | append: '_name'
+          assign session_description_key = 'session_' | append: i | append: '_description'
+          assign session_price_key = 'session_' | append: i | append: '_price'
+          assign session_duration_key = 'session_' | append: i | append: '_duration'
+          assign session_expectations_key = 'session_' | append: i | append: '_expectations'
+          assign session_image_key = 'session_' | append: i | append: '_image'
+          assign session_button_text_key = 'session_' | append: i | append: '_button_text'
+          assign session_button_link_key = 'session_' | append: i | append: '_button_link'
+
+          assign session_name = block.settings[session_name_key]
+          assign session_description = block.settings[session_description_key]
+          assign session_price = block.settings[session_price_key]
+          assign session_duration = block.settings[session_duration_key]
+          assign session_expectations = block.settings[session_expectations_key]
+          assign session_image = block.settings[session_image_key]
+          assign session_button_text = block.settings[session_button_text_key]
+          assign session_button_link = block.settings[session_button_link_key]
+        %}
+
+        <div class="ai-session-card-{{ ai_gen_id }}">
+          <div class="ai-session-card__image-wrapper-{{ ai_gen_id }}">
+            {% if session_image %}
+              <img
+                src="{{ session_image | image_url: width: 600 }}"
+                alt="{{ session_image.alt | escape }}"
+                loading="lazy"
+                width="600"
+                height="450"
+                class="ai-session-card__image-{{ ai_gen_id }}"
+              >
+            {% else %}
+              <div class="ai-session-card__placeholder-{{ ai_gen_id }}">
+                {{ 'image' | placeholder_svg_tag }}
+              </div>
+            {% endif %}
+          </div>
+
+          <div class="ai-session-card__content-{{ ai_gen_id }}">
+            {% if session_name != blank %}
+              <h3 class="ai-session-card__name-{{ ai_gen_id }}">{{ session_name }}</h3>
+            {% endif %}
+
+            {% if session_description != blank %}
+              <div class="ai-session-card__description-{{ ai_gen_id }}">{{ session_description }}</div>
+            {% endif %}
+
+            {% if session_price != blank or session_duration != blank %}
+              <div class="ai-session-card__meta-{{ ai_gen_id }}">
+                {% if session_duration != blank %}
+                  <div class="ai-session-card__meta-item-{{ ai_gen_id }}">
+                    <span class="ai-session-card__meta-label-{{ ai_gen_id }}">Duration:</span>
+                    <span class="ai-session-card__meta-value-{{ ai_gen_id }}">{{ session_duration }}</span>
+                  </div>
+                {% endif %}
+                {% if session_price != blank %}
+                  <div class="ai-session-card__meta-item-{{ ai_gen_id }}">
+                    <span class="ai-session-card__meta-label-{{ ai_gen_id }}">Price:</span>
+                    <span class="ai-session-card__meta-value-{{ ai_gen_id }}">{{ session_price }}</span>
+                  </div>
+                {% endif %}
+              </div>
+            {% endif %}
+
+            {% if session_expectations != blank %}
+              <div class="ai-session-card__expectations-{{ ai_gen_id }}">
+                <h4 class="ai-session-card__expectations-title-{{ ai_gen_id }}">What to expect</h4>
+                <div class="ai-session-card__expectations-text-{{ ai_gen_id }}">{{ session_expectations }}</div>
+              </div>
+            {% endif %}
+
+            {% if session_button_text != blank %}
+              <a
+                href="{{ session_button_link | default: '#' }}"
+                class="ai-session-card__button-{{ ai_gen_id }}"
+              >
+                {{ session_button_text }}
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</session-cards-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class SessionCards{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.style.display = 'block';
+      }
+    }
+
+    customElements.define('session-cards-{{ ai_gen_id }}', SessionCards{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Session cards",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Section header"
+    },
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Heading",
+      "default": "Guided Activation Sessions"
+    },
+    {
+      "type": "textarea",
+      "id": "section_subheading",
+      "label": "Subheading",
+      "default": "Choose the session that resonates with your journey"
+    },
+    {
+      "type": "header",
+      "content": "Session 1"
+    },
+    {
+      "type": "text",
+      "id": "session_1_name",
+      "label": "Session name",
+      "default": "Crystal Activation"
+    },
+    {
+      "type": "textarea",
+      "id": "session_1_description",
+      "label": "Description",
+      "default": "Connect with crystal allies to activate your energy field and align with higher frequencies."
+    },
+    {
+      "type": "text",
+      "id": "session_1_duration",
+      "label": "Duration",
+      "default": "60 minutes"
+    },
+    {
+      "type": "text",
+      "id": "session_1_price",
+      "label": "Price",
+      "default": "$111"
+    },
+    {
+      "type": "textarea",
+      "id": "session_1_expectations",
+      "label": "What to expect",
+      "default": "Deep energetic clearing, crystal grid activation, and personalized guidance for your spiritual journey."
+    },
+    {
+      "type": "image_picker",
+      "id": "session_1_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "session_1_button_text",
+      "label": "Button text",
+      "default": "Book Session"
+    },
+    {
+      "type": "url",
+      "id": "session_1_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Session 2"
+    },
+    {
+      "type": "text",
+      "id": "session_2_name",
+      "label": "Session name",
+      "default": "Chakra Alignment"
+    },
+    {
+      "type": "textarea",
+      "id": "session_2_description",
+      "label": "Description",
+      "default": "Balance and harmonize your chakra system for optimal energy flow and vitality."
+    },
+    {
+      "type": "text",
+      "id": "session_2_duration",
+      "label": "Duration",
+      "default": "75 minutes"
+    },
+    {
+      "type": "text",
+      "id": "session_2_price",
+      "label": "Price",
+      "default": "$144"
+    },
+    {
+      "type": "textarea",
+      "id": "session_2_expectations",
+      "label": "What to expect",
+      "default": "Full chakra assessment, energy balancing, and integration practices for sustained alignment."
+    },
+    {
+      "type": "image_picker",
+      "id": "session_2_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "session_2_button_text",
+      "label": "Button text",
+      "default": "Book Session"
+    },
+    {
+      "type": "url",
+      "id": "session_2_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Session 3"
+    },
+    {
+      "type": "text",
+      "id": "session_3_name",
+      "label": "Session name",
+      "default": "Light Code Activation"
+    },
+    {
+      "type": "textarea",
+      "id": "session_3_description",
+      "label": "Description",
+      "default": "Receive and integrate high-frequency light codes to accelerate your spiritual evolution."
+    },
+    {
+      "type": "text",
+      "id": "session_3_duration",
+      "label": "Duration",
+      "default": "90 minutes"
+    },
+    {
+      "type": "text",
+      "id": "session_3_price",
+      "label": "Price",
+      "default": "$188"
+    },
+    {
+      "type": "textarea",
+      "id": "session_3_expectations",
+      "label": "What to expect",
+      "default": "Light language transmission, DNA activation, and guidance for integrating new frequencies."
+    },
+    {
+      "type": "image_picker",
+      "id": "session_3_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "session_3_button_text",
+      "label": "Button text",
+      "default": "Book Session"
+    },
+    {
+      "type": "url",
+      "id": "session_3_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Session 4"
+    },
+    {
+      "type": "text",
+      "id": "session_4_name",
+      "label": "Session name",
+      "default": "Lemurian Healing"
+    },
+    {
+      "type": "textarea",
+      "id": "session_4_description",
+      "label": "Description",
+      "default": "Journey into ancient Lemurian wisdom for deep soul healing and remembrance."
+    },
+    {
+      "type": "text",
+      "id": "session_4_duration",
+      "label": "Duration",
+      "default": "120 minutes"
+    },
+    {
+      "type": "text",
+      "id": "session_4_price",
+      "label": "Price",
+      "default": "$222"
+    },
+    {
+      "type": "textarea",
+      "id": "session_4_expectations",
+      "label": "What to expect",
+      "default": "Past life healing, Lemurian crystal work, and activation of ancient soul gifts and memories."
+    },
+    {
+      "type": "image_picker",
+      "id": "session_4_image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "session_4_button_text",
+      "label": "Button text",
+      "default": "Book Session"
+    },
+    {
+      "type": "url",
+      "id": "session_4_button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "label": "Section heading size",
+      "min": 24,
+      "max": 48,
+      "step": 2,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "subheading_size",
+      "label": "Subheading size",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "card_title_size",
+      "label": "Card title size",
+      "min": 16,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 22
+    },
+    {
+      "type": "range",
+      "id": "card_text_size",
+      "label": "Card text size",
+      "min": 12,
+      "max": 18,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "label": "Card border radius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "default": 8
+    },
+    {
+      "type": "range",
+      "id": "button_border_radius",
+      "label": "Button border radius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#383838"
+    },
+    {
+      "type": "color",
+      "id": "card_background",
+      "label": "Card background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "card_border_color",
+      "label": "Card border",
+      "default": "#e8e8e8"
+    },
+    {
+      "type": "color",
+      "id": "button_background",
+      "label": "Button background",
+      "default": "#cffcff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_background",
+      "label": "Button hover background",
+      "default": "#a8f5f9"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#000000"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Session cards"
+    }
+  ]
+}
 {% endschema %}
